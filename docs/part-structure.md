@@ -315,7 +315,7 @@
 
 * ACM Code of Ethics: principles, obligations, and enforcement
 * IEEE Code of Ethics: engineering ethics in an IT context
-* (ISC)² Code of Ethics: security professional obligations
+* ISC2 Code of Ethics: security professional obligations
 * Comparing codes across IT disciplines: what they share and where they differ
 * IT professional licensing: arguments for and against licensure requirements for IT professionals
 * Certification as a form of professional accountability

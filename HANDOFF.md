@@ -16,9 +16,9 @@ The new CIS111 textbook repository is scaffolded and contains a complete
 assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
-The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-11 have completed their
-full plain-language and instructional reviews. Chapter 12 remains.
+All 12 chapters have completed their plain-language, source, and
+instructional reviews. The final whole-book verification remains before
+the repository can be called the publication edition.
 
 ## What Was Built
 
@@ -38,7 +38,7 @@ full plain-language and instructional reviews. Chapter 12 remains.
   four review questions to each chapter.
 * Added 12 fictional evidence packets under `assets/code/chapter-NN/`.
 * Built `build/cis111-evidence-pack.zip` and verified the archive.
-* Created a 218-entry glossary. Every chapter Key Terms entry resolves to
+* Created a 221-entry glossary. Every chapter Key Terms entry resolves to
   one glossary definition.
 * Replaced old or weak source links with current primary sources from
   NIST, HHS, CISA, the FTC, the European Commission, the US Copyright
@@ -157,23 +157,28 @@ full plain-language and instructional reviews. Chapter 12 remains.
   digital-forensics claims were checked against current primary sources
   from NIST, CISA, the FTC, DOJ, the House, and the Supreme Court on
   2026-07-12. All nine source links returned successful responses.
+* Chapter 12 measures Flesch 62.5 with a grade estimate of 7.6.
+* Chapter 12 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 12 adds a six-line code record, five code critique tests, a
+  licensing scope test, a credential card, a duty-to-control record, and
+  an eight-step concern path.
+* Chapter 12 professional-code, enforcement, credential, and AI risk
+  claims were checked against current primary sources from ACM, IEEE,
+  ISC2, and NIST on 2026-07-12. All five links were tested. The two ACM
+  pages reject command-line checks, so their content was confirmed
+  through browser-rendered or indexed copies.
 
 ## Remaining Work
 
-1. Rewrite Chapter 12 in plain language until it reaches the
-   approved Flesch Reading Ease band of 60-70.
-2. Run a chapter-by-chapter factual and legal review against primary
-   sources. Recheck changeable laws and enforcement details near the
-   publication date.
-3. Run the full instructional review for MLO alignment, Bloom's level,
-   retrieval practice, lab authenticity, and WCAG language.
-4. Review Markdown formatting warnings inherited from the legacy files.
-   The site builds cleanly, but blank lines, table separator style, and
-   continued numbering need a deliberate formatting pass.
-5. Inspect the live site on desktop and mobile after the first Pages
+1. Run one whole-book structure, CLO, glossary, evidence-path, filename,
+   style, and schedule-neutral audit.
+2. Run Markdown lint, sentence length, readability, source-link, and
+   clean-build checks across the full student-facing book.
+3. Inspect the live site on desktop and mobile after the Chapter 12
    deployment.
-6. Create the final whole-book evaluation only after all 12 chapters pass
-   the publication gates.
+4. Create the final whole-book evaluation and close the build only after
+   every gate has current evidence.
 
 ## Stable Design Decisions
 
@@ -188,7 +193,6 @@ full plain-language and instructional reviews. Chapter 12 remains.
 
 ## Start Here Next Time
 
-Begin with Chapter 12. Run the sentence-length check, readability score,
-Markdown lint, style sweep, glossary check, link check, and clean build
-after each chapter. Do not add weeks, due dates, exams, or term labels
-to chapter content.
+Begin with the final whole-book audit. Do not add weeks, due dates, exams,
+or term labels to chapter content. Mark the textbook complete only after
+the live desktop and mobile checks also pass.

@@ -1,14 +1,17 @@
-# Chapter 12: Professional Codes of Ethics and Capstone
+# Chapter 12: Professional Duty and Ethical Action
 
-In 2018, thousands of Google staff signed a petition demanding the firm withdraw from Project Maven, a U.S. Department of Defense contract that used AI to analyze drone surveillance footage. The staff argued that building tools to improve military targeting violated Google's own stated principle of "Don't be evil." Google eventually chose not to renew the contract. But the controversy raised a question that no worker handbook fully answered: when your employer asks you to build something you believe causes harm, what should you do? The professional codes of ethics that guide IT workers offer some answers, but as you will see in this chapter, those answers are not always as clear or as complete as the situations demand.
+A vendor asks you to hide a test failure until after launch. Your manager
+says the client owns the risk. A coworker says the code of ethics bars
+the release. Who is right, and what should you do next?
 
-This is the final chapter in the CIS111 textbook. Across the first eleven chapters, you built an ethical reasoning toolkit with moral frameworks, law, stakeholder analysis, and professional judgment. You applied those tools to corporate governance, social media, healthcare, intellectual property, cybersecurity, and other IT topics. Now you will examine the formal codes that guide IT workers. You will study the ACM, IEEE, and (ISC)² codes. You will compare their common ground, differences, and limits when applied to emerging technology such as AI.
-
-This chapter also includes a capstone Skills Lab. It brings ideas from all twelve chapters into one original ethical analysis. You can complete it whenever you are ready to combine the book's reasoning tools.
+A professional code can name a duty and support action. It cannot check
+the logs, read the law, or make the choice for you. This chapter shows
+how to read codes as source documents, compare their force, turn duties
+into controls, and raise a concern with proof.
 
 ## Module Overview 🧭
 
-* **Estimated time:** 5-6 hours (reading + activities + capstone)
+* **Estimated time:** 5-6 hours (reading + practice + Skills Lab)
 * **Prerequisites:** Chapters 1-11
 * **Deliverables:** Try It Yourself activities, Quick Checks, Skills Lab 12A
 
@@ -16,9 +19,9 @@ This chapter also includes a capstone Skills Lab. It brings ideas from all twelv
 
 By the end of this chapter, you will be able to:
 
-* **MLO-12.1 (Analyze):** Analyze the key principles, obligations, and enforcement mechanisms of the ACM, IEEE, and (ISC)² codes of ethics
-* **MLO-12.2 (Evaluate):** Evaluate the strengths and gaps of professional codes of ethics when applied to emerging technology challenges including AI
-* **MLO-12.3 (Create):** Synthesize ethical theories, professional obligations, legal frameworks, and AI ethics concepts from across the course into an original ethical analysis of an industry-relevant IT scenario
+* **MLO-12.1 (Analyze):** Analyze an ACM, IEEE, or ISC2 code duty through source, scope, priority, enforcement, and proof
+* **MLO-12.2 (Evaluate):** Evaluate a code, license, certification, or escalation path for its strengths, limits, and effects
+* **MLO-12.3 (Create):** Create a capstone recommendation that joins ethical frameworks, professional duties, law, technical proof, controls, and review
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -26,269 +29,432 @@ By the end of this chapter, you will be able to:
 
 ---
 
-## 12.1 Professional Codes of Ethics in IT
+## 12.1 Read Each Code as a Source Document
 
-When you become a doctor, you take the Hippocratic Oath. When you pass the bar exam, you swear to uphold professional conduct rules. But when you start working in IT, there is no single oath, no universal licensing requirement, and no one code that every practitioner must follow. Instead, IT professionals look to voluntary codes published by professional groups. These codes define what ethical practice looks like and set expectations for how members should behave.
+A **code of ethics** states duties for a group or role. It may guide a
+choice, support a complaint, or set a condition of membership. It is not
+the same as a law, contract, job policy, or technical standard.
 
-In this section, you will examine the three most influential professional codes in IT and cybersecurity.
+Do not rely on a quote from a slide or blog. Open the current code and
+record what it covers.
 
-### The ACM Code of Ethics and Professional Conduct
+Use this six-line code record:
 
-The **ACM Code of Ethics and Professional Conduct** was most recently updated in 2018. The ACM is the world's largest computing society, with over 100,000 members, and its code applies broadly to anyone working in computing, from software developers to data scientists to IT managers.
+1. **Source and date:** Who issued the code, and which version is current?
+2. **People and work:** Who must or may follow it?
+3. **Duty:** Which exact principle or canon fits the case?
+4. **Priority and conflict:** Does the code rank duties or explain conflicts?
+5. **Enforcement:** Who can receive a complaint, find a violation, and impose a result?
+6. **Proof and remedy:** What facts are needed, and what action would reduce harm?
 
-The code is organized around four sections:
+The record prevents two common errors. One is treating a broad value as
+a full answer. The other is claiming a code can punish a person when the
+issuer has no power over that person.
 
-* **General Ethical Principles (Section 1):** These address fundamental obligations. Members should support human well-being, avoid harm, act honestly, treat people fairly, respect intellectual work, protect privacy, and honor confidentiality.
-* **Professional Responsibilities (Section 2):** These focus on how computing professionals should work. Members should pursue quality, maintain competence, respect rules, accept professional review, evaluate systems and their effects, and work only within their competence. They should also support public understanding and access computing resources only with authorization.
-* **Professional Leadership Principles (Section 3):** These apply to members in leadership roles. Leaders should center the public good, protect user dignity, support a healthy working life, and establish processes that enable ethical work.
-* **Compliance with the Code (Section 4):** This section addresses how the code should be upheld, such as that members should treat violations as inconsistent with membership in the ACM.
+### Apply the ACM Code
 
-What makes the ACM code distinctive is its breadth. It does not limit itself to technical matters. It explicitly addresses social harm, discrimination, privacy, and the public good. It also requires members to consider the full impact of their systems on all stakeholders, not just the people who pay for the work.
+The **ACM Code of Ethics and Professional Conduct** is meant to guide
+computing professionals. Its four sections cover:
 
-### The IEEE Code of Ethics
+* Broad duties such as public good, avoiding harm, honesty, fairness, privacy, and respect for creative work
+* Professional duties such as quality, competence, review, risk checks, and approved access
+* Leadership duties for healthy work, public good, and systems that support ethical action
+* Compliance with the code
 
-The **IEEE Code of Ethics** comes from the world's largest technical professional group, with over 400,000 members across engineering, computing, and related fields. The IEEE's roots are in electrical engineering, so its code reflects an engineering mindset focused on safety, competence, and honest representation.
+The code applies beyond narrow software tasks. It asks a professional to
+consider all people affected by a system.
 
-The IEEE code consists of ten commitments that members pledge to uphold. These include commitments to:
+ACM also has a formal enforcement process for covered members and award
+holders. A complaint must name facts, proof, and the code parts at issue.
+The process can include review, investigation, a finding, a sanction, and
+an appeal. Possible results range from a letter or remedy to suspension
+or expulsion.
 
-* Hold paramount the safety, health, and welfare of the public
-* Avoid real or perceived conflicts of interest whenever possible
-* Be honest and realistic in stating claims or estimates based on available data
-* Reject bribery in all its forms
-* Improve the understanding of technology and its appropriate application
-* Maintain and improve technical competence
-* Treat all persons fairly and not engage in acts of discrimination or harassment
-* Avoid injuring others, their property, reputation, or employment by false or malicious action
-* Assist colleagues in their professional development and support them in following the code
+The [ACM Code](https://www.acm.org/about-acm/code-of-ethics) and
+[ACM enforcement process](https://www.acm.org/about-acm/code-of-ethics-enforcement-procedures)
+should be read together when enforcement matters.
 
-The IEEE code is shorter and more principle-based than the ACM code. It reads more like a set of professional pledges than a detailed guideline. Its strength is clarity: the commitments are direct and easy to remember. Its limitation is that it provides less specific guidance for the kinds of complex cases you have studied throughout this book, such as algorithmic bias, surveillance, or AI governance.
+### Apply the IEEE Code
 
-### The (ISC)² Code of Ethics
+The **IEEE Code of Ethics** guides IEEE members. Its current form groups
+ten commitments under three broad duties:
 
-The **(ISC)² Code of Ethics** serves cybersecurity professionals, such as those who hold the Certified Information Systems Security Professional (CISSP) certification. Unlike the ACM and IEEE codes, which are voluntary for members, the (ISC)² code is a condition of certification. If you violate it, you can lose your CISSP credential.
+* Act with integrity, sound conduct, and care in professional work
+* Treat people fairly and with respect, reject harassment and bias, and avoid harm
+* Help coworkers follow the code and protect good-faith reporting from retaliation
 
-The (ISC)² code is built on four mandatory canons, listed in order of priority:
+The ten points address public safety, conflicts, honest claims, bribery,
+the effects of technology, competence, fair treatment, harassment, false
+harm, and support for others who follow the code.
 
-1. **Protect society, the common good, necessary public trust and confidence, and the infrastructure.** This canon comes first because security professionals hold positions of significant trust. Your choices affect whether systems stay secure and whether people's data stays protected.
-2. **Act honorably, honestly, justly, responsibly, and legally.** This covers personal integrity and compliance with laws and regulations.
-3. **Provide diligent and competent service to principals.** "Principals" means the people and groups you work for. This canon obligates you to perform your duties competently and faithfully.
-4. **Advance and protect the profession.** Members should maintain and expand their skills, and avoid actions that damage the reputation of the security profession.
+The code is short. That makes it easy to recall but leaves more work for
+the case record. "Protect safety" does not state which test must pass or
+who may stop a release.
 
-The priority ordering is critical. When canons conflict, you resolve the conflict by following the higher-ranked canon. For example, if your employer asks you to cover up a data breach (Canon 3: serve your principal), the (ISC)² code says you must prioritize Canon 1 (protect society and public trust) instead. This gives security professionals explicit authorization to push back against unethical instructions.
+IEEE's article on its
+[approved code revision](https://spectrum.ieee.org/board-of-directors-approves-revisions-to-the-ieee-code-of-ethics)
+provides the current grouped text and ten commitments.
 
+### Apply the ISC2 Code
 
-### Try It Yourself 12.1: Test Your First Judgment 🛠️
+The **ISC2 Code of Ethics** applies to ISC2 members and people who hold
+its credentials, such as CISSP. It lists four mandatory canons in
+priority order. In plain terms, they require a professional to:
 
-**Predict:** Imagine you hold a CISSP certification and your employer tells you to delay notifying customers about a data breach until after a major product launch. The (ISC)² code ranks protecting society above serving your employer. How does having that explicit priority ordering change how you would handle the situation compared to not having a code at all?
+1. Protect society, public trust, and key systems.
+2. Act with honor, honesty, fairness, care, and respect for law.
+3. Give principals diligent and competent service.
+4. Support and protect the profession.
 
-**Run:** Apply the main framework or choice test from Section 12.1. Identify the stakeholder whose interest carries the most weight.
+The order helps with a conflict. Service to an employer or client does
+not outrank the duty to society.
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+ISC2 has an ethics complaint process. The people allowed to complain can
+depend on the canon. A peer review can lead to action, including loss of
+a credential. The code does not give a member a free right to break a
+law, reveal protected data, or skip sound process.
+
+The [ISC2 ethics page](https://www.isc2.org/Ethics) states the canons,
+complaint scope, and possible result.
+
+**Worked code record:** A security lead learns that a client portal has
+a flaw that exposes account data. The manager wants to wait until a sales
+event ends. The lead holds a CISSP.
+
+The public-trust canon comes before service to the employer. That duty
+supports prompt containment and a fact-based notice review. It does not
+prove which notice law applies or permit the lead to send client data to
+a personal account.
+
+The lead should preserve proof through approved systems, state the harm,
+ask for a written risk choice, and use the response path. The code helps
+name the duty. The incident plan, law map, and evidence set the action.
+
+### Try It Yourself 12.1: Compare Two Duties 🛠️
+
+**Predict:** An engineer is told to approve a release that passed the
+business test but failed an accessibility test. Which code gives the
+clearest duty?
+
+**Run:** Complete the six-line code record for the ACM and IEEE codes.
+Use a current source for each.
+
+**Explain:** In 1-2 sentences, name the stronger duty and the control it
+should require.
 
 ### Quick Check 12.1 ✅
 
-1. What are the four main sections of the ACM Code of Ethics? Briefly describe the focus of each. *(Remember)*
+1. What six facts belong in a code record? *(Understand)*
 
-2. How does the (ISC)² code's priority ordering of its four canons help resolve conflicts between a security professional's obligations to different stakeholders? *(Understand)*
+2. How does the ISC2 canon order help resolve a client conflict? *(Apply)*
 
-3. The IEEE code commits members to "hold paramount the safety, health, and welfare of the public." Give a specific IT case where following this commitment would require an engineer to push back against a business choice. *(Apply)*
+3. Why must a team read a code and its enforcement process together? *(Analyze)*
 
 ---
 
-## 12.2 Comparing and Critiquing Professional Codes
+## 12.2 Compare Scope, Force, and Gaps
 
-Now that you are familiar with the three major codes, the next step is to put them side by side. Understanding what these codes share helps you identify the core values of the IT profession. Understanding where they differ reveals the priorities and blind spots of each approach.
+Codes can share a value yet guide action in different ways. Compare more
+than wording.
 
-### What the Codes Share
+Use five critique tests:
 
-Despite their different structures and audiences, the ACM, IEEE, and (ISC)² codes share several core commitments:
+1. **Scope:** Does the code reach the person, role, system, and harm?
+2. **Priority:** Does it rank duties or explain how to resolve a conflict?
+3. **Specificity:** Can a team turn the duty into a control and test?
+4. **Enforcement:** Is there a fair complaint, proof, finding, result, and appeal path?
+5. **Revision:** Does the issuer review the code as work and harm change?
 
-* **Public welfare comes first.** All three codes prioritize the well-being of the public over the interests of employers, clients, or the profession itself. This is the foundational principle of professional ethics: the people affected by your work matter more than the people paying for it.
-* **Honesty and integrity.** Every code requires truthfulness in professional dealings. You should not misrepresent your qualifications, hide defects in your work, or deceive the people who depend on your systems.
-* **Competence.** All three codes require professionals to maintain their skills and work within their areas of expertise. In a field that changes as fast as IT, this is both an ethical obligation and a practical necessity.
-* **Avoiding harm.** Whether stated as "avoid harm" (ACM), "hold paramount safety" (IEEE), or "protect society" ((ISC)²), each code recognizes that IT professionals can cause significant damage and must work actively to prevent it.
+### Compare the Three Codes
 
-### Where the Codes Differ
+| Test | ACM | IEEE | ISC2 |
+| --- | --- | --- | --- |
+| Main reach | Computing work | Engineering and technical work | Cybersecurity roles and credentials |
+| Form | Four sections with guidance | Three broad duties and ten points | Four ranked canons |
+| Conflict help | Context and public good | Broad duty language | Stated priority order |
+| Complaint force | Formal ACM process for covered people | IEEE conduct rules apply to members and activities | Ethics complaint and peer review |
+| Strong use | Full system and social-impact review | Clear safety, honesty, fairness, and coworker duties | Security trust, client conflict, and credential duty |
 
-The differences are just as instructive as the similarities.
+This table is a start, not a score. A short code can guide a clear case.
+A detailed code can still leave a hard conflict open.
 
-| Feature | ACM | IEEE | (ISC)² |
-|---------|-----|------|--------|
-| **Scope** | All computing professionals | Engineers and technologists | Cybersecurity professionals |
-| **Structure** | 4 sections, 25 principles | 10 commitments | 4 canons (priority-ranked) |
-| **Specificity** | Highly detailed with explanations | Brief and principle-based | Concise with enforcement teeth |
-| **Enforcement** | Membership revocation (rare) | Limited formal enforcement | Certification revocation (active) |
-| **Emerging tech** | Updated 2018 with AI awareness | General principles only | Focused on security domain |
+### Find What a Code Does Not Supply
 
-The enforcement question matters. A code with no enforcement mechanism is aspirational: it describes what professionals *should* do. A code with real effects, like the (ISC)² code's ability to revoke your certification, is regulatory: it describes what professionals *must* do or face professional penalties.
+A code may name "avoid harm" without supplying:
 
-### Gaps in Current Codes
+* A test threshold or release metric
+* A law or contract map
+* A data retention rule
+* A person with stop authority
+* A safe report channel
+* A remedy for people already harmed
+* A way to include people outside the profession
 
-As comprehensive as these codes are, they were not written for every challenge you will face. Several gaps are worth noting:
+Those are gaps in the decision system, not always defects in the code.
+A code cannot contain a full rule for each tool and country. The team can
+join it with standards, law, risk records, and local controls.
 
-* **AI and algorithmic accountability.** The ACM's 2018 update references computing's impact on society broadly, but none of the three codes provide detailed guidance for professionals building, deploying, or maintaining AI systems. What is your obligation when you know an algorithm produces biased outcomes? The codes point toward "avoid harm," but they do not spell out what that means for machine learning pipelines or training data curation.
-* **Global applicability.** These codes were developed primarily in a U.S. and European context. As you learned in Chapter 8, different countries have different regulatory philosophies. A professional working across borders may find that following one code conflicts with legal requirements in another jurisdiction.
-* **Gig and contract workers.** In Chapter 3, you studied the gig economy and contingent workers. Most professional codes assume a traditional employment relationship. They are less clear about the obligations of freelance developers, independent consultants, or contractors who may not be ACM or IEEE members.
-* **Whistleblowing guidance.** In Chapter 5, you learned about whistleblower protections and the ethical justifications for reporting wrongdoing. The codes encourage integrity and honesty but provide limited practical guidance for professionals who witness misconduct internally.
+### Distinguish Guidance from Enforcement
 
-### Case Study 12.1 - The Autonomous Vehicle Ethics Board 📋
+An **aspirational code** states values and conduct a group seeks. An
+**enforceable code** also has a process that can impose a result on a
+person within its scope.
 
-**The Situation:** Priya Sharma is a senior software engineer at AutoDrive Technologies, a firm developing autonomous vehicle software. She holds both ACM membership and a CISSP certification through (ISC)². AutoDrive has been testing its self-driving system in several U.S. cities.
+Enforceable does not mean government law. A professional group may
+suspend membership or revoke a private credential. It cannot send a
+person to jail or block all work in a field unless law grants that power.
 
-During internal testing, Priya's team discovers that the vehicle's object-detection algorithm performs significantly worse in low-light conditions, particularly when identifying pedestrians with darker skin tones. The error rate for detecting light-skinned pedestrians is 2%, but for darker-skinned pedestrians it is 11%. The lead product manager, David Chen, acknowledges the disparity but argues that the overall safety record is still better than human drivers. He wants to proceed with a planned public launch in three months. "We'll patch it in a future update," he says. "If we delay, our competitor launches first and we lose our market position."
+Good enforcement needs **due process**, a fair notice and response path.
+Ask:
 
-Priya raises the issue at a team meeting, citing the ACM code's principle to avoid harm and its requirement to be fair and nondiscriminatory. David responds that the (ISC)² code requires her to provide competent service to her principal, meaning AutoDrive. Another engineer, Marcus Williams, suggests they bring the issue to AutoDrive's newly formed AI Ethics Board, but notes that the board is advisory and its recommendations are not binding.
+* Who may file a complaint?
+* What proof and time limit apply?
+* Who checks the claim and conflicts of interest?
+* Can the person respond?
+* Which findings and results are allowed?
+* Is there an appeal?
+* How does the process guard against retaliation?
 
-**Stakeholders:**
+Weak process can turn a sound code into a tool for rank or revenge.
 
-* **Priya Sharma** wants to ensure the system is safe and nondiscriminatory before launch, even if it means delaying the product
-* **David Chen** wants to meet the launch timeline and maintain AutoDrive's competitive position, planning to address the disparity in future updates
-* **Marcus Williams** hopes the Ethics Board can mediate, but is unsure whether a non-binding recommendation will change anything
-* **Pedestrians and the public** are the people most directly affected, particularly those in communities where the detection gap poses a greater safety risk
-* **AutoDrive investors and leadership** have financial interests tied to the launch timeline
+**Worked code critique:** A city buys an AI tool that ranks housing
+inspections. The contract team follows no professional group. The vendor
+engineer is an ACM member. The city wants the model kept secret.
 
-**Questions to Consider:**
+The ACM code reaches the engineer's conduct, but ACM cannot bind the city
+through membership. The public-good, fairness, honesty, and risk duties
+support testing and clear limits. The contract and public law must set
+rights for the city and residents.
 
-1. Priya holds membership in both ACM and (ISC)². How would each code guide her in this situation? Where do the codes agree, and is there any point where following one might create tension with the other?
+A strong control would require test results by building type and area,
+an appeal, audit access, and a stop rule. A code complaint may address
+member conduct. It will not replace those product controls.
 
-2. David argues that the system is still safer than human drivers overall. Using the utilitarian and deontological frameworks from Chapter 1, evaluate whether this argument justifies launching with the known detection disparity.
+### Try It Yourself 12.2: Critique a Short Code 🛠️
 
-3. If you were Priya, what would you do next? Identify which professional code principles and which ethical frameworks from this book support your choice.
+**Predict:** A firm adopts one rule: "Build technology for good." Is that
+enough to guide a launch?
 
+**Run:** Apply all five critique tests. Add the complaint, proof, appeal,
+and retaliation facts.
 
-### Try It Yourself 12.2: Test Your First Judgment 🛠️
-
-**Predict:** Advisory ethics boards are becoming common at tech firms. If an ethics board has no authority to block a product launch, does it serve a meaningful purpose? What would make an internal ethics review process genuinely effective?
-
-**Run:** Apply the main framework or choice test from Section 12.2. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Explain:** In 1-2 sentences, name the largest gap and one fix.
 
 ### Quick Check 12.2 ✅
 
-1. Name two ethical commitments that appear in all three major IT professional codes (ACM, IEEE, (ISC)²). *(Remember)*
+1. Distinguish an aspirational code from an enforceable code. *(Understand)*
 
-2. The (ISC)² code has active enforcement through certification revocation, while the ACM code relies primarily on membership expectations. Explain how this difference in enforcement affects the practical impact of each code. *(Analyze)*
+2. Apply the specificity test to the duty to avoid harm. *(Apply)*
 
-3. Identify one gap in current professional codes that you believe is most significant for IT professionals entering the workforce today. Explain why this gap matters. *(Evaluate)*
+3. Why can a formal complaint process still be unfair? *(Evaluate)*
 
 ---
 
-## 12.3 IT Licensing, Certification, and Professional Accountability
+## 12.3 Test Licensing, Certification, and Accountability
 
-Engineers who design bridges must be licensed. Doctors must pass board exams. Lawyers must pass the bar. But the software engineer who builds the banking app on your phone, the database administrator who manages your health records, and the network engineer who secures your firm's infrastructure? In most cases, they need no license at all. This section examines the ongoing debate about whether IT professionals should be subject to licensing requirements and how certification currently fills part of that gap.
+Professional duty can also come from a government license or a private
+credential. These are not the same.
 
-### The Case for IT Licensing
+**Professional licensing** is government approval to perform a protected
+task or use a protected title. Law sets the scope, entry rules, and
+discipline process.
 
-Advocates for **professional licensing** in IT argue that the stakes are now too high for self-regulation alone. Consider the systems that IT professionals build and maintain:
+**Professional certification** is a credential from a private group. It
+shows that a person met the issuer's stated test. The credential may also
+require work history, ongoing learning, and a code of ethics.
 
-* Healthcare systems where errors can lead to misdiagnosis or incorrect medication
-* Financial systems that process billions of dollars in transactions daily
-* Critical infrastructure such as power grids, water treatment facilities, and transportation networks
-* AI systems that make consequential choices about hiring, lending, criminal sentencing, and medical treatment
+A certificate does not prove skill in every tool or role. A license does
+not prove that each act is sound. Both need current scope and proof.
 
-When a bridge collapses, we hold the licensed engineer accountable. When a software failure causes comparable harm, the accountability structure is less clear. Licensing advocates argue that requiring IT professionals to meet minimum competency standards, pass examinations, and maintain their credentials through continuing education would strengthen public protection.
+### Apply a Seven-Line Scope Test
 
-In Chapter 7, you studied software liability and the question of who bears responsibility when software fails. Licensing would create a clearer chain of accountability. A licensed professional who acts negligently could face effects beyond just losing a job.
+Before proposing a license for IT work, ask:
 
-### The Case Against IT Licensing
+1. **Protected task:** Which exact act or title would the law control?
+2. **Harm threshold:** What public harm is common or severe enough to justify the limit?
+3. **Competence:** Which skill, test, experience, and ongoing learning are needed?
+4. **Regulator:** Who grants, checks, limits, and removes the license?
+5. **Access and equity:** Who may be shut out by cost, time, language, or degree rules?
+6. **Alternatives:** Could a firm license, product rule, audit, code, or narrow task limit work better?
+7. **Review:** How will the rule change as tools and harms change?
 
-Critics of IT licensing raise several practical and philosophical objections:
+"License all IT workers" fails the first test. Help desk work, cloud
+design, health software, security tests, and AI model review involve
+different tasks and risks.
 
-* **The field changes too fast.** A licensing exam reflects knowledge at a single point in time. In IT, tools, languages, and best practices shift rapidly. A license earned five years ago may not reflect current competence.
-* **Barriers to entry.** IT is one of the few high-paying fields that remains accessible to people without traditional four-year degrees. Licensing requirements could create barriers that disproportionately affect self-taught professionals, career changers, and people from lower-income backgrounds.
-* **Scope is too broad.** "IT professional" covers everything from help desk support to machine learning research. Creating a single licensing framework for such a diverse field is impractical. Medicine and law have clearer boundaries around what practitioners do.
-* **Innovation could slow.** Some argue that licensing creates bureaucratic overhead that slows the pace of innovation. Open source software, for example, thrives on contributions from people with diverse backgrounds and training, many of whom would not hold traditional credentials.
+A narrow rule may fit a high-harm task better. It could require a named
+professional to approve a safety case while leaving other work open to
+many entry paths.
 
-### Certification as Professional Accountability
+### Audit a Certification Claim
 
-In the absence of licensing, **professional certifications** serve as the primary mechanism for demonstrating competence and commitment to ethical standards. Unlike licenses, certifications are voluntary (though many employers require them). Unlike academic degrees, certifications typically require periodic renewal, which ensures ongoing competence.
+Use a credential card:
 
-Some of the most recognized IT certifications include:
+* Issuer and current credential name
+* Tested job or skill scope
+* Exam, work, and identity requirements
+* Renewal and ongoing-learning duties
+* Code and complaint process
+* Public status check
+* Limits on what the credential proves
 
-* **CompTIA A+, Network+, Security+:** Entry-level and mid-level certifications covering hardware, networking, and cybersecurity fundamentals. You may already be familiar with these from other courses at Phoenix College.
-* **CISSP (Certified Information Systems Security Professional):** An advanced cybersecurity certification from (ISC)² that requires both passing an exam and agreeing to the (ISC)² Code of Ethics. As you learned in Section 12.1, violating the code can result in losing the certification.
-* **Certified Ethical Hacker (CEH):** A certification focused on penetration testing and security assessment, which explicitly ties ethical behavior to professional practice.
-* **AWS, Azure, and Google Cloud certifications:** Vendor-specific certifications that validate cloud computing skills, increasingly important as groups migrate to cloud infrastructure.
-* **Project Management Professional (PMP):** While not IT-specific, this certification is widely held by IT project managers and includes its own code of ethics.
+The **CISSP** credential, for example, ties certification to the ISC2
+Code of Ethics. A knowing code breach may lead to peer review and loss of
+the credential. That creates one form of professional accountability.
 
-Certifications create a form of **professional accountability** that sits between voluntary codes and mandatory licensing. If you hold a CISSP and act unethically, you can lose your credential, which has real career effects. But certifications do not carry the legal weight of a license, and many IT workers hold no certifications at all.
+The employer still must check role fit and current skill. A valid CISSP
+does not by itself prove that its holder can review a medical model,
+write safe code in each language, or lead each incident.
 
+### Build Accountability around the Work
 
-### Try It Yourself 12.3: Test Your First Judgment 🛠️
+Accountability should not rest on one person's title. Build an
+**accountability record** for high-impact work. Record:
 
-**Predict:** In Chapter 2, you learned about the ethical responsibilities of IT workers across six professional relationships. Do you think a formal licensing requirement would make IT professionals more accountable in those relationships, or would it simply add bureaucracy without changing behavior? What evidence from your own experience supports your view?
+* The claim and affected people
+* The qualified owner and reviewer
+* The tests and pass threshold
+* The code, law, contract, and standard used
+* The approval, exception, and stop authority
+* The logs and version released
+* The remedy and next review
 
-**Run:** Apply the main framework or choice test from Section 12.3. Identify the stakeholder whose interest carries the most weight.
+This record allows a colleague to see what happened and why. It also
+keeps a group from using a credential as a shield for weak proof.
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Worked scope test:** A state wants to require a license for any person
+who edits health software. The goal is patient safety. The task, though,
+includes text changes, network setup, clinical rules, and device code.
+
+The proposal is too broad. The state could first name the acts that can
+directly change diagnosis, dose, or treatment. It could require an
+approved safety owner, tested competence, review, and a report path for
+those acts.
+
+It should also test access effects. A high fee or degree rule may block
+skilled people without improving patient safety. Product and firm duties
+may guard some risks better than a personal license.
+
+### Try It Yourself 12.3: Test an AI License Plan 🛠️
+
+**Predict:** A state plans to license every person who works on AI. Will
+that rule protect the public?
+
+**Run:** Apply the seven-line scope test. Compare a broad license with a
+narrow approval role for high-impact uses.
+
+**Explain:** In 1-2 sentences, choose a scope and name the public proof it
+should require.
 
 ### Quick Check 12.3 ✅
 
-1. List two arguments in favor of IT professional licensing and two arguments against it. *(Remember)*
+1. Distinguish professional licensing from certification. *(Understand)*
 
-2. How does the CISSP certification create a form of professional accountability that goes beyond a voluntary code of ethics? *(Understand)*
+2. What does a credential card prove and leave open? *(Apply)*
 
-3. A state legislature is debating whether to require licensing for any IT professional who works on healthcare systems. Using concepts from this chapter and Chapter 6 (Healthcare IT Ethics), evaluate whether this proposal would improve patient safety. *(Evaluate)*
+3. When might a narrow task license work better than a field-wide license? *(Evaluate)*
 
 ---
 
-## 12.4 Ethics for Emerging Technologies and AI
+## 12.4 Turn Ethical Concern into Safe Action
 
-Throughout this book, you have encountered AI in many settings. Examples include algorithmic bias, recommendation systems, clinical tools, software liability, regulation, intellectual property, synthetic media, and cyberattacks. This final content section connects those topics. You will examine professional ethics for people who build, deploy, and maintain AI systems.
+A code has value when it changes a choice. The move from duty to action
+needs proof, controls, authority, and a remedy.
 
-### Applying Ethical Frameworks to Emerging Technologies
+### Join a Code Duty to a Control
 
-The ethical frameworks you learned in Chapter 1 were developed long before anyone imagined autonomous vehicles, gene editing, or large language models. But that is precisely their value. Ethical theories give you tools for reasoning about problems that have not been solved yet. Here is how each framework applies to emerging technologies:
+Use a six-column duty-to-control record:
 
-* **Utilitarianism** asks: Does this technology produce more benefit than harm? For whom? This is the framework behind cost-benefit analyses of AI deployment, the same kind of analysis you practiced in Chapter 7 when studying software liability.
-* **Deontology** asks: Does this technology respect people's rights and dignity? Are we treating people as ends in themselves, or merely as means? This framework challenges practices like collecting training data without consent or using AI to make choices that should require human judgment.
-* **Virtue ethics** asks: What kind of professionals and groups are we becoming? Are we building technology that reflects integrity, fairness, and responsibility? This framework is especially relevant for organizational culture and the character of technical teams.
-* **Social contract theory** asks: Would the people affected by this technology agree to its use if they had a voice? Use Chapter 1's veil of ignorance to test an AI system. Would you approve the design without knowing whether you would be its user, subject, or displaced worker?
+| Field | Question |
+| --- | --- |
+| Duty | Which code, principle, or canon applies? |
+| System claim | What does the team claim the system will do? |
+| Proof | Which test, log, source, or person supports the claim? |
+| Control | What prevents, detects, limits, or repairs harm? |
+| Authority | Who may approve, pause, reverse, or report the act? |
+| Remedy | How can an affected person get notice, appeal, repair, or support? |
 
-### Applying Professional Codes to AI
+For AI work, the voluntary
+[NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/)
+adds four functions:
 
-The [ACM Code of Ethics](https://www.acm.org/about-acm/code-of-ethics) requires professionals to support the public good, avoid harm, be honest, respect privacy, and evaluate system risks. The [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html) emphasizes public safety, honest claims, fairness, and disclosure of conflicts. The [ISC2 Code of Ethics](https://www.isc2.org/Ethics) places protection of society and public trust before service to a principal.
+* **Govern:** Set policy, roles, risk limits, and accountability.
+* **Map:** Set the use context, people, impacts, and risk.
+* **Measure:** Test function, limits, error, bias, and uncertainty.
+* **Manage:** Rank risk, act, monitor, report, and improve.
 
-These codes do not need to name every AI tool to apply. They give you duties that can be tested against a system's purpose, evidence, limits, and effects. NIST's AI framework adds a process for governing, mapping, measuring, and managing risk.
+These functions are not four one-time steps. The team should keep using
+them while the system is in service.
 
-For AI work, apply the codes through four professional obligations:
+### Use an Eight-Step Concern Path
 
-* **Transparency.** Tell affected people when AI has a meaningful role and explain the choice at a useful level. Legal disclosure duties depend on the system and jurisdiction. Professional honesty may require more than the legal minimum.
-* **Bias testing and fairness.** Test outcomes across affected groups and document the evidence. The [EEOC](https://www.eeoc.gov/newsroom/us-eeoc-and-us-department-justice-warn-against-disability-discrimination) explains that employment software can create unlawful disability barriers.
-* **Human oversight.** For consequential choices (hiring, lending, medical treatment, criminal justice), professional ethics requires that humans remain in the choice loop. AI can inform choices, but removing human judgment from high-stakes outcomes raises serious ethical concerns. Your obligation as a professional includes designing workflows that preserve meaningful human review, not just nominal sign-off.
-* **Accountability and documentation.** Record what the system was meant to do, how it was tested, who approved it, and who can stop it. When harm occurs, the group needs enough evidence to reconstruct the choice and correct the process.
+When you think a task may cause harm:
 
-### AI Touchpoint: What to Do When Asked to Build Something Harmful
+1. **State the concern:** Name the act, people, harm, and time pressure.
+2. **Separate fact from inference:** List proof, source, and uncertainty.
+3. **Name the duty:** Cite the code, law, contract, policy, or role.
+4. **Reduce immediate harm:** Use the stop, containment, or safe-work rule you are allowed to use.
+5. **Offer a control:** Give a test, limit, repair, or safer option.
+6. **Use the report path:** Contact the named manager, safety owner, ethics office, legal team, union, regulator, or other proper channel.
+7. **Protect people and proof:** Keep records lawfully. Do not take data or reveal secrets without a valid right.
+8. **Record the choice:** State who decided, why, what remains open, and when to review.
 
-This is the question that the Google Project Maven staff faced, and it is a question you may face in your own career. Professional codes provide some guidance. The ACM code says to avoid harm. The IEEE code says to hold paramount the safety of the public. The (ISC)² code prioritizes protecting society over serving your employer. But codes are general. Real situations are specific and messy.
+Internal reporting may be unsafe or futile in some cases. A manager may
+be part of the harm. Delay may put people at once-in-time risk. Law may
+require a report to a regulator or emergency service.
 
-Here is a practical framework for IT professionals who find themselves asked to build or maintain something they believe causes harm:
+Do not assume that public disclosure is always protected. Whistleblower,
+trade-secret, privacy, contract, and security rules vary. Seek qualified
+advice when the path is unclear. If there is an urgent threat to life or
+safety, use the emergency path that fits the case.
 
-1. **Clarify the concern.** Make sure your objection is based on a genuine ethical issue, not just personal discomfort or disagreement with a business strategy. Use the ethical frameworks from Chapter 1 to articulate what principle is at stake.
-2. **Raise the issue internally.** Start with your direct supervisor or team lead. Document your concern in writing. Reference specific provisions of your professional code if you hold one. In Chapter 2, you studied the importance of the relationship between IT workers and employers. Raising concerns through proper channels respects that relationship.
-3. **Escalate if necessary.** If your concern is dismissed, escalate to higher management, an ethics officer, or an internal review board. Many groups now have AI ethics committees or responsible-AI teams.
-4. **Consult external resources.** If internal escalation fails, consider consulting your professional group, a trusted mentor, or a legal advisor. Chapter 5 covered whistleblower protections. Those protections may apply depending on the nature of the harm.
-5. **Make a choice you can stand behind.** In some cases, you may decide that the group's direction is incompatible with your professional and ethical obligations. Resignation is always an option, and in extreme cases, external disclosure may be justified under the whistleblowing frameworks you studied in Chapter 5.
+### Keep Human Review Meaningful
 
-This is not a clean, comfortable process. Ethical dilemmas in professional life rarely are. But having a structured approach, grounded in professional codes and ethical frameworks, is far better than improvising under pressure.
+"A human is in the loop" does not prove oversight. A reviewer needs:
 
+* The time and context to review the case
+* Access to the source facts and model limits
+* Skill for the type of choice
+* Power to change or stop the result
+* A record of the reason
+* A way to repair an error
 
-### Try It Yourself 12.4: Test Your First Judgment 🛠️
+Low-impact acts may be safe to automate. High-impact acts need controls
+that match the harm. The professional duty is to design the right form
+of review, not to add a person as a label.
 
-**Predict:** The practical framework above describes raising ethical concerns internally before considering external action. What factors might make a professional decide to skip internal escalation and go directly to external disclosure? Under what circumstances would that be ethically justified?
+**Worked concern path:** A hiring tool rejects applicants after a voice
+test. The vendor reports 91% total accuracy. It gives no disability,
+accent, language, or job-validity results. The launch owner wants to use
+the tool for all open roles.
 
-**Run:** Apply the main framework or choice test from Section 12.4. Identify the stakeholder whose interest carries the most weight.
+The concern is not that AI is always wrong. The proof does not support
+the planned scope. ACM fairness, harm, honesty, and risk duties apply.
+IEEE fair-treatment and honest-claim duties also fit.
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+The team can pause auto-rejection, run role and group tests, give notice,
+add an appeal, and set a stop threshold. If the owner rejects those
+controls, the reviewer should use the next report path and record the
+choice without copying applicant data to a personal system.
+
+### Try It Yourself 12.4: Raise a Safety Concern 🛠️
+
+**Predict:** A manager asks you to remove a failed test from a release
+report because the issue affects few users. Should you comply?
+
+**Run:** Apply the duty-to-control record and all eight concern steps.
+Name any immediate stop rule and safe report path.
+
+**Explain:** In 1-2 sentences, state your next act and the proof you will
+preserve.
 
 ### Quick Check 12.4 ✅
 
-1. Choose one ethical framework from Chapter 1 and explain how it applies to the development of AI systems that make hiring choices. *(Apply)*
+1. Name the four NIST AI RMF functions. *(Understand)*
 
-2. The ACM and IEEE have both issued statements on AI ethics. Why are group-specific AI ethics statements necessary if the general professional codes already require members to avoid harm? *(Analyze)*
+2. Apply a code duty to one testable control. *(Apply)*
 
-3. A junior developer at a social media firm discovers that the firm's recommendation algorithm promotes content that increases user engagement but also increases anxiety and depression among teenage users. Using the five-step framework from this section, outline what this developer should do. *(Evaluate)*
+3. What makes human review meaningful instead of nominal? *(Evaluate)*
 
 ---
 
@@ -296,101 +462,128 @@ This is not a clean, comfortable process. Ethical dilemmas in professional life 
 
 ### Key Concepts
 
-* **Professional codes of ethics** provide IT practitioners with formal guidance on ethical behavior. The ACM, IEEE, and (ISC)² codes share core commitments to public welfare, honesty, competence, and avoiding harm, but they differ in scope, structure, specificity, and enforcement.
+* **Read the source.** Record the code issuer, scope, duty, priority, enforcement, proof, and remedy.
 
-* **Enforcement mechanisms** determine whether a code is aspirational or regulatory. The (ISC)² code carries real effects through certification revocation, while the ACM and IEEE codes rely more heavily on professional norms and peer expectations.
+* **Compare force, not just words.** A code's value depends on scope, conflict help, specificity, process, and revision.
 
-* **Gaps in current codes** include limited guidance on AI-specific challenges, global applicability, gig economy workers, and practical whistleblowing. As technology evolves, professional codes must evolve with it.
+* **Keep private enforcement separate from law.** A group may discipline a member or revoke a credential within its scope.
 
-* **IT licensing versus certification** represents an ongoing debate. Licensing would create stronger accountability structures but could raise barriers to entry and slow innovation. Certifications like CISSP, CompTIA, and CEH provide a middle ground by tying professional credentials to ethical commitments.
+* **Test licensing with a narrow task.** Name the harm, competence, regulator, access effects, alternatives, and review.
 
-* **Ethical obligations for emerging technologies** require IT professionals to apply the frameworks from Chapter 1 to new challenges. Transparency, bias testing, human oversight, and accountability are core obligations for professionals working with AI systems.
+* **Audit credential claims.** Record what the credential tested, its current status, code, renewal, and limits.
 
-* **When asked to build something harmful,** IT professionals can follow a structured approach: clarify the concern, raise it internally, escalate if needed, consult external resources, and make a principled choice.
+* **Turn duty into action.** Join the code to proof, a control, authority, a report path, and a remedy.
+
+* **Raise concerns safely.** Keep facts apart from inference, protect people and proof, and use the right channel.
 
 ### Key Terms
 
 #### Section 12.1
 
+* Code of ethics
 * ACM Code of Ethics
 * IEEE Code of Ethics
-* (ISC)² Code of Ethics
+* ISC2 Code of Ethics
 * Canon
 
 #### Section 12.2
 
 * Aspirational code
-* Regulatory code
-* Algorithmic transparency
+* Enforceable code
+* Due process
 
 #### Section 12.3
 
 * Professional licensing
 * Professional certification
 * CISSP
+* Accountability record
 
 #### Section 12.4
 
 * AI ethics
-* Human oversight
+* NIST AI Risk Management Framework
+* Human oversight (AI)
 * Responsible AI
 
 ### Retrieval Practice
 
 Try to answer these from memory before looking back at the chapter.
 
-1. Name the three professional codes of ethics discussed in this chapter and identify one key structural difference between them.
-2. What are the four canons of the (ISC)² Code of Ethics, and why does their priority ordering matter?
-3. Describe three arguments for and against licensing IT professionals. Which side do you find more persuasive, and why?
-4. If an IT professional is asked to build a system they believe causes harm, what five steps should they consider?
+1. Name the six lines in the code record.
+2. Name five tests used to critique a code.
+3. Name four steps in the concern path.
 
 ---
 
-## 12.6 Skills Lab 12A: Capstone Project
+## 12.6 Skills Lab 12A: The CivicLink Benefits Decision
 
-**Goal:** Create a defensible ethical analysis that integrates frameworks from across the book.
+**Goal:** Create a capstone recommendation that joins ethical frameworks, professional codes, law, technical proof, controls, and remedies.
 
-**Evidence packet:** `assets/code/chapter-12/capstone-case-builder.md`, a case-planning guide created for this textbook.
+**Evidence packet:** `assets/code/chapter-12/capstone-scenario-builder.md`, a fictional case and evidence packet created for this textbook.
 
-This capstone draws on all twelve chapters. Other Skills Labs focus on one chapter. This one asks you to find ethical issues, apply several frameworks, consider stakeholder views, and defend a recommendation.
+**Estimated time:** 120-150 minutes
 
-### Choosing Your Case
+### Case: Launch, Narrow Pilot, or Pause
 
-Select one of the following cases, or propose your own (subject to instructor approval):
+**Fictional case:** Marston County plans to launch CivicLink, an online
+tool that helps residents apply for housing, food, and health benefits.
+NovaPath built the tool under a county contract.
 
-**Case A: The Predictive Healthcare AI**
-A large hospital network is deploying an AI system that predicts which patients are most likely to miss follow-up appointments. The system flags these patients for additional outreach, such as automated phone calls and text reminders. Early results show the system improves follow-up rates by 25%. However, an internal audit reveals that the system disproportionately flags patients from low-income zip codes and patients of color, resulting in those groups receiving significantly more automated contacts. Some patients report feeling surveilled and harassed. The hospital must decide whether to continue, modify, or discontinue the system.
+CivicLink checks forms, ranks fraud risk, and drafts a benefit choice.
+A county worker approves or changes the draft. The review screen gives
+the worker 45 seconds before the next case appears.
 
-**Case B: The AI-Powered Hiring Platform**
-A mid-size technology firm adopts an AI hiring tool that screens resumes and conducts initial video interviews. The tool scores facial expressions, vocal tone, and word choice. The hiring manager says it cuts time-to-hire by 40%. Several rejected candidates describe the system as dehumanizing. An external researcher also reports that similar tools may underrate candidates with disabilities or those who speak English as a second language. The firm must decide how to respond.
+The vendor reports 92% total accuracy. A county test finds a 7% false-
+flag rate for standard English web forms. The rate is 22% for translated
+forms and 24% for forms completed with a screen reader. The vendor calls
+those groups too small for a firm result.
 
-**Case C: The Smart City Surveillance System**
-A city government proposes installing an integrated "smart city" system that combines traffic cameras, license plate readers, environmental sensors, and public Wi-Fi location tracking. The system would improve traffic flow, reduce emergency response times, and monitor air quality. A technology firm would build and maintain the system in exchange for access to anonymized data for product development. Civil liberties groups argue the system creates a mass surveillance infrastructure that could be misused by future administrations. The city council is voting next month.
+The system keeps identity, health, housing, device, and location data for
+10 years. The contract says NovaPath may use de-identified records to
+improve its products. It does not state the method or re-identification
+test.
 
-**Case D: Your Own Case (Instructor Approval Required)**
-Propose a complex IT ethics case based on current events or emerging technology. Your case must involve at least three stakeholder groups and concepts from at least four chapters. It must present a genuine ethical dilemma with no obvious answer.
+The public notice says that a county worker decides each case. It does
+not name the AI rank, 45-second limit, vendor use, or appeal path. The
+county has no process for a resident to correct a bad data link.
+
+An engineer sends leaders a memo about the test gaps. She cites the ACM
+Code and asks for a limited pilot. Her manager removes her from the
+launch meeting and tells her not to put more concerns in writing.
+
+A stolen vendor admin password was also used to open 300 test records.
+The team reset the password but did not use MFA, keep an evidence log, or
+review all account actions. The public launch is set for 30 days.
+
+The county may launch for all residents, run a narrow pilot with new
+controls, or pause until the gaps close.
+
+<!-- markdownlint-disable MD029 -->
 
 ### Part 1: Foundation (Aligns with MLO-12.1)
 
-1. **Describe the ethical context.** In 300-400 words, summarize the case and identify its main ethical tension. What values or principles are in conflict?
-2. **Identify stakeholders.** List all significant stakeholders and describe each one's interests, concerns, and what they stand to gain or lose.
-3. **Map the case to book concepts.** Identify at least four relevant concepts, frameworks, or topics from the book. Explain why each one matters. Examples include ethical theories, professional obligations, corporate governance, privacy, software liability, regulation, intellectual property, free expression, cybersecurity, and professional codes.
+1. Build a fact, inference, and open-question table for the case. Name the proof needed for each open question.
+2. Complete the six-line code record for ACM, IEEE, and ISC2. State which people and acts each code can reach.
+3. Map at least five case issues to tools from earlier chapters. Include privacy, AI risk, worker voice, security, and accessibility or fairness.
 
 ### Part 2: Application (Aligns with MLO-12.1, MLO-12.2)
 
-4. **Apply two ethical frameworks.** Choose two of the four ethical frameworks from Chapter 1 (utilitarianism, deontology, virtue ethics, social contract theory). Apply each to the case separately. What does each framework recommend? Where do they agree or disagree?
-5. **Apply a professional code.** Choose one professional code (ACM, IEEE, or (ISC)²) and identify the specific provisions that apply to this case. How would a member of that group be expected to act?
-6. **Conduct stakeholder analysis.** For at least three stakeholders, analyze the case from their perspective. What does each stakeholder value most? What trade-offs would each be willing to accept?
+4. Apply two ethical frameworks. State where their recommendations agree and conflict.
+5. Apply all five code critique tests. Select the code that gives the strongest guidance and state its largest gap.
+6. Build a duty-to-control record for false flags, data use, human review, worker retaliation, and the admin-account event.
 
 ### Part 3: Extension (Aligns with MLO-12.2, MLO-12.3)
 
-7. **Formulate a recommendation.** In 400-500 words, state and defend how the central choice should be resolved. Use at least two ethical frameworks, one professional code, and one legal or regulatory concept from the book. Address the strongest counterargument to your position.
-8. **Professional reflection.** In 200-250 words, reflect on your growth as an ethical thinker while using this book. How has your approach to IT ethics changed? Which frameworks do you find most useful? What questions remain?
+7. Create an eight-control release plan. Include tests, notice, consent or legal basis, access, retention, human review, appeal, security, and a stop rule.
+8. Write a 400-500 word memo. Choose full launch, narrow pilot, or pause. Address the strongest counterclaim and name the proof that would change your choice.
+
+<!-- markdownlint-enable MD029 -->
 
 ### Questions & Analysis 🤔
 
-1. Which professional code offers the strongest guidance for your chosen case, and where does it fall short?
-2. Which book concept changed your initial position most during the analysis?
+1. Which professional duty has the most force in this case, and why?
+2. Which control best protects a resident with the least power?
 
 ### Rubric: Skills Lab 12A
 
@@ -400,33 +593,39 @@ This lab is graded with the standard
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
 Interpretation, and Response to QUESTION(s).
 
+For CIS111, **Technical Accuracy and Efficiency** means matching each
+ethical, code, legal, and technical claim to the case proof and book
+tool. **Output Quality** means that the release plan and memo are clear,
+consistent, fair, evidence-based, and ready for county review.
+
 ### Submission Guidelines
 
 * **Length:** 1,500-2,000 words total across all parts
-* **Format:** Submit as a single document organized by part number (Part 1, Part 2, Part 3) with clear headings for each numbered item
-* **Citations:** Reference specific chapter concepts, frameworks, and professional code provisions by name. Include any external sources you consult.
+* **Format:** Submit one PDF named `skills-lab-12a-lastname.pdf`. Use clear headings for each part and label both Questions & Analysis answers.
+* **Sources:** Cite each professional code and any outside source used.
 
 ---
 
 ## 12.7 Review Questions 🔄️
 
-1. Compare the public-interest duties in the ACM, IEEE, and (ISC)² codes.
-2. Apply one code provision to an employer request that could harm users.
-3. Evaluate one gap in current professional codes for an emerging technology.
-4. Propose one code revision and explain how it would change a professional choice.
+1. **Understand:** Compare the scope of the ACM, IEEE, and ISC2 codes.
+2. **Apply:** Turn one code duty into a testable release control.
+3. **Evaluate:** Critique a broad plan to license all IT work.
+4. **Create:** Draft the first three steps for raising a supported concern.
 
 ## Further Reading 📖
 
-* [ACM Code of Ethics and Professional Conduct](https://www.acm.org/about-acm/code-of-ethics) - ACM provides principles, professional duties, leadership duties, and enforcement.
-* [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html) - IEEE states ethical duties for engineers and technology professionals.
-* [ISC2 Code of Ethics](https://www.isc2.org/Ethics) - ISC2 lists four mandatory canons and its complaint process.
-* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - NIST offers a current benchmark for comparing professional-code guidance on AI.
+* [ACM Code of Ethics and Professional Conduct](https://www.acm.org/about-acm/code-of-ethics): ACM states broad, professional, leadership, and compliance duties.
+* [ACM Code Enforcement Process](https://www.acm.org/about-acm/code-of-ethics-enforcement-procedures): ACM explains complaints, proof, findings, sanctions, and appeals.
+* [IEEE Code of Ethics](https://spectrum.ieee.org/board-of-directors-approves-revisions-to-the-ieee-code-of-ethics): IEEE provides the approved grouped code and ten commitments.
+* [ISC2 Code of Ethics](https://www.isc2.org/Ethics): ISC2 states four canons and its complaint scope.
+* [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/): NIST explains Govern, Map, Measure, and Manage.
+
 ## Looking Ahead ⏩
 
-There is no Chapter 13. The book ends here, but your ethical reasoning does not.
+The book ends here. The duty does not.
 
-Over these twelve chapters, you have built a substantial toolkit. You started in Chapter 1 by learning four ethical frameworks and the critical distinction between morals, ethics, and laws. You applied those frameworks to professional relationships in Chapter 2 and corporate governance in Chapter 3. You examined social media, whistleblowing, and healthcare privacy in Chapters 4 through 6. You analyzed software liability, government regulation, and intellectual property in Chapters 7 through 9. You evaluated free expression, workplace privacy, cybersecurity, and identity theft in Chapters 10 and 11. And here in Chapter 12, you studied the professional codes that formalize these commitments and critiqued their ability to address the technologies that are reshaping the world.
-
-The IT field will keep changing. New technology will raise questions that no one has asked yet. Rules and professional codes will take time to catch up. The reasoning skills in this book matter more than any single rule. You can find stakeholders, apply frameworks, weigh competing values, and defend a position with facts and logic. Those skills do not expire.
-
-Carry them with you into your career. The IT profession needs people who can write secure code and build reliable systems. It needs those people even more when they can also ask, "Should we build this?" and think carefully about the answer.
+New tools will change the facts, risks, and rules. The method remains:
+name the people and harm, check the source, test the claim, record the
+choice, and build a remedy. That is how ethical judgment becomes
+professional action.

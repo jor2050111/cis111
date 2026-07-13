@@ -4,7 +4,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## Symbols and Numbers
 
-**(ISC)² Code of Ethics:** A priority-ranked set of four canons governing cybersecurity professionals, backed by certification enforcement.
+**ISC2 Code of Ethics:** A priority-ranked set of four canons for ISC2 members and credential holders, backed by an ethics complaint process.
 
 ## A
 
@@ -13,6 +13,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Accountability (AI):** The principle that clear lines of responsibility must exist for AI systems, so specific people or organizations are answerable when harm occurs.
 
 **Accountability gap:** A case in which many parties share an AI system but no one clearly owns the outcome or the response to harm.
+
+**Accountability record:** A record of a system claim, qualified owners, tests, duties, approval, logs, remedy, and next review.
 
 **ACM Code of Ethics:** A comprehensive code published by the Association for Computing Machinery, organized into four sections covering general ethical principles, professional responsibilities, leadership principles, and compliance.
 
@@ -64,7 +66,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## C
 
-**Canon:** A principle or rule within a professional code of ethics, especially as used by (ISC)².
+**Canon:** A principle or rule within a professional code of ethics, especially as used by ISC2.
 
 **Child identity theft:** Use of a child's data without permission to open accounts, seek benefits, or commit other fraud.
 
@@ -80,13 +82,13 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **CIA Security Triad:** Foundational information-security framework: confidentiality, integrity, availability.
 
-**CISSP:** Certified Information Systems Security Professional, an advanced cybersecurity certification from (ISC)² that requires adherence to the (ISC)² Code of Ethics.
+**CISSP:** A cybersecurity credential from ISC2 that requires its holder to follow the ISC2 Code of Ethics.
 
 **Clinical Decision Support System (CDSS):** Software analyzing patient data and surfacing evidence-based recommendations.
 
 **Code of conduct:** A formal organizational document outlining specific behavioral and ethical expectations for all members.
 
-**Code of ethics:** A written document outlining the ethical standards an organization expects from its employees.
+**Code of ethics:** A written set of duties for members of a group, role, or profession.
 
 **Colorado AI Act:** A 2024 state law requiring companies to use reasonable care to protect consumers from algorithmic discrimination in consequential decisions, part of a growing wave of US state AI accountability legislation.
 
@@ -172,6 +174,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Dodd-Frank Act:** 2010 federal law that expanded whistleblower protections, added financial incentives for SEC reports, and strengthened anti-retaliation provisions.
 
+**Due process:** A fair path that gives notice of a claim and a meaningful chance to respond before a result is imposed.
+
 ## E
 
 **Electronic Communications Privacy Act (ECPA):** Federal law that addresses the interception of communications and access to stored communications, subject to stated rules and exceptions.
@@ -183,6 +187,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Emotion recognition system:** An AI tool that claims to infer a person's emotion from a face, voice, movement, or other signal.
 
 **End User License Agreement (EULA):** A contract defining software terms of use that typically limits the provider's liability.
+
+**Enforceable code:** A code with a process that can impose a result on a person or group within its scope.
 
 **Evidence log:** A record of a digital item's source, collection, integrity check, storage, access, transfer, and known limits.
 
@@ -244,7 +250,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Identity theft:** Use of another person's data without permission to commit fraud or gain a benefit.
 
-**IEEE Code of Ethics:** A principle-based code from the Institute of Electrical and Electronics Engineers, consisting of ten professional commitments.
+**IEEE Code of Ethics:** An IEEE code that groups ten professional commitments under integrity, fair treatment, and support for the code.
 
 **Incident:** An event that puts security at risk or breaks a security rule.
 
