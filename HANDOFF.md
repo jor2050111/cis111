@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-4 have completed their
-full plain-language and instructional reviews. Chapters 5-12 remain.
+yet the final publication edition. Chapters 1-5 have completed their
+full plain-language and instructional reviews. Chapters 6-12 remain.
 
 ## What Was Built
 
@@ -38,7 +38,7 @@ full plain-language and instructional reviews. Chapters 5-12 remain.
   four review questions to each chapter.
 * Added 12 fictional evidence packets under `assets/code/chapter-NN/`.
 * Built `build/cis111-evidence-pack.zip` and verified the archive.
-* Created a 201-entry glossary. Every chapter Key Terms entry resolves to
+* Created a 203-entry glossary. Every chapter Key Terms entry resolves to
   one glossary definition.
 * Replaced old or weak source links with current primary sources from
   NIST, HHS, CISA, the FTC, the European Commission, the US Copyright
@@ -81,10 +81,21 @@ full plain-language and instructional reviews. Chapters 5-12 remain.
   DSA, EEOC, DOJ, HHS, HUD, and legal scholarship sources.
 * Chapter 4 source claims were checked on 2026-07-12. Its source links
   were also tested.
+* Chapter 5 measures Flesch 63.2 with a grade estimate of 7.4.
+* Chapter 5 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 5 distinguishes ethical justification from legal protection,
+  applies fiduciary-style data duties, and gives safe evidence-handling
+  guidance without presenting legal advice.
+* Chapter 5 legal claims were checked against current primary sources
+  from OSHA, the SEC, the Supreme Court, DOJ, the NLRB, the EEOC, and
+  the European Commission on 2026-07-12. Its source links were also
+  tested. The ACM and SEC pages reject command-line checks, so their
+  content was confirmed through indexed or browser-rendered copies.
 
 ## Remaining Work
 
-1. Rewrite Chapters 5-12 in plain language until each reaches the
+1. Rewrite Chapters 6-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -112,7 +123,7 @@ full plain-language and instructional reviews. Chapters 5-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 5. Run the sentence-length check, readability score,
+Begin with Chapter 6. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.

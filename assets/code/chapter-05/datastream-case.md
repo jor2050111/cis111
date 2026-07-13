@@ -11,7 +11,9 @@ Engineer Kenji Watanabe must decide how to respond to undisclosed data use and d
 * ShopPoints consent covered improving that app, not third-party AI training.
 * Location histories reveal homes, workplaces, places of worship, and medical visits.
 * Retail clients receive inferred demographic profiles.
+* Lower-income ZIP codes receive higher prices for the same goods.
 * Internal reports did not produce corrective action.
+* A worker-monitoring tool flags unusual file use and outside contact.
 
 ## Student Task
 

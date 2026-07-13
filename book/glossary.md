@@ -128,7 +128,9 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Cybersquatting:** Registering domain names incorporating well-known trademarks with intent to profit from them.
 
-**Cyberstalking:** Using technology to repeatedly monitor, contact, or track a person in ways that cause fear, which is a criminal offense in all 50 U.S. states.
+**Cyberstalking:** Using technology to track or contact a person in a pattern that causes fear or distress. Federal, state, Tribal, or local law may apply.
+
+**Custodian:** A person or group that holds and protects data for others.
 
 ## D
 
