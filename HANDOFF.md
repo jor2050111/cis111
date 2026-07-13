@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-3 have completed their
-full plain-language and instructional reviews. Chapters 4-12 remain.
+yet the final publication edition. Chapters 1-4 have completed their
+full plain-language and instructional reviews. Chapters 5-12 remain.
 
 ## What Was Built
 
@@ -73,10 +73,18 @@ full plain-language and instructional reviews. Chapters 4-12 remain.
   OECD AI Principles, and IEEE Ethically Aligned Design.
 * Chapter 3 source claims were checked against current primary sources
   on 2026-07-12. Its source links were also tested.
+* Chapter 4 measures Flesch 67.2 with a grade estimate of 6.8.
+* Chapter 4 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 4 includes current FTC guidance on COPPA, paid posts, the
+  impersonation rule, and the Take It Down Act. It also uses current
+  DSA, EEOC, DOJ, HHS, HUD, and legal scholarship sources.
+* Chapter 4 source claims were checked on 2026-07-12. Its source links
+  were also tested.
 
 ## Remaining Work
 
-1. Rewrite Chapters 4-12 in plain language until each reaches the
+1. Rewrite Chapters 5-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -104,7 +112,7 @@ full plain-language and instructional reviews. Chapters 4-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 4. Run the sentence-length check, readability score,
+Begin with Chapter 5. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.

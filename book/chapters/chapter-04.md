@@ -1,10 +1,10 @@
 # Chapter 4: Social Media Responsibility
 
-In 2018, reports revealed that a political consulting firm had harvested personal data from tens of millions of Facebook users without their knowledge or consent. The data was not stolen through a hack. It was collected through a personality quiz app that also pulled data from every quiz-taker's friends list. Facebook's platform rules at the time allowed it. The result was a global reckoning about what social media firms owe their users, and what users give up when they click "I agree."
+In 2018, Facebook users learned that a quiz app had passed data about them and their friends to Cambridge Analytica. No one had to break into a server. The platform let an app gather the data. The [FTC later said Facebook had misled users about how it shared data](https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook). The case raised a hard question: what does a social media firm owe each user?
 
-That story is not ancient history. Today, social media platforms collect more data than ever, algorithms decide what you see and what stays hidden, and employers routinely screen candidates' profiles before making hiring choices. These platforms shape public opinion, influence elections, and create new forms of harassment that existing laws struggle to address. The ethical questions are not abstract. They affect your daily life, your career, and your rights.
+The same question still matters. A platform can track your clicks, rank your feed, show you ads, and shape what you see. A hiring manager may also read your public posts. These choices can affect your privacy, work, safety, and view of the world.
 
-This chapter examines social media through four lenses. You will study platform ethics and data collection, content moderation and algorithmic bias, hiring and cyberabuse, and the tension between user privacy and platform business models. You will apply the ethical frameworks from Part I to evaluate cases and reason through the responsibilities that social media creates for firms, users, and society.
+This chapter looks at four areas: data, content rules, hiring and abuse, and the ad model. You will use the ethics tools from Part I to judge what firms and users should do.
 
 ## Module Overview 🧭
 
@@ -16,9 +16,9 @@ This chapter examines social media through four lenses. You will study platform 
 
 By the end of this chapter, you will be able to:
 
-* **MLO-4.1 (Understand):** Explain the economic, legal, and ethical dimensions of social media data collection and targeted advertising
-* **MLO-4.2 (Apply):** Apply ethical frameworks to evaluate industry-relevant social media scenarios involving hiring practices, cyberabuse, and user privacy
-* **MLO-4.3 (Analyze):** Analyze how content moderation practices and recommendation algorithms raise ethical concerns about bias, autonomy, and public trust
+* **MLO-4.1 (Understand):** Explain the economic, legal, ethical, and privacy issues in social media data use
+* **MLO-4.2 (Apply):** Apply ethics tools to social media cases about hiring, cyberabuse, and privacy
+* **MLO-4.3 (Analyze):** Analyze how content rules and feed ranking affect bias, autonomy, and trust
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -28,218 +28,215 @@ By the end of this chapter, you will be able to:
 
 ## 4.1 Platform Ethics and Data Collection
 
-Social media platforms are free to use. You do not pay a subscription fee to scroll through Instagram, post on X (formerly Twitter), or watch videos on TikTok. But "free" is misleading. You pay with your data. Every like, share, search, location check-in, and even the amount of time you pause on a post generates information that platforms collect, analyze, and sell to advertisers.
+Many social media sites do not charge users cash. They earn much of their money from ads. Your clicks, searches, location, and time on a post can help a site choose which ad to show you.
 
-This exchange sits at the center of social media ethics. Platforms need revenue to operate. Advertising is their primary business model. But the scale and depth of data collection raises serious questions about fairness, transparency, and consent.
+Ads help pay for the service. Data makes those ads worth more. The trade raises questions about consent, fairness, and clear notice.
 
 ### How Data Collection Works
 
-When you create a social media account, you agree to a terms of service document. That document typically grants the platform permission to collect a wide range of data. This includes the obvious things, like your name, email, and the content you post. It also includes less obvious things: your location, the device you are using, your browsing history outside the platform, your contacts, and metadata like when and how often you use the app.
+When you open an account, you accept its terms of service. The terms may let the site collect your name, email, posts, device type, contacts, location, and use times. Some sites also get data from ad tools on other sites.
 
-Platforms combine this data into detailed user profiles. These profiles allow advertisers to target you with remarkable precision. An advertiser can ask a platform to show an ad only to women aged 25-34 who live in Phoenix, recently searched for running shoes, and follow fitness accounts. That level of targeting is what makes social media advertising so valuable, and it is only possible because of extensive data collection.
+A site can join these facts into a user profile. An ad buyer might ask to reach people in Phoenix who searched for running shoes and follow fitness pages. The narrow group can make the ad more useful to the buyer.
 
 ### Informed Consent and the Transparency Problem
 
-**Informed consent** means that a person understands what they are agreeing to and freely chooses to agree. In healthcare, a doctor must explain a procedure's risks before a patient signs a consent form. The standard is high because the stakes are high.
+**Informed consent** means that you grasp a choice and make it freely. A clear notice should state what data the site takes, why it needs the data, and who will get it.
 
-Social media consent looks highly different. Terms of service agreements are often thousands of words long, written in dense legal language, and presented as a take-it-or-leave-it choice. Research consistently shows that most users do not read these agreements. A 2020 Pew Research Center study found that a majority of Americans feel they have little to no control over the data firms collect about them.
+Social media terms can be long and hard to read. You may also have to accept them to use the site. A click on "I agree" proves that you clicked. It does not prove that you knew each data use.
 
-Here is the ethical tension. Platforms argue that users consent by clicking "I agree." Critics argue that consent is not meaningful if the person does not understand what they are agreeing to. From a deontological perspective, treating users as informed choice-makers when you know they are not reading the terms violates the duty of honesty. From a utilitarian perspective, the question becomes whether the benefits of free services outweigh the harms of data collection that users do not fully understand.
+Deontology asks whether the site gave an honest choice. Utilitarianism weighs the value of a free service against the harm from data use. Both tests need facts about the notice, the data, and the risk.
 
 ### Targeted Advertising: Helpful or Manipulative?
 
-**Targeted advertising** uses collected data to show users ads based on their interests, behaviors, and demographics. Supporters argue it benefits everyone: users see ads that are relevant to them instead of random ones, and small businesses can reach their ideal customers without spending millions on mass advertising.
+**Targeted advertising** uses known facts about a user to pick an ad. It can help a small firm reach likely buyers. It can also keep users from seeing ads that do not fit their needs.
 
-Critics raise a different set of concerns. Targeted advertising can exploit vulnerabilities. For example, platforms have been caught allowing advertisers to target people experiencing emotional distress, financial difficulty, or addiction. When a gambling firm can target users who recently searched for "debt relief," the line between relevant advertising and manipulation becomes thin.
+The same tool can exploit need. A loan firm might target people who search for debt help. A betting app might target a person with signs of a gambling problem. In each case, a useful ad can become a form of pressure.
 
-There are also concerns about **discriminatory advertising**. In 2019, the U.S. Department of Housing and Urban Development charged Facebook with violating the Fair Housing Act. The platform had allowed advertisers to exclude users from housing ads based on race, religion, and national origin. Its targeting tools enabled illegal discrimination.
+**Discriminatory advertising** uses an ad system in a way that blocks a protected group. In 2019, [HUD charged Facebook with housing discrimination](https://archives.hud.gov/news/2019/pr19-035.cfm). HUD said its ad tools could restrict who saw housing ads based on protected traits.
 
+### Try It Yourself 4.1: Test a Data Request 🛠️
 
-### Try It Yourself 4.1: Test Your First Judgment 🛠️
+**Predict:** A fitness app asks for your contacts, exact location, and web history. Which request would you accept first, if any?
 
-**Predict:** You open a social media app and see an ad for a product you were just talking about with a friend. You never searched for it online. How does this experience make you feel? Using the concept of informed consent, explain whether you think the platform acted ethically, even if its data collection followed the terms you agreed to.
+**Run:** For each item, state why the app needs it, who may receive it, and what harm could follow. Then apply informed consent.
 
-**Run:** Apply the main framework or choice test from Section 4.1. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Explain:** In 1-2 sentences, state which request you would accept and what notice the app must give.
 
 ### Quick Check 4.1 ✅
 
-1. Explain the difference between the terms of service "consent" that social media platforms use and the concept of informed consent. Why does this distinction matter ethically? *(Understand)*
+1. How does a click on "I agree" differ from informed consent? *(Understand)*
 
-2. A social media platform allows payday loan firms to target ads at users whose profiles suggest financial difficulty. Analyze this practice from both a utilitarian and a deontological perspective. *(Analyze)*
+2. A site lets payday loan firms target users who show signs of money stress. Test the act with utilitarianism and deontology. *(Analyze)*
 
-3. Some people argue that targeted advertising is a fair exchange for free services. Others say users do not truly understand the trade-off. Which position do you find more persuasive, and why? *(Apply)*
+3. Is targeted advertising a fair trade for a free service? Support your view with one fact the user should know. *(Apply)*
 
 ---
 
 ## 4.2 Content Moderation and Algorithmic Bias
 
-Every minute, users upload enormous volumes of content to social media: text posts, images, videos, comments, and live streams. Some of that content is harmful: hate speech, violent threats, graphic violence, misinformation, and illegal material. Platforms must decide what stays up and what comes down. That process is called **content moderation**, and it is one of the most difficult ethical challenges in technology.
+Users post text, images, video, and live streams each day. Some posts include threats, scams, abuse, or illegal acts. A site must choose what stays up. **Content moderation** is the work of checking posts against site rules.
 
 ### How Content Moderation Works
 
-Platforms use a combination of human reviewers and automated systems to moderate content. Human moderators review flagged posts and make judgment calls about whether content violates platform rules. Automated systems, powered by AI, scan content at scale and either remove it or flag it for human review.
+Sites use both people and AI tools. People can read tone and context, but the work may expose them to graphic harm. AI can scan far more posts, but it can miss a joke, quote, dialect, or news report.
 
-Both approaches have problems. Human moderators face enormous psychological strain from reviewing graphic and disturbing content for hours each day. Reports have documented high rates of burnout, anxiety, and post-traumatic stress among moderation workers, many of whom are contract staff in lower-wage countries with limited mental health support. From a virtue ethics perspective, the question is whether platforms are treating these workers as firms of good character should.
+Sites owe human reviewers fair pay, breaks, and mental health support. They also need a safe way to report bad rules or harsh quotas. Virtue ethics asks what a firm of good character would do for these workers.
 
-Automated systems face a different problem: accuracy. AI moderation tools struggle with context. A post discussing violence in a news article is different from a post threatening violence against a person, but both contain similar keywords. Satire, cultural references, and languages other than English are especially difficult for automated tools to handle correctly. The result is both over-removal (taking down legitimate speech) and under-removal (missing genuinely harmful content).
+AI tools create two main errors. Over-removal takes down a post that follows the rules. Under-removal leaves up a post that breaks them. A fair process needs tests, an appeal path, and human review for hard cases.
+
+**Algorithmic bias** is a repeated unfair result from an AI tool. In content rules, bias may cause one dialect, culture, or group to face more false flags than another.
 
 ### Recommendation Algorithms and Filter Bubbles
 
-Beyond deciding what to remove, platforms also decide what to promote. **Recommendation algorithms** are AI systems that determine what appears in your feed, what videos play next, and what content gets suggested to you. These algorithms optimize for **engagement**, meaning they show you content that keeps you on the platform longer.
+Sites also decide what to promote. A **recommendation algorithm** ranks posts for your feed or picks the next video. Many tools seek engagement, such as more clicks, views, shares, or time on the site.
 
-The problem is that engagement and accuracy do not always align. Research has shown that sensational, emotionally charged, and divisive content generates more engagement than calm, factual reporting. When algorithms prioritize engagement, they can amplify misinformation, conspiracy theories, and extreme viewpoints. This creates what researchers call **filter bubbles**: personalized information environments where you mostly see content that reinforces your existing beliefs.
+Engagement does not prove that a post is true or safe. Fear, anger, and shock can hold attention. If a feed ranks only those signals, it may spread false claims or harsh views.
 
-A **filter bubble** narrows what you are exposed to. If you engage with content supporting one political viewpoint, the algorithm shows you more of the same and less of opposing perspectives. Over time, users can develop a distorted picture of reality, believing that their perspective is the only reasonable one because the algorithm has hidden alternatives.
+A **filter bubble** is a feed that keeps showing one set of views while hiding others. Your past clicks may shape the next set of posts. You may then mistake a narrow feed for the full range of facts.
 
-From a social contract theory perspective, this raises a fairness question. If you were designing the rules for an information platform behind Rawls's veil of ignorance, would you allow a system that gives different people fundamentally different versions of reality? Most people would want access to accurate, balanced information regardless of their position in society.
+The veil of ignorance offers a test. Would you accept feed rules before you knew which views the feed would hide from you? A fair rule should not depend on your side winning.
 
-### Case Study 4.1 - The Recommendation Engine Dilemma 📋
+### Try It Yourself 4.2: Test a Feed Rule 🛠️
 
-**The Situation:** StreamView is a popular video-sharing platform with 500 million monthly users. Its recommendation algorithm is responsible for 70% of all video views on the platform, meaning most users watch what the algorithm suggests instead of what they search for.
+**Predict:** A false post draws twice the watch time of a calm fact check. Which post should the feed rank first?
 
-Internal research at StreamView, conducted by the firm's own data science team, finds that the recommendation algorithm is driving a measurable increase in viewer radicalization. Users who watch mainstream political commentary are steadily recommended more extreme content. The research shows that users who start with moderate news videos are, on average, recommended increasingly partisan content over a six-week period. The study also finds that this pattern increases watch time by 20%, which directly increases advertising revenue.
+**Run:** Test the choice with fairness, transparency, and human oversight. List one likely effect on the user, site, and public.
 
-StreamView's Head of Product, David Chen, argues that changing the algorithm would cost the firm an estimated $400 million annually in lost engagement. He says the research is preliminary and that users are free to watch whatever they choose. StreamView's Chief Ethics Officer, Maria Santos, argues that the firm has a moral obligation to act on its own research, even at a financial cost. She proposes modifying the algorithm to reduce radicalization recommendations, even though it would lower engagement metrics.
+**Explain:** In 1-2 sentences, state which signal the site should use instead of watch time alone.
+
+### Case Study 4.1: The Recommendation Engine Dilemma 📋
+
+**Fictional case:** StreamView is a video site with 500 million users each month. Its feed tool drives 70% of all views.
+
+An internal study finds a clear pattern. Users who start with broad news clips get more extreme clips over six weeks. The shift raises watch time by 20% and brings in more ad sales.
+
+The product lead, David Chen, says a change could cost $400 million each year. He says the study is new and users choose what to watch. Ethics chief Maria Santos says the firm must act on its own test data. She wants to reduce extreme clips even if watch time falls.
 
 **Stakeholders:**
 
-* **StreamView leadership** must balance fiduciary duties to shareholders with ethical obligations to users
-* **Users** rely on the platform for entertainment and information but may not realize the algorithm is shaping their beliefs
+* **StreamView leaders** must weigh duties to owners and users
+* **Users** may not know how the feed shapes their views
 * **Advertisers** pay for engagement. Lower watch time means lower ad revenue
-* **Content moderators** bear the downstream burden of harmful content that the algorithm amplifies
-* **Society at large** is affected when large populations receive distorted information environments
+* **Content reviewers** must handle the harmful posts that the feed spreads
+* **The public** may receive a false or narrow view of events
 
 **Questions to Consider:**
 
-1. Apply utilitarian reasoning to this case. Who benefits from keeping the current algorithm, and who is harmed? What would a utilitarian recommendation look like, and what information would you need to make that calculation?
+1. Apply utilitarianism. Who gains from the current feed, who faces harm, and what fact is still missing?
 
-2. David Chen argues that users freely choose what to watch. Evaluate this claim. To what extent are users making free choices when 70% of views come from algorithmic recommendations?
+2. David says users choose what to watch. Does that claim hold when the feed drives 70% of views?
 
-3. If you were on StreamView's board of directors, what would you recommend and why? Identify which ethical framework most strongly supports your position.
+3. What should the board do? Support your choice with one ethics tool.
 
 ### Quick Check 4.2 ✅
 
-1. Explain what a filter bubble is and describe one way it can affect a person's understanding of current events. *(Understand)*
+1. What is a filter bubble, and how can it shape a person's view of an event? *(Understand)*
 
-2. Content moderation requires balancing free expression with harm prevention. Identify one situation where removing content protects users and one situation where removing content could silence legitimate speech. *(Analyze)*
+2. Give one case where removing a post protects users and one where it may silence fair speech. *(Analyze)*
 
-3. A platform's AI moderation system removes posts written in African American Vernacular English at a higher rate than posts written in Standard American English. Apply the concept of algorithmic bias to explain why this happens and why it is an ethical problem. *(Apply)*
+3. In a fictional test, an AI tool removes one dialect more often than other forms of English. Use algorithmic bias to explain the risk. *(Apply)*
 
 ---
 
 ## 4.3 Social Media in Hiring and Cyberabuse
 
-Social media does not exist in a vacuum. What you post, share, and like can follow you into job interviews, courtrooms, and personal relationships. This section examines two areas where social media activity creates significant ethical and legal effects: employer screening and online harassment.
+Public posts can affect work and safety. This section looks at social media checks in hiring and at online abuse.
 
 ### Social Media Screening in Hiring
 
-Many employers review candidates' social media profiles as part of the hiring process. A 2023 survey by the Harris Poll found that a majority of hiring managers check applicants' social media accounts. Some firms use third-party services that compile social media activity into background reports.
+Some employers read a job applicant's public posts. They may also buy a report from another firm. A public post may be fair to view, but its use can still be unfair or illegal.
 
-From the employer's perspective, social media screening provides useful information. A candidate's public posts might reveal poor judgment, discriminatory attitudes, or behavior that conflicts with firm values. Employers have a legitimate interest in avoiding hires who could create legal liability or workplace conflicts.
+An employer may find a threat, a false work claim, or public abuse. Those facts could bear on a job. Yet a photo, joke, or old post may have no link to the role.
 
-From the candidate's perspective, social media screening raises serious concerns. First, there is the problem of **context collapse**. A sarcastic joke shared with friends takes on a different meaning when read by a hiring manager who does not know you. A photo from a college party might be harmless but could create a negative impression out of context.
+**Context collapse** occurs when a post made for one group reaches a new group that lacks its context. A joke shared with friends may look harsh to a hiring manager. The new reader may not know the tone, date, or event behind it.
 
-Second, social media screening can introduce illegal discrimination into the hiring process. When a manager views a candidate's profile, they may see information that cannot legally be used in hiring choices: race, religion, age, disability status, pregnancy, and political affiliation. Even if the manager does not consciously use this information, research on implicit bias suggests it can influence choices.
+Profile checks can also expose protected traits. The [EEOC says covered employers may not base hiring on traits such as race, religion, sex, age 40 or older, and disability](https://www.eeoc.gov/employers). A sound check uses the same job-based rule for each applicant and records the fact that drove the choice.
 
-Some states and cities have passed laws restricting employer access to applicants' social media accounts. These laws typically prohibit employers from requiring candidates to share passwords or friend/follow requests. However, they generally do not prevent employers from viewing publicly available content.
+The [EEOC also warns that background checks must not deny equal job access](https://www.eeoc.gov/background-checks). State rules may add more limits. A hiring team should check the law that applies before it sets a social media rule.
 
+### Try It Yourself 4.3: Test a Hiring Check 🛠️
 
-### Try It Yourself 4.2: Test Your First Judgment 🛠️
+**Predict:** Two people meet the job needs. One has a public profile about volunteer work. The other has no public profile. Should that gap affect the choice?
 
-**Predict:** Imagine you are a hiring manager reviewing two finalists for an IT position. Both are equally qualified on paper. You look at their public social media profiles. One candidate posts about volunteer work and professional development. The other has no social media presence at all. Would the absence of a social media profile influence your choice? Should it? What ethical principles guide your answer?
+**Run:** Test the choice for job fit, equal rules, protected traits, and context collapse.
 
-**Run:** Apply the main framework or choice test from Section 4.2. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Explain:** In 1-2 sentences, state what the hiring team may use and what it should ignore.
 
 ### Cyberabuse, Harassment, and Cyberstalking
 
-**Cyberabuse** is a broad term for using technology to harass, threaten, intimidate, or harm someone. On social media, it takes many forms: targeted harassment campaigns, doxxing (publishing someone's private information), cyberstalking, nonconsensual sharing of intimate images, and coordinated pile-on attacks where many users target one person.
+**Cyberabuse** means using tech to threaten, shame, track, or harm a person. It can include threats, doxxing, stalking, or sharing an intimate image without consent. A group may also flood one person with hostile posts.
 
-The scale of the problem is significant. Cyberabuse disproportionately affects women, people of color, and LGBTQ+ people. The effects are not limited to emotional distress. Victims report lost employment, damaged reputations, physical safety fears, and lasting psychological harm.
+The harm can move offline. A target may lose work, fear for their safety, or face long-term stress. A doxxed home address can put the target and family at risk.
 
-**Cyberstalking** involves using technology to monitor, track, or repeatedly contact someone in a way that causes fear. It is a crime in all 50 U.S. states, though definitions and penalties vary. Social media makes cyberstalking easier because platforms provide detailed information about a person's location, activities, and social connections.
+**Cyberstalking** uses tech to track or contact a person in a pattern that causes fear or distress. Federal, state, Tribal, or local law may apply. Definitions and proof rules vary. The [US Justice Department lists current stalking resources](https://www.justice.gov/ovw/stalking).
 
-Platforms face an ethical obligation to protect users from abuse. However, they also face practical challenges. Harassment often involves language that is technically within platform rules. A single message might be annoying but not threatening. But hundreds of similar messages from different accounts can constitute a harassment campaign that the platform's systems fail to detect because each individual post looks harmless.
+Site rules often judge one post at a time. That can miss a group attack. One message may look mild, while hundreds of such posts can form a threat. Sites need tools that can detect the full pattern and a path for fast human review.
 
-From a deontological perspective, platforms have a duty to protect users from foreseeable harm. From a utilitarian perspective, the harm to abuse victims is severe and concentrated, while the benefit of allowing borderline content is diffuse. Both frameworks point toward stronger protections, though they may disagree about exactly where to draw the line.
+Deontology asks what duty the site owes a person at risk. Utilitarianism weighs the harm to the target against the value of keeping a post. Both tests need context, not just a word match.
 
 ### Quick Check 4.3 ✅
 
-1. Explain the concept of context collapse and describe how it creates ethical problems in social media hiring practices. *(Understand)*
+1. What is context collapse, and how can it distort a hiring choice? *(Understand)*
 
-2. An employer rejects a candidate after discovering through a social media search that the candidate is pregnant. The employer claims the rejection was based on a negative post the candidate made about a previous employer. Analyze the ethical issues in this case, considering both the employer's and the candidate's perspectives. *(Analyze)*
+2. A manager sees that an applicant is pregnant, then cites an old harsh post as the reason for rejection. What facts would show whether bias shaped the choice? *(Analyze)*
 
-3. A social media platform argues that it cannot be responsible for harassment because individual users create the harmful content. Evaluate this argument using any ethical framework from Chapter 1. *(Apply)*
+3. A site says users, not the site, cause all abuse. Test that claim with one Chapter 1 framework. *(Apply)*
 
 ---
 
 ## 4.4 Privacy, Business Models, and AI-Driven Manipulation
 
-The ethical tensions in social media are not isolated problems. Data collection, algorithmic curation, hiring practices, and cyberabuse are all connected by a single underlying reality: social media platforms are businesses that profit from user attention and user data. This section pulls those threads together and examines how AI-driven tools are intensifying these challenges.
+Data, feed rules, hiring checks, and abuse share one fact. Social media sites are firms. Many earn more when users stay longer and ads reach a narrow group.
 
 ### The Attention Economy
 
-Social media firms operate in what researchers call the **attention economy**. Attention is the scarce resource, and platforms compete to capture as much of it as possible. The longer you stay on a platform, the more ads you see, and the more revenue the firm earns. Every design choice, from infinite scroll to push notifications to autoplay videos, is optimized to keep you engaged.
+The **attention economy** is a market in which firms compete for your time. More time can mean more ads and more data. Auto-play, alerts, and endless scroll can all keep a person on the site.
 
-This business model creates a fundamental conflict of interest. What is best for the platform's revenue (maximum engagement) is not always best for the user's wellbeing. Studies have linked heavy social media use to increased anxiety, depression, and sleep disruption, particularly among younger users. Platforms know this. Internal research from multiple firms has documented these effects. The ethical question is what obligation a firm has when it knows its product is causing harm.
+The site's gain may conflict with the user's health or goals. The [US Surgeon General's 2023 advisory](https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html) says social media can help young people but can also pose harm. It also says key facts remain unknown. A sound claim should not treat a link as proof that one app caused one health result.
 
-From a virtue ethics perspective, the question is straightforward: would a firm of good character continue practices it knows are harmful to its users? The answer points toward reform. From a utilitarian perspective, the calculation is more complicated because the platform does provide genuine value to billions of users in the form of social connection, information access, and entertainment.
+Virtue ethics asks how a good firm would act once tests show harm. Utilitarianism also counts the site's gains: links with friends, useful news, art, and fun. The hard task is to cut harm without erasing those gains.
 
 ### Deepfakes and Synthetic Media
 
-**Deepfakes** are AI-generated images, audio, or video that realistically depict people saying or doing things they never said or did. The technology has advanced rapidly. Creating a convincing deepfake that once required specialized equipment and expertise can now be done with free software and a few source images.
+**Deepfakes** are fake images, sound, or video made or changed with AI to show a person doing something that did not occur. A tool can now make such media from a small set of files.
 
-Deepfakes create multiple ethical problems on social media. They can be used to create nonconsensual intimate images, which constitutes a severe form of cyberabuse. They can be used to fabricate statements by public figures, spreading disinformation that is difficult to detect and debunk. They can be used to commit fraud, such as impersonating a CEO in a video call to authorize a financial transfer.
+The harm can include fraud, false claims, and intimate images made without consent. A fake call might pose as a CEO and seek a wire transfer. A fake clip might put false words in a public figure's mouth.
 
-Synthetic media can spread before a platform or news group verifies it. Labels may help, but they do not repair every harm. The [FTC's government and business impersonation rule](https://www.ftc.gov/business-guidance/blog/2024/02/new-impersonator-rule-gives-ftc-powerful-tool-protecting-consumers-businesses) gives the agency another tool against commercial impersonation fraud. Other harms, such as political deception and nonconsensual images, may fall under different federal or state laws.
+Fake media can spread before a source checks it. A label may slow the spread, but it may not repair the harm. The [FTC's impersonation rule](https://www.ftc.gov/business-guidance/blog/2024/02/new-impersonator-rule-gives-ftc-powerful-tool-protecting-consumers-businesses) covers some scams that pose as a firm or state office. Other laws may apply to other acts.
 
-The threat to trust is particularly concerning. If any image or video could be fake, people may begin to distrust authentic evidence. A real video of misconduct can be dismissed as "probably a deepfake." This erosion of shared reality makes it harder for society to hold powerful institutions accountable.
-
-
-### Try It Yourself 4.3: Test Your First Judgment 🛠️
-
-**Predict:** Think about the last time you spent more time on social media than you intended. What feature or design element kept you scrolling? Knowing that these features are intentionally designed to maximize your time on the platform, do you think the platform has an ethical obligation to help you limit your usage? Why or why not?
-
-**Run:** Apply the main framework or choice test from Section 4.3. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+Deepfakes can also weaken trust in real proof. A person shown in a true clip can call it fake. This is the **liar's dividend**: the mere risk of fake media gives a liar a new way to deny a true record.
 
 ### AI Recommendation Systems and Autonomy
 
-The recommendation algorithms discussed in Section 4.2 deserve a closer look through the lens of **autonomy**, which is the ability to make your own informed choices. Ethical reasoning, whether utilitarian, deontological, or based in social contract theory, generally assumes that people are making choices freely. But how free are your choices when an AI system is selecting what information you see?
+**Autonomy** is the power to make an informed choice for yourself. A feed can affect that power by hiding some facts and repeating others. The user may not see the rule or know that a test is in progress.
 
-Consider a recommendation algorithm that shows you content supporting one political candidate and suppresses content about the other. A system you did not choose and cannot see may influence your voting choice. You might believe you formed your opinion independently, but the algorithm shaped the information available to you.
+Suppose a feed shows praise for one public plan and hides fair reports about the other side. You may think you saw a broad set of facts. In truth, an unseen rank rule shaped your view.
 
-This is not a hypothetical concern. Researchers have demonstrated that search engine and social media ranking can shift voting preferences in undecided populations by significant margins. The people affected have no idea it is happening.
-
-From a social contract theory perspective, a fair society requires that citizens have access to balanced information. From a deontological perspective, manipulating someone's information environment without their knowledge violates their autonomy and treats them as a means to an end (revenue), not as an end in themselves. Both frameworks raise serious concerns about the unchecked power of recommendation algorithms.
+Social contract theory asks whether the feed rule is fair to all sides. Deontology asks whether the site hid a fact or used a person as a means to earn ad sales. Both tests support clear notice and user control.
 
 ### Platform Accountability and User Choice
 
-The [EU Digital Services Act](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package) requires the largest covered platforms to assess systemic risks, support qualified research access, and explain key parts of their recommender systems. These duties come from the DSA, not from treating every recommender system as high-risk under the EU AI Act.
+The [**Digital Services Act (DSA)**](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act) is an EU law for online services. The largest covered sites must assess broad risks and take steps to reduce them. Users on those sites can choose a feed that is not based on a profile. Ads must also show who paid and why the user sees them.
 
-In the United States, the FTC applies consumer-protection law to deceptive advertising and hidden paid relationships. Its [social media disclosure guidance](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers) says material connections should be clear and hard to miss. The FTC also maintains current [children's privacy guidance](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy) for services covered by COPPA.
+In the United States, [FTC guidance says a paid tie must be clear and hard to miss](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers). Its [COPPA guidance](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy) covers data from children under 13 on covered sites. The [Take It Down Act](https://www.ftc.gov/business-guidance/resources/complying-take-it-down-act) also requires covered sites to offer a way to seek removal of intimate images shared without consent, including AI fakes.
 
-You still make choices inside this environment. Check who funded a claim, compare it with an independent source, and use feed controls when available. Those habits do not remove a platform's duties. They reduce the chance that one hidden ranking system controls your information without challenge.
+You still have a role. Check who paid for a claim. Compare it with an outside source. Use feed controls when offered. These steps do not erase the site's duty, but they can reduce your risk.
 
-### Try It Yourself 4.4: Test the Boundary 🛠️
+### Try It Yourself 4.4: Test a Hidden Ad 🛠️
 
-**Predict:** Which option in this section creates the least ethical risk?
+**Predict:** A paid health post looks like a friend's advice and reaches teen users. Should the site leave it up, add a clear ad label, or remove it?
 
-**Run:** Apply one ethical framework and one stakeholder test from Section 4.4.
+**Run:** Apply informed consent, the FTC disclosure rule, and one Chapter 1 framework. List one fact the site must check.
 
-**Explain:** Defend your result with one fact from the section.
+**Explain:** In 1-2 sentences, state the least harmful choice and why.
 
 ### Quick Check 4.4 ✅
 
-1. Explain what the attention economy is and describe how it creates a conflict of interest between platform revenue and user wellbeing. *(Understand)*
+1. What is the attention economy, and how can it put ad sales against user goals? *(Understand)*
 
-2. A politician claims that a real video showing them making offensive comments is a deepfake. Analyze how deepfake technology undermines accountability, even when no actual deepfake is involved. *(Analyze)*
+2. A public figure calls a real clip a deepfake. How does the liar's dividend weaken accountability? *(Analyze)*
 
-3. A social media firm introduces a "time limit" feature that reminds users to take a break after one hour. Critics say the feature is buried in settings, turned off by default, and easy to dismiss. Apply utilitarian reasoning to evaluate whether this feature represents a genuine ethical effort or a token gesture. *(Apply)*
+3. A site hides its time limit deep in settings and turns it off by default. Use utilitarianism to test whether that control is useful. *(Apply)*
 
 ---
 
@@ -247,13 +244,13 @@ You still make choices inside this environment. Check who funded a claim, compar
 
 ### Key Concepts
 
-* **Social media platforms collect extensive user data** in exchange for free services. The consent process, typically a lengthy terms of service agreement, falls short of the standard for informed consent. Targeted advertising enables precise audience targeting that can be beneficial or exploitative, depending on how it is used.
+* **Social media sites use data to sell ads.** A click on long terms may not show informed consent. Targeted ads can help a small firm or exploit a person in need.
 
-* **Content moderation** requires platforms to balance free expression with harm prevention. Human moderators face psychological strain, and AI systems struggle with context, leading to both over-removal and under-removal of harmful content. Recommendation algorithms optimize for engagement, which can amplify misinformation and create filter bubbles that distort users' understanding of reality.
+* **Content moderation** must balance speech and harm. People can read context but may face harsh work. AI can scan more posts but can miss tone and dialect.
 
-* **Social media creates ethical challenges in hiring and personal safety.** Employer social media screening risks introducing illegal bias through context collapse and exposure to protected characteristics. Cyberabuse, harassment, and cyberstalking disproportionately affect marginalized groups, and platforms bear ethical responsibility for the abuse their systems enable.
+* **Hiring checks and cyberabuse create risk.** A profile may expose protected traits or lose its context. Abuse can form a pattern that one-post checks fail to see.
 
-* **The attention economy** creates a conflict between platform revenue and user wellbeing. Deepfakes threaten trust in authentic evidence. Recommendation systems can shape a user's information without meaningful consent. The EU Digital Services Act creates risk and transparency duties for covered platforms. Users can reduce manipulation by checking funding, comparing sources, and using feed controls.
+* **The attention economy can put ad sales against user goals.** Deepfakes can harm a person and weaken trust in true proof. Law, site rules, and user checks all play a role.
 
 ### Key Terms
 
@@ -280,6 +277,7 @@ You still make choices inside this environment. Check who funded a claim, compar
 
 * Attention economy
 * Deepfake
+* Liar's dividend
 * Autonomy
 * Digital Services Act (DSA)
 
@@ -303,31 +301,35 @@ Try to answer these from memory before looking back at the chapter.
 
 ### Case: The HealthyLife App Controversy
 
-HealthyLife is a popular social media app focused on fitness and wellness content. It has 80 million monthly active users, with its largest user demographic being women aged 16-30. The platform features workout videos, meal plans, progress photos, and community groups. Its recommendation algorithm promotes content that generates high engagement.
+**Fictional case:** HealthyLife is a fitness app with 80 million users each month. Its largest user group is women ages 16-30. The feed promotes posts that draw high use.
 
-An investigative report reveals the following findings:
+A news report finds four risks:
 
-* HealthyLife's recommendation algorithm pushes increasingly extreme diet content to users who engage with weight-loss posts. Users who start by viewing general fitness content are recommended restrictive diet content, then fasting content, and in some cases, content that promotes eating disorder behaviors. Internal data shows the algorithm identifies users likely to engage with this progression and accelerates it.
-* The platform has partnered with supplement firms that pay for "native advertising," meaning their paid promotions appear as regular user posts without clear labels. Some of these supplements make unverified health claims. HealthyLife receives 35% of its revenue from these partnerships.
-* Community moderators, who are volunteer users, have repeatedly flagged pro-eating-disorder content to HealthyLife's trust and safety team. Internal documents show that the team deprioritized these reports because removing the content would reduce engagement metrics in a key demographic.
-* A 17-year-old user's parents have filed a lawsuit alleging that the platform's algorithm contributed to their daughter's hospitalization for an eating disorder. They claim the platform knew its algorithm was harmful to young users and failed to act.
+* The feed moves some users from weight-loss posts to harsh diet and fasting posts. Internal data shows that the firm knows of the path.
+* Paid supplement posts look like normal user posts. Some make health claims with no proof. The paid ties bring in 35% of firm revenue.
+* Volunteer reviewers flagged posts that praise eating disorders. The safety team gave the reports low rank to protect use rates.
+* The parents of a 17-year-old user sued after their child went to a hospital for an eating disorder. They claim the firm knew of the risk and failed to act.
+
+<!-- markdownlint-disable MD029 -->
 
 ### Part 1: Foundation (Aligns with MLO-4.1)
 
-1. Identify all stakeholders in this case. For each stakeholder, describe their specific interest and what they stand to gain or lose. Include at least five distinct stakeholder groups.
-2. List the ethical issues at play. For each issue, name the specific values or rights in tension (for example, free expression vs. user safety, or profit vs. duty of care).
-3. Explain how informed consent does or does not apply to this case. Consider whether users understood how the algorithm would shape their experience when they signed up.
+1. List at least five groups affected by the case. State what each may gain or lose.
+2. List the main conflicts, such as speech against safety or profit against care.
+3. Apply informed consent. What did users need to know when they joined?
 
 ### Part 2: Application (Aligns with MLO-4.1, MLO-4.2)
 
-4. Apply **utilitarianism** to this case. Identify who benefits and who is harmed by HealthyLife's current practices. What recommendation does a utilitarian analysis produce?
-5. Apply **deontology** to this case. What duties does HealthyLife owe to its users? Does the platform's knowledge of algorithmic harm change its ethical obligations? Reference Kant's categorical imperative in your analysis.
-6. Apply **social contract theory** to this case. Use the veil of ignorance to propose rules for HealthyLife. Assume people do not know whether they will be an executive, advertiser, adult user, or vulnerable teenager.
+4. Apply **utilitarianism**. Who gains, who faces harm, and what should the firm do?
+5. Apply **deontology**. What duties does the firm owe users once it knows of the risk?
+6. Use the **veil of ignorance** to set one feed rule and one ad rule.
 
 ### Part 3: Extension (Aligns with MLO-4.2, MLO-4.3)
 
-7. Write a set of five specific, actionable recommendations for HealthyLife's leadership (300-400 words total). For each recommendation, explain which ethical framework supports it and why. Your recommendations should address: the algorithm, advertising practices, content moderation, vulnerable users, and transparency.
-8. Reflect on platform responsibility. Some argue that users choose to engage with content and platforms should not be held responsible for user behavior. Others argue that when a platform's own systems are designed to promote harmful content, the platform bears direct responsibility. Take a position, support it with at least two ethical frameworks, and address the strongest counterargument to your view.
+7. Write five clear steps for the firm's leaders (300-400 words total). Address the feed, ads, content rules, users at risk, and clear notice. Link each step to an ethics tool.
+8. Does user choice remove the firm's duty for harm caused by its feed? Take a side, use two ethics tools, and answer the best claim from the other side.
+
+<!-- markdownlint-enable MD029 -->
 
 ### Questions & Analysis 🤔
 
@@ -342,26 +344,33 @@ This lab is graded with the standard
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
 Interpretation, and Response to QUESTION(s).
 
+For CIS111, **Technical Accuracy and Efficiency** means using ethics
+frameworks and case facts correctly. **Output Quality** means that your
+audit is clear, organized, and ready for the app's leaders.
+
 ### Submission Guidelines
 
 * **Length:** 1,000-1,500 words total across all parts
-* **Format:** Submit as a single document organized by part number. Use clear headings for each section.
+* **Format:** Submit one PDF named `skills-lab-4a-lastname.pdf`. Use clear headings for each part and label both Questions & Analysis answers.
 
 ---
 
 ## 4.7 Review Questions 🔄️
 
-1. Explain how targeted advertising creates both economic value and privacy risk.
-2. Apply informed consent to a platform that collects location data in the background.
-3. Analyze how recommendation systems can affect autonomy and public trust.
-4. Should governments require age checks and algorithmic risk assessments? Defend your position and address one privacy concern.
+1. **Understand:** Explain how targeted ads create both value and privacy risk.
+2. **Apply:** Apply informed consent to a site that collects location data in the background.
+3. **Analyze:** Analyze how a feed tool can affect autonomy and public trust.
+4. **Evaluate:** Should a state require age checks and feed risk tests? Defend your view and address one privacy risk.
 
 ## Further Reading 📖
 
 * [FTC Disclosures 101 for Social Media Influencers](https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers) - The FTC explains how paid relationships should be disclosed.
-* [European Commission: Digital Services Act](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package) - The DSA sets platform duties for transparency, risk, and user protection.
+* [European Commission: Digital Services Act](https://digital-strategy.ec.europa.eu/en/policies/digital-services-act) - The DSA sets platform duties for transparency, risk, and user protection.
 * [FTC Children's Privacy Guidance](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy) - The FTC provides current COPPA compliance resources.
-* [HHS: Social Media and Youth Mental Health](https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html) - The Surgeon General's materials examine benefits, risks, and safety actions.
+* [EEOC Background Checks](https://www.eeoc.gov/background-checks) - The EEOC explains how equal employment law applies when firms check an applicant's background.
+* [HHS: Social Media and Youth Mental Health](https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media/index.html) - The Surgeon General's materials examine benefits, risks, and safety actions.
+* [California Law Review: Deep Fakes](https://www.californialawreview.org/print/deep-fakes-a-looming-challenge-for-privacy-democracy-and-national-security) - The article defines the liar's dividend and explains how fake media can weaken trust in real proof.
+
 ## Looking Ahead ⏩
 
-In Chapter 5, you will shift your focus from the ethical responsibilities of platforms to the ethical responsibilities of people within groups. When you discover that your employer is doing something wrong, what are your options? Chapter 5 examines whistleblowing, the legal protections available to those who report wrongdoing, and the fiduciary responsibilities groups have when they hold private information. You will apply the frameworks from this chapter to cases where personal conscience and professional loyalty come into direct conflict.
+Chapter 5 shifts from platform duties to the duty to speak up. You will study what to do when a worker finds harm inside a firm.

@@ -264,6 +264,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Libel:** Written or published defamation
 
+**Liar's dividend:** The chance for a person to deny real evidence by claiming that it is an AI-made fake.
+
 ## M
 
 **Malinformation:** True information shared with the intent to cause harm
