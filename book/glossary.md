@@ -2,16 +2,17 @@
 
 This glossary is the single source of truth for terms used in the CIS111 textbook. Each chapter defines a term when it first appears, then points here for review.
 
-## I
+## Symbols and Numbers
 
 **(ISC)² Code of Ethics:** A priority-ranked set of four canons governing cybersecurity professionals, backed by certification enforcement.
-
 
 ## A
 
 **Acceptable use policy (AUP):** A formal document defining how employees may use an organization's technology resources.
 
 **Accountability (AI):** The principle that clear lines of responsibility must exist for AI systems, so specific people or organizations are answerable when harm occurs.
+
+**Accountability gap:** A case in which many parties share an AI system but no one clearly owns the outcome or the response to harm.
 
 **ACM Code of Ethics:** A comprehensive code published by the Association for Computing Machinery, organized into four sections covering general ethical principles, professional responsibilities, leadership principles, and compliance.
 
@@ -45,7 +46,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Availability:** Systems and information accessible to authorized users when needed.
 
-
 ## B
 
 **Behavioral analytics:** Machine learning to establish normal-behavior baselines and detect anomalies.
@@ -59,7 +59,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Business associate:** A company handling PHI on behalf of a covered entity. Also subject to HIPAA.
 
 **BYOD:** Policy allowing employees to use personal devices for work, creating security and privacy challenges.
-
 
 ## C
 
@@ -131,7 +130,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Cyberstalking:** Using technology to repeatedly monitor, contact, or track a person in ways that cause fear, which is a criminal offense in all 50 U.S. states.
 
-
 ## D
 
 **Dark pattern:** A user interface design choice that manipulates users into actions they did not intend, exploiting trust for business benefit.
@@ -166,7 +164,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Dodd-Frank Act:** 2010 federal law that expanded whistleblower protections, added financial incentives for SEC reports, and strengthened anti-retaliation provisions.
 
-
 ## E
 
 **Electronic Communications Privacy Act (ECPA):** Federal law that generally prohibits intercepting electronic communications but includes a business use exception for employers
@@ -185,7 +182,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Ethics training:** Organizational programs designed to help employees recognize and respond to ethical issues.
 
-**EU AI Act:** European Union legislation that categorizes AI systems by risk level and imposes requirements on high-risk applications, with high-risk system requirements phasing in through 2026.
+**EU AI Act:** A European Union law that sets AI duties by risk level and phases its rules in over several years.
 
 **Eudaimonia:** Aristotle's concept of human flourishing, meaning living well and doing well.
 
@@ -194,7 +191,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Exploit:** A tool or technique that takes advantage of a vulnerability to compromise a system.
 
 **External whistleblowing:** Reporting to outside parties (regulators, law enforcement, media).
-
 
 ## F
 
@@ -216,7 +212,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Forensic image:** Exact bit-for-bit copy of a storage device, preserving evidence without altering the original.
 
-
 ## G
 
 **GDPR:** The EU's comprehensive data privacy law (2018) applying to any organization processing personal data of EU residents, regardless of where the organization is based
@@ -224,7 +219,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Golden Mean:** The idea that virtues are a balanced midpoint between two extremes (e.g., courage between cowardice and recklessness).
 
 **Green computing:** The practice of designing, manufacturing, using, and disposing of computing resources in environmentally responsible ways.
-
 
 ## H
 
@@ -234,10 +228,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **HIPAA:** Federal law setting national standards for health information protection.
 
-**Human oversight:** The principle that consequential decisions made or influenced by AI should include meaningful human review and the ability to override automated outcomes.
-
 **Human oversight (AI):** The principle that AI systems should operate under meaningful human supervision, especially for critical decisions.
-
 
 ## I
 
@@ -263,18 +254,15 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **IT user:** Any person who uses an organization's technology resources, including employees, contractors, and students.
 
-
 ## J
 
 **John Doe lawsuit:** A lawsuit filed against an unknown defendant, often used to unmask anonymous online speakers
-
 
 ## L
 
 **Laws:** Rules made by and enforced by the government, representing the bare minimum of societal expectations.
 
 **Libel:** Written or published defamation
-
 
 ## M
 
@@ -286,21 +274,19 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Misinformation:** False information shared without the intent to deceive
 
+**Model card:** A short report that states an AI model's intended use, key tests, known limits, and risks.
+
 **Morals:** Personal beliefs about right and wrong, shaped by family, culture, religion, and lived experience.
 
 **Multi-factor authentication (MFA):** Requires two or more independent verification methods to confirm identity.
-
 
 ## N
 
 **Negligence:** Liability based on failure to exercise reasonable care in developing or maintaining software.
 
-**NIST AI Risk Management Framework:** A voluntary US framework providing guidelines for managing risks associated with AI systems. A generative AI profile extending the framework to large language models was released in 2024.
-
-**NIST AI RMF:** A voluntary US framework (Govern, Map, Measure, Manage) for identifying, assessing, and mitigating AI risks throughout a system's lifecycle
+**NIST AI Risk Management Framework:** A voluntary US framework, also called the AI RMF, that uses Govern, Map, Measure, and Manage to address AI risk across a system's life.
 
 **NIST Cybersecurity Framework:** Framework organizing security into Identify, Protect, Detect, Respond, Recover.
-
 
 ## O
 
@@ -309,7 +295,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Open source:** A licensing philosophy that allows software to be freely used, modified, and distributed under specified conditions.
 
 **OWASP Top 10:** A regularly updated list of the most critical web application security risks.
-
 
 ## P
 
@@ -353,11 +338,9 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Purpose limitation:** Using personal data only for the purposes for which it was originally collected.
 
-
 ## Q
 
 **Qui tam:** FCA provision letting private citizens sue on behalf of the government and receive a portion of any recovery.
-
 
 ## R
 
@@ -378,7 +361,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Reverse engineering:** Analyzing a product to understand how it works, often for interoperability or competitive purposes.
 
 **Risk assessment:** Identifying, evaluating, and prioritizing threats based on likelihood and impact.
-
 
 ## S
 
@@ -428,7 +410,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Synthetic identity theft:** Combining real and fabricated information into a new identity.
 
-
 ## T
 
 **Targeted advertising:** Using collected user data to show ads based on a person's interests, behaviors, demographics, and online activity.
@@ -447,13 +428,11 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Transparency (AI):** The principle that organizations should be open about how their AI systems work and how decisions are made.
 
-
 ## U
 
 **Uniform Domain-Name Dispute-Resolution Policy (UDRP):** An ICANN-administered process for resolving domain name disputes involving trademarks.
 
 **Utilitarianism:** An ethical theory that judges actions by their outcomes, seeking the greatest good for the greatest number.
-
 
 ## V
 
@@ -462,7 +441,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Verifiable parental consent:** COPPA's requirement for provable parental or guardian permission before collecting a child's data
 
 **Virtue ethics:** An ethical theory focused on developing good character traits as the foundation for ethical behavior.
-
 
 ## W
 

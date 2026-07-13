@@ -2,9 +2,9 @@
 
 **Last updated:** 2026-07-12
 
-**Repository:** https://github.com/jor2050111/cis111
+**Repository:** [GitHub repository](https://github.com/jor2050111/cis111)
 
-**Live site:** https://jor2050111.github.io/cis111/
+**Live site:** [CIS111 textbook](https://jor2050111.github.io/cis111/)
 
 **Task list:** `CLAUDE_CODE_TASK_LIST_ID=cis111`, pinned in
 `.claude/settings.json`
@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-2 have completed their
-full plain-language and instructional reviews. Chapters 3-12 remain.
+yet the final publication edition. Chapters 1-3 have completed their
+full plain-language and instructional reviews. Chapters 4-12 remain.
 
 ## What Was Built
 
@@ -65,10 +65,18 @@ full plain-language and instructional reviews. Chapters 3-12 remain.
 * Chapter 2 measures Flesch 60.1 with a grade estimate of 7.8.
 * Chapter 2 reports zero Markdown lint errors and zero sentence-length
   flags.
+* Chapter 3 measures Flesch 60.1 with a grade estimate of 7.7.
+* Chapter 3 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 3 covers the five AI ethics principles, public governance
+  approaches from eight major AI labs, the EU AI Act, NIST AI RMF,
+  OECD AI Principles, and IEEE Ethically Aligned Design.
+* Chapter 3 source claims were checked against current primary sources
+  on 2026-07-12. Its source links were also tested.
 
 ## Remaining Work
 
-1. Rewrite Chapters 3-12 in plain language until each reaches the
+1. Rewrite Chapters 4-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -96,7 +104,7 @@ full plain-language and instructional reviews. Chapters 3-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 3. Run the sentence-length check, readability score,
+Begin with Chapter 4. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.

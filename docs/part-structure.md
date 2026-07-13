@@ -97,7 +97,7 @@
 * **AI Ethics Anchor:** AI governance as a corporate responsibility issue
   * Key AI ethics principles: fairness, transparency, accountability, explainability, human oversight
   * Algorithmic bias: how bias enters AI systems and who is harmed
-  * The global AI landscape: different ethical frameworks from OpenAI, Anthropic, Google DeepMind, Meta, xAI, ByteDance/Qwen, DeepSeek: and how national context shapes ethical approach
+  * The global AI landscape: different ethical frameworks from OpenAI, Anthropic, Google DeepMind, Meta, xAI, ByteDance Seed, Alibaba Cloud's Qwen, and DeepSeek, plus how national context shapes each approach
   * AI governance frameworks: EU AI Act, NIST AI Risk Management Framework, IEEE Ethically Aligned Design
   * Who is accountable when an AI system causes harm?
   * Green computing and the environmental ethics of large-scale AI training
