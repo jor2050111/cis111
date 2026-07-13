@@ -73,7 +73,7 @@ full plain-language and instructional reviews. Chapters 5-12 remain.
   OECD AI Principles, and IEEE Ethically Aligned Design.
 * Chapter 3 source claims were checked against current primary sources
   on 2026-07-12. Its source links were also tested.
-* Chapter 4 measures Flesch 67.2 with a grade estimate of 6.8.
+* Chapter 4 measures Flesch 66.5 with a grade estimate of 6.9.
 * Chapter 4 reports zero Markdown lint errors and zero sentence-length
   flags.
 * Chapter 4 includes current FTC guidance on COPPA, paid posts, the
