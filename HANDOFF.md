@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapter 1 has completed its full
-plain-language and instructional review. Chapters 2-12 remain.
+yet the final publication edition. Chapters 1-2 have completed their
+full plain-language and instructional reviews. Chapters 3-12 remain.
 
 ## What Was Built
 
@@ -62,10 +62,13 @@ plain-language and instructional review. Chapters 2-12 remain.
 * Chapter 1 measures Flesch 60.4 with a grade estimate of 7.8.
 * Chapter 1 reports zero Markdown lint errors and zero sentence-length
   flags.
+* Chapter 2 measures Flesch 60.1 with a grade estimate of 7.8.
+* Chapter 2 reports zero Markdown lint errors and zero sentence-length
+  flags.
 
 ## Remaining Work
 
-1. Rewrite Chapters 2-12 in plain language until each reaches the
+1. Rewrite Chapters 3-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -93,7 +96,7 @@ plain-language and instructional review. Chapters 2-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 2. Run the sentence-length check, readability score,
+Begin with Chapter 3. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.
