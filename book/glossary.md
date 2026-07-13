@@ -26,7 +26,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **AI-enabled retaliation monitoring:** Using AI-powered surveillance to monitor employee behavior and potentially suppress whistleblowing.
 
-**AI-generated works:** Content produced by artificial intelligence systems, currently ineligible for U.S. copyright protection when created without substantial human creative input.
+**AI-generated works:** Work made with an AI tool. US copyright can protect qualifying human-made parts, but not material generated without human authorship.
 
 **Alert fatigue:** Clinicians ignoring system-generated alerts due to their high volume.
 
@@ -86,7 +86,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Colorado AI Act:** A 2024 state law requiring companies to use reasonable care to protect consumers from algorithmic discrimination in consequential decisions, part of a growing wave of US state AI accountability legislation.
 
-**Competitive intelligence:** The practice of gathering publicly available information about competitors to inform business strategy.
+**Competitive intelligence:** The practice of using lawful and ethical sources to study a market or competitor.
 
 **Computer forensics (digital forensics):** Collecting, preserving, analyzing, and presenting digital evidence in a legally admissible way.
 
@@ -110,9 +110,9 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **COPPA:** A US federal law and rule for certain online services aimed at children under 13 or operators with actual knowledge that they collect a child's personal data.
 
-**Copyleft license:** An open source license (such as GPL) that requires derivative works to be released under the same license.
+**Copyleft license:** An open source license that may require distributed modified or combined works to use the same license and provide source under its terms.
 
-**Copyright:** Protection for original works of authorship fixed in tangible form, lasting the author's lifetime plus 70 years.
+**Copyright:** Protection for original expression fixed in a tangible form. The term depends on the work, author, date, and other facts.
 
 **Corporate governance:** The system of rules, practices, and processes by which a company is directed and controlled.
 
@@ -122,13 +122,13 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Covered entity:** A health plan, healthcare clearinghouse, or healthcare provider that conducts certain standard transactions electronically and is subject to HIPAA.
 
-**Creative Commons (CC):** A licensing system extending open source principles to non-software creative works.
+**Creative Commons (CC):** A set of standard public copyright licenses that creators can use to grant stated permissions for many non-software works.
 
 **Cross-site scripting (XSS):** A vulnerability allowing attackers to inject malicious scripts into web pages viewed by other users.
 
 **Cyberabuse:** The use of technology to harass, threaten, intimidate, or harm a person, including doxxing, cyberstalking, and coordinated online attacks.
 
-**Cybersquatting:** Registering domain names incorporating well-known trademarks with intent to profit from them.
+**Cybersquatting:** Registering, trafficking in, or using a domain name with a bad-faith aim to profit from another party's mark.
 
 **Cyberstalking:** Using technology to track or contact a person in a pattern that causes fear or distress. Federal, state, Tribal, or local law may apply.
 
@@ -152,7 +152,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Digital divide:** The gap between people with and without access to digital technology, which can widen health disparities.
 
-**Digital Millennium Copyright Act (DMCA):** A 1998 U.S. law that criminalizes circumvention of digital rights management and provides a notice-and-takedown process.
+**Digital Millennium Copyright Act (DMCA):** A 1998 US law with anti-circumvention rules and safe-harbor processes for qualifying online service providers.
 
 **Digital piracy:** Unauthorized copying, distribution, or use of copyrighted digital content.
 
@@ -198,7 +198,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## F
 
-**Fair use:** A legal doctrine allowing limited use of copyrighted material without permission, evaluated by a four-factor test.
+**Fair use:** A US copyright doctrine that permits some uses without the owner's consent, based on a four-factor test.
 
 **Fairness (AI):** The principle that AI systems should treat all people equitably and not systematically disadvantage any group.
 
@@ -308,7 +308,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Patch management:** Developing, testing, and distributing software updates that fix known vulnerabilities.
 
-**Patent:** An exclusive right to make, use, and sell an invention for a limited period (typically 20 years).
+**Patent:** A right to exclude others from listed acts involving a claimed invention for a limited term.
 
 **PCI DSS:** A private payment-card security standard that contracts and card-brand rules may require for groups that store, process, or send cardholder data.
 
@@ -408,7 +408,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Software defect (bug):** An error or unintended behavior that causes incorrect or unexpected results.
 
-**Software patent:** A patent covering software-related innovations. Controversial due to concerns about overly broad claims.
+**Software patent:** A patent with claims that cover an invention implemented through software. Eligibility and scope depend on the claims and law.
 
 **Software piracy:** The unauthorized copying, distribution, or use of copyrighted software.
 
@@ -434,11 +434,11 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Tone at the top:** The ethical standards demonstrated by an organization's leadership, which strongly influence employee behavior.
 
-**Trade secret:** Proprietary information that gives a company a competitive advantage, protected by law and professional obligation.
+**Trade secret:** Information that gains value from not being widely known and is subject to reasonable steps to keep it secret.
 
 **Trademark:** A word, phrase, symbol, or design that identifies the source of goods or services.
 
-**Training data:** The datasets used to train AI models, often including copyrighted material whose use is legally contested.
+**Training data:** Data used to train AI models. Its source, license, acquisition, copies, and use can affect the legal and ethical review.
 
 **Transparency (AI):** The principle that organizations should be open about how their AI systems work and how decisions are made.
 
@@ -464,4 +464,4 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Whistleblowing:** Reporting illegal, unethical, or harmful organizational activities to someone with corrective authority.
 
-**Work for hire:** A legal doctrine under which the employer, not the employee, owns the copyright for works created as part of employment.
+**Work for hire:** A copyright rule for work made within the scope of employment and certain commissioned works that meet category and writing requirements.

@@ -1,10 +1,16 @@
-# Chapter 9: Intellectual Property and Fair Use
+# Chapter 9: Intellectual Property, Fair Use, and AI
 
-In January 2023, three visual artists filed a class-action lawsuit against Stability AI, Midjourney, and DeviantArt. They claimed the firms trained image generators on copyrighted work without permission or compensation. The firms raised defenses that include fair use. The dispute shows why AI training requires both legal and ethical analysis. Courts must apply existing law to specific evidence, while creators and developers argue about consent, markets, and innovation.
+You build a website for a client. The logo came from an AI tool. A code
+library uses the GPL. A photo came from a web search. The client wants to
+own every part and stop anyone else from copying it.
 
-This chapter examines the legal and ethical foundations of **intellectual property (IP)**, the body of law that protects creative and innovative works. You will learn the four main types of IP protection, how **fair use** works, and why open source licensing represents a different philosophy about ownership. You will also confront hard questions in current IT ethics: Is downloading a movie without paying the same as theft? Can a firm reverse-engineer a competitor's product legally? Who, if anyone, owns the output of an AI system?
+That request raises several questions. Who created each part? Which law
+or license covers it? Did the project receive permission? Can one asset
+carry more than one type of protection?
 
-Whether you work in software development, IT support, web design, or data analytics, you will encounter IP choices regularly. Understanding the rules, and knowing where they are genuinely unclear, will help you make informed choices in your career.
+This chapter gives you a way to answer those questions. You will sort IP
+rights, apply fair use, check license duties, and build a record for AI
+output and training data.
 
 ## Module Overview 🧭
 
@@ -16,9 +22,9 @@ Whether you work in software development, IT support, web design, or data analyt
 
 By the end of this chapter, you will be able to:
 
-* **MLO-9.1 (Apply):** Apply the principles of copyright, patent, trademark, and trade secret law to classify industry-relevant IP scenarios
-* **MLO-9.2 (Analyze):** Analyze how fair use doctrine applies to digital content, open source licensing, and competitive intelligence practices
-* **MLO-9.3 (Evaluate):** Evaluate the ethical and legal arguments surrounding AI-generated works and the use of copyrighted training data
+* **MLO-9.1 (Apply):** Apply copyright, patent, trademark, and trade-secret tests to an IT asset
+* **MLO-9.2 (Analyze):** Analyze a digital use through fair use, license, attribution, and source records
+* **MLO-9.3 (Evaluate):** Evaluate an AI content policy for human authorship, training data, outputs, and market harm
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -26,228 +32,488 @@ By the end of this chapter, you will be able to:
 
 ---
 
-## 9.1 The Four Types of Intellectual Property
+## 9.1 Classify the Asset and the Right
 
-Intellectual property law grants creators and inventors certain exclusive rights over their work. Unlike physical property, IP protects intangible things: ideas expressed in a particular form, inventions, brand identities, and confidential business information. There are four main types of IP protection, each designed for a different kind of work. Understanding the differences matters because using the wrong framework, or ignoring these protections entirely, can have serious legal and ethical effects.
+**Intellectual property (IP)** includes legal rights tied to creative
+work, inventions, source marks, and secret business facts. The same
+product can contain several forms of IP.
 
-### Copyright
+A phone may contain copyrighted code, patented hardware, a trademarked
+name, and trade-secret design work. Start with the asset, not the label.
 
-**Copyright** protects original works of authorship that are fixed in a tangible form. This includes books, music, software code, photographs, videos, website content, and architectural designs. Copyright protection is automatic: the moment you write a poem, take a photograph, or commit code to a repository, you own the copyright. You do not need to register it, though registration provides additional legal benefits if you ever need to enforce your rights in court.
+Use this six-line IP card:
 
-Copyright gives the owner several exclusive rights: to reproduce the work, distribute copies, create derivative works, and publicly display or perform it. For works created by people, protection lasts the author's lifetime plus 70 years. For **works for hire**, such as software written by a worker as part of the job, the employer owns the copyright. Protection lasts 95 years from publication or 120 years from creation, whichever is shorter.
+1. **Asset:** What exact code, image, name, process, or fact is at issue?
+2. **Creator or source:** Who made it, and how did the firm obtain it?
+3. **Protection:** Does copyright, patent, trademark, trade-secret law, or a mix fit?
+4. **Owner or claimant:** Who may hold the right under law or contract?
+5. **Right to use:** Which license, assignment, exception, or consent allows the use?
+6. **Proof:** Which file, date, filing, contract, or source record supports the answer?
 
-One point matters for IT professionals: **copyright protects an idea's expression, not the idea itself.** You can write your own sorting algorithm, but you cannot copy someone else's implementation. Two people can independently write programs that do the same thing, and both programs are separately copyrightable. The protection covers the specific expression in code.
+The card can reveal two claims to check. It can also show that no IP
+right covers the exact object.
 
-### Patents
+### Copyright and Work for Hire
 
-A **patent** gives an inventor the exclusive right to make, use, and sell an invention for a limited time, typically 20 years from the filing date. Unlike copyright, patents require a formal application process through the United States Patent and Trademark Office (USPTO) or equivalent agencies in other countries. The invention must be novel, non-obvious, and useful.
+**Copyright** protects original expression fixed in a tangible form.
+Books, art, music, film, and code may qualify. It does not protect an
+idea, process, system, or method by itself.
 
-In IT, patents cover hardware inventions, manufacturing processes, and sometimes software-related innovations. **Software patents** have been controversial for decades. Critics argue that many software patents are too broad or too obvious, and that they stifle innovation instead of encourage it. A single smartphone may involve thousands of patents held by dozens of firms, and patent disputes in the tech industry have produced massive lawsuits and complex licensing agreements that can take years to resolve.
+Rights start when an eligible work is fixed. A saved file, page, disk,
+or film can be a fixed form. The author does not have to file first. For
+a work from the United States, the owner must usually register the work
+before filing an infringement suit. A prompt filing can bring more
+benefits.
 
-### Trademarks
+How long the right lasts depends on who made the work and when. A new
+work by one named person often lasts for the author's life plus 70 years.
+Other terms apply to some works with no named author and to works for
+hire.
 
-A **trademark** protects words, phrases, symbols, logos, or designs that identify the source of goods or services. The Apple logo, the Nike swoosh, and the phrase "Just Do It" are all trademarks. Trademarks prevent consumer confusion by ensuring that when you see a particular brand name or logo, you know who made the product.
+A **work for hire** may be made by a worker as part of a job. Some work
+ordered from an outside maker can also qualify. The work must fit a type
+listed in the law, and both sides must sign the right kind of deal.
+Payment or a contractor label alone does not make all work a work for
+hire.
 
-Trademark protection can last indefinitely, as long as the mark is actively used in commerce and the owner takes steps to defend it. For IT professionals, trademarks matter in web development, app design, domain name registration, and anywhere brand identity intersects with technology.
+The
+[USPTO copyright basics page](https://www.uspto.gov/ip-policy/copyright-policy/copyright-basics)
+explains fixation, exclusive rights, registration, and common terms.
 
-### Trade Secrets
+### Patents and Software Inventions
 
-A **trade secret** is confidential business information that provides a competitive advantage. The classic example is the Coca-Cola formula, but in IT, trade secrets more commonly include proprietary algorithms, customer databases, pricing strategies, and internal business processes. Unlike patents, trade secrets have no expiration date and require no registration. The catch is that the owner must take reasonable steps to keep the information secret. If a trade secret is publicly disclosed, whether through a leak, reverse engineering, or carelessness, the protection is lost.
+A **patent** gives its owner a right to exclude others from acts such as
+making, using, selling, offering to sell, or importing the claimed
+invention in the United States. It does not by itself give the owner a
+right to practice the invention. Another patent or law may still block
+use.
 
-The **Defend Trade Secrets Act (DTSA)** of 2016 created a federal cause of action for trade secret theft. For IT workers, this is especially relevant: the code you write, the systems you build, and the data you access at work may all be classified as trade secrets by your employer.
+A utility patent usually runs for 20 years from the relevant US filing
+date, subject to legal rules and fees. The claimed invention must meet
+requirements such as eligible subject matter, novelty, usefulness, and
+nonobviousness.
 
+A **software patent** is not a patent on every line of code. It claims an
+invention that may use software. Patent eligibility and claim scope can
+be hard legal questions. Do not tell a team that a useful app idea is
+patented until a source record proves an issued claim covers it.
 
-### Try It Yourself 9.1: Test Your First Judgment 🛠️
+The [USPTO patent essentials](https://www.uspto.gov/patents/basics/essentials)
+page explains the right and process.
 
-**Predict:** You create a mobile app on your own time using your own equipment. Your employer claims it belongs to them because it is related to the firm's business. What type of IP protection is most relevant here, and who do you think should own the app? What facts would you need to know to decide?
+### Trademarks and Source Identity
 
-**Run:** Apply the main framework or choice test from Section 9.1. Identify the stakeholder whose interest carries the most weight.
+A **trademark** can protect a word, phrase, symbol, design, or other mark
+that identifies the source of goods or services. The key question is
+source and likely confusion, not who first drew a logo.
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+US rights may grow from use. Federal registration can add benefits.
+Rights can continue while the mark remains in protected use and the
+owner meets legal duties.
+
+A logo may have both trademark and copyright issues. The drawing might
+contain protected expression. The same logo may also tell buyers which
+firm stands behind a product.
+
+### Trade Secrets and Secrecy
+
+A **trade secret** is information that gains value from not being widely
+known and is subject to reasonable steps to keep it secret. Code, a model
+method, a customer list, or a pricing plan may qualify.
+
+Trade-secret law protects against misappropriation. It does not create a
+right against every independent discovery or lawful reverse engineering.
+Once secrecy is lost, the trade-secret basis may be lost as well.
+
+The **Defend Trade Secrets Act (DTSA)** gives a federal civil claim for
+certain trade-secret misappropriation. State law and contracts may also
+apply.
+
+**Worked IP card:** A small web shop creates a site for a bakery. One
+worker writes the code as part of the job. A freelance artist draws the
+logo under a short email deal. The bakery gives the shop a secret price
+list. The owner also says a new order step is "patent pending."
+
+Start with each asset. The code may raise copyright and work-for-hire
+facts. The logo may raise copyright, trademark, and contract facts. The
+price list may be a trade secret if it has value and the bakery guards
+it. The order step needs a patent file number and claim check. The words
+"patent pending" do not prove that a patent was granted.
+
+The shop should keep the job record, artist deal, logo source files,
+secret-data rules, and patent source. One broad line that says "the
+client owns it all" does not show how each right moved.
+
+### Try It Yourself 9.1: Classify a Side Project 🛠️
+
+**Predict:** You build an app at home on your own device. The app serves
+the same market as your employer. The firm claims ownership. Who owns it?
+
+**Run:** Complete all six lines of the IP card. Include
+job scope, contract, tools, time, code source, and any patent claim.
+
+**Explain:** In 1-2 sentences, name the strongest possible right and the
+missing fact that controls your answer.
 
 ### Quick Check 9.1 ✅
 
-1. What is the key difference between copyright and patent protection? Give an example of something protected by each. *(Understand)*
-2. A software firm keeps its recommendation algorithm confidential and requires all staff to sign nondisclosure agreements. What type of IP protection applies, and what could cause the firm to lose that protection? *(Apply)*
-3. Explain why copyright protects the expression of an idea but not the idea itself. Why does this distinction matter for software developers? *(Analyze)*
+1. What does each of the four main IP types protect? *(Understand)*
+
+2. Why does a contractor payment not by itself prove work-for-hire status? *(Apply)*
+
+3. How can one logo raise both copyright and trademark questions? *(Analyze)*
 
 ---
 
-## 9.2 Fair Use, Open Source, and Digital Licensing
+## 9.2 Check Permission, Fair Use, and Open Licenses
 
-Understanding IP types is only half the picture. Equally important is knowing when and how others can legally use protected works. This section covers three frameworks that define the boundaries of legitimate use: fair use doctrine, open source licensing, and the broader ethics of digital content sharing.
+Finding an owner does not end the check. Next, ask if the planned use is
+allowed.
 
-### Fair Use Doctrine
+The right to use a work may come from a license, assignment, public-
+domain status, legal exception, or the owner's consent. Keep proof with
+the asset.
 
-**Fair use** is a legal doctrine built into U.S. copyright law (Section 107 of the Copyright Act) that allows limited use of copyrighted material without permission. Fair use exists because rigid copyright enforcement could stifle criticism, education, commentary, and creativity. A book reviewer needs to quote passages. A teacher needs to share excerpts with students. A comedian needs to parody a popular song. Fair use makes these activities possible.
+### Apply All Four Fair Use Factors
 
-Courts evaluate fair use claims using four factors:
+**Fair use** is a US copyright rule that permits some uses without the
+owner's consent. Section 107 names examples such as criticism, comment, news,
+teaching, scholarship, and research. Those labels do not make a use fair
+by themselves.
 
-1. **The purpose and character of the use.** Is the use commercial or nonprofit/educational? Is it "transformative," meaning it adds new meaning, expression, or purpose to the original? Transformative uses are more likely to qualify as fair use.
-2. **The nature of the copyrighted work.** Using factual works (like news articles) is more likely to be considered fair use than using highly creative works (like novels or music).
-3. **The amount used.** Using a small portion of a work is more defensible than using the entire thing. However, even a small amount can fail the fair use test if it represents the "heart" of the original work.
-4. **The effect on the market.** Does the use substitute for the original, potentially reducing sales or licensing revenue? If so, it is less likely to qualify as fair use.
+Courts weigh four factors:
 
-No single factor is decisive. Courts weigh all four together, which makes fair use inherently unpredictable, and that ambiguity is one of the biggest challenges for IT professionals and content creators who want to stay within the law.
+1. **Purpose and character:** Is the use commercial or nonprofit educational? Does it add a new purpose or character instead of serving as a substitute?
+2. **Nature of the work:** Is the source more factual or creative? Is it published?
+3. **Amount and importance:** How much was used, and was the part central to the work?
+4. **Market effect:** Does the use replace the source or harm a current or likely market?
 
-### Fair Use in Digital Contexts
+No fixed word count, percent, or classroom label guarantees fair use. A
+court weighs the full record. The
+[Copyright Office fair use guide](https://www.copyright.gov/fair-use/more-info.html)
+explains each factor and the case-specific test.
 
-Digital technology has made copying trivially easy and distribution instantaneous, which puts enormous pressure on fair use boundaries. Consider a few common cases:
+Use a fair use sheet with these rows:
 
-* **Search engines** display thumbnail images and text snippets from websites. Courts have generally ruled this is fair use because it is transformative (helping users find information) and does not replace the original content.
-* **Memes** often incorporate copyrighted images with new captions or contexts. Most memes probably qualify as fair use due to their transformative nature, though this has not been definitively tested in court.
-* **Educational use** is often assumed to be automatically fair use, but that is a misconception. Photocopying an entire textbook chapter for a class, or uploading a full copyrighted article to a course website, may exceed fair use limits even in educational settings.
+* The exact source work
+* The exact amount copied
+* The new purpose and audience
+* Access controls and reach
+* Current and likely license markets
+* A fact for and against fair use under each factor
 
-### Case Study 9.1 - The Google Books Scanning Project 📋
+This sheet prevents a one-factor answer.
 
-**The Situation:** Beginning in 2004, Google partnered with major research libraries to scan millions of books and make them searchable through Google Books. Users could search the full text of books and view short snippet results showing a few sentences around their search terms. For books still under copyright, Google displayed only these limited snippets, not the full text. Google did not obtain permission from the authors or publishers before scanning their works.
+### Learn from Google Books
 
-The Authors Guild filed a lawsuit in 2005 and argued that Google's mass scanning infringed copyright. The case moved through courts for more than a decade. Google argued that its searchable index was transformative. It helped readers find books and gave visually impaired users new access through text-to-speech tools. The Authors Guild countered that Google profited from unauthorized copies and could reduce incentives for authors.
+Google scanned books to build a search index. It showed short snippets
+for many books still under copyright. The Second Circuit found fair use
+because of facts that included the search purpose, limited display, and
+market analysis.
 
-In 2015, the Second Circuit Court of Appeals ruled in Google's favor, finding that the project qualified as fair use. The court emphasized the transformative purpose of the search function, the limited amount of text displayed to users, and evidence that the project increased book sales instead of undermining them. The Supreme Court declined to hear the case, leaving the ruling in place.
+The decision did not make all mass copying fair. A later system may have
+a different purpose, output, source, or market effect. The Copyright
+Office provides a concise
+[Authors Guild v. Google summary](https://www.copyright.gov/fair-use/summaries/authorsguild-google-2dcir2015.pdf).
 
-**Stakeholders:**
+### Read the Open Source License
 
-* **Google** gained a massive searchable database and increased traffic to its platform, reinforcing its position as the world's information gateway
-* **Authors and publishers** lost control over how their copyrighted works were used and received no direct compensation from the scanning
-* **Researchers and the public** gained the ability to search millions of books instantly, a capability that previously did not exist
-* **Libraries** preserved fragile collections digitally and expanded access to rare works
-* **Visually impaired readers** gained access to books through text-to-speech features enabled by the digital scans
+**Open source** software still has a license. The license grants rights
+and sets conditions. A public repository is not the same as public
+domain.
 
-**Questions to Consider:**
+A **permissive license** grants broad reuse with a small set of duties.
+The MIT License, for example, requires the copyright and permission
+notice in copies or substantial portions. Apache 2.0 also addresses
+notices, changes, and a patent license.
 
-1. The court found Google's use "transformative" because it created a new functionality (search) instead of substituting for the original books. Do you agree with this reasoning? Where would you draw the line between a transformative use and simple copying?
-2. Consider this case from the perspective of a midlist author who earns modest royalties. Does the fact that the project may increase overall book sales adequately address the ethical concern of using their work without permission?
-3. How might this ruling affect future cases involving large-scale data collection, such as the AI training data disputes described later in this chapter?
+A **copyleft license** can require distributed modified or combined work
+to use the same license and provide source under its terms. The result
+depends on the license version, how code is combined, and whether the
+work is distributed. "GPL code makes all code open" is too broad.
 
-### Open Source Licensing
+Check the actual license text. Record:
 
-Not everyone believes in restricting access to creative works. The **open source** movement represents a fundamentally different philosophy: that software (and increasingly other creative works) should be freely available for anyone to use, modify, and distribute. Open source is not the absence of licensing. It is a specific set of licensing models that define how freely shared works can be used.
+* Package name and version
+* Source and download date
+* License and notice files
+* How the project uses or links the code
+* Whether the project will be shared or sold
+* Attribution, source, patent, and change duties
 
-The most common open source licenses fall into two categories:
+### Distinguish CC and Public Domain
 
-* **Permissive licenses** (such as the MIT License and Apache License) allow nearly unrestricted use, such as incorporating open source code into commercial products. The main requirement is attribution: you must credit the original creators.
-* **Copyleft licenses** (such as the GNU General Public License, or GPL) require that any derivative work be released under the same license. This means that if you use GPL-licensed code in your software, your software must also be open source. This "viral" quality is intentional: it ensures that improvements to the codebase remain freely available.
+**Creative Commons (CC)** provides standard public copyright licenses
+for many non-software works. A CC license may require credit, limit
+commercial use, bar changes, or require the same license for adaptations.
 
-Open source software can accelerate innovation and reduce barriers for new developers. Public source code also supports transparency because anyone can audit it for security flaws.
+The **public domain** contains work with no copyright restriction for the
+planned use. A work may enter because its term ended, copyright never
+applied, or the owner used a valid dedication. A free download does not
+prove public-domain status.
 
-However, open source raises its own ethical questions. Firms sometimes build profitable products on top of free open source code without contributing back to the community. Volunteer open source developers often burn out maintaining critical infrastructure that millions depend on. The **Creative Commons (CC)** licensing system extends similar principles to non-software works like textbooks (such as this one), photographs, and music.
+**Worked permission check:** A student club makes a public web page. It
+wants to post a full song, one photo, and a short quote from a news story.
+The club has no ad sales, but the page is open to anyone.
 
+The full song may replace a stream or sale. A class or club goal does not
+make that copy fair. The photo needs a source and license check. Credit
+is good practice, but credit alone does not grant a right. The short news
+quote may have a stronger fair use case when it supports comment and
+uses no more than the point needs.
 
-### Try It Yourself 9.2: Test Your First Judgment 🛠️
+The club can lower risk. It can link to the song, use its own photo, and
+quote a small part with clear credit. The team should save the source,
+license, date, amount, and reason for each choice.
 
-**Predict:** Many of the tools you use every day, from web browsers to operating systems to programming languages, are built on open source code. Should firms that profit from open source software be ethically obligated to contribute back to the projects they depend on? Why or why not?
+### Try It Yourself 9.2: Audit a Website Asset 🛠️
 
-**Run:** Apply the main framework or choice test from Section 9.2. Identify the stakeholder whose interest carries the most weight.
+**Predict:** A team copies an image from a public website into a paid app
+and credits the photographer. Is credit enough?
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Run:** Check ownership, source, license, public-domain status, and all
+four fair use factors. Mark each missing fact.
+
+**Explain:** In 1-2 sentences, choose use, replace, license, or seek
+review. Name the proof the team must keep.
 
 ### Quick Check 9.2 ✅
 
-1. List the four factors courts use to evaluate a fair use claim. Which factor do you think is most important in digital contexts, and why? *(Understand)*
-2. A student uploads a full copyrighted documentary to a class discussion board so classmates can watch it for an assignment. Analyze whether this qualifies as fair use by applying the four-factor test. *(Analyze)*
-3. What is the key difference between a permissive open source license (like MIT) and a copyleft license (like GPL)? Why does this distinction matter for a firm building commercial software? *(Apply)*
+1. Name the four fair use factors. *(Understand)*
+
+2. Why can a whole-work copy still require a full four-factor analysis? *(Analyze)*
+
+3. Compare one MIT duty with one possible GPL duty. *(Apply)*
 
 ---
 
-## 9.3 Plagiarism, Piracy, and Competitive Intelligence
+## 9.3 Protect Integrity in Digital Reuse
 
-IP law sets legal boundaries, but many IT choices fall in gray areas. The law may be unclear, vary by location, or lag behind current practice. This section examines plagiarism, digital piracy, reverse engineering, and competitive intelligence.
+Law and honesty ask different questions. A use may need permission and
+credit. It may need one, both, or neither.
 
-### Plagiarism in IT Contexts
+### Separate Plagiarism from Infringement
 
-**Plagiarism** is presenting someone else's work, ideas, or expressions as your own without proper attribution. In academic settings, plagiarism is a serious integrity violation. In professional IT settings, it takes different forms: copying code from Stack Overflow without attribution, reusing a colleague's design in a portfolio, or submitting vendor documentation as your own analysis.
+**Plagiarism** presents another person's work or idea as one's own. It is
+an integrity failure. **Copyright infringement** is an unauthorized act
+that violates an owner's exclusive right without a valid defense.
 
-Plagiarism and copyright infringement overlap but are not identical. You can plagiarize an uncopyrighted idea by presenting it without credit. You can also infringe copyright while naming the creator if you lack the right to copy or distribute the work. Plagiarism is dishonest because it misrepresents the source and weakens trust.
+A person can plagiarize a public-domain idea by hiding its source. A
+person can also name an author and still infringe by posting the full
+protected work without permission.
 
-For IT professionals, code plagiarism raises particular concerns. Open source code is meant to be reused, but even open source licenses typically require attribution. Copying proprietary code from a previous employer into a new project can violate trade secret protections and employment agreements. Knowing what you can reuse and how to credit it is a practical skill every IT worker needs.
+For code, keep the author, project, URL, version, license, and change
+record. Attribution is part of trust and may also be a license duty.
 
-### Digital Piracy
+### Understand Piracy and the DMCA
 
-**Digital piracy** refers to the unauthorized copying, distribution, or use of copyrighted digital content, such as software, music, movies, games, and e-books. The scale of digital piracy is enormous. Industry groups estimate billions of dollars in annual losses, though the specific figures are debated because not every pirated copy represents a lost sale.
+**Digital piracy** is copying, sharing, or using protected online work
+without the right to do so. A copy may leave the source intact. That fact
+does not grant a right to make the copy.
 
-The ethical arguments around piracy are complex. Opponents argue that creators deserve payment and that piracy weakens incentives to create. Others note that copying a digital file does not remove the owner's original. They also question whether every unauthorized copy represents a lost sale. Restrictive prices and regional limits may further shape consumer choices.
+The **Digital Millennium Copyright Act (DMCA)** has rules about bypassing
+locks that control access. It also gives some online service firms a way
+to limit risk if they meet the law's rules. Notice and counter-notice
+steps are part of that process.
 
-The **Digital Millennium Copyright Act (DMCA)** of 1998 is the primary U.S. law addressing digital piracy. It criminalizes the circumvention of **digital rights management (DRM)** technologies and provides a "notice and takedown" process for copyright holders to request removal of infringing content. Critics argue the DMCA is overly broad, chilling legitimate uses like security research and archival preservation.
+Some cases are exempt. The Copyright Office reviews added exemptions on
+a set cycle. Do not call each bypass lawful or unlawful from one fact.
+Check the device, the lock, the goal, and the current rule.
+The Copyright Office maintains
+[DMCA resources](https://www.copyright.gov/dmca/).
 
-### Reverse Engineering and Competitive Intelligence
+**Digital rights management (DRM)** is a tool that controls access or
+use. Breaking DRM may raise a copyright-use question. It may also raise
+a separate DMCA lock-bypass question.
 
-**Reverse engineering** is the process of analyzing a product to understand how it works, often to build a competing product or ensure compatibility. In IT, this might mean decompiling software, analyzing network protocols, or studying how a competitor's system handles data.
+### Check Reverse Engineering and Competitive Intelligence
 
-The legal status of reverse engineering depends heavily on context. U.S. courts have generally allowed it for achieving interoperability or conducting security research. However, the DMCA's anti-circumvention provisions create complications: if reverse engineering requires bypassing DRM or other technical protections, it may violate the law even if the underlying purpose is legitimate.
+**Reverse engineering** studies a product to learn how it works. A team
+may seek compatibility, repair, security facts, or a competing design.
 
-**Competitive intelligence** is the practice of gathering information about competitors to inform business strategy. Most of it is perfectly legal: reading public filings, attending trade shows, analyzing publicly available products, and monitoring news coverage. The line gets crossed when firms use deceptive practices to obtain information, recruit staff primarily to extract trade secrets, or access proprietary systems without authorization.
+The legal result can depend on lawful access, contract terms, copies
+made, trade secrets, patents, and DMCA rules. A broad claim that US law
+always permits reverse engineering for compatibility is unsafe.
 
-### Trademark Infringement and Cybersquatting
+**Competitive intelligence** uses lawful and ethical sources to study a
+market or rival. Public filings, product tests, job posts, and trade-show
+facts may be fair sources. Deception, unauthorized access, or taking a
+trade secret crosses a different line.
 
-While copyright and patent disputes get more attention, trademark violations are common online. **Trademark infringement** occurs when someone uses a confusingly similar mark that may mislead consumers. Examples include domain names, app names, or website designs that imitate established brands.
+Use a source test:
 
-**Cybersquatting** is the practice of registering domain names that incorporate well-known trademarks with the intent to profit from them, typically by selling the domain back to the trademark holder at an inflated price. The **Anticybersquatting Consumer Protection Act (ACPA)** of 1999 and the **Uniform Domain-Name Dispute-Resolution Policy (UDRP)** administered by ICANN provide legal remedies for affected trademark holders.
+1. Did the team gain access lawfully?
+2. Did a contract limit the planned act?
+3. Will the test copy, bypass, or expose protected material?
+4. Is the goal compatibility, security, repair, study, or direct copying?
+5. Can the team document an independent design?
 
+### Protect Marks and Domain Names
 
-### Try It Yourself 9.3: Test Your First Judgment 🛠️
+**Cybersquatting** uses a domain name tied to another's mark with a bad-
+faith aim to profit. The **Anticybersquatting Consumer Protection Act
+(ACPA)** creates a US claim. The **Uniform Domain-Name Dispute-Resolution
+Policy (UDRP)** offers an ICANN process for certain domain disputes.
 
-**Predict:** A friend tells you they pirate all their software because they cannot afford to buy it. They argue that they are not hurting anyone since they would never have paid for it anyway. How would you respond? Does it matter whether the software is made by a large corporation or an independent developer?
+Not every similar domain is cybersquatting. The mark, similarity, rights,
+legitimate interest, use, and bad-faith facts matter.
 
-**Run:** Apply the main framework or choice test from Section 9.3. Identify the stakeholder whose interest carries the most weight.
+**Worked reuse check:** A startup wants its app to open files made by a
+rival tool. The team buys a normal copy of the rival app. It reads the
+public help guide, creates test files, and maps the file header. No one
+uses a stolen key or signs in to a private server.
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+Those facts support a fair study goal, but they do not end the review.
+The team must read the app contract and check which copies its test will
+make. It must ask whether an access lock will be bypassed. It should use
+a clean design record that shows how the new code came from test results,
+not copied source.
+
+If a former rival worker joins the team, the firm should block use of
+old source code and secret files. The worker may use skill and know-how
+that the law and contract allow, but the project should not use a trade
+secret as a shortcut.
+
+### Try It Yourself 9.3: Review a File-Format Test 🛠️
+
+**Predict:** A startup studies a rival's file format so users can move
+their own files. Is the plan ethical and lawful?
+
+**Run:** Apply the five source tests. Add the contract, DMCA, patent,
+trade-secret, and independent-design facts counsel should review.
+
+**Explain:** In 1-2 sentences, choose proceed, change, or pause. Name the
+control that best protects a fair competing design.
 
 ### Quick Check 9.3 ✅
 
-1. Explain the difference between plagiarism and copyright infringement. Can you commit one without the other? Give an example of each. *(Understand)*
-2. A startup reverse-engineers a competitor's file format so that its own product can import the competitor's files. Analyze whether this practice is ethical by considering the interests of all stakeholders involved. *(Analyze)*
-3. Apply the ethical frameworks from Chapter 1 (utilitarianism and deontology) to the debate over digital piracy. What does each framework say about the ethics of downloading copyrighted content without paying? *(Apply)*
+1. Give one case of plagiarism without copyright infringement. *(Understand)*
+
+2. Why can a DRM bypass raise two separate legal questions? *(Analyze)*
+
+3. Apply the source test to a worker who brings code from a former employer. *(Apply)*
 
 ---
 
-## 9.4 AI and Intellectual Property: Uncharted Territory
+## 9.4 Record Human and AI Contributions
 
-The rise of generative AI has created some of the most challenging IP questions the legal system has ever faced. When an AI system produces a painting, writes a poem, or generates code, who owns the result? When AI firms train their models on billions of copyrighted works scraped from the internet, did they infringe copyright or engage in fair use? These questions are being fought in courtrooms right now, and the answers will shape the future of creative work, software development, and the technology industry.
+Generative AI can help draft text, code, art, and sound. It can also hide
+who made a key choice and which sources shaped the output.
 
-### Who Owns AI-Generated Works?
+Keep two questions separate. Can the output receive copyright? Did the
+training or output infringe someone else's right?
 
-Under current U.S. copyright law, only works created by human beings can be copyrighted. The U.S. Copyright Office has consistently held that the human mind's connection to creative expression is a fundamental requirement. In 2023, the Copyright Office issued guidance clarifying that purely AI-generated content cannot be registered. If you type a prompt into an image generator and it produces a picture, you do not own the copyright because you did not create the expressive elements yourself.
+### Test Human Authorship
 
-However, the situation becomes more complex when humans and AI collaborate. If a human author makes substantial creative choices, such as selecting, arranging, and editing AI-generated elements into a larger work, those human-authored elements may be copyrightable. The Copyright Office has handled these cases individually, and the boundary between "human-authored with AI assistance" and "AI-generated" is not yet clearly defined.
+The U.S. Copyright Office states that copyright protects work made by a
+human. AI help does not bar a claim. Ask which parts a person chose and
+shaped.
 
-This creates practical problems for IT professionals and businesses. If AI-generated code cannot be copyrighted, can competitors freely copy it? If a marketing team uses AI to produce advertising images, does the firm have any IP protection for those images? These uncertainties are already affecting business choices.
+Prompts alone do not prove that a person made each part the model chose.
+A person's own text, art, choice of parts, layout, or edit may qualify
+when it meets the normal test.
 
-### AI Training Data and Copyright
+The Office's
+[AI report on copyright](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf)
+explains this rule. A person who files may need to name the human-made
+parts. The claim may need to leave out AI-made parts that are more than
+minor.
 
-The other side of the AI-IP debate concerns the data used to train AI systems. Large language models and image generators are trained on enormous datasets that typically include copyrighted material: books, articles, photographs, artwork, and source code scraped from the internet. AI firms argue this training process is fair use because models learn patterns instead of storing or reproducing specific works. Critics argue that training on copyrighted material without permission is infringement, regardless of how the data is processed internally.
+Use a human-work record:
 
-Several major lawsuits are testing these arguments. The *New York Times v. Microsoft and OpenAI* case, filed in late 2023, alleges that ChatGPT can reproduce substantial portions of Times articles verbatim. Other cases brought by authors, visual artists, and music publishers raise similar claims against various AI firms, and Getty Images sued Stability AI for training on millions of its copyrighted photographs.
+* Tool and model version
+* Human source work supplied to the tool
+* Prompt and settings that matter
+* Raw outputs kept for comparison
+* Human choice of parts, layout, text, art, and edits
+* Third-party material found in the output
+* Final claimant and limits on the claim
 
-The outcome of these cases will have enormous effects. If courts rule that training on copyrighted data is not fair use, AI firms may need to license training data, fundamentally changing the economics of AI development. If courts rule that training is fair use, creators may lose meaningful control over how their works are used.
+This record supports an honest client promise. It does not guarantee
+that the final work receives protection.
 
-### The Global Dimension
+### Analyze Training Use with Facts
 
-Different countries are taking different approaches. The European Union's AI Act includes provisions about transparency in training data, requiring firms to disclose what copyrighted material was used. Japan has taken a more permissive stance, generally allowing AI training on copyrighted works for the purpose of information analysis. These differences create challenges for global technology firms that must comply with varying legal frameworks across jurisdictions.
+There is no rule that all AI training is fair use or that none is. A US
+fair use check may turn on how the firm got the copies, why it used them,
+how much it used, what the tool makes, and how the use may harm a market.
 
-As you learned in Chapter 8, different regulatory philosophies reflect different ethical values. The EU's precautionary approach prioritizes creator rights and transparency. Japan's permissive approach prioritizes innovation and competitiveness. The United States is relying on a case-by-case judicial approach, letting courts decide instead of enacting comprehensive legislation. Each reflects a different assumption about how to balance innovation against the rights of existing creators.
+The Copyright Office's 2025
+[report on AI training](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf)
+applies current copyright law to many kinds of training acts. It also
+covers licenses and who may bear risk across the AI chain.
 
-### Current U.S. Copyright Office Guidance on AI
+Build a training record with:
 
-The [U.S. Copyright Office AI initiative](https://www.copyright.gov/ai/) separates three questions. Part 1 of its report addresses digital replicas. Part 2 addresses whether AI-assisted outputs contain enough human authorship for copyright protection. Part 3 examines the use of copyrighted works in generative AI training.
+* Data source, date, and how the firm got it
+* Public-domain, licensed, and unknown groups
+* Ways to opt out, remove a work, or fix a record
+* Copies kept at each stage
+* Test results for close copies or recalled work
+* Current and likely license markets
+* Vendor, model maker, deployer, and user duties
 
-The Office states that prompts alone do not make a person the author of every expressive element in an output. Human-created selection, arrangement, or modification may receive protection when it meets normal copyright standards. Training disputes still require fact-specific legal analysis, such as the fair use factors and the evidence in a case.
+Then apply all four fair use factors to the exact act. A copied training
+set, model weights, and AI output may raise separate questions.
 
-When you use AI-generated material, record what the tool produced and what a person selected, changed, arranged, or wrote. Check for recognizable third-party material and confirm license duties. Do not promise a client exclusive ownership until the authorship and source questions have been reviewed.
+### Separate Style from a Specific Work
 
-### Try It Yourself 9.4: Test the Boundary 🛠️
+Copyright does not give one creator a broad right over an artistic style
+by itself. A specific work or protected part may still be copied. A name,
+false endorsement, mark, contract, or other law may add a separate claim.
 
-**Predict:** Which option in this section creates the least ethical risk?
+Do not stop at "style is not copyrightable." Compare the output with
+identified source works. Check repeated elements, composition, text,
+watermarks, and other evidence of copying.
 
-**Run:** Apply one ethical framework and one stakeholder test from Section 9.4.
+### Set a Responsible AI Content Policy
 
-**Explain:** Defend your result with one fact from the section.
+A sound policy should require:
+
+* Approved tools and data settings
+* A source and license check for supplied material
+* A human-work record for final work
+* A close-output and mark review
+* Clear client terms about ownership limits
+* A report, removal, and appeal path for creators
+* A named reviewer before release
+
+The policy should not promise "full ownership" when the team lacks the
+facts to support that promise.
+
+**Worked AI record:** A designer writes a three-page product story, asks
+an image model for draft scenes, and saves eight raw images. She picks
+two, redraws the people, changes the scene, adds her own type, and lays
+out the final page.
+
+The record should keep her text, prompts, raw images, edit files, and
+final layers. It should state which parts came from the model and which
+parts she drew or arranged. A source scan should check for a mark, face,
+or close match to another work.
+
+The final page may contain human-authored parts even if the raw model
+images do not gain their own copyright. The firm should describe the
+claim with care. It should not tell the client that each pixel is an
+exclusive human work when the record does not prove that claim.
+
+### Try It Yourself 9.4: Review an AI Logo 🛠️
+
+**Predict:** A firm uses one raw AI output as its logo and promises that
+the design is fully owned. Is that claim sound?
+
+**Run:** Apply the human-work record, IP card, close-
+output check, and trademark source test.
+
+**Explain:** In 1-2 sentences, state what the firm may claim and what it
+must disclose or change.
 
 ### Quick Check 9.4 ✅
 
-1. Under current U.S. law, can a work generated entirely by AI receive copyright protection? Explain the reasoning behind this position. *(Understand)*
-2. Compare the arguments made by AI firms (that training on copyrighted data is fair use) with the arguments made by copyright holders (that training without permission is infringement). Which of the four fair use factors supports each side? *(Analyze)*
-3. A software developer uses an AI coding assistant to generate a function, then significantly modifies and integrates it into a larger program. Evaluate whether the developer should be able to claim copyright on the final product. What factors would you consider? *(Evaluate)*
+1. Why do prompts alone not prove authorship of every AI output element? *(Understand)*
+
+2. How can a logo lack copyright in some parts yet gain trademark value through use? *(Analyze)*
+
+3. Name four facts needed before making a fair use claim for an AI training set. *(Apply)*
 
 ---
 
@@ -255,15 +521,15 @@ When you use AI-generated material, record what the tool produced and what a per
 
 ### Key Concepts
 
-* **Intellectual property law protects intangible creative and innovative works** through four mechanisms: copyright (original expression), patents (inventions), trademarks (brand identity), and trade secrets (confidential business information). Each type covers different kinds of work and has different requirements and durations.
+* **Classify the exact asset first.** Copyright, patent, trademark, and trade-secret rights protect different objects and may overlap in one product.
 
-* **Fair use allows limited use of copyrighted material without permission**, but its boundaries are unpredictable. Courts weigh four factors: purpose and character of use, nature of the copyrighted work, amount used, and effect on the market. Digital technology has intensified these debates because copying and distribution have become effortless.
+* **The right to use needs proof.** A license, assignment, public-domain record, consent, or fact-based exception should travel with the asset.
 
-* **Open source licensing represents an alternative to traditional IP restrictions**, with permissive licenses (like MIT) allowing broad reuse and copyleft licenses (like GPL) requiring that derivative works remain open source. The open source philosophy prioritizes collaborative innovation and transparency.
+* **Fair use requires all four factors.** A classroom, research, or new-purpose label does not replace the source, amount, use, and market facts.
 
-* **Digital piracy, reverse engineering, and competitive intelligence** occupy gray areas where legal rules, ethical principles, and practical considerations do not always align. Knowing where the lines fall, and where they remain genuinely uncertain, is essential for IT professionals.
+* **Online reuse raises separate law and integrity tests.** Credit does not cure all infringement, and a legal right to use does not excuse plagiarism.
 
-* **AI has disrupted traditional IP frameworks.** Under current U.S. law, purely AI-generated works cannot be copyrighted. The legality of training AI models on copyrighted data is being tested in multiple high-profile lawsuits, and countries are adopting widely different approaches.
+* **AI work needs two records.** One shows what a person made. The other shows training sources, copies, outputs, markets, and party duties.
 
 ### Key Terms
 
@@ -307,51 +573,76 @@ When you use AI-generated material, record what the tool produced and what a per
 
 Try to answer these from memory before looking back at the chapter.
 
-1. Name the four types of intellectual property and state what each one protects. Which type requires a formal application, and which is automatic?
-2. What are the four factors courts consider when evaluating a fair use claim? Give a brief example of how one factor might weigh in favor of fair use and how the same factor might weigh against it.
-3. Explain the current legal status of AI-generated works under U.S. copyright law. Why does this matter for businesses using AI tools to create content?
+1. Name the six lines in the IP card.
+2. Name the four fair use factors.
+3. How does a human-work record differ from a training record?
 
 ---
 
-## 9.6 Skills Lab 9A: Intellectual Property Analysis
+## 9.6 Skills Lab 9A: The MosaicForge Policy
 
-**Goal:** Classify intellectual property issues and recommend a fair platform policy.
+**Goal:** Classify IP risks and recommend an evidence-based AI content policy.
 
 **Evidence packet:** `assets/code/chapter-09/intellectual-property-case.md`, a fictional case and evidence packet created for this textbook.
 
 **Estimated time:** 90-120 minutes
 
-### Case: TechCanvas and the AI Art Platform
+### Case: Images, Code, and a Client Promise
 
-TechCanvas is a mid-sized software firm that has launched an AI-powered design platform called ArtForge. The platform allows users to type text prompts and receive AI-generated images, logos, and design layouts. ArtForge has become popular with small businesses, freelance designers, and marketing teams who use it to quickly produce visual content.
+**Fictional case:** MosaicForge sells an AI design tool to small firms.
+Users create ads, web art, and logos. The terms say users receive "full
+commercial rights" to each output.
 
-Several issues have emerged since ArtForge's launch. First, a fictional independent investigation found that TechCanvas trained ArtForge on 400 million images scraped from the internet. The dataset included copyrighted photographs, illustrations, and stock images. TechCanvas did not seek permission or pay the creators. The firm argues that using public images for AI training is transformative fair use.
+The training record splits source images into three groups:
 
-Second, a freelance graphic designer named Maria Delgado discovered that when she types her own name as part of a prompt, ArtForge generates images that closely resemble her distinctive illustration style. Maria has built her career and reputation on that style over fifteen years. She argues that ArtForge is effectively allowing anyone to produce knockoffs of her work. TechCanvas responds that artistic styles are not copyrightable and that ArtForge is simply a tool that learned general visual patterns.
+* 80 million licensed stock and partner images
+* 25 million public-domain images
+* 140 million web-crawled images with no complete license record
 
-Third, several small businesses that created logos and marketing materials using ArtForge are now discovering that they may not have clear copyright protection over the AI-generated designs. A competitor copied one firm's ArtForge-generated logo almost exactly, and the firm found it had limited legal recourse because the logo was generated by AI instead of created by a human designer.
+The firm kept source URLs for half of the crawled group. It offers no
+creator opt-out or removal path.
+
+An artist, Elena Ruiz, reports that prompts using her name can create
+work in a similar style. Three outputs also reproduce a small signature-
+like mark and a rare background shape found in two of her registered
+works. MosaicForge has not run a wider memorization test.
+
+One client chose a raw output as a logo. The client has used it for nine
+months but did not check similar marks or register it. A rival now uses a
+near match.
+
+MosaicForge's web app also ships with an MIT library and a GPL library.
+The release folder keeps neither license text nor source-offer notes.
+The team has not checked how the GPL part is linked or distributed.
+
+Leaders may keep the current terms, add controls while the tool stays
+live, or pause affected uses until the evidence gaps close.
+
+<!-- markdownlint-disable MD029 -->
 
 ### Part 1: Foundation (Aligns with MLO-9.1)
 
-1. Identify each type of intellectual property relevant to this case (copyright, patent, trademark, trade secret). For each type, explain specifically how it applies to the situation described.
-2. List all the stakeholders in this case. For each stakeholder, describe what they stand to gain or lose and which IP protections are most relevant to their interests.
-3. The freelance designer Maria argues her illustration style is being copied. Under current IP law, is an artistic "style" protectable? Explain which type of IP protection (if any) might apply and why styles are treated differently from specific works.
+1. Complete the six-line IP card for the artist's works, the client logo, and both code libraries.
+2. Separate possible copyright, trademark, contract, and license issues. Name one missing fact for each.
+3. Build a source and license log for the MIT and GPL parts. State what the current release folder fails to prove.
 
 ### Part 2: Application (Aligns with MLO-9.1, MLO-9.2)
 
-4. Apply the four-factor fair use test to TechCanvas's choice to train ArtForge on 400 million scraped images. Analyze each factor separately and then state your overall conclusion about whether the training qualifies as fair use.
-5. The small businesses that used ArtForge to create logos are discovering they lack copyright protection. Analyze the ethical responsibilities TechCanvas has to its users. Should the firm have disclosed the IP limitations of AI-generated content before users relied on it for business purposes?
-6. Compare this case to the Google Books case discussed earlier in this chapter. What similarities and differences do you see? Does the Google Books ruling support or undermine TechCanvas's fair use argument?
+4. Apply all four fair use factors to the web-crawled training group. Give one fact for and against fair use under each factor.
+5. Apply the human-work record to the client logo. Separate human choices, model choices, and trademark-use facts.
+6. Compare the three close outputs with Elena's named works. State what evidence supports or weakens a copying claim.
 
 ### Part 3: Extension (Aligns with MLO-9.2, MLO-9.3)
 
-7. Evaluate the competing interests in this case and propose a policy framework that balances the rights of original creators, AI firms, and end users of AI-generated content. Your proposal should address training data, generated output, and disclosure requirements.
-8. Consider this case from an international perspective. If TechCanvas operates globally, how might the different approaches taken by the U.S., the EU, and Japan (as discussed in Section 9.4) affect the firm's obligations? Evaluate whether a single global standard for AI and IP is desirable or whether regional differences serve an important purpose.
+7. Draft a seven-control AI content policy covering sources, licenses, authorship, close outputs, client terms, creator reports, and release review.
+8. Write a 200-300 word memo. Choose keep live, add controls, or pause affected uses. Name the proof that would change your choice.
+
+<!-- markdownlint-enable MD029 -->
 
 ### Questions & Analysis 🤔
 
-1. Which fair use factor carries the most weight in your recommendation?
-2. How would your policy affect an individual creator differently from a large publisher?
+1. Which missing record creates the greatest legal and ethical risk?
+2. How should the policy protect an individual creator with little power?
 
 ### Rubric: Skills Lab 9A
 
@@ -361,26 +652,35 @@ This lab is graded with the standard
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
 Interpretation, and Response to QUESTION(s).
 
+For CIS111, **Technical Accuracy and Efficiency** means matching each
+asset, right, permission, and fair use factor to the case evidence.
+**Output Quality** means that your policy is clear, organized, and safe
+for creators, users, and product leaders to use.
+
 ### Submission Guidelines
 
 * **Length:** 800-1,200 words total across all parts
-* **Format:** Submit as a single document organized by part number. Use clear headings for each section.
+* **Format:** Submit one PDF named `skills-lab-9a-lastname.pdf`. Use clear headings for each part and label both Questions & Analysis answers.
 
 ---
 
 ## 9.7 Review Questions 🔄️
 
-1. Distinguish copyright, patent, trademark, and trade secret protection.
-2. Apply the four fair use factors to a digital remix.
-3. Analyze how open source duties differ from public-domain use.
-4. Should commercial AI developers license copyrighted training material? Defend your answer and address the strongest counterargument.
+1. **Understand:** Distinguish copyright, patent, trademark, and trade-secret protection.
+2. **Apply:** Apply all four fair use factors to a digital remix.
+3. **Analyze:** Analyze why attribution does not by itself prove permission.
+4. **Evaluate:** When should an AI firm pause use of a training source? Defend a threshold.
 
 ## Further Reading 📖
 
-* [U.S. Copyright Office: Copyright and Artificial Intelligence](https://www.copyright.gov/ai/) - The Office publishes its reports on digital replicas, AI outputs, and training.
-* [U.S. Copyright Office Fair Use Index](https://www.copyright.gov/fair-use/) - The index explains the four factors and summarizes federal choices.
-* [USPTO Intellectual Property Basics](https://www.uspto.gov/learning-and-resources/inventors-and-entrepreneurs/ip-basic-toolkits) - The USPTO introduces patents, trademarks, copyright, and trade secrets.
-* [Open Source Initiative Licenses](https://opensource.org/licenses) - OSI lists approved open source licenses and review standards.
+* [USPTO Copyright Basics](https://www.uspto.gov/ip-policy/copyright-policy/copyright-basics): USPTO explains fixation, protected expression, registration, and common terms.
+* [U.S. Copyright Office Fair Use Guide](https://www.copyright.gov/fair-use/more-info.html): The Office explains the four factors and case-specific analysis.
+* [U.S. Copyright Office DMCA Resources](https://www.copyright.gov/dmca/): The Office provides anti-circumvention, safe-harbor, and rulemaking resources.
+* [U.S. Copyright Office AI Initiative](https://www.copyright.gov/ai/): The Office publishes reports on digital replicas, copyrightability, and AI training.
+* [USPTO Patent Essentials](https://www.uspto.gov/patents/basics/essentials): USPTO explains patent rights and the application process.
+* [Open Source Initiative Licenses](https://opensource.org/licenses): OSI provides approved license texts and identifiers.
+
 ## Looking Ahead ⏩
 
-In Chapter 10, you will shift from questions of ownership to questions of expression. Who gets to say what online, and what happens when speech causes harm? Chapter 10 examines the boundaries of the First Amendment in digital spaces, the classification of hate speech and defamation, the ethics of internet anonymity, and the growing tension between worker monitoring and workplace privacy. You will also explore how AI-generated deepfakes and automated content moderation systems are complicating these debates in ways the law was never designed to handle.
+Chapter 10 turns from ownership to speech, privacy, and power online. You
+will test who may speak, moderate, monitor, or use a digital identity.

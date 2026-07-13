@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-8 have completed their
-full plain-language and instructional reviews. Chapters 9-12 remain.
+yet the final publication edition. Chapters 1-9 have completed their
+full plain-language and instructional reviews. Chapters 10-12 remain.
 
 ## What Was Built
 
@@ -125,10 +125,20 @@ full plain-language and instructional reviews. Chapters 9-12 remain.
   NIST on 2026-07-12. Its source links were also tested. The ACM and FTC
   pages reject command-line checks, so their content was confirmed
   through browser-rendered copies.
+* Chapter 9 measures Flesch 61.5 with a grade estimate of 7.8.
+* Chapter 9 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 9 adds a six-line IP card, a four-factor fair use sheet, a
+  license and source log, a reverse-engineering source test, and separate
+  records for human work and AI training.
+* Chapter 9 copyright, patent, trademark, trade-secret, licensing, and AI
+  claims were checked against current primary sources from the USPTO,
+  the U.S. Copyright Office, and the Open Source Initiative on
+  2026-07-12. All nine source links returned successful responses.
 
 ## Remaining Work
 
-1. Rewrite Chapters 9-12 in plain language until each reaches the
+1. Rewrite Chapters 10-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -156,7 +166,7 @@ full plain-language and instructional reviews. Chapters 9-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 9. Run the sentence-length check, readability score,
+Begin with Chapter 10. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.
