@@ -94,6 +94,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Computerized Provider Order Entry (CPOE):** Electronic order entry for prescriptions, labs, imaging, and treatments.
 
+**Coordinated Vulnerability Disclosure (CVD):** A process in which a finder, vendor, and sometimes a third-party coordinator work to fix a flaw and plan notice while reducing user harm.
+
 **Confidentiality:** The obligation to protect information shared by clients, employers, or users in the course of professional work.
 
 **Conflict of interest:** A situation where personal interests interfere with professional judgment or obligations.
@@ -360,7 +362,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Responsible AI:** An approach to AI development that prioritizes fairness, transparency, accountability, and the well-being of affected communities.
 
-**Responsible disclosure:** Privately reporting a vulnerability to the vendor and allowing time for a patch before public disclosure.
+**Responsible disclosure:** An older name often used for coordinated vulnerability disclosure.
 
 **Resume fraud:** The practice of exaggerating or fabricating qualifications on a resume, considered a professional ethics violation in IT.
 
@@ -370,13 +372,19 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## S
 
+**Safety case:** A structured claim, supported by evidence and reasons, that a system is safe enough for a stated use and setting.
+
 **Safety-critical system:** A system whose failure could result in death, serious injury, or significant environmental damage.
 
 **Sarbanes-Oxley Act (SOX):** 2002 federal law with whistleblower protections for employees of publicly traded companies who report fraud.
 
 **Section 230:** Provision of the Communications Decency Act that protects online platforms from liability for user-generated content
 
+**Secure by design:** Building product security into early design and keeping the software maker responsible for reducing customer risk.
+
 **Secure coding:** Writing software resistant to vulnerabilities by design, treating all inputs and connections as potentially hostile.
+
+**Secure Software Development Framework (SSDF):** NIST practices for preparing a group, protecting software, producing sound releases, and responding to vulnerabilities.
 
 **Security Operations Center (SOC):** Centralized facility for monitoring, detecting, and responding to threats.
 
@@ -396,7 +404,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Social contract theory:** An ethical theory based on the idea that moral rules come from agreements people would make to create a fair society.
 
-**Software as a Service (SaaS):** Applications hosted in the cloud and accessed via subscription, often classified as a service instead of a product for liability purposes.
+**Software as a Service (SaaS):** Software hosted by a provider and reached through a network. Its legal classification depends on the claim and jurisdiction.
 
 **Software defect (bug):** An error or unintended behavior that causes incorrect or unexpected results.
 
@@ -447,6 +455,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Verifiable parental consent:** COPPA's requirement for provable parental or guardian permission before collecting a child's data
 
 **Virtue ethics:** An ethical theory focused on developing good character traits as the foundation for ethical behavior.
+
+**Vulnerability:** A weakness in software, hardware, a setting, or a process that a threat can use.
 
 ## W
 
