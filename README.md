@@ -30,7 +30,7 @@ CLO-to-chapter mapping, and the full course outline.
 
 ## Project Structure
 
-```
+```text
 cis111/
 ├── CLAUDE.md                          # Claude Code project context (AI assistant guide)
 ├── README.md                          # This file
@@ -157,6 +157,7 @@ The full checklist lives in [CLAUDE.md](CLAUDE.md).
 * [CLAUDE.md](CLAUDE.md) - Complete project context for AI-assisted development
 * [templates/chapter-template.md](templates/chapter-template.md) - Chapter structure template
 * [docs/CIS111_CLOs.md](docs/CIS111_CLOs.md) - Official Course Learning Outcomes
+* [docs/FINAL-PUBLICATION-REVIEW.md](docs/FINAL-PUBLICATION-REVIEW.md) - Whole-book verification record
 
 ### For Style and Standards
 
@@ -172,10 +173,12 @@ This textbook is licensed under
 ## Contact
 
 Jorge Vega, Phoenix College
-Jorge.Vega@PhoenixCollege.edu
+
+[Jorge.Vega@PhoenixCollege.edu](mailto:Jorge.Vega@PhoenixCollege.edu)
 
 ---
 
-**Status:** Legacy content imported. Standards upgrade in progress.
+**Status:** Publication-ready. All 12 chapters passed the final
+whole-book review.
 
-**Current Chapter Count:** 12 of 12 imported. Publication QA remains.
+**Current Chapter Count:** 12 of 12 publication-reviewed.

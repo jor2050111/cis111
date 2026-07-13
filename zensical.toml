@@ -38,7 +38,7 @@ nav = [
   { "Home" = "index.md" },
   { "Part I: Foundations of Ethics" = [
     { "Chapter 1: Ethics and Ethical Theories" = "chapters/chapter-01.md" },
-    { "Chapter 2: Professional Business Ethics" = "chapters/chapter-02.md" },
+    { "Chapter 2: Work Business Ethics and IT Worker Duties" = "chapters/chapter-02.md" },
     { "Chapter 3: Corporate Governance, CSR, and AI Ethics" = "chapters/chapter-03.md" },
   ] },
   { "Part II: Digital Rights and Responsibilities" = [
@@ -47,14 +47,14 @@ nav = [
     { "Chapter 6: Healthcare IT Ethics" = "chapters/chapter-06.md" },
   ] },
   { "Part III: Legal Frameworks and IT Obligations" = [
-    { "Chapter 7: Software Liability and Secure Coding" = "chapters/chapter-07.md" },
-    { "Chapter 8: Government Regulation and Self-Regulation" = "chapters/chapter-08.md" },
-    { "Chapter 9: Intellectual Property and Fair Use" = "chapters/chapter-09.md" },
+    { "Chapter 7: Software Liability and Secure Design" = "chapters/chapter-07.md" },
+    { "Chapter 8: Regulation, Self-Regulation, and IT Work" = "chapters/chapter-08.md" },
+    { "Chapter 9: Intellectual Property, Fair Use, and AI" = "chapters/chapter-09.md" },
   ] },
   { "Part IV: Security, Privacy, and Professional Practice" = [
-    { "Chapter 10: Freedom of Expression and Workplace Privacy" = "chapters/chapter-10.md" },
-    { "Chapter 11: Cybersecurity, Identity Theft, and Risk" = "chapters/chapter-11.md" },
-    { "Chapter 12: Professional Codes of Ethics and Capstone" = "chapters/chapter-12.md" },
+    { "Chapter 10: Online Speech, Identity, and Worker Monitoring" = "chapters/chapter-10.md" },
+    { "Chapter 11: Cybersecurity Risk, Identity Theft, and Incident Response" = "chapters/chapter-11.md" },
+    { "Chapter 12: Professional Duty and Ethical Action" = "chapters/chapter-12.md" },
   ] },
   { "Glossary" = "glossary.md" },
   { "Skills Lab Rubric" = "skills-lab-rubric.md" },

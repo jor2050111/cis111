@@ -186,6 +186,20 @@ This table puts all four theories side by side so you can compare them quickly.
 
 No single framework is always the "right" one to use. Strong ethical thinking applies more than one framework to the same case. When they point in the same direction, you can be more confident in your choice. When they conflict, you have found the main tension in the problem.
 
+**Worked comparison:** A firm wants to read all help-desk chats to find
+fraud. The plan may catch some harm, but it also exposes private talks.
+A utilitarian would count both gains and harms. A deontologist would ask
+if the search respects each person's rights. A virtue ethicist would ask
+what a fair and honest team would do. A social contract view would ask
+which rule staff would accept before they knew who might be watched.
+
+All four views support a narrower first step. The firm can search for
+known fraud signs, limit who sees a flagged chat, and give notice. The
+frameworks reach that choice for different reasons. That shared result
+makes the control easier to defend.
+
+This step cuts risk and keeps proof. It also helps keep trust.
+
 ### Case Study 1.1 - The Campus Wi-Fi Tracking Debate 📋
 
 **Fictional case:** This case uses an invented proposal, vendor claim, and set of events for practice.
@@ -366,7 +380,7 @@ decision document is clear, organized, and ready for its intended reader.
 
 * [A Framework for Ethical Decision Making](https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/) - The Markkula Center explains six ethical lenses and a useful choice process.
 * [ACM Code of Ethics and Professional Conduct](https://www.acm.org/about-acm/code-of-ethics) - ACM states the public-interest duties of computing professionals.
-* [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html) - IEEE connects professional conduct to safety, honesty, fairness, and public welfare.
+* [IEEE Code of Ethics Revisions](https://spectrum.ieee.org/board-of-directors-approves-revisions-to-the-ieee-code-of-ethics) - IEEE connects professional conduct to safety, honesty, fairness, and public welfare.
 * [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - NIST provides a voluntary structure for governing and managing AI risk.
 
 ## Looking Ahead ⏩

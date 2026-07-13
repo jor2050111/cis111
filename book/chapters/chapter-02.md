@@ -50,6 +50,32 @@ The following table shows the main differences.
 
 This distinction prevents two mistakes. Your own morals may not cover a new IT case. Field standards also do not excuse harm. If a job duty calls for a harmful act, you may need to question or refuse it.
 
+**Worked role check:** A client asks a support worker to email a full
+user list to a personal account. The worker wants to help fast. Their
+role, though, requires them to guard user data and use approved tools.
+
+The worker can state the conflict in plain terms. The client needs a
+file. The requested path can expose people and break the data rule. The
+worker should offer a safe share link or ask the data owner to approve a
+narrow export.
+
+This is not a choice between being kind and doing the job. A sound work
+role includes helping the client without placing other people at risk.
+The safer path serves both duties.
+
+A second worker faces a new case. Their friend asks them to reset an
+account with no ID check. The worker trusts the friend, but the support
+role requires the same check for each person. The worker can help the
+friend use the normal reset path. Fair process protects the account and
+the friendship. It also gives the team a clean log if the reset is
+questioned later.
+
+The same fair rule guards trust and the user. It also helps the team act
+the same way when the next request arrives.
+
+Clear rules help. Good logs show why the worker said no. That record
+helps the team learn.
+
 ### Try It Yourself 2.1: Test Your First Judgment 🛠️
 
 **Predict:** Think about a job you have held, whether in IT or another field. Did your firm's request ever conflict with what you believed was right? How did you respond?
@@ -383,8 +409,8 @@ decision document is clear, organized, and ready for its intended reader.
 ## Further Reading 📖
 
 * [ACM Code of Ethics and Professional Conduct](https://www.acm.org/about-acm/code-of-ethics) - Sections 1 and 2 connect public welfare to professional duties.
-* [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html) - The code covers conflicts of interest, honest claims, and duty to the public.
-* [2023 Global Business Ethics Survey Summary](https://www.ethics.org/wp-content/uploads/ECI_2023ResearchSummary.pdf) - ECI reports on workplace culture, misconduct, speaking up, and retaliation.
+* [IEEE Code of Ethics Revisions](https://spectrum.ieee.org/board-of-directors-approves-revisions-to-the-ieee-code-of-ethics) - The code covers conflicts of interest, honest claims, and duty to the public.
+* [DOJ Evaluation of Corporate Compliance Programs](https://www.justice.gov/criminal/criminal-fraud/compliance) - DOJ links workplace culture to reporting, investigation, and protection from retaliation.
 * [NLRB: Interference with Employee Rights](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/interference-with-employee-rights) - The NLRB explains rights that workplace policies and monitoring can affect.
 
 ## Looking Ahead ⏩

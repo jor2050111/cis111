@@ -56,7 +56,7 @@
 
 ---
 
-### Chapter 2: Professional Business Ethics and IT Worker Responsibilities
+### Chapter 2: Work Business Ethics and IT Worker Duties
 
 **Focus:** Ethical judgment in professional IT contexts and the six key relationships IT workers must manage
 
@@ -188,7 +188,7 @@
 
 **Learning arc:** Software Liability → Government Regulation → Intellectual Property
 
-### Chapter 7: Software Liability and Secure Coding
+### Chapter 7: Software Liability and Secure Design
 
 **Focus:** Responsibility for software quality and security
 
@@ -210,7 +210,7 @@
 
 ---
 
-### Chapter 8: Government Regulation and Self-Regulation
+### Chapter 8: Regulation, Self-Regulation, and IT Work
 
 **Focus:** The role of law and professional standards in IT ethics
 
@@ -230,7 +230,7 @@
 
 ---
 
-### Chapter 9: Intellectual Property and Fair Use
+### Chapter 9: Intellectual Property, Fair Use, and AI
 
 **Focus:** Protecting and respecting creative and digital works
 
@@ -260,7 +260,7 @@
 
 **Learning arc:** Freedom vs. Harm → Security & Crime → Professional Codes
 
-### Chapter 10: Freedom of Expression, Hate Speech, and Workplace Privacy
+### Chapter 10: Online Speech, Identity, and Worker Monitoring
 
 **Focus:** Balancing rights with protections in digital environments
 
@@ -282,7 +282,7 @@
 
 ---
 
-### Chapter 11: Cybersecurity, Identity Theft, and Risk Assessment
+### Chapter 11: Cybersecurity Risk, Identity Theft, and Incident Response
 
 **Focus:** Security threats, breaches, and organizational response
 
@@ -309,7 +309,7 @@
 
 ---
 
-### Chapter 12: Professional Codes of Ethics and Capstone
+### Chapter 12: Professional Duty and Ethical Action
 
 **Focus:** Becoming an ethical IT professional and synthesizing course concepts
 

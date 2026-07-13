@@ -652,10 +652,7 @@ are clear, consistent, evidence-safe, and ready for team use.
 * [NIST SP 800-30 Revision 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final): NIST explains threat, weakness, likelihood, impact, and uncertainty in risk assessment.
 * [NIST SP 800-86](https://csrc.nist.gov/pubs/sp/800/86/final): NIST explains how forensic work can support incident response.
 * [IdentityTheft.gov](https://www.identitytheft.gov/steps): The FTC creates a case-based report and recovery plan.
-* [CISA: Recognize and Report Phishing](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing): CISA explains phishing signs and reporting steps.
 * [Supreme Court: *Van Buren v. United States*](https://www.supremecourt.gov/opinions/20pdf/19-783_k53l.pdf): The Court explains the CFAA access limit.
-* [DOJ CFAA Charging Policy](https://www.justice.gov/archives/opa/pr/department-justice-announces-new-policy-charging-cases-under-computer-fraud-and-abuse-act): DOJ explains current federal charging rules and good-faith research.
-* [U.S. Code: CFAA](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A1030%29): The House provides the current statute.
 
 ## Looking Ahead ⏩
 

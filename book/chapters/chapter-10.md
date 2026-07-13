@@ -609,15 +609,11 @@ narrow, consistent, and safe for workers and leaders to use.
 ## Further Reading 📖
 
 * [Constitution Annotated: First Amendment](https://constitution.congress.gov/browse/amendment-1/): Congress provides the amendment text and legal guides.
-* [Constitution Annotated: State Action](https://constitution.congress.gov/browse/essay/amdt1-7-2-4/ALDE_00013541/): Congress explains when the First Amendment reaches government action.
 * [Constitution Annotated: Defamation](https://constitution.congress.gov/browse/essay/amdt1-7-5-7/ALDE_00013808/): Congress explains fault and public-figure rules.
 * [U.S. Code: Section 230](https://uscode.house.gov/view.xhtml?req=%28title%3A47+section%3A230+edition%3Aprelim%29): The House provides the current statute and its limits.
-* [U.S. Code: Interception Rules](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A2511%29): The House provides the current federal wiretap statute.
 * [NLRB: Interference with Worker Rights](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/interference-with-employee-rights): The NLRB addresses monitoring and protected group activity.
-* [U.S. Department of Labor: AI and Worker Well-Being](https://www.dol.gov/newsroom/releases/osec/osec20240516?lang=en): DOL gives nonbinding principles for worker input, rights, and oversight.
 * [EU Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj): The official act includes the workplace emotion-recognition rule.
 * [TAKE IT DOWN Act](https://www.congress.gov/bill/119th-congress/senate-bill/146): Congress provides the law and platform duties for covered intimate images.
-* [FTC Impersonation Rule](https://www.ftc.gov/business-guidance/blog/2024/02/new-impersonator-rule-gives-ftc-powerful-tool-protecting-consumers-businesses): The FTC explains its rule for government and business impersonation.
 
 ## Looking Ahead ⏩
 

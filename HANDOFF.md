@@ -16,9 +16,12 @@ The new CIS111 textbook repository is scaffolded and contains a complete
 assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
-All 12 chapters have completed their plain-language, source, and
-instructional reviews. The final whole-book verification remains before
-the repository can be called the publication edition.
+All 12 chapters have completed their plain-language, source,
+instructional, and whole-book reviews. The clean build and desktop and
+mobile browser checks passed. The textbook is publication-ready.
+
+The final evidence record is
+`docs/FINAL-PUBLICATION-REVIEW.md`.
 
 ## What Was Built
 
@@ -51,6 +54,18 @@ the repository can be called the publication edition.
 * All uppercase template tokens are replaced.
 * All 12 chapter pages appear in the built site and navigation.
 * `zensical build --clean` reports no issues.
+* The whole-book structural audit reports zero failures.
+* Markdown lint reports zero errors across 47 authored files.
+* The rendered site passes 2,090 internal-link and anchor checks.
+* All 89 external links were checked. Seventy-two returned successful
+  direct responses, and 17 official pages were confirmed in a browser
+  or official indexed copy.
+* The student home page reproduces all 18 district CLOs verbatim.
+* Four Parts, 12 chapters, and all 12 navigation titles match.
+* The 221 glossary definitions are unique.
+* Desktop and mobile checks pass at 1440 by 900 and 390 by 844 pixels.
+* No page-wide horizontal overflow appears. Wide rubric tables remain
+  usable inside a horizontal scroll container.
 * Every chapter has zero prose sentences at or above 35 words.
 * Student-facing Markdown has zero em dashes, prose semicolons, and banned
   wording.
@@ -59,10 +74,10 @@ the repository can be called the publication edition.
   review questions.
 * All chapter Key Terms entries resolve to the glossary.
 * All evidence packet paths exist.
-* Chapter 1 measures Flesch 60.4 with a grade estimate of 7.8.
+* Chapter 1 measures Flesch 60.1 with a grade estimate of 7.8.
 * Chapter 1 reports zero Markdown lint errors and zero sentence-length
   flags.
-* Chapter 2 measures Flesch 60.1 with a grade estimate of 7.8.
+* Chapter 2 measures Flesch 60.1 with a grade estimate of 7.7.
 * Chapter 2 reports zero Markdown lint errors and zero sentence-length
   flags.
 * Chapter 3 measures Flesch 60.1 with a grade estimate of 7.7.
@@ -135,7 +150,7 @@ the repository can be called the publication edition.
   claims were checked against current primary sources from the USPTO,
   the U.S. Copyright Office, and the Open Source Initiative on
   2026-07-12. All nine source links returned successful responses.
-* Chapter 10 measures Flesch 64.8 with a grade estimate of 7.1.
+* Chapter 10 measures Flesch 66.2 with a grade estimate of 7.0.
 * Chapter 10 reports zero Markdown lint errors and zero sentence-length
   flags.
 * Chapter 10 adds a six-line speech map, an eight-line defamation record,
@@ -147,7 +162,7 @@ the repository can be called the publication edition.
   the EU on 2026-07-12. All ten links were tested. Five government pages
   reject command-line checks, so their content was confirmed through
   browser-rendered or indexed copies.
-* Chapter 11 measures Flesch 60.7 with a grade estimate of 7.9.
+* Chapter 11 measures Flesch 61.6 with a grade estimate of 7.8.
 * Chapter 11 reports zero Markdown lint errors and zero sentence-length
   flags.
 * Chapter 11 adds a seven-line incident map, a six-line identity harm
@@ -171,14 +186,8 @@ the repository can be called the publication edition.
 
 ## Remaining Work
 
-1. Run one whole-book structure, CLO, glossary, evidence-path, filename,
-   style, and schedule-neutral audit.
-2. Run Markdown lint, sentence length, readability, source-link, and
-   clean-build checks across the full student-facing book.
-3. Inspect the live site on desktop and mobile after the Chapter 12
-   deployment.
-4. Create the final whole-book evaluation and close the build only after
-   every gate has current evidence.
+No textbook build work remains. Course timing and course-shell mapping
+remain separate future projects.
 
 ## Stable Design Decisions
 
@@ -191,8 +200,8 @@ the repository can be called the publication edition.
 * Chapter scenarios may use dates or time spans as case facts. Those facts
   do not establish course pacing.
 
-## Start Here Next Time
+## Future Maintenance
 
-Begin with the final whole-book audit. Do not add weeks, due dates, exams,
-or term labels to chapter content. Mark the textbook complete only after
-the live desktop and mobile checks also pass.
+Keep the book schedule-neutral. Do not add weeks, due dates, exams, or
+term labels to chapter content. Re-run the final publication review after
+any substantial legal, standards, source, navigation, or chapter change.

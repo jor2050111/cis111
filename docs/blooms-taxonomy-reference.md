@@ -11,7 +11,7 @@ The Revised Bloom's Taxonomy (Anderson & Krathwohl, 2001) organizes
 cognitive work into six levels, from recall to original creation. Each
 level builds on the ones below it.
 
-```
+```text
 CREATE          ▲
 EVALUATE        │ Increasing
 ANALYZE         │ Complexity
