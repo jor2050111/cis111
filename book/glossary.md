@@ -66,6 +66,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Canon:** A principle or rule within a professional code of ethics, especially as used by (ISC)².
 
+**Child identity theft:** Use of a child's data without permission to open accounts, seek benefits, or commit other fraud.
+
 **Capability Maturity Model Integration (CMMI):** A framework measuring software development process maturity across five levels.
 
 **Categorical imperative:** Kant's test for ethical actions: act only according to rules that could be applied universally without contradiction.
@@ -90,9 +92,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Competitive intelligence:** The practice of using lawful and ethical sources to study a market or competitor.
 
-**Computer forensics (digital forensics):** Collecting, preserving, analyzing, and presenting digital evidence in a legally admissible way.
-
-**Computer Fraud and Abuse Act (CFAA):** Primary federal law for unauthorized computer access and related crimes.
+**Computer Fraud and Abuse Act (CFAA):** A federal law that covers named acts involving protected computers, such as some access, fraud, damage, and password offenses.
 
 **Computerized Provider Order Entry (CPOE):** Electronic order entry for prescriptions, labs, imaging, and treatments.
 
@@ -154,6 +154,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Digital divide:** The gap between people with and without access to digital technology, which can widen health disparities.
 
+**Digital forensics:** The use of tested methods to find, collect, preserve, examine, and report digital facts.
+
 **Digital Millennium Copyright Act (DMCA):** A 1998 US law with anti-circumvention rules and safe-harbor processes for qualifying online service providers.
 
 **Digital piracy:** Unauthorized copying, distribution, or use of copyrighted digital content.
@@ -181,6 +183,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Emotion recognition system:** An AI tool that claims to infer a person's emotion from a face, voice, movement, or other signal.
 
 **End User License Agreement (EULA):** A contract defining software terms of use that typically limits the provider's liability.
+
+**Evidence log:** A record of a digital item's source, collection, integrity check, storage, access, transfer, and known limits.
 
 **Ethics:** A formal set of tools for figuring out right and wrong across groups of people, especially within a profession.
 
@@ -238,11 +242,13 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## I
 
-**Identity theft:** Unauthorized use of another person's PII for financial gain.
+**Identity theft:** Use of another person's data without permission to commit fraud or gain a benefit.
 
 **IEEE Code of Ethics:** A principle-based code from the Institute of Electrical and Electronics Engineers, consisting of ten professional commitments.
 
-**Incident response:** Organized approach to managing the aftermath of a breach or cyberattack.
+**Incident:** An event that puts security at risk or breaks a security rule.
+
+**Incident response:** Planned work to prepare for, find, contain, remove, report, and recover from a security event.
 
 **Incitement:** Speech aimed at causing lawless action soon and likely to cause that action.
 
@@ -352,6 +358,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## R
 
+**Ransomware:** Malware that blocks access to data or systems, often through encryption, and demands payment.
+
 **Ransomware as a Service (RaaS):** Criminal business model where ransomware developers sell or lease their tools.
 
 **Recommendation algorithm:** An AI system that selects and prioritizes what content a user sees, typically optimized to maximize engagement with the platform.
@@ -359,6 +367,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Regulatory code:** A code of ethics backed by real consequences for violations, such as loss of certification or professional standing.
 
 **Reporting systems:** Formal channels, such as ethics hotlines and grievance procedures, that allow employees to raise ethical concerns safely.
+
+**Residual risk:** Risk that remains after a team applies its selected controls.
 
 **Responsible AI:** An approach to AI development that prioritizes fairness, transparency, accountability, and the well-being of affected communities.
 
@@ -431,6 +441,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **TAKE IT DOWN Act:** A federal law that covers certain nonconsensual intimate images, including digital forgeries, and requires a notice-and-removal process for covered platforms.
 
 **Technical debt:** Accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
+
+**Threat:** A person, process, fault, or event that may cause harm to an asset.
 
 **Telemedicine:** Remote healthcare delivery via telecommunications technology.
 
