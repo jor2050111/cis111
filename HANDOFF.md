@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-5 have completed their
-full plain-language and instructional reviews. Chapters 6-12 remain.
+yet the final publication edition. Chapters 1-6 have completed their
+full plain-language and instructional reviews. Chapters 7-12 remain.
 
 ## What Was Built
 
@@ -38,7 +38,7 @@ full plain-language and instructional reviews. Chapters 6-12 remain.
   four review questions to each chapter.
 * Added 12 fictional evidence packets under `assets/code/chapter-NN/`.
 * Built `build/cis111-evidence-pack.zip` and verified the archive.
-* Created a 203-entry glossary. Every chapter Key Terms entry resolves to
+* Created a 204-entry glossary. Every chapter Key Terms entry resolves to
   one glossary definition.
 * Replaced old or weak source links with current primary sources from
   NIST, HHS, CISA, the FTC, the European Commission, the US Copyright
@@ -92,10 +92,21 @@ full plain-language and instructional reviews. Chapters 6-12 remain.
   the European Commission on 2026-07-12. Its source links were also
   tested. The ACM and SEC pages reject command-line checks, so their
   content was confirmed through indexed or browser-rendered copies.
+* Chapter 6 measures Flesch 60.4 with a grade estimate of 7.8.
+* Chapter 6 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 6 separates HIPAA scope from FDA and FTC scope. It adds a
+  mobile data map, a clinical safety loop, an AI release gate, and a
+  contract-focused MedPredict Skills Lab.
+* Chapter 6 health data, telehealth, and AI claims were checked against
+  current primary sources from HHS, the FTC, ONC, FDA, and the original
+  healthcare-bias study on 2026-07-12. Its source links were also
+  tested. Several government pages reject command-line checks, so their
+  content was confirmed through browser-rendered copies.
 
 ## Remaining Work
 
-1. Rewrite Chapters 6-12 in plain language until each reaches the
+1. Rewrite Chapters 7-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -123,7 +134,7 @@ full plain-language and instructional reviews. Chapters 6-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 6. Run the sentence-length check, readability score,
+Begin with Chapter 7. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.

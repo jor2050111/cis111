@@ -52,11 +52,11 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Breach notification laws:** State/federal laws requiring notification when personal data is compromised.
 
-**Breach Notification Rule:** HIPAA requirement to notify affected individuals and HHS after a PHI breach.
+**Breach Notification Rule:** HIPAA rule requiring notice after a reportable breach of unsecured PHI. The required recipients and timing depend on the facts and number affected.
 
 **Breach of warranty:** Liability when a product fails to perform as expressly or implicitly promised.
 
-**Business associate:** A company handling PHI on behalf of a covered entity. Also subject to HIPAA.
+**Business associate:** A person or group that performs certain work for a covered entity or another business associate and handles PHI. Some HIPAA duties apply directly.
 
 **BYOD:** Policy allowing employees to use personal devices for work, creating security and privacy challenges.
 
@@ -98,7 +98,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Conflict of interest:** A situation where personal interests interfere with professional judgment or obligations.
 
-**Consumer health app:** A health-related app that may fall outside FDA regulation and HIPAA.
+**Consumer health app:** A health-related app used by a person. Its function, parties, and data relationships help determine which FDA, HIPAA, FTC, or state rules apply.
 
 **Content moderation:** The process by which platforms review, remove, or restrict user-generated content that violates their rules or policies.
 
@@ -118,7 +118,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Cost/benefit analysis:** Evaluating decisions by comparing financial and non-financial costs against expected benefits.
 
-**Covered entity:** A healthcare provider, health plan, or healthcare clearinghouse subject to HIPAA.
+**Covered entity:** A health plan, healthcare clearinghouse, or healthcare provider that conducts certain standard transactions electronically and is subject to HIPAA.
 
 **Creative Commons (CC):** A licensing system extending open source principles to non-software creative works.
 
@@ -227,6 +227,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **H-1B visa:** A US work visa allowing employers to temporarily hire foreign workers in specialty occupations requiring at least a bachelor's degree
 
 **Hate speech:** Expression that attacks or demeans a person or group based on characteristics such as race, ethnicity, religion, gender, sexual orientation, or disability
+
+**Health Breach Notification Rule (FTC):** FTC rule requiring certain health app, personal health record, and related firms outside HIPAA to give notice after a breach of unsecured identifying health data.
 
 **HIPAA:** Federal law setting national standards for health information protection.
 

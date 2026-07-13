@@ -1,10 +1,19 @@
 # Chapter 6: Healthcare IT Ethics
 
-In February 2024, a ransomware attack struck Change Healthcare, a major US health technology firm. Its systems support insurance claims, pharmacy work, and payments for hospitals and clinics. The attack shut down claims processing for weeks. Physicians could not get paid. Pharmacies could not verify insurance coverage. Small practices faced a cash crisis. By January 2025, [HHS reported that the breach affected about 190 million people](https://www.hhs.gov/hipaa/for-professionals/special-topics/change-healthcare-cybersecurity-incident-frequently-asked-questions/index.html). One attack on one firm disrupted care across the country.
+In February 2024, a cyberattack stopped key services at Change
+Healthcare. Pharmacies had trouble checking benefits. Clinics could not
+send claims or receive payments. One tech failure affected care
+across the United States.
 
-That incident exposed something about modern healthcare: it runs on information technology. EHRs, mobile health apps, telemedicine, clinical choice support tools, and AI-assisted diagnostics are woven into how care is delivered, documented, and paid for. Each of those systems creates ethical questions IT professionals face every day. Who has access to your health data? What happens when a clinical system gives a wrong recommendation? Is it ethical to use AI for treatment choices when the algorithm may perform differently for different populations?
+The harm did not end when systems came back online. In July 2025,
+Change Healthcare told HHS that the breach had affected about
+[192.7 million people](https://www.hhs.gov/hipaa/for-professionals/special-topics/change-healthcare-cybersecurity-incident-frequently-asked-questions/index.html).
+The event linked privacy, data safety, money, and patient access. IT choices
+shaped each part of the outcome.
 
-This chapter examines those ethical challenges. You will learn the legal foundations of health data privacy and evaluate mobile and wireless risks in clinical settings. You will also analyze clinical IT, telemedicine, and AI in healthcare. The frameworks from Part I will help you weigh patient safety, privacy, equity, and innovation.
+This chapter gives you a method for those choices. You will test who a
+health data rule covers, map where data moves, and select safeguards.
+You will also assess mobile tools, care systems, telehealth, and AI.
 
 ## Module Overview 🧭
 
@@ -16,9 +25,9 @@ This chapter examines those ethical challenges. You will learn the legal foundat
 
 By the end of this chapter, you will be able to:
 
-* **MLO-6.1 (Understand):** Explain the key provisions of HIPAA and the ethical foundations of health data privacy, including Protected Health Information, the Privacy Rule, and the Security Rule
-* **MLO-6.2 (Apply):** Apply ethical frameworks to evaluate industry-relevant healthcare IT scenarios involving mobile health technologies, telemedicine, and clinical information systems
-* **MLO-6.3 (Analyze):** Analyze the ethical challenges of operating mobile and wireless technologies in healthcare environments, including AI-assisted diagnostics and algorithmic bias in clinical settings
+* **MLO-6.1 (Understand):** Explain how HIPAA scope, privacy rules, security safeguards, and breach duties shape health data work
+* **MLO-6.2 (Apply):** Apply ethical tests to mobile, wireless, care, and telehealth choices
+* **MLO-6.3 (Analyze):** Analyze an AI health tool for patient risk, bias, privacy, and human oversight
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -26,281 +35,489 @@ By the end of this chapter, you will be able to:
 
 ---
 
-## 6.1 HIPAA and the Foundations of Health Data Privacy
+## 6.1 HIPAA Scope, Privacy, and Security
 
-Health data is uniquely sensitive. Your medical records reveal diagnoses, mental health treatment, prescription medications, genetic test results, reproductive choices, and substance use history. When that information is exposed, the effects can include discrimination, stigma, job loss, and insurance denial. That sensitivity is why the United States created a specific legal framework for protecting it.
+Health records can expose a diagnosis, medicine, test result, or care
+plan. A leak can cause fear, fraud, or stigma. Poor access controls can
+also delay care. Sound health IT must protect privacy without blocking
+safe and timely treatment.
 
-### The Health Insurance Portability and Accountability Act (HIPAA)
+### Start with Scope
 
-Congress passed the **Health Insurance Portability and Accountability Act (HIPAA)** in 1996. Its privacy and security provisions have a major impact on IT professionals. They set national standards for health data access, protection, and breach response.
+The **Health Insurance Portability and Accountability Act (HIPAA)**
+sets federal rules for certain health information. HIPAA does not cover
+every person, app, or file that contains a health fact.
 
-HIPAA applies to **covered entities**, which include healthcare providers (hospitals, clinics, physicians), health plans (insurance firms, HMOs), and healthcare clearinghouses. It also applies to **business associates**, firms that handle health data on behalf of covered entities. Cloud storage providers, software vendors, billing firms, and IT service firms that work with healthcare groups are all business associates. If you work in IT and your firm touches health data, HIPAA applies to you.
+A **covered entity** is one of these groups:
 
-### Protected Health Information (PHI)
+* A health plan
+* A healthcare clearinghouse
+* A healthcare provider that conducts certain standard transactions in electronic form
 
-**Protected Health Information (PHI)** is the core concept in HIPAA's privacy framework: any individually identifiable health information created, received, maintained, or transmitted by a covered entity or business associate. PHI includes obvious identifiers (name, address, date of birth, Social Security number) and less obvious ones (medical record numbers, health plan beneficiary numbers, biometric identifiers, photographs).
+A **business associate** does certain work for a covered entity and
+handles protected health information. A billing firm, cloud host, or IT
+vendor may fill this role. The parties need a written business associate
+agreement when HIPAA requires one.
 
-When PHI exists in electronic form, it is **electronic Protected Health Information (ePHI)**. Most health data today is ePHI, which puts IT systems directly responsible for its storage, transmission, and security.
+The role and work link matter. A cloud firm does not become a business
+associate only because it can store data. Its service, client, contract,
+and access to health data help decide its status. HHS
+gives [current business associate guidance](https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html).
 
-**De-identified data** is health information stripped of HIPAA's 18 identifiers.  HIPAA does not restrict it because it cannot be traced to a specific person. However, research has shown that supposedly de-identified data can sometimes be re-identified by combining it with other sources, raising its own ethical concerns.
+### Identify PHI and ePHI
 
-### The Privacy Rule
+**Protected Health Information (PHI)** is health information that can
+identify a person and is held or sent by a covered entity or business
+associate. **Electronic PHI (ePHI)** is PHI in electronic form.
 
-The **HIPAA Privacy Rule** governs who can access PHI and when. Its core principle is the **minimum necessary standard**: covered entities should access, use, or disclose only the minimum PHI needed for a specific purpose. A billing clerk does not need a patient's full medical history to process a claim. A researcher studying treatment outcomes does not need patient names.
+The same blood pressure reading can have one legal status at a clinic
+and another in an app. A clinic record may be PHI. A reading stored only in
+a personal fitness app may fall outside HIPAA. Other federal or state
+rules may still apply.
 
-The Privacy Rule grants patients specific rights:
+HIPAA has two paths to de-identify PHI. An expert may find that the risk
+of linking the data to a person is small. A group may use the Safe Harbor
+path and remove a set list of details. It must not know that the data
+left behind can name a person. Removing a name alone is not enough.
+HHS explains both methods in its
+[de-identification guidance](https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html).
 
-* **Right to access:** Patients can request copies of their own records.
-* **Right to amendment:** Patients can ask for corrections to inaccurate information.
-* **Right to an accounting of disclosures:** Patients can find out who has accessed their records and why.
-* **Right to restrict disclosures:** Patients can request limits on how their information is shared.
+### Apply the Privacy Rule
 
-For IT professionals, the Privacy Rule means system design matters. Access controls, role-based permissions, audit logs, and data segmentation are the mechanisms through which patient rights are protected or violated.
+The **Privacy Rule** governs many uses and shares of PHI. It also
+gives people rights over records in a designated record set. Those
+rights include access, a request to amend a record, and an accounting of
+certain shares. Each right has limits and steps.
 
-### The Security Rule
+The **minimum necessary standard** asks a covered entity to take reasonable
+steps to limit many uses, shares, and requests. The
+limit does not apply to every use. For example, it does not apply to a
+share to a provider for care. A sound access plan starts
+with job duties, not curiosity or status.
 
-Where the Privacy Rule focuses on who can access PHI, the **HIPAA Security Rule** focuses on how ePHI must be protected. It requires three categories of safeguards:
+Suppose a billing worker needs a patient name, service code, and plan
+number. The worker may not need full therapy notes. Role-based access
+can make that difference part of the system.
 
-* **Administrative safeguards:** Policies, procedures, and training, such as a designated security officer, risk assessments, and staff training.
-* **Physical safeguards:** Protecting the infrastructure where ePHI is stored: facility access controls, workstation security, device disposal.
-* **Technical safeguards:** Technology-based protections: access controls, audit controls, integrity controls, and transmission security (encryption).
+### Apply the Security Rule
 
-The Security Rule does not prescribe specific technologies. It requires groups to assess risks and choose "reasonable and appropriate" safeguards. The flexibility lets the rule cover everything from massive hospital systems to two-person clinics, but it also lets groups treat HIPAA as a checkbox instead of a genuine commitment to patient protection.
+The **Security Rule** protects the confidentiality, integrity, and
+availability of ePHI. It groups safeguards into three areas:
 
-### Breach Notification
+* **Administrative safeguards:** risk checks, assigned duties, training, and plans for an event
+* **Physical safeguards:** controls for a site, work area, device, and media
+* **Technical safeguards:** controls for access, logs, data integrity, identity, and data sent on a network
 
-When PHI is compromised, HIPAA's **Breach Notification Rule** requires covered entities to notify affected people, HHS, and (for breaches affecting 500 or more) the media, within 60 days.
+The rule requires each standard. Some implementation details are
+"required" and others are "addressable." Addressable does not mean that
+a group may ignore the issue. The group must use the measure when it is
+reasonable and appropriate. If it chooses another measure, it must
+record why and protect the same goal.
 
-Penalties can be severe. Civil fines range from $100 to $50,000 per violation, up to $1.5 million per category annually. Criminal penalties include fines up to $250,000 and prison time for people who knowingly obtain or disclose PHI. The HHS Office for Civil Rights maintains a public portal of breaches affecting 500 or more, and the list has grown rapidly as healthcare has become a frequent cyberattack target.
+This risk-based plan makes local facts key. A small clinic and a
+large hospital may use other tools. Both must assess risk and protect
+ePHI at a reasonable and appropriate level.
 
+### Respond to a Breach
 
-### Try It Yourself 6.1: Test Your First Judgment 🛠️
+The **Breach Notification Rule** applies after a breach of unsecured PHI.
+An improper use or share is presumed to be a breach unless a risk check
+shows a low chance that PHI was exposed. The rule also
+has narrow exceptions.
 
-**Predict:** You work as an IT support technician at a small medical clinic. While troubleshooting a printer issue, you see a patient's lab results on a screen. The patient is someone you know personally. HIPAA's minimum necessary standard says you should not have seen that information at all. But you did. What are your ethical obligations at this point? Does it matter whether you tell anyone what you saw?
+Notice duties depend on the facts. A covered entity must tell affected
+people without unreasonable delay and no later than 60 days after it
+discovers a reportable breach. It must also tell HHS. The timing for
+HHS depends on whether the breach affects at least 500 people. Media
+notice applies when a breach affects more than 500 residents of a state
+or jurisdiction.
 
-**Run:** Apply the main framework or choice test from Section 6.1. Identify the stakeholder whose interest carries the most weight.
+Do not decide from the record count alone. Ask whether the data was PHI,
+whether it was secured, what occurred, and whether an exception or risk
+risk check applies. HHS lists the steps in its
+[Breach Notification Rule guidance](https://www.hhs.gov/hipaa/for-professionals/breach-notification/index.html).
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+Use one short work log when you change a health IT system:
+
+* **Task:** State the care or work need in plain words
+* **Data:** List the least data the task needs
+* **Role:** Name who may view, add, change, or send the data
+* **Rule:** State which law, policy, or care rule guides the task
+* **Guard:** Name the lock, log, check, or staff step that cuts risk
+* **Proof:** State how the team will know that the guard works
+
+For example, a clinic may give help desk staff a masked view of a chart.
+The view can show the system error but hide the test result. An audit log
+can show who used the view and when. This plan meets the work need with
+less data at risk.
+
+### Try It Yourself 6.1: Limit an Accidental View 🛠️
+
+**Predict:** While fixing a clinic printer, you see a lab result for a
+person you know. You did not need the result for your task. What should
+you do next?
+
+**Run:** Check your job need, the least data needed, the clinic's
+incident path, and the risk of further disclosure.
+
+**Explain:** In 1-2 sentences, state the next action and one action you
+must avoid.
 
 ### Quick Check 6.1 ✅
 
-1. A cloud storage firm hosts patient records for a hospital. Is the cloud storage firm subject to HIPAA? Explain why or why not. *(Understand)*
+1. Why does a health fact in a fitness app not always count as PHI? *(Understand)*
 
-2. Explain the difference between the HIPAA Privacy Rule and the HIPAA Security Rule. How do they complement each other? *(Understand)*
+2. How do the Privacy Rule and Security Rule address separate parts of data care? *(Understand)*
 
-3. A medical researcher wants to study treatment outcomes for diabetes patients across five hospitals. The researcher does not need to know patients' names or addresses. Using the concept of the minimum necessary standard, explain how this research could be conducted in a way that respects patient privacy. *(Apply)*
+3. A vendor hosts ePHI for a hospital. Name two facts that help test whether the vendor is a business associate. *(Apply)*
 
 ---
 
-## 6.2 Mobile Health and Wireless Technology Ethics
+## 6.2 Mobile Health, Wearables, and BYOD
 
-Healthcare is no longer confined to hospitals and clinics. **Mobile health (mHealth)** technology has expanded where and how health data is collected. The convenience brings real benefits and real ethical challenges.
+Mobile health tools collect data outside a clinic. A phone can record
+movement, heart rate, sleep, medicine use, or symptoms. Wireless devices
+can send those facts to a patient, provider, vendor, or data broker.
 
-### Types of mHealth Tools
+The ethical question starts with a data map: what is collected, where it
+goes, who can use it, and when it is deleted.
 
-mHealth runs from **consumer health apps** (the kind you download to track steps, sleep, or meals) to **regulated medical devices** (continuous glucose monitors, cardiac implants, post-surgery remote monitoring). Regulated devices meet FDA standards and generally fall under HIPAA when connected to a provider's systems. Consumer apps often fall outside both categories. A fitness tracker may collect sensitive heart-rate data around the clock. If it is not connected to a covered entity, HIPAA may not apply. The app's terms of service then govern its data practices.
+### Do Not Use One Label for Every App
 
-The gap is large. Apps can legally sell aggregated data to insurers, employers, or advertisers. Store data on weakly secured servers. Or share with third parties, as long as the practice is disclosed somewhere in the terms.
+**Mobile health (mHealth)** includes health work done through phones,
+wearables, sensors, and wireless services. A **consumer health app** may
+help a person track sleep or meals. A regulated medical device may help
+diagnose or treat a condition. FDA status and HIPAA status answer
+separate questions.
 
-### Wearables and Continuous Monitoring
+The FDA looks at a product's medical function and risk. HIPAA looks at
+the parties, their roles, and the data relationship. A regulated device
+does not enter HIPAA only because the FDA reviews it. A simple app may
+enter HIPAA when its developer acts as a business associate.
 
-**Wearable devices**, smartwatches, fitness bands, biosensors, are a rapidly growing category. Modern smartwatches detect irregular heart rhythms, estimate blood oxygen, track menstrual cycles, and identify falls, and have alerted users to atrial fibrillation before symptoms appeared.
+HHS, the FTC, FDA, and ONC offer a
+[mobile health app tool](https://www.hhs.gov/hipaa/for-professionals/special-topics/health-apps/index.html)
+to help developers identify federal rules that may apply.
 
-Continuous monitoring means continuous data collection. A wearable that tracks location, heart rate, sleep, and activity creates a detailed picture of daily life. Shared with an employer, it could shape job choices. Shared with an insurer, premiums. The question is whether users understand what they have agreed to.
+### Check Rules Beyond HIPAA
 
-### BYOD in Clinical Settings
+Some health apps fall outside HIPAA but still face legal duties. The
+FTC's **Health Breach Notification Rule (FTC)** covers certain vendors of
+personal health records and related firms. Its 2024 update makes clear
+that many health apps and connected devices can fall within the rule.
 
-**Bring Your Own Device (BYOD)** policies let healthcare workers use personal smartphones and tablets for work: a nurse looking up drug interactions, a physician accessing an EHR from home. BYOD improves efficiency but creates serious security and privacy risks.
+For a covered firm, a breach can include an outside attack or an
+unauthorized disclosure by the firm. The firm may need to notify people,
+the FTC, and sometimes the media. The FTC Act and state laws may also
+govern a claim or data practice.
 
-Personal devices often lack the encryption, passcode strength, or remote-wipe capability required for ePHI. They connect to unsecured Wi-Fi, are shared with family, and are lost or stolen more easily than group-issued devices. Each case is a potential HIPAA violation.
+This closes part of the old gap, but it does not answer each ethics
+question. A practice can meet a notice rule and still collect too much
+data or use consent that few people can grasp.
 
-Groups balance BYOD productivity against the duty to protect patient data. Some hospitals ban personal devices entirely. Others allow BYOD with mobile device management (MDM) software that controls work-related data on the device. Bans slow care delivery.  MDM raises its own privacy concerns, since staff may object to employer control over a personal device.
+### Test Consent and Data Use
 
-### Patient Consent for Health Data Collection
+**Informed consent** requires a clear explanation, a fair choice, and a
+person who can decide. A long privacy policy is weak proof that a person
+understood a sensitive use.
 
-Consent is foundational to healthcare ethics and data privacy, but in mHealth it is complicated by the volume of data collected and the difficulty of explaining its possible uses.
+Use five questions:
 
-A patient agreeing to a doctor-prescribed monitoring device understands the data will go to their care team. But do they understand the manufacturer may also access it, a third-party analytics firm may process it, or that de-identified versions may be sold for research? Meaningful consent requires understanding and a genuine choice. Patients often feel they cannot refuse a technology their doctor recommends, and that power imbalance makes consent more ethically charged than in other contexts.
+1. What data does the tool collect?
+2. Which use does the person expect?
+3. Which other parties receive the data?
+4. Can the person refuse without an unfair cost or loss?
+5. Can the person withdraw and request deletion?
 
-### Case Study 6.1 - Wellness Program Wearables at Midland Manufacturing 📋
+A wearable from an employer raises extra pressure. A cash reward can
+make a program feel less voluntary to a low-paid worker. Small group
+reports may also expose one person even when names are removed.
 
-**The Situation:** Midland Manufacturing, a firm with 2,200 staff, launches a voluntary corporate wellness program in partnership with a wearable device firm called VitaTrack. Staff who participate receive a free VitaTrack smartwatch that monitors steps, heart rate, sleep quality, and stress levels. In exchange, participating staff receive a $50 monthly reduction in their health insurance premium.
+### Control BYOD Risk
 
-The program is framed as a benefit. Midland's HR director, Sarah Chen, promotes it at a firm meeting: "This is about helping our staff live healthier lives. The data stays with VitaTrack. We only see aggregate reports, never individual data."
+**Bring Your Own Device (BYOD)** lets workers use personal phones or
+tablets for work. It can speed communication and remote access. It also
+mixes private life, firm control, and patient data on one device.
 
-Six months into the program, problems surface. Three staff report that their managers have made comments suggesting they know about specific health data. One worker, a warehouse worker named Darnell Washington, is told by his supervisor that he "might want to get more sleep" after a week of low sleep scores. Darnell did not share his sleep data with his supervisor. He files a complaint with HR.
+A sound BYOD design may use these controls:
 
-An internal investigation reveals that VitaTrack's "aggregate reports" include department-level breakdowns with groups as small as four people. In a department with only four staff, individual data is easy to link to a person. VitaTrack's terms also allow the firm to share "anonymized insights" with Midland's HR department. The terms permit VitaTrack to use health data for "product improvement and research partnerships." This includes selling de-identified data to insurance analytics firms.
+* A managed work container that separates firm data
+* Strong sign-in and short lock times
+* Encryption and secure network links
+* Remote removal of work data
+* Limits on downloads, screenshots, and local storage
+* A fast process for lost devices
 
-**Stakeholders:**
+Map each mobile data flow before launch. Start with the sensor. Follow
+the data through the phone, network, cloud, and report. At each stop,
+write who can read it and why. Mark each copy and backup. Add the date
+when each copy should be erased.
 
-* **Staff who participated** expect their health data to be private and voluntarily joined based on assurances about data separation
-* **Midland Manufacturing** wants to reduce healthcare costs and promote worker wellness, but faces liability for the data exposure
-* **VitaTrack** profits from both the corporate contract and the secondary data market, and designed the program's data-sharing structure
-* **Managers who received department reports** may have acted on health data without realizing they were violating worker privacy
-* **Staff who declined to participate** may face implicit pressure to join or may be viewed as less committed to wellness
+This map can expose a hidden risk. A clinic may protect the phone app but
+miss a vendor log that keeps full IDs. A firm may hide names in a report
+but use a team so small that a boss can guess each worker. The map turns
+a broad promise into facts that a team can test.
 
-**Questions to Consider:**
+The group should state what its management tool can see. A worker should
+know whether the group can view location, photos, apps, or only the work
+container. Security does not excuse hidden worker monitoring.
 
-1. Apply the HIPAA framework you learned in Section 6.1 to this case. Is the VitaTrack data subject to HIPAA? Why or why not? What does this tell you about the gap between legal compliance and ethical responsibility?
+### Case Study 6.1: The Small Group Report 📋
 
-2. Evaluate the consent process in this case. Did the staff give meaningful, informed consent to how their data would be used? Consider the concept of power imbalance: can a wellness program offered by your employer ever be truly voluntary?
+**Fictional case:** Midland Manufacturing offers a wellness watch. A
+worker who joins saves $50 each month on health coverage. The watch
+tracks steps, heart rate, sleep, and stress.
 
-3. You are an IT professional advising Midland's leadership after the complaint. What changes would you recommend to the program's data practices, and what ethical framework supports each recommendation?
+Leaders say that managers will see only group results. Yet one report
+breaks sleep data into teams of four. A supervisor then tells Darnell to
+"get more sleep." Darnell never shared his result with the supervisor.
+
+The vendor also uses de-identified data for product research. The notice
+does not name its research partners or a deletion date.
+
+The case raises four tests. Was the choice free? Could a manager infer a
+person's data? Did the notice state each use? Did the firm collect only
+what it needed for the program?
+
+Do not assume HIPAA covers the watch. First test the parties and their
+roles. Then check the FTC rule, other laws, the contract, and the ethics
+of the design.
+
+### Try It Yourself 6.2: Map a Wearable Program 🛠️
+
+**Predict:** Should Midland keep the program, change it, or end it?
+
+**Run:** Draw a four-step data map from the watch to the final report.
+Apply the five consent questions at each transfer.
+
+**Explain:** In 1-2 sentences, choose one required change and name the
+person it protects.
 
 ### Quick Check 6.2 ✅
 
-1. Explain the key ethical difference between a consumer fitness app and an FDA-regulated medical device in terms of data protection. *(Understand)*
+1. Why do FDA status and HIPAA status answer separate questions? *(Understand)*
 
-2. A hospital allows nurses to use personal smartphones to access patient records through a secure app. The hospital requires encryption and a strong passcode on any device used for this purpose. A nurse's phone is stolen from a gym locker. Apply the concept of the minimum necessary standard to evaluate this situation. *(Apply)*
+2. How can a report about four workers expose a person without listing a name? *(Apply)*
 
-3. A firm offers staff a $100 monthly bonus for sharing data from their personal fitness trackers with the firm's insurance provider. Analyze the ethical concerns with this arrangement from two stakeholder perspectives: the worker and the insurance provider. *(Analyze)*
+3. A clinic permits BYOD. Choose two device controls and explain the patient risk each one reduces. *(Apply)*
 
 ---
 
-## 6.3 Clinical IT Systems and Patient Safety
+## 6.3 Clinical Systems, Telehealth, and Patient Safety
 
-Inside hospitals and clinics, IT systems play a direct role in patient care. When they work, they reduce errors and save lives. When they fail, the effects fall on patients. Three clinical-IT categories carry the heaviest ethical weight, and telemedicine is rapidly expanding the reach of all three.
+Care systems do more than store data. They shape orders, warnings,
+and care choices. A slow screen can delay medicine. A weak alert can hide
+a danger. A broken interface can block a patient from care.
 
-### Electronic Health Records (EHRs)
+### EHRs and Interoperability
 
-**Electronic Health Records (EHRs)** are digital versions of a patient's medical chart. Unlike paper charts confined to one office, EHRs can be shared across providers, pharmacies, labs, and insurance firms. A primary care physician in Phoenix can see lab results ordered by a specialist in Tucson. An ER doctor treating an unconscious patient can pull a medication list and allergy history.
+An **Electronic Health Record (EHR)** holds digital care records.
+It may contain notes, test results, medicines, allergies, and orders.
+**Interoperability** means that other systems can share and use data.
 
-EHRs reduce duplicate tests, catch dangerous drug interactions, and give providers a more complete picture of a patient's history. The federal government invested heavily through the HITECH Act of 2009, which offered financial incentives for adoption, and most hospitals and physician practices now use EHRs.
+Data exchange can prevent a repeated test or show an allergy during an
+emergency. Poor exchange can split one patient's story across systems.
+More exchange also creates more access points. IT teams must protect the
+data while keeping it available to the right care team.
 
-Adoption created problems. **Interoperability** is the ability of different EHR systems to exchange data. It remains a challenge. A hospital and clinic using different vendors may not share records smoothly. Patients who see several providers may still find their records fragmented.
+Useful controls include role-based access, audit logs, data checks, and
+an emergency access process. Emergency access should not become a hidden
+shortcut. A system can log the reason, user, time, and records viewed.
 
-EHRs also create **alert fatigue**. Systems generate so many drug-interaction and allergy alerts that providers override 50% to 90% of them, and the safety system itself becomes a source of risk. IT professionals who design and configure EHRs must keep alerts clinically meaningful, not so frequent they are tuned out.
+### CDS, CPOE, and Alert Fatigue
 
-### Clinical Choice Support Systems (CDSS)
+**Clinical Decision Support (CDS)** gives timely, patient-specific
+facts that can aid a care choice. A **Clinical Decision Support
+System (CDSS)** may show a drug warning, dose guide, or care rule. It
+supports a choice. It does not make every choice for the clinician.
 
-A **Clinical Choice Support System (CDSS)** helps providers make clinical choices with evidence-based recommendations. It may flag lab results that suggest a condition, recommend a dose based on patient factors, or alert a provider to an updated protocol.
+**Computerized Provider Order Entry (CPOE)** lets a provider enter an
+order for medicine, a test, or treatment. It can remove handwriting
+errors and check a dose. Poor menus, defaults, or copied text can create
+new errors.
 
-CDSS reduces errors and improves consistency but raises three issues. First, accountability: when CDSS gives a wrong recommendation and the provider follows it, the provider is responsible, but if the software presented inaccurate information, the vendor shares responsibility. Second, the data and rules underneath: a CDSS trained primarily on adult male patients gives less accurate recommendations for women or children. Third, **automation complacency**: heavy reliance erodes independent clinical judgment, and providers may miss what the system does not flag. CDSS supplements clinical expertise. It does not replace it.
+**Alert fatigue** occurs when users see so many warnings that they stop
+giving each one due care. More alerts do not always mean more safety. A
+team should track which alerts fire, which users override, and which
+alerts prevent harm. It should remove weak alerts and test high-risk
+ones with care staff.
 
-### Computerized Provider Order Entry (CPOE)
+ONC explains that [CDS must fit the care workflow](https://healthit.gov/clinical-quality-and-safety/clinical-decision-support/).
+This is both a design rule and an ethics rule. A tool that interrupts the
+wrong person at the wrong time may fail the patient it was meant to help.
 
-**Computerized Provider Order Entry (CPOE)** systems let physicians enter medical orders electronically: prescriptions, labs, imaging, and treatment instructions. Before CPOE, illegible handwriting was a documented source of medication errors. CPOE eliminates that and adds safety checks for dosage, interactions, and allergies.
+### Telehealth Access and Privacy
 
-CPOE has reduced some medication errors and introduced new ones. Similar drug names can cause incorrect menu selections. Copy-and-paste can carry forward outdated information. Documentation time also remains a source of physician frustration. IT professionals must monitor for unintended effects and design interfaces that support quality care.
+**Telemedicine** provides care through remote technology. It can reduce
+travel and connect a patient with a distant specialist. It can also
+widen the **digital divide** when a patient lacks broadband, a private
+room, a usable device, or help with the platform.
 
-### Telemedicine Ethics
+A fair telehealth plan asks:
 
-**Telemedicine** delivers healthcare through telecommunications technology. Video consultations, remote monitoring, and digital health platforms expanded dramatically during the COVID-19 pandemic and now let patients in rural areas see distant specialists, reduce travel for elderly and disabled patients, and lower costs.
+* Does the patient have an accessible way to join?
+* Can the patient speak without being overheard?
+* What can the remote visit assess well?
+* When must the provider move to in-person care?
+* What backup works if the link fails?
 
-Telemedicine raises four ethical issues:
+Cross-state practice also requires a current license check. State rules
+vary. A provider may need a full license, a compact privilege, a
+registration, or another state path. HHS advises providers to verify the
+patient's location and consent before the visit. Its
+[cross-state licensure guide](https://telehealth.hhs.gov/licensure/licensing-across-state-lines)
+lists common paths.
 
-* **Access and equity.** It requires reliable internet, a camera-equipped device, and digital literacy. Older adults, low-income patients, and those in rural areas with limited broadband may be excluded from the highly technology built to reach them, the **digital divide** in healthcare.
+Use a safety loop for each care tool. First, watch how the team works
+without the tool. Next, test the tool with staff and people who use the
+care site. Track close calls, wrong clicks, slow steps, and workarounds.
+Then fix the rule or screen and test again.
 
-* **Informed consent.** A physician cannot examine a patient through a video call, and some conditions require in-person evaluation. Consent must be specific to the remote format.
+The loop should include a stop rule. A team may stop a drug alert if it
+fires at the wrong time or hides a high-risk warning. A clinic may stop
+a video visit when the link makes a safe exam hard. A clear stop rule
+gives staff the right to protect the patient.
 
-* **Privacy and security.** Sessions transmit sensitive health data over the internet. Inadequate encryption or a household where others can overhear compromises patient privacy. The pandemic-era HHS relaxation of HIPAA enforcement for FaceTime and Zoom increased access and increased risk.
+### Try It Yourself 6.3: Design a Fair Remote Visit 🛠️
 
-* **Cross-state licensing.** Licenses are issued by individual states, so a physician licensed in Arizona generally cannot treat a patient in California without a California license. Telemedicine complicates this. Long-term solutions are still developing.
+**Predict:** A patient lives 90 miles from a heart specialist. The
+patient has slow internet and shares a home with family. Is a video visit
+the best first choice?
 
+**Run:** Test access, privacy, care limits, patient choice, and a
+backup plan. Compare video, phone, a local clinic room, and travel.
 
-### Try It Yourself 6.2: Test Your First Judgment 🛠️
-
-**Predict:** Imagine you are a patient living in a rural community 90 miles from the nearest specialist. Your doctor recommends a telemedicine consultation with a cardiologist. You have a slow internet connection and share your home with family members. What concerns would you have about this arrangement? How would you want the healthcare system to address them?
-
-**Run:** Apply the main framework or choice test from Section 6.2. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Explain:** In 1-2 sentences, choose an option and state one condition
+that would change your choice.
 
 ### Quick Check 6.3 ✅
 
-1. Explain what alert fatigue is and why it represents both a safety problem and an ethical problem in EHR systems. *(Understand)*
+1. How can interoperability improve care and increase security risk? *(Understand)*
 
-2. A small-town physician relies heavily on a CDSS to make prescribing choices because the clinic cannot afford to hire additional specialists. Analyze the ethical risks and benefits of this level of reliance on a clinical choice support tool. *(Analyze)*
+2. Why can a high number of low-value alerts make a care system less safe? *(Analyze)*
 
-3. A 78-year-old patient with limited internet access is told that her follow-up appointment will be conducted via telemedicine. She has never used a video calling platform. Apply the concept of informed consent to evaluate this situation. What obligations does the healthcare provider have? *(Apply)*
+3. A patient cannot use a video platform without help. Name two ways a provider can preserve access and choice. *(Apply)*
 
 ---
 
-## 6.4 AI in Healthcare: Promise, Risk, and Accountability
+## 6.4 AI in Healthcare: Evidence and Accountability
 
-AI is entering healthcare rapidly. Systems analyze medical images, predict patient deterioration, recommend treatments, accelerate drug discovery, and identify patterns clinicians might miss. The sections that follow build on the Chapter 3 AI ethics principles, fairness, transparency, accountability, explainability, and human oversight.
+AI can sort images, predict risk, draft notes, or flag a change in a
+patient's condition. A useful model may help a care team act sooner. A
+poor model may hide risk behind a confident score.
 
-### AI-Assisted Diagnostics
+The right question is not, "Does the system use AI?" Ask whether the
+system is fit for its stated use, patient group, site, and workflow.
 
-Diagnostic AI is among the most visible uses. Systems have detected certain cancers in medical images with accuracy matching or exceeding human radiologists, analyzed retinal scans for diabetic retinopathy, read pathology slides, and identified suspicious skin lesions. They train on labeled image datasets and return probability-based assessments such as "this mammogram has a 94% probability of malignant lesion in a specific quadrant." AI processes images faster than humans, does not tire, and serves as a second set of eyes. In communities with physician shortages, it could extend specialist reach.
+### Test Intended Use and Performance
 
-But when AI is wrong, the patient bears it. A **false negative** can delay treatment. A **false positive** triggers unnecessary anxiety, testing, and procedures with their own risks.
+**AI-assisted diagnostics** use AI to help check care data. A
+result may support a clinician who reads an image or reviews a risk
+score. The team must know what the tool was built to do and what it was
+not built to do.
 
-### Algorithmic Bias in Healthcare AI
+A **false negative** misses a condition that is present. A **false
+positive** flags a condition that is not present. These errors cause
+harm patients in separate ways. A missed case can delay care. A false alarm can cause
+fear, tests, cost, and treatment risk.
 
-**Algorithmic bias** is the tendency of AI systems to perform differently for different populations based on the data they trained on, and it is one of the largest ethical challenges in healthcare AI.
+Overall accuracy can hide a weak subgroup result. Ask for sensitivity,
+specificity, false result rates, and confidence ranges. Ask for results
+across the patient groups who will receive care. A local test can reveal
+whether a tool fits the site's data and workflow.
 
-Healthcare AI bias is not hypothetical. A 2019 study (Obermeyer et al.) found that a widely used U.S. hospital algorithm flagging patients for extra care used healthcare spending as a proxy for need. Because Black patients historically had lower spending than white patients with the same illness severity, the algorithm underestimated Black patients' needs. Correcting it would have more than doubled the number flagged.
+### Find Bias in the Full System
 
-Bias enters at three points:
+**Algorithmic bias** can enter through data, labels, features, goals, or
+deployment. A model may underrepresent a group. It may use cost as a
+weak stand-in for health need. It may work in one hospital and fail in
+another.
 
-* **Training data.** If the dataset underrepresents racial, ethnic, age, or gender groups, the system performs less accurately for them.
-* **Feature selection.** Zip code can act as a proxy for race or socioeconomic status even when race is not explicitly included.
-* **Outcome definitions.** How the algorithm defines "success" or "need" shapes recommendations, as the spending example shows.
+A [2019 study in *Science*](https://pubmed.ncbi.nlm.nih.gov/31649194/)
+examined a care-management algorithm that used health spending to
+predict need. Black patients with the same level of illness had lower
+spending than White patients. The proxy caused the system to rate many
+Black patients as less in need of added care.
 
-Healthcare AI must be tested across diverse populations before deployment, monitored after, and corrected when bias is found. Chapter 3's fairness and accountability principles apply directly.
+The lesson reaches beyond one model. Test the target that the model
+learns. Then test the system after it enters local work.
 
-### Liability When AI Causes Patient Harm
+### Build Human Oversight and Change Control
 
-Medical malpractice frameworks require showing the physician deviated from the standard of care and that the deviation caused harm. AI complicates this. An AI analyzes a chest X-ray and reports no abnormalities. The radiologist, trusting the AI, spends less time reviewing and agrees. Six months later, the patient is diagnosed with lung cancer visible on the original X-ray. Who is responsible?
+**Human oversight (AI)** means more than placing a person after a model.
+The reviewer needs time, skill, authority, and useful evidence. The
+reviewer must be able to reject an output and record why.
 
-* **The physician** remains responsible for the final clinical choice. AI is a tool. The physician has a duty of independent judgment.
-* **The AI developer** shares responsibility if the system was marketed for a purpose it was not validated for, or if known limitations were not disclosed.
-* **The healthcare group** is responsible for deployment choices, clinician training, and ongoing performance monitoring.
+Assign duties across the full system:
 
-A deontological view holds the duty of care cannot be delegated to a machine. A utilitarian view asks whether AI-assisted reading, even with errors, produces better aggregate outcomes than human-only reading. Both point to **human oversight**: AI supports clinical choices. It does not replace the judgment behind them.
+* The vendor states the intended use, limits, data basis, and change plan
+* The health group checks the contract, local fit, security, and workflow
+* Care leaders define when a person must review or override a result
+* IT teams log versions, inputs, outputs, access, and failures
+* A governance group reviews subgroup results, incidents, and appeals
 
-### Informed Consent for AI-Assisted Treatment
+Do not make a final legal liability claim from this list. The law can
+depend on the product, contract, license, use, and place. The list maps
+ethical and operating responsibility.
 
-Should patients be told when AI is involved in their care? The question matters more as AI integrates into diagnostic and treatment workflows.
+The FDA maintains a list of
+[AI-enabled medical devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices)
+that it identified from marketing records. The list is not a complete
+list of all AI health tools. FDA guidance also treats intended use,
+limits, bias, test results, and later changes as key facts.
 
-One side argues patients have a right to know. Informed consent is a cornerstone of medical ethics. If a patient consents to a radiologist reviewing a scan but an algorithm did the analysis, the consent may not cover what happened, and a deontological view treats nondisclosure as a violation of honesty.
+### Protect PHI in AI Workflows
 
-The other side argues disclosing every tool is impractical and may cause unnecessary anxiety. Patients are not told which lab machine processed their blood work.  AI is just another tool.
+An ambient AI scribe may record a visit and draft a note. A prediction
+tool may send EHR data to a vendor cloud. Each transfer needs a scope and
+security test.
 
-No consensus yet. What is clear: **transparency** and **human oversight** point toward giving patients meaningful information about how care choices get made when AI plays a major role.
+Ask which data leaves the health group, which vendor receives it, and
+whether a business associate agreement applies. Check storage, access,
+subcontractors, model training, retention, deletion, and incident notice.
+Do not assume a claim that a tool is "HIPAA compliant" answers these
+questions.
 
-### Clinical AI, Privacy, and Change Control
+Patients also need clear facts when AI has a major role in a care
+choice. The exact legal consent duty can vary. The ethical aim is clear:
+state the tool's role, its material limits, the human review, and the way
+to raise a concern.
 
-The FDA maintains resources for [AI-enabled medical devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices). Device oversight must account for performance, later changes, and the evidence supporting a safe use. A model that changes after release raises a practical question: can clinicians tell what changed and whether the new version still fits their patients?
+Use a release gate before an AI tool reaches care. Give each gate an
+owner and a pass rule:
 
-The EU AI Act places many medical-device AI systems in a high-risk category. The specific application date depends on the system and follows the [European Commission's current timeline](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai).
+* **Use:** Does the tool match the care task and patient group?
+* **Data:** Does the input fit the data used to build and test the tool?
+* **Harm:** Are missed cases and false alarms within a safe bound?
+* **Fairness:** Do group results meet the same safe bound?
+* **Review:** Can a trained person reject the score and record why?
+* **Change:** Will the team know when the model, data, or threshold shifts?
+* **Stop:** Who can pause the tool after harm or drift appears?
 
-Ambient AI scribes listen to clinical conversations and draft notes. They raise consent and PHI questions about recording, processing, storage, access, and deletion. [HHS telehealth guidance](https://www.hhs.gov/hipaa/for-professionals/special-topics/telehealth/index.html) offers a useful privacy and security baseline for remote communication tools.
+A gate is more than a form. The owner must have the time and power to
+stop the launch. The proof may be a local test, a log review, a staff
+drill, or a signed risk choice. If proof is missing, the gate does not
+pass.
 
-When a clinical system produces a note, triage score, or diagnostic suggestion, ask whether a clinician can review the result, see its limits, correct an error, and explain its role to the patient.
+### Try It Yourself 6.4: Gate an AI Triage Tool 🛠️
 
-### Green Computing and Healthcare AI
+**Predict:** A hospital wants to use a triage model trained at suburban
+hospitals. The local hospital serves many patients with chronic illness
+and limited access to care. Should leaders approve it now?
 
-Training and running AI models takes enormous compute. Large language models and complex imaging algorithms consume energy and rely on hardware with environmental costs. As healthcare adopts more AI, the footprint is an ethical concern.
+**Run:** Check intended use, local data fit, subgroup results, false
+results, human review, privacy, and change control.
 
-Per Chapter 3's green-computing principles, healthcare groups must weigh environmental impact alongside clinical benefit: efficient models, renewable-powered data centers, and avoiding AI when simpler tools work.
-
-
-### Try It Yourself 6.3: Test Your First Judgment 🛠️
-
-**Predict:** You learn that the AI system your hospital uses to prioritize patients in the emergency department was trained primarily on data from suburban hospitals. Your hospital serves a predominantly low-income, urban community with high rates of chronic disease. What concerns would you raise about this system, and who should you raise them with? Think about the AI ethics principles of fairness and accountability from Chapter 3.
-
-**Run:** Apply the main framework or choice test from Section 6.3. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
-
-### Try It Yourself 6.4: Test the Boundary 🛠️
-
-**Predict:** Which option in this section creates the least ethical risk?
-
-**Run:** Apply one ethical framework and one stakeholder test from Section 6.4.
-
-**Explain:** Defend your result with one fact from the section.
+**Explain:** In 1-2 sentences, choose approve, approve with conditions,
+or decline. Name the evidence that controls your choice.
 
 ### Quick Check 6.4 ✅
 
-1. Explain how algorithmic bias can enter a healthcare AI system through training data. Give one specific example of how this might affect patient care. *(Understand)*
+1. How do false negatives and false positives harm patients in separate ways? *(Understand)*
 
-2. A hospital begins using an AI tool that reads mammograms and flags potential cancers for radiologist review. The vendor claims the system reduces missed cancers by 20%. Analyze the ethical responsibilities of three parties: the AI developer, the hospital administration, and the radiologist using the system. *(Analyze)*
+2. Why can a model's overall score hide unfair group results? *(Analyze)*
 
-3. A patient asks you, an IT administrator at a clinic, whether AI is involved in reading their lab results. The clinic's pathology department recently integrated an AI screening tool. Should the patient be told? Apply the ethical principle of transparency to support your answer. *(Apply)*
+3. Name three abilities a human reviewer needs to provide meaningful oversight. *(Apply)*
 
 ---
 
@@ -308,15 +525,15 @@ Per Chapter 3's green-computing principles, healthcare groups must weigh environ
 
 ### Key Concepts
 
-* **HIPAA is the legal foundation for U.S. health data privacy.** The Privacy Rule governs PHI access. The Security Rule requires administrative, physical, and technical safeguards for ePHI. The Breach Notification Rule requires disclosure when PHI is compromised.
+* **HIPAA scope depends on roles and relationships.** Covered entities and business associates have defined duties. Not every health app or health fact falls under HIPAA.
 
-* **mHealth creates a gap between legal protection and ethical responsibility.** Consumer health apps and wearables often fall outside HIPAA. Meaningful patient consent is hard to achieve when data collection is continuous and downstream uses are opaque.
+* **Privacy and security work together.** The Privacy Rule limits many uses and disclosures. The Security Rule requires risk-based safeguards for ePHI.
 
-* **Clinical IT systems improve safety but introduce new risks.** EHRs raise interoperability and alert-fatigue issues. CDSS and CPOE reduce some errors and create others. IT professionals must design and maintain these systems with patient safety as the primary concern.
+* **Mobile tools need a full data map.** HIPAA, the FTC rule, state law, consent, BYOD controls, and group size may all affect a choice.
 
-* **Telemedicine expands access but raises equity, consent, and privacy concerns.** The digital divide can exclude the patients who could benefit most. Consent must cover remote-format limitations. Cross-state licensing remains unresolved.
+* **Clinical systems shape patient safety.** EHR exchange, CDS, CPOE, alerts, and telehealth must fit the person, task, and care setting.
 
-* **AI in healthcare requires careful ethical oversight.** Algorithmic bias causes disparate performance for underrepresented populations. Liability is shared among developers, groups, and clinicians. Informed consent, transparency, and human oversight are essential safeguards.
+* **Healthcare AI needs evidence and human control.** Teams must test local fit, subgroup results, false results, data flows, change control, and review authority.
 
 ### Key Terms
 
@@ -335,91 +552,104 @@ Per Chapter 3's green-computing principles, healthcare groups must weigh environ
 #### Section 6.2
 
 * mHealth
-* BYOD
 * Consumer health app
+* Health Breach Notification Rule (FTC)
+* Informed consent
+* BYOD
 
 #### Section 6.3
 
 * Electronic Health Record (EHR)
 * Interoperability
-* Alert fatigue
 * Clinical Decision Support System (CDSS)
 * Computerized Provider Order Entry (CPOE)
+* Alert fatigue
 * Telemedicine
 * Digital divide
 
 #### Section 6.4
 
 * AI-assisted diagnostics
-* Algorithmic bias
 * False negative
 * False positive
-* Automation complacency
+* Algorithmic bias
+* Human oversight (AI)
 
 ### Retrieval Practice
 
 Try to answer these from memory before looking back at the chapter.
 
-1. Name the three categories of safeguards required by the HIPAA Security Rule and give one specific example of each.
-
-2. Explain why a consumer fitness app might collect sensitive health data without being subject to HIPAA. What ethical problem does this gap create for users?
-
-3. A hospital is considering deploying an AI system trained on data from a patient population that does not reflect its own community. Using the concepts from this chapter, describe two specific risks and two steps the hospital should take before deployment.
+1. Name the three HIPAA safeguard groups and one example of each.
+2. Why might a health app fall outside HIPAA but face an FTC notice rule?
+3. Name four gates a hospital should test before it deploys an AI tool.
 
 ---
 
-## 6.6 Skills Lab 6A: Ethical Analysis of a Healthcare AI Deployment
+## 6.6 Skills Lab 6A: The MedPredict Decision
 
-**Goal:** Evaluate a healthcare AI deployment and advise hospital leadership.
+**Goal:** Evaluate a healthcare AI contract and recommend a safe decision.
 
 **Evidence packet:** `assets/code/chapter-06/healthcare-ai-case.md`, a fictional case and evidence packet created for this textbook.
 
 **Estimated time:** 90-120 minutes
 
-### Case: AI-Powered Sepsis Prediction at Valley Regional Medical Center
+### Case: Sepsis Prediction at Valley Regional Medical Center
 
-Valley Regional Medical Center (VRMC), a 350-bed community hospital serving a diverse urban population, is considering a contract with a fictional firm called MedPredict AI. MedPredict offers an AI-powered sepsis prediction system. It monitors vital signs, lab results, and EHR data to identify patients at risk of sepsis. Sepsis is a life-threatening response to infection.
+**Fictional case:** Valley Regional Medical Center (VRMC) is a 350-bed
+hospital. Leaders are considering a three-year, $1.8 million contract
+with MedPredict AI.
 
-MedPredict's system was developed using data from 12 academic medical centers across the eastern United States. In fictional trials at those institutions, the system identified sepsis six hours before traditional screening methods on average. It had 82% sensitivity and 95% specificity. The firm projects that early detection could reduce sepsis mortality at VRMC by up to 15%.
+The system uses vital signs, lab results, and EHR data to flag patients
+at risk of sepsis. MedPredict reports 82% sensitivity and 95%
+specificity in trials at 12 academic hospitals. The firm has not given
+VRMC results by race, ethnicity, insurance status, disability, age, or
+sex.
 
-However, VRMC's medical staff has raised several concerns:
+The training sites served more White and privately insured patients
+than VRMC. VRMC serves a diverse urban community. Fifteen percent of its
+patients are uninsured or covered by Medicaid.
 
-* **Population mismatch.** The 12 academic medical centers that provided training data serve a patient population that is predominantly white and privately insured. VRMC's patient population is 45% Hispanic, 20% Black, and 15% uninsured or on Medicaid. Several physicians worry that the system may perform differently for their patients.
+The proposed workflow sends ePHI to MedPredict's cloud. The contract
+includes a business associate agreement. It lets approved subcontractors
+process data, but it does not list them in the main contract.
 
-* **Alert burden.** With a 95% specificity rate, the system will generate about 5 false alerts for every 100 patients screened. VRMC's nurses, who are already managing heavy patient loads, express concern about alert fatigue. They worry that frequent false alarms will lead staff to ignore real alerts.
+Each score appears in the EHR with a high, medium, or low risk label.
+The tool does not show the main factors behind a score. MedPredict may
+update the model each quarter with 14 days' notice. The contract gives
+VRMC no right to an independent model audit.
 
-* **Data integration.** MedPredict's system requires access to real-time EHR data, lab results, and vital signs. This means patient data will flow through MedPredict's cloud servers for processing. MedPredict is a HIPAA-compliant business associate, but some physicians are uncomfortable with the volume of patient data leaving the hospital's network.
+Nurses already manage many alerts. A 95% specificity rate means about
+five false alerts per 100 patients without sepsis under similar test
+conditions. Local alert volume will also depend on how common sepsis is
+and how VRMC sets the alert threshold.
 
-* **Cost.** The three-year contract costs $1.8 million. VRMC's administration argues that if the system prevents even a fraction of the sepsis deaths that currently occur, the cost is justified. The chief financial officer notes that sepsis patients who survive often require extended ICU stays costing $50,000 or more per case.
+Leaders may sign the contract, negotiate safeguards, or decline it.
 
-* **Transparency.** MedPredict's algorithm is proprietary. The firm provides overall performance statistics but will not share the model's architecture, feature weights, or training methodology. An independent audit of the algorithm is not possible under the proposed contract terms.
+<!-- markdownlint-disable MD029 -->
 
 ### Part 1: Foundation (Aligns with MLO-6.1)
 
-1. Identify all stakeholders in this case. For each stakeholder, describe their primary interest and what they stand to gain or lose from the deployment choice.
-
-2. Identify which HIPAA provisions are relevant to MedPredict's system. Specifically address: Is MedPredict a covered entity or a business associate? What Security Rule safeguards should VRMC require in the contract? How does the data flow between VRMC and MedPredict's cloud servers affect ePHI protection?
-
-3. Define three key ethical issues raised by this case. For each, identify the competing values or rights in tension.
+1. List each stakeholder, the stakeholder's main interest, and one possible harm.
+2. Test whether MedPredict is a business associate. Name four contract or Security Rule controls that VRMC should verify.
+3. Explain what the reported sensitivity and specificity do and do not prove about local patient safety.
 
 ### Part 2: Application (Aligns with MLO-6.1, MLO-6.2)
 
-4. Apply the utilitarian framework to evaluate whether VRMC should deploy MedPredict's system. Identify the potential benefits and harms to each stakeholder group. What does a utilitarian analysis recommend?
-
-5. Apply the deontological framework to evaluate the same choice. Focus specifically on: the duty of care to patients, the transparency concerns around a proprietary algorithm, and the consent implications of routing patient data through an external cloud server.
-
-6. MedPredict's training data underrepresents the demographic groups that make up the majority of VRMC's patient population. Apply the concept of algorithmic bias to explain why this matters. What specific risks does this create, and how should VRMC address them before deploying the system?
+4. Apply utilitarianism and deontology to the three choices: sign, negotiate, or decline.
+5. Apply fairness, transparency, accountability, explainability, and human oversight from Chapter 3. Cite one case fact for each test.
+6. Create a pre-deployment gate with one check for privacy, security, subgroup performance, alert burden, accessibility, and human review.
 
 ### Part 3: Extension (Aligns with MLO-6.2, MLO-6.3)
 
-7. Write a recommendation to VRMC's administration (200-300 words). Should they sign the contract as proposed, negotiate modifications, or decline? Support your recommendation by referencing at least two ethical frameworks and specific concerns from the case.
+7. Write a 200-300 word recommendation to VRMC leaders. Choose one option and state the evidence that would change your choice.
+8. Propose three contract changes. For each change, name the patient or worker risk it reduces and the proof VRMC should require.
 
-8. Propose three specific contract modifications that would address the ethical concerns you identified. For each modification, explain which ethical principle it protects and why it matters for patient care.
+<!-- markdownlint-enable MD029 -->
 
 ### Questions & Analysis 🤔
 
-1. Which risk should hospital leaders address before deployment, and why?
-2. How does your recommendation balance patient privacy with access to care?
+1. Which missing fact creates the greatest decision risk, and why?
+2. When should patient safety outweigh a vendor's claim of trade secrecy?
 
 ### Rubric: Skills Lab 6A
 
@@ -429,26 +659,34 @@ This lab is graded with the standard
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
 Interpretation, and Response to QUESTION(s).
 
+For CIS111, **Technical Accuracy and Efficiency** means applying HIPAA
+scope, safeguards, ethics tests, and performance facts correctly.
+**Output Quality** means that your recommendation is clear, organized,
+and safe for hospital leaders to use.
+
 ### Submission Guidelines
 
 * **Length:** 800-1,200 words total across all parts
-* **Format:** Submit as a single document organized by part number. Use clear headings for each section.
+* **Format:** Submit one PDF named `skills-lab-6a-lastname.pdf`. Use clear headings for each part and label both Questions & Analysis answers.
 
 ---
 
 ## 6.7 Review Questions 🔄️
 
-1. Explain the difference between the HIPAA Privacy Rule and Security Rule.
-2. Apply the minimum necessary standard to an IT support incident.
-3. Analyze how telemedicine can improve access while increasing privacy risk.
-4. When may emergency access justify weaker privacy controls? Defend a limit using two stakeholder perspectives.
+1. **Understand:** Distinguish PHI from a health fact that falls outside HIPAA.
+2. **Apply:** Apply the minimum necessary standard to an IT support task.
+3. **Analyze:** Analyze how telehealth can improve access and create a new barrier.
+4. **Evaluate:** Which AI deployment gate should stop a hospital launch? Defend your threshold.
 
 ## Further Reading 📖
 
-* [HHS Health Information Privacy](https://www.hhs.gov/hipaa/index.html) - HHS provides the official entry point for HIPAA rights, rules, and guidance.
-* [HHS: HIPAA and Telehealth](https://www.hhs.gov/hipaa/for-professionals/special-topics/telehealth/index.html) - HHS explains current privacy and security duties for telehealth.
-* [FDA Artificial Intelligence-Enabled Medical Devices](https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices) - The FDA lists authorized AI-enabled devices and regulatory resources.
-* [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - NIST provides tools for evaluating AI reliability, bias, transparency, and accountability.
+* [HHS Summary of the HIPAA Security Rule](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html): HHS explains current risk analysis and safeguard duties.
+* [FTC Health Breach Notification Rule](https://www.ftc.gov/legal-library/browse/rules/health-breach-notification-rule): The FTC lists the rule and its 2024 update for many health apps and connected tools.
+* [HHS Cross-State Telehealth Licensing](https://telehealth.hhs.gov/licensure/licensing-across-state-lines): HHS explains common state licensing paths for remote care.
+* [ONC Clinical Decision Support](https://healthit.gov/clinical-quality-and-safety/clinical-decision-support/): ONC explains how CDS supports care choices and workflow.
+* [FDA Transparency Principles for Machine Learning Medical Devices](https://www.fda.gov/medical-devices/software-medical-device-samd/transparency-machine-learning-enabled-medical-devices-guiding-principles): FDA identifies useful information about intended use, limits, bias, and later changes.
+
 ## Looking Ahead ⏩
 
-In Chapter 7, you turn from healthcare to software liability and secure coding. When software defects cause harm, who bears responsibility, the developer, the firm, or the user? You will examine product-liability frameworks for software, learn secure coding as an ethical obligation, and apply cost/benefit analysis to IT choices.
+Chapter 7 examines software defects, secure design, and liability. You
+will test who should act when a software choice can cause harm.
