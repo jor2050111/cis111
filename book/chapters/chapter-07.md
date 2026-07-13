@@ -182,7 +182,7 @@ When a security researcher discovers a vulnerability in someone else's software,
 
 **Patch management** is the process of developing, testing, and distributing updates that fix known vulnerabilities. It raises its own ethical questions: How quickly must a vendor release a patch? How much testing is required before deployment (a hasty patch can itself cause problems, as CrowdStrike demonstrated)? What obligation does a vendor have to patch software that has reached "end of life" but is still widely used?
 
-The 2017 Equifax breach exposed the personal information of about 147 million people through a vulnerability that had a patch available two months earlier. Equifax knew about it but failed to apply it. The ethical failure was not the existence of the vulnerability. It was the organizational choice-making that left a known flaw unpatched in a system holding sensitive personal data.
+The 2017 Equifax breach exposed the personal information of about 147 million people through a vulnerability that had a patch available two months earlier. Equifax knew about it but failed to apply it. The ethical failure was not the existence of the vulnerability. It was the organizational decision-making that left a known flaw unpatched in a system holding sensitive personal data.
 
 
 ### Try It Yourself 7.2: Test Your First Judgment 🛠️
@@ -331,7 +331,6 @@ AI-generated code belongs inside the same review process. Record where it came f
 * Cost/benefit analysis
 * Safety-critical system
 * AI liability
-* Orchestrator-verifier
 
 ### Retrieval Practice
 
@@ -394,7 +393,7 @@ Analyze the ethical obligations of the development team and group:
 
 Evaluate the cost/benefit trade-offs and formulate a recommendation:
 
-7. Construct a cost/benefit analysis that includes both the financial costs (delay, development expense, lost revenue) and the non-financial costs (passenger safety risk, public trust, industry precedent, legal liability). Which factors are most difficult to quantify, and why does that difficulty matter for ethical choice-making?
+7. Construct a cost/benefit analysis that includes both the financial costs (delay, development expense, lost revenue) and the non-financial costs (passenger safety risk, public trust, industry precedent, legal liability). Which factors are most difficult to quantify, and why does that difficulty matter for ethical decision-making?
 
 8. Write a recommendation (200-300 words) to TransitTech's board of directors. State whether they should deploy on schedule, deploy with the manual mode mitigation, or delay to fix the defect. Support your recommendation with at least two ethical frameworks and reference specific concepts from this chapter.
 

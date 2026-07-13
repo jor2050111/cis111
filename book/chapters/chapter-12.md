@@ -91,7 +91,7 @@ The priority ordering is critical. When canons conflict, you resolve the conflic
 
 2. How does the (ISC)² code's priority ordering of its four canons help resolve conflicts between a security professional's obligations to different stakeholders? *(Understand)*
 
-3. The IEEE code commits members to "hold paramount the safety, health, and welfare of the public." Give an specific IT case where following this commitment would require an engineer to push back against a business choice. *(Apply)*
+3. The IEEE code commits members to "hold paramount the safety, health, and welfare of the public." Give a specific IT case where following this commitment would require an engineer to push back against a business choice. *(Apply)*
 
 ---
 

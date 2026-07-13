@@ -254,9 +254,9 @@ The accountability gap in AI is a real and growing problem. When multiple partie
 
 Clear governance closes the accountability gap. Before deployment, leaders should name who approves the system, who monitors outcomes, who receives complaints, and who can suspend its use. The [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) treats governance as a cross-cutting function that shapes mapping, measurement, and management.
 
-### Direct, Verify, and Intervene
+### The Direct-Verify-Intervene Practice
 
-An group that uses an AI hiring tool is making a governance choice about who receives an opportunity. Responsible staff define auditable criteria, verify results over time, and intervene when outcomes cannot be explained or defended. Fairness, transparency, accountability, explainability, and human oversight turn those duties into questions a team can test.
+The **direct-verify-intervene practice** describes three duties for people who use AI. Direct the system toward a clear goal. Verify its results over time. Intervene when an outcome cannot be explained or defended. A group that uses an AI hiring tool is making a governance choice about who receives an opportunity. Fairness, transparency, accountability, explainability, and human oversight turn those duties into questions a team can test.
 
 You may be asked to implement or maintain a system you did not build. Ask what assumptions shaped it, where it has failed, who reviews consequential outputs, and who can stop it. Raising those questions before deployment is part of responsible governance.
 
@@ -342,7 +342,7 @@ AI governance is not just about fairness and accountability. It also involves en
 * EU AI Act
 * NIST AI Risk Management Framework
 * Colorado AI Act
-* Orchestrator-verifier role
+* Direct-verify-intervene practice
 * Green computing
 
 ### Retrieval Practice
@@ -351,7 +351,7 @@ Try to answer these from memory before looking back at the chapter.
 
 1. What is the key difference between shareholder theory and stakeholder theory? Name three stakeholder groups that shareholder theory might overlook.
 2. List the five core AI ethics principles and give a one-sentence definition of each.
-3. Describe three ways that algorithmic bias can enter an AI system. For one of them, give an specific example of who might be harmed.
+3. Describe three ways that algorithmic bias can enter an AI system. For one of them, give a specific example of who might be harmed.
 
 ---
 

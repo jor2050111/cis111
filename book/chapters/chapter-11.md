@@ -323,7 +323,7 @@ The same AI capabilities that strengthen defenses empower attackers, creating an
 **AI-powered cyberattacks:**
 
 * **Spear phishing at scale.** AI generates thousands of personalized phishing emails by scraping social media and public records, industrializing what was once labor-intensive.
-* **Social engineering automation.** AI chatbots conduct real-time conversational attacks. Voice cloning replicates an specific person's voice from seconds of audio, enabling phone calls that sound like the CEO requesting an urgent wire transfer.
+* **Social engineering automation.** AI chatbots conduct real-time conversational attacks. Voice cloning replicates a specific person's voice from seconds of audio, enabling phone calls that sound like the CEO requesting an urgent wire transfer.
 * **AI-generated malware.** LLMs write or modify malicious code, generating variants that evade detection. Vendor safeguards exist. Open-source models without them are freely available.
 * **Deepfake-enabled fraud.** In 2024, a Hong Kong finance worker transferred roughly $25 million after attending a video call where every other participant, such as the CFO, was a deepfake.
 
@@ -468,7 +468,7 @@ MCC recently experienced the following incident: A phishing email that appeared 
 4. Draft three specific security policy recommendations that MCC should implement to prevent a similar incident in the future. For each policy, identify:
    * What the policy requires
    * How it would be technically enforced
-   * How it addresses an specific vulnerability revealed by this incident
+   * How it addresses a specific vulnerability revealed by this incident
 
 5. MCC does not currently require multi-factor authentication for any systems. Write a brief policy statement (100-150 words) that establishes an MFA requirement for the college. Specify which systems and user groups it applies to, the timeline for implementation, and any exceptions.
 

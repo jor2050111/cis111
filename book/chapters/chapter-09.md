@@ -122,7 +122,7 @@ In 2015, the Second Circuit Court of Appeals ruled in Google's favor, finding th
 
 ### Open Source Licensing
 
-Not everyone believes in restricting access to creative works. The **open source** movement represents a fundamentally different philosophy: that software (and increasingly other creative works) should be freely available for anyone to use, modify, and distribute. Open source is not the absence of licensing. It is an specific set of licensing models that define how freely shared works can be used.
+Not everyone believes in restricting access to creative works. The **open source** movement represents a fundamentally different philosophy: that software (and increasingly other creative works) should be freely available for anyone to use, modify, and distribute. Open source is not the absence of licensing. It is a specific set of licensing models that define how freely shared works can be used.
 
 The most common open source licenses fall into two categories:
 

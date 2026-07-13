@@ -282,7 +282,6 @@ You still make choices inside this environment. Check who funded a claim, compar
 * Deepfake
 * Autonomy
 * Digital Services Act (DSA)
-* Orchestrator-verifier
 
 ### Retrieval Practice
 

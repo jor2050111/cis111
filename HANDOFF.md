@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. The remaining work is a chapter-level
-plain-language rewrite and adversarial content review.
+yet the final publication edition. Chapter 1 has completed its full
+plain-language and instructional review. Chapters 2-12 remain.
 
 ## What Was Built
 
@@ -38,7 +38,7 @@ plain-language rewrite and adversarial content review.
   four review questions to each chapter.
 * Added 12 fictional evidence packets under `assets/code/chapter-NN/`.
 * Built `build/cis111-evidence-pack.zip` and verified the archive.
-* Created a 203-entry glossary. Every chapter Key Terms entry resolves to
+* Created a 201-entry glossary. Every chapter Key Terms entry resolves to
   one glossary definition.
 * Replaced old or weak source links with current primary sources from
   NIST, HHS, CISA, the FTC, the European Commission, the US Copyright
@@ -57,14 +57,16 @@ plain-language rewrite and adversarial content review.
 * Every chapter has exactly one Skills Lab goal and one evidence packet.
 * Every chapter has exactly two Questions & Analysis prompts and four
   review questions.
-* All 203 chapter Key Terms entries resolve to the glossary.
+* All chapter Key Terms entries resolve to the glossary.
 * All evidence packet paths exist.
+* Chapter 1 measures Flesch 60.4 with a grade estimate of 7.8.
+* Chapter 1 reports zero Markdown lint errors and zero sentence-length
+  flags.
 
 ## Remaining Work
 
-1. Rewrite each chapter in plain language until it reaches the approved
-   Flesch Reading Ease band of 60-70. The legacy conversion is still too
-   dense, even though sentence length now passes.
+1. Rewrite Chapters 2-12 in plain language until each reaches the
+   approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
    publication date.
@@ -91,7 +93,7 @@ plain-language rewrite and adversarial content review.
 
 ## Start Here Next Time
 
-Begin with Chapter 1 and complete its plain-language and instructional
-review before moving to Chapter 2. Run the sentence-length check, style
-sweep, glossary check, link check, and clean build after each chapter.
-Do not add weeks, due dates, exams, or term labels to chapter content.
+Begin with Chapter 2. Run the sentence-length check, readability score,
+Markdown lint, style sweep, glossary check, link check, and clean build
+after each chapter. Do not add weeks, due dates, exams, or term labels
+to chapter content.

@@ -158,6 +158,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Digital Services Act (DSA):** European Union regulation requiring large platforms to assess and reduce systemic risks from their algorithms, including requirements for auditable recommendation systems.
 
+**Direct-verify-intervene practice:** This book's name for the duty to direct an AI system toward a clear goal, verify its output with facts, and intervene when a result cannot be explained or defended.
+
 **Discriminatory advertising:** The practice of using ad targeting tools to exclude or include audiences based on protected characteristics such as race, religion, or national origin.
 
 **Disinformation:** False information created and spread deliberately to deceive
@@ -305,12 +307,6 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Offshore outsourcing (offshoring):** Contracting IT work to companies or workers in other countries, typically to reduce labor costs
 
 **Open source:** A licensing philosophy that allows software to be freely used, modified, and distributed under specified conditions.
-
-**Orchestrator and verifier:** The professional stance, articulated in 2024-2025 ACM and IEEE guidance, in which IT professionals who deploy or configure AI systems remain responsible for directing those systems toward defined goals, checking outputs for fairness and accuracy, and taking accountability for results instead of deferring entirely to algorithmic decisions.
-
-**Orchestrator-verifier:** A role in which you actively direct and critically evaluate AI-generated or AI-curated content instead of accepting it passively. A stance that frames you as a responsible agent in AI-mediated environments.
-
-**Orchestrator-verifier role:** The professional stance, articulated in 2024-2025 ACM and IEEE guidance, in which IT workers remain accountable for AI-assisted decisions by actively directing, auditing, and validating system outputs instead of deferring to algorithmic results.
 
 **OWASP Top 10:** A regularly updated list of the most critical web application security risks.
 

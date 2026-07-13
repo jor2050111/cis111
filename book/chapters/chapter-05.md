@@ -170,9 +170,9 @@ In IT, fiduciary duty extends to data. When a group collects personal informatio
 
 ### Data as a Trust
 
-When you sign up for an online service and provide your name, email, and phone number, you are not giving that information away. You are lending it for an specific purpose. The firm becomes the **custodian** of that data, and custodianship carries responsibility.
+When you sign up for an online service and provide your name, email, and phone number, you are not giving that information away. You are lending it for a specific purpose. The firm becomes the **custodian** of that data, and custodianship carries responsibility.
 
-**Personally identifiable information (PII)** is any data that can identify an specific individual: names, addresses, Social Security numbers, phone numbers, email addresses, biometric data, IP addresses, and health records. The more sensitive the PII, the greater the group's obligation to protect it.
+**Personally identifiable information (PII)** is any data that can identify a specific individual: names, addresses, Social Security numbers, phone numbers, email addresses, biometric data, IP addresses, and health records. The more sensitive the PII, the greater the group's obligation to protect it.
 
 Groups that collect PII owe data subjects five things:
 
@@ -186,7 +186,7 @@ Groups that collect PII owe data subjects five things:
 
 This is where fiduciary responsibility connects directly to whistleblowing. An IT professional has an obligation to their employer, but they also have an obligation to the people whose data the employer holds. When the two conflict, the ethical tension can be intense.
 
-Consider this case: you work for a firm that has experienced a data breach affecting 500,000 customer records. Your employer decides not to disclose the breach, hoping to fix the vulnerability quietly. You know affected customers are at risk of identity theft and that several state laws require notification within an specific timeframe.
+Consider this case: you work for a firm that has experienced a data breach affecting 500,000 customer records. Your employer decides not to disclose the breach, hoping to fix the vulnerability quietly. You know affected customers are at risk of identity theft and that several state laws require notification within a specific timeframe.
 
 Loyalty to your employer pulls one direction. Obligation to the data subjects pulls another. Fiduciary responsibility argues the obligation to the data subjects should take priority, because the data was entrusted for safekeeping and the group has failed in that duty.
 
@@ -350,7 +350,7 @@ Try to answer these from memory before looking back at the chapter.
 
 1. Name the four ethical criteria for justified whistleblowing and explain why each one matters.
 2. What are the key differences between the whistleblower protections in the Sarbanes-Oxley Act and the Dodd-Frank Act? Which law provides financial incentives, and how does that work?
-3. Explain the concept of fiduciary duty as it applies to groups that hold personal data. Give an specific example of how a firm could violate this duty and describe why an IT professional might face a whistleblowing choice as a result.
+3. Explain the concept of fiduciary duty as it applies to groups that hold personal data. Give a specific example of how a firm could violate this duty and describe why an IT professional might face a whistleblowing choice as a result.
 
 ---
 

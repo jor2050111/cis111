@@ -30,7 +30,7 @@ In Chapter 1, you learned that morals are personal beliefs, ethics provides shar
 
 **Personal ethics** are the principles you live by in your everyday life. They come from your upbringing, your culture, your religion, and your experiences. You might believe that honesty is always the best policy, or that loyalty to friends matters above everything else. These beliefs guide your personal choices.
 
-**Professional ethics** are the standards of conduct expected within an specific profession. They are not just your personal beliefs applied at work. They are shared expectations that an entire field agrees to follow. In IT, professional ethics includes standards like protecting user data, being honest about system capabilities, and disclosing conflicts of interest. Groups like the Association for Computing Machinery (ACM) and the Institute of Electrical and Electronics Engineers (IEEE) publish formal codes of ethics that define these expectations.
+**Professional ethics** are the standards of conduct expected within a specific profession. They are not just your personal beliefs applied at work. They are shared expectations that an entire field agrees to follow. In IT, professional ethics includes standards like protecting user data, being honest about system capabilities, and disclosing conflicts of interest. Groups like the Association for Computing Machinery (ACM) and the Institute of Electrical and Electronics Engineers (IEEE) publish formal codes of ethics that define these expectations.
 
 Here is the key difference: your personal ethics belong to you, but professional ethics belong to the role. When you accept a position as a database administrator, a network engineer, or a software developer, you accept the ethical obligations that come with that role. Those obligations exist whether or not they match your personal beliefs.
 
@@ -252,7 +252,7 @@ You may be asked to maintain an AI system you did not build and cannot fully ins
 
 2. Your firm has a code of conduct that prohibits sharing customer data with third parties. A vice president asks you to export customer email addresses for a marketing partner. The VP says, "The code does not apply to strategic partnerships." Analyze this situation using what you learned about organizational ethics. *(Analyze)*
 
-3. Identify two specific reasons why ethical choice-making in business environments is more difficult than ethical choice-making in personal life. Give an IT-related example for each. *(Apply)*
+3. Identify two specific reasons why ethical decision-making in business environments is more difficult than ethical decision-making in personal life. Give an IT-related example for each. *(Apply)*
 
 ---
 
@@ -260,7 +260,7 @@ You may be asked to maintain an AI system you did not build and cannot fully ins
 
 ### Key Concepts
 
-* **Professional ethics differ from personal ethics.** Personal ethics come from your individual beliefs and experiences. Professional ethics are shared standards tied to an specific role. In IT, professional ethics include obligations to protect data, disclose conflicts, and be honest about system capabilities. When the two conflict, you need a structured way to work through the tension.
+* **Professional ethics differ from personal ethics.** Personal ethics come from your individual beliefs and experiences. Professional ethics are shared standards tied to a specific role. In IT, professional ethics include obligations to protect data, disclose conflicts, and be honest about system capabilities. When the two conflict, you need a structured way to work through the tension.
 
 * **IT workers manage six key professional relationships.** Each relationship, with employers, clients, suppliers, other professionals, users, and society, carries distinct ethical obligations. Understanding these categories helps you recognize ethical risks before they become ethical failures.
 
@@ -268,7 +268,7 @@ You may be asked to maintain an AI system you did not build and cannot fully ins
 
 * **Groups shape ethical behavior.** Leadership tone, codes of conduct, ethics training, and reporting systems all influence whether staff act ethically. Individual integrity matters, but it is not enough when organizational culture pushes in the wrong direction.
 
-* **Ethical choices in business are complex.** Competing stakeholder interests, time pressure, organizational conformity, and genuine ambiguity make professional ethical choice-making harder than personal ethical choices. Building reasoning habits before a crisis is essential.
+* **Ethical choices in business are complex.** Competing stakeholder interests, time pressure, organizational conformity, and genuine ambiguity make professional ethical decision-making harder than personal ethical choices. Building reasoning habits before a crisis is essential.
 
 ### Key Terms
 
@@ -297,7 +297,6 @@ You may be asked to maintain an AI system you did not build and cannot fully ins
 * Tone at the top
 * Ethics training
 * Reporting systems
-* Orchestrator-verifier role
 
 ### Retrieval Practice
 

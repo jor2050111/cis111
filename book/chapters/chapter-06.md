@@ -28,7 +28,7 @@ By the end of this chapter, you will be able to:
 
 ## 6.1 HIPAA and the Foundations of Health Data Privacy
 
-Health data is uniquely sensitive. Your medical records reveal diagnoses, mental health treatment, prescription medications, genetic test results, reproductive choices, and substance use history. When that information is exposed, the effects can include discrimination, stigma, job loss, and insurance denial. That sensitivity is why the United States created an specific legal framework for protecting it.
+Health data is uniquely sensitive. Your medical records reveal diagnoses, mental health treatment, prescription medications, genetic test results, reproductive choices, and substance use history. When that information is exposed, the effects can include discrimination, stigma, job loss, and insurance denial. That sensitivity is why the United States created a specific legal framework for protecting it.
 
 ### The Health Insurance Portability and Accountability Act (HIPAA)
 
@@ -42,11 +42,11 @@ HIPAA applies to **covered entities**, which include healthcare providers (hospi
 
 When PHI exists in electronic form, it is **electronic Protected Health Information (ePHI)**. Most health data today is ePHI, which puts IT systems directly responsible for its storage, transmission, and security.
 
-**De-identified data** is health information stripped of HIPAA's 18 identifiers.  HIPAA does not restrict it because it cannot be traced to an specific person. However, research has shown that supposedly de-identified data can sometimes be re-identified by combining it with other sources, raising its own ethical concerns.
+**De-identified data** is health information stripped of HIPAA's 18 identifiers.  HIPAA does not restrict it because it cannot be traced to a specific person. However, research has shown that supposedly de-identified data can sometimes be re-identified by combining it with other sources, raising its own ethical concerns.
 
 ### The Privacy Rule
 
-The **HIPAA Privacy Rule** governs who can access PHI and when. Its core principle is the **minimum necessary standard**: covered entities should access, use, or disclose only the minimum PHI needed for an specific purpose. A billing clerk does not need a patient's full medical history to process a claim. A researcher studying treatment outcomes does not need patient names.
+The **HIPAA Privacy Rule** governs who can access PHI and when. Its core principle is the **minimum necessary standard**: covered entities should access, use, or disclose only the minimum PHI needed for a specific purpose. A billing clerk does not need a patient's full medical history to process a claim. A researcher studying treatment outcomes does not need patient names.
 
 The Privacy Rule grants patients specific rights:
 
@@ -223,7 +223,7 @@ AI is entering healthcare rapidly. Systems analyze medical images, predict patie
 
 ### AI-Assisted Diagnostics
 
-Diagnostic AI is among the most visible uses. Systems have detected certain cancers in medical images with accuracy matching or exceeding human radiologists, analyzed retinal scans for diabetic retinopathy, read pathology slides, and identified suspicious skin lesions. They train on labeled image datasets and return probability-based assessments such as "this mammogram has a 94% probability of malignant lesion in an specific quadrant." AI processes images faster than humans, does not tire, and serves as a second set of eyes. In communities with physician shortages, it could extend specialist reach.
+Diagnostic AI is among the most visible uses. Systems have detected certain cancers in medical images with accuracy matching or exceeding human radiologists, analyzed retinal scans for diabetic retinopathy, read pathology slides, and identified suspicious skin lesions. They train on labeled image datasets and return probability-based assessments such as "this mammogram has a 94% probability of malignant lesion in a specific quadrant." AI processes images faster than humans, does not tire, and serves as a second set of eyes. In communities with physician shortages, it could extend specialist reach.
 
 But when AI is wrong, the patient bears it. A **false negative** can delay treatment. A **false positive** triggers unnecessary anxiety, testing, and procedures with their own risks.
 

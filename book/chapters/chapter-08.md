@@ -171,7 +171,7 @@ The **H-1B visa** allows US employers to temporarily hire foreign workers in spe
 The program operates on several key mechanisms:
 
 * **Annual cap:** Currently 65,000 new visas annually (plus 20,000 for workers with US advanced degrees). Because demand far exceeds supply, visas are allocated by lottery.
-* **Employer sponsorship:** The visa is tied to an specific employer. Changing jobs requires transferring the visa, which creates a dependency relationship.
+* **Employer sponsorship:** The visa is tied to a specific employer. Changing jobs requires transferring the visa, which creates a dependency relationship.
 * **Prevailing wage requirement:** Employers must pay H-1B workers at least the **prevailing wage** for the position in that geographic area.
 
 ### Ethical Concerns with the H-1B Program
@@ -180,7 +180,7 @@ The program operates on several key mechanisms:
 
 **The displacement concern:** Critics argue that some firms use the H-1B program not to fill genuine skill gaps but to replace existing US workers with lower-paid foreign workers. In 2015, Southern California Edison laid off about 400 IT workers and replaced many of them with H-1B visa holders employed through outsourcing firms. Workers were required to train their H-1B replacements as a condition of receiving severance packages.
 
-**The power imbalance:** Because H-1B visas are tied to an specific employer, workers pursuing permanent residency through their employer face significant pressure. For workers from countries with high demand, the green card queue can mean a wait of 10 to 20 years. This dependency can make H-1B workers reluctant to report workplace problems, negotiate for higher pay, or push back against unethical practices.
+**The power imbalance:** Because H-1B visas are tied to a specific employer, workers pursuing permanent residency through their employer face significant pressure. For workers from countries with high demand, the green card queue can mean a wait of 10 to 20 years. This dependency can make H-1B workers reluctant to report workplace problems, negotiate for higher pay, or push back against unethical practices.
 
 **The outsourcing firm model:** A substantial portion of H-1B visas goes to IT outsourcing firms that contract workers to other firms. Critics argue this model turns the H-1B program into a labor arbitrage mechanism. Supporters counter that outsourcing firms provide legitimate staffing flexibility and that the prevailing wage requirement prevents underpayment.
 
@@ -198,7 +198,7 @@ An ethically responsible approach includes using H-1B visas only where qualified
 
 ### Quick Check 8.3 ✅
 
-1. Explain the "power imbalance" concern with H-1B visas. Why does tying a visa to an specific employer create ethical risks for workers? *(Understand)*
+1. Explain the "power imbalance" concern with H-1B visas. Why does tying a visa to a specific employer create ethical risks for workers? *(Understand)*
 
 2. A firm offshores its customer support center to save $4 million annually. Sixty workers in the US lose their jobs. The firm offers each displaced worker two weeks of severance and no retraining assistance. Apply the stakeholder analysis framework from Chapter 3 to evaluate whether the firm's approach is ethically adequate. *(Apply)*
 
@@ -372,7 +372,7 @@ Interpretation, and Response to QUESTION(s).
 ## 8.7 Review Questions 🔄️
 
 1. Explain one strength and one limit of government regulation.
-2. Apply GDPR, CCPA, COPPA, or HIPAA to an specific data-handling case.
+2. Apply GDPR, CCPA, COPPA, or HIPAA to a specific data-handling case.
 3. Analyze why professional self-regulation may fail when profit and safety conflict.
 4. When should duties to existing workers limit a cost-saving outsourcing choice? Defend a rule.
 

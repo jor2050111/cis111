@@ -37,9 +37,9 @@ Understanding this distinction is the starting point for everything else in this
 
 Even under the First Amendment, certain categories of speech receive no legal protection. Courts have identified these categories over more than two centuries of case law:
 
-* **True threats:** Statements that communicate a serious intent to harm an specific person or group. Posting "I am going to find you and hurt you" directed at a named individual is not protected speech.
+* **True threats:** Statements that communicate a serious intent to harm a specific person or group. Posting "I am going to find you and hurt you" directed at a named individual is not protected speech.
 * **Incitement:** Speech intended to produce imminent lawless action, as established in the 1969 Supreme Court case *Brandenburg v. Ohio*. General advocacy of violence is protected. Directing a crowd to commit violence right now is not.
-* **Obscenity:** Material that meets an specific three-part legal test established in *Miller v. California* (1973), such as whether the material lacks serious literary, artistic, political, or scientific value.
+* **Obscenity:** Material that meets a specific three-part legal test established in *Miller v. California* (1973), such as whether the material lacks serious literary, artistic, political, or scientific value.
 * **Defamation:** False statements of fact that damage someone's reputation. You will examine this in detail in Section 10.2.
 * **Fighting words:** Words spoken directly to another person that are likely to provoke an immediate violent reaction.
 
@@ -250,7 +250,7 @@ Artificial intelligence has taken workplace monitoring beyond what any previous 
 
 **Emotion detection systems** claim to analyze facial expressions, voice tone, and typing patterns to infer worker emotional states, marketed for use in hiring interviews, customer service monitoring, and wellness programs. Research in affective computing has consistently shown that emotional states cannot be reliably inferred from facial expressions alone, and these systems are particularly inaccurate across different cultural backgrounds and for people with certain disabilities.
 
-**Automated choice-making** is the most ethically significant development. When AI systems not only monitor but also flag someone for a performance review or trigger a disciplinary process, the stakes are much higher. Staff may not know the criteria being used, may not be able to challenge the algorithm's conclusions, and may not know that an algorithm, instead of a human manager, initiated the action.
+**Automated decision-making** is the most ethically significant development. When AI systems not only monitor but also flag someone for a performance review or trigger a disciplinary process, the stakes are much higher. Staff may not know the criteria being used, may not be able to challenge the algorithm's conclusions, and may not know that an algorithm, instead of a human manager, initiated the action.
 
 For IT professionals, these systems present a direct professional responsibility. If you are asked to implement, configure, or maintain AI-powered surveillance tools, you must consider not only whether the system works technically but whether it works ethically. The principles you learned in Chapter 3 about AI accountability and transparency apply directly here.
 
@@ -276,7 +276,7 @@ For IT professionals, these systems present a direct professional responsibility
 
 * **Freedom of expression has legal limits.** The First Amendment protects people from government censorship, not from private platform policies or employer rules. Certain categories of speech, such as true threats, incitement, and defamation, are not constitutionally protected. Hate speech, while deeply offensive, is largely protected under U.S. law unless it falls into one of these unprotected categories.
 
-* **Defamation has an specific legal framework.** A successful defamation claim requires proving publication, falsity, fault, and harm. Public figures face a higher burden of proof (actual malice). SLAPP suits exploit the legal system to silence critics, and anti-SLAPP laws attempt to prevent this abuse. Anonymous speech is protected but can be unmasked through John Doe lawsuits when courts find a legitimate defamation claim.
+* **Defamation has a specific legal framework.** A successful defamation claim requires proving publication, falsity, fault, and harm. Public figures face a higher burden of proof (actual malice). SLAPP suits exploit the legal system to silence critics, and anti-SLAPP laws attempt to prevent this abuse. Anonymous speech is protected but can be unmasked through John Doe lawsuits when courts find a legitimate defamation claim.
 
 * **Disinformation is amplified by AI.** Deepfake technology can create convincing fabricated media that enables new forms of defamation and manipulation. AI content moderation attempts to address harmful content at scale but suffers from accuracy problems, linguistic bias, and context blindness that disproportionately affect certain communities.
 
@@ -321,7 +321,7 @@ Try to answer these from memory before looking back at the chapter.
 
 1. Name three categories of speech that are not protected by the First Amendment. For each, explain briefly why it is excluded from protection.
 2. What are the four elements of a defamation claim, and how does the standard differ for public figures versus private people?
-3. Explain three ethical principles that should guide workplace monitoring choices, and give an example of how each applies to an specific monitoring practice.
+3. Explain three ethical principles that should guide workplace monitoring choices, and give an example of how each applies to a specific monitoring practice.
 
 ---
 
