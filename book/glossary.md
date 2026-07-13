@@ -108,7 +108,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Contingent workers:** Workers who are not permanent employees, including gig workers, freelancers, and outsourced contractors.
 
-**COPPA:** A US federal law requiring verifiable parental consent before collecting personal information from children under 13 online
+**COPPA:** A US federal law and rule for certain online services aimed at children under 13 or operators with actual knowledge that they collect a child's personal data.
 
 **Copyleft license:** An open source license (such as GPL) that requires derivative works to be released under the same license.
 
@@ -218,7 +218,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## G
 
-**GDPR:** The EU's comprehensive data privacy law (2018) applying to any organization processing personal data of EU residents, regardless of where the organization is based
+**GDPR:** The EU's data protection law. Its reach outside the EU depends on facts such as offering goods or services to people in the EU or monitoring their behavior there.
 
 **Golden Mean:** The idea that virtues are a balanced midpoint between two extremes (e.g., courage between cowardice and recklessness).
 
@@ -226,7 +226,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## H
 
-**H-1B visa:** A US work visa allowing employers to temporarily hire foreign workers in specialty occupations requiring at least a bachelor's degree
+**H-1B visa:** A US status through which an eligible employer may sponsor a worker for a specialty occupation for a limited period.
 
 **Hate speech:** Expression that attacks or demeans a person or group based on characteristics such as race, ethnicity, religion, gender, sexual orientation, or disability
 
@@ -310,9 +310,9 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Patent:** An exclusive right to make, use, and sell an invention for a limited period (typically 20 years).
 
-**PCI DSS:** An industry-created security standard required for all organizations that process credit card data
+**PCI DSS:** A private payment-card security standard that contracts and card-brand rules may require for groups that store, process, or send cardholder data.
 
-**Permissive approach:** A regulatory philosophy that allows innovation to proceed with minimal restriction, introducing regulation only after specific harms are identified
+**Permissive approach:** A policy approach that allows broad testing or use while rules respond to known risks and harms.
 
 **Permissive license:** An open source license (such as MIT or Apache) that allows broad reuse with minimal restrictions.
 
@@ -322,9 +322,9 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Plagiarism:** Presenting someone else's work or ideas as your own without proper attribution.
 
-**Precautionary approach:** A regulatory philosophy that restricts new technologies until they are proven safe
+**Precautionary approach:** A policy approach that places stronger proof and controls before or early in a high-risk technology's use.
 
-**Prevailing wage:** The average wage for an occupation and geographic area that employers must meet or exceed when hiring H-1B workers
+**Prevailing wage:** A local wage measure for an occupation. An H-1B employer must pay at least the higher of this amount or its actual wage for similar workers.
 
 **Principle of least privilege:** Users get access only to data and systems necessary for their job.
 

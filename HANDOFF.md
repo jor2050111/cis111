@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-7 have completed their
-full plain-language and instructional reviews. Chapters 8-12 remain.
+yet the final publication edition. Chapters 1-8 have completed their
+full plain-language and instructional reviews. Chapters 9-12 remain.
 
 ## What Was Built
 
@@ -114,10 +114,21 @@ full plain-language and instructional reviews. Chapters 8-12 remain.
   Microsoft, and ACM on 2026-07-12. Its source links were also tested.
   The ACM and FTC pages reject command-line checks, so their content was
   confirmed through browser-rendered copies.
+* Chapter 8 measures Flesch 61.2 with a grade estimate of 7.6.
+* Chapter 8 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 8 adds a six-question regulation scope map, audit and sanction
+  tests, a fair-work transition test, and a rule-and-control record for
+  AI systems.
+* Chapter 8 privacy, labor, and AI claims were checked against current
+  primary sources from the EU, California, the FTC, DOL, the EEOC, and
+  NIST on 2026-07-12. Its source links were also tested. The ACM and FTC
+  pages reject command-line checks, so their content was confirmed
+  through browser-rendered copies.
 
 ## Remaining Work
 
-1. Rewrite Chapters 8-12 in plain language until each reaches the
+1. Rewrite Chapters 9-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -145,7 +156,7 @@ full plain-language and instructional reviews. Chapters 8-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 8. Run the sentence-length check, readability score,
+Begin with Chapter 9. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.
