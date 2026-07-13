@@ -1,10 +1,14 @@
-# Chapter 10: Freedom of Expression, Hate Speech, and Workplace Privacy
+# Chapter 10: Online Speech, Identity, and Worker Monitoring
 
-Imagine two disputes. In the first, a worker learns that software tracks output, breaks, movement, and time spent with coworkers. In the second, a school seeks the identity of a student who posted an anonymous complaint about grading. Both cases raise the same question: where does free expression end, and where does the power to monitor and silence begin?
+A worker posts a group complaint about pay. A firm tracks each key, chat,
+and break. A false video shows the CEO taking a bribe. The same IT team
+may be asked to remove the post, find the speaker, test the video, and
+turn on the tracking tool.
 
-This chapter examines that boundary from two directions. First, you will explore freedom of expression in digital spaces, such as how the law treats hate speech, defamation, anonymous speech, and disinformation. Second, you will turn to the workplace, where employers increasingly use sophisticated technology to watch what staff do, say, and even feel. Both topics force you to balance competing values: individual liberty against community safety, employer interests against worker dignity, and the promise of technology against its potential for abuse.
-
-You will also see how artificial intelligence reshapes both sides of this issue. AI can generate harmful synthetic media, moderate billions of posts with uneven accuracy, and track worker behavior at a massive scale. IT professionals must understand these tools and their limits.
+Each request gives someone power over speech or data. That power needs a
+clear purpose, a valid rule, and proof. This chapter gives you tools to
+classify speech, review online harm, test a content choice, and set fair
+limits on worker monitoring.
 
 ## Module Overview 🧭
 
@@ -16,9 +20,9 @@ You will also see how artificial intelligence reshapes both sides of this issue.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-10.1 (Analyze):** Classify forms of online speech as protected expression, hate speech, or defamation by applying legal and ethical criteria
-* **MLO-10.2 (Evaluate):** Evaluate the ethical implications of employee monitoring practices by weighing employer interests against employee privacy rights
-* **MLO-10.3 (Evaluate):** Assess the role of AI in content moderation and workplace surveillance, including the accuracy and bias challenges these systems introduce
+* **MLO-10.1 (Analyze):** Classify online speech through actor, rule, harm, and proof tests
+* **MLO-10.2 (Evaluate):** Evaluate a content or identity request for lawful scope, due process, and human review
+* **MLO-10.3 (Create):** Create a worker monitoring policy with narrow data use, access, retention, and appeal controls
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -27,246 +31,427 @@ By the end of this chapter, you will be able to:
 
 ---
 
-## 10.1 Freedom of Expression in Digital Contexts
+## 10.1 Start with the Speaker, Actor, and Rule
 
-The **First Amendment** to the United States Constitution prohibits the government from restricting speech. It is one of the most misunderstood principles in American public life. It does not mean you can say anything anywhere without effects. It means the *government* cannot punish you for most forms of expression. Private firms, employers, and online platforms are not bound by the First Amendment and set their own rules about what speech they allow.
+People often say, "That violates free speech." Start by asking who took
+the action. The answer changes the rule.
 
-Understanding this distinction is the starting point for everything else in this chapter. When a social media platform removes a post, that is not a First Amendment violation. When a government agency orders a platform to remove a post, that could be. The legal framework matters because it determines who has the power to control speech and under what conditions that power can be challenged.
+The **First Amendment** limits government action. It also reaches state
+and local government through the Fourteenth Amendment. It does not bind
+most private people or firms in the same way.
 
-### Types of Unprotected Speech
+A private platform can set and enforce its own content rules. A public
+college, city office, or police unit faces a different test. A private
+firm may also face a First Amendment issue when government action turns
+the firm into a tool of the state. That state-action test depends on the
+facts.
 
-Even under the First Amendment, certain categories of speech receive no legal protection. Courts have identified these categories over more than two centuries of case law:
+Use this six-line speech map:
 
-* **True threats:** Statements that communicate a serious intent to harm a specific person or group. Posting "I am going to find you and hurt you" directed at a named individual is not protected speech.
-* **Incitement:** Speech intended to produce imminent lawless action, as established in the 1969 Supreme Court case *Brandenburg v. Ohio*. General advocacy of violence is protected. Directing a crowd to commit violence right now is not.
-* **Obscenity:** Material that meets a specific three-part legal test established in *Miller v. California* (1973), such as whether the material lacks serious literary, artistic, political, or scientific value.
-* **Defamation:** False statements of fact that damage someone's reputation. You will examine this in detail in Section 10.2.
-* **Fighting words:** Words spoken directly to another person that are likely to provoke an immediate violent reaction.
+1. **Speaker:** Who made the post, file, image, or claim?
+2. **Actor:** Who wants to block, punish, reveal, or rank it?
+3. **Rule:** Which law, contract, school rule, or platform policy applies?
+4. **Speech type:** Is it fact, opinion, threat, incitement, hate speech, or another type?
+5. **Harm and reach:** Who may be harmed, how soon, and at what scale?
+6. **Proof and process:** What proof supports the choice, and how can a person appeal?
 
-Notice what is not on this list: speech that is offensive, hateful, or hurtful. In the United States, there is no general legal category called "hate speech." This is a critical distinction that often surprises people, and it is where much of the ethical tension in online speech originates.
+The map keeps a private rule separate from a government ban. It also
+keeps a harmful post from being called illegal without a legal test.
 
-### Hate Speech: Legal Status and Ethical Challenges
+### Classify Speech with Care
 
-**Hate speech** refers to expression that attacks or demeans a person or group based on characteristics such as race, ethnicity, religion, gender, sexual orientation, or disability. While many countries, such as Germany, France, and Canada, have laws that criminalize hate speech, the United States does not. Under current U.S. law, most hate speech is constitutionally protected unless it falls into one of the unprotected categories listed above.
+The First Amendment protects a wide range of speech. Some types receive
+less or no protection under set legal tests. The details matter.
 
-This creates a gap between what is legal and what is ethical, exactly the kind you explored in Chapter 1. A person can post deeply racist content on a public forum, and no law may prevent it. But the ethical question remains: should platforms allow it, amplify it through recommendation algorithms, or be required to remove it? Different ethical frameworks lead to different answers.
+* A **true threat** is a serious statement that can place a person in fear of harm. The law also asks about the speaker's state of mind.
+* **Incitement** can lose protection when it aims to cause lawless action soon and is likely to cause that action.
+* **Obscenity** must meet all parts of the test from *Miller v. California*. Offensive content alone is not enough.
+* **Defamation** is a false statement of fact that harms a person's name and meets the fault rules that apply.
+* **Fighting words** form a narrow rule for direct, face-to-face words likely to cause an immediate fight.
 
-A **utilitarian** analysis weighs harm to targeted communities against the value of broad free expression. Harms may include psychological injury, social exclusion, and physical danger when speech incites violence. A **deontological** approach focuses on the duty to respect human dignity. It may reject dehumanizing speech even when the law permits it. **Social contract theory** asks what rules you would accept behind Rawls's veil of ignorance.
+Do not use this list as a set of quick labels. A court looks at context,
+intent, wording, audience, and the law that applies.
 
-There is no consensus. Reasonable people applying sound ethical reasoning land on different sides. Your goal is not to find the "right" answer but to analyze the competing values clearly.
+The [Constitution Annotated First Amendment guide](https://constitution.congress.gov/browse/amendment-1/)
+links to the current tests for state action and speech types.
 
+### Separate Hate Speech from a Legal Exception
 
-### Try It Yourself 10.1: Test Your First Judgment 🛠️
+**Hate speech** attacks or demeans people based on a trait such as race,
+faith, national origin, sex, sexual orientation, or disability. The
+United States has no broad First Amendment exception called hate speech.
+Hateful words may still fall under a true-threat, incitement, harassment,
+or other rule when the facts meet that rule.
 
-**Predict:** You manage the IT infrastructure for a mid-sized firm. A worker uses their work email to send messages containing hateful language directed at a coworker's religion. The messages do not rise to the level of a legal threat. As an IT professional, what is your responsibility? Does it matter that the speech occurred on firm systems?
+Law and ethics ask separate questions. A hateful post may be lawful yet
+cause fear, exclusion, or harm. A platform may bar it under a private
+rule. A school or employer may also have duties to address harassment.
+The facts, setting, and actor control the legal path.
 
-**Run:** Apply the main framework or choice test from Section 10.1. Identify the stakeholder whose interest carries the most weight.
+Use three ethics checks after the law check:
 
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+* **Harm:** Does the speech put a person or group at risk?
+* **Dignity:** Does the rule protect each person's equal worth?
+* **Power:** Can the rule be used to silence a weak group or shield a strong one?
+
+A sound policy states what it bars. It gives examples, keeps proof, and
+offers an appeal. A vague ban on "bad speech" gives reviewers too much
+room to act on bias.
+
+**Worked speech map:** A worker sends a cruel message about a coworker's
+faith through the firm's chat tool. The note has no threat. The firm
+removes it and starts a conduct review.
+
+The worker is the speaker. A private employer is the actor. The First
+Amendment does not by itself force the firm to host the message. The
+team should apply the conduct and anti-harassment rules. It should save
+the full chat, check context, hear both sides, and use the same rule for
+similar cases.
+
+The message may be hate speech without being a crime. That label does
+not end the work. The firm still needs a fair process and a response tied
+to the harm and policy.
+
+### Try It Yourself 10.1: Map a Campus Post 🛠️
+
+**Predict:** A public college removes a student's harsh post about a new
+fee. A private platform would allow the same post. Do both actors have
+the same power?
+
+**Run:** Complete all six lines of the speech map. Mark the facts needed
+to test state action, threat, school rule, and appeal rights.
+
+**Explain:** In 1-2 sentences, name the rule that should control first
+and the proof you still need.
 
 ### Quick Check 10.1 ✅
 
-1. Explain why a social media platform removing a user's post is not a First Amendment violation. *(Understand)*
-2. A user posts a message on a public forum saying, "People from [specific country] are all criminals and should be deported." Classify this statement: is it protected speech, hate speech, defamation, or a true threat under U.S. law? Explain your reasoning. *(Analyze)*
-3. Name two categories of speech that are not protected by the First Amendment, and give an original example of each. *(Remember)*
+1. Why does the actor matter in a First Amendment claim? *(Understand)*
+
+2. How can hate speech remain lawful yet violate a private content rule? *(Apply)*
+
+3. Apply the harm, dignity, and power checks to a vague ban on offensive posts. *(Analyze)*
 
 ---
 
-## 10.2 Defamation, Anonymity, and Online Speech
+## 10.2 Test Defamation and Identity Requests
 
-While hate speech occupies a gray area in U.S. law, **defamation** has a clear legal framework. Defamation is a false statement of fact, presented as true, that damages someone's reputation. It comes in two forms: **libel** (written or published defamation) and **slander** (spoken defamation). In the internet age, most online defamation is libel because posts, reviews, and comments are written and published.
+Online speech can harm a person's name at great speed. A careful review
+must protect both the target and the speaker.
 
-### Elements of a Defamation Claim
+**Defamation** involves a false statement of fact that harms a person's
+reputation. Written or posted defamation is often called **libel**.
+Spoken defamation is often called **slander**.
 
-To win a defamation lawsuit, a plaintiff must generally prove four elements:
+State law supplies many details. A basic claim review asks:
 
-* **Publication:** The statement was communicated to at least one person other than the plaintiff.
-* **Falsity:** The statement is factually false. Opinions are generally protected. Saying "I think this firm has terrible leadership" is an opinion. Saying "This firm committed fraud" when it did not is a false statement of fact.
-* **Fault:** The person who made the statement acted with some level of fault. For private people, negligence is usually sufficient. For public figures, the standard is much higher: they must prove **actual malice**, meaning the speaker knew the statement was false or showed reckless disregard for the truth. This higher standard comes from the landmark 1964 Supreme Court case *New York Times Co. v. Sullivan*.
-* **Harm:** The statement caused actual damage to the plaintiff's reputation, finances, or well-being.
+1. Was a statement shared with someone other than the target?
+2. Did it state or imply a fact that can be proved true or false?
+3. Was the fact false?
+4. Did the speaker have the fault level the law requires?
+5. Did the statement cause the kind of harm the law recognizes?
 
-In online contexts, defamation cases are complicated by the scale and permanence of digital communication. A defamatory tweet can reach millions of people within hours. A false review on a business listing stays visible for years. The harm spreads faster and lasts longer than it would in a purely offline world.
+The wording, context, and full message matter. Adding "in my opinion"
+does not turn a false claim of crime into a safe opinion. A loose insult
+may not state a fact at all.
 
-### SLAPP Suits: When Lawsuits Silence Speech
+Public officials and public figures face a higher First Amendment bar
+for many claims. They must prove **actual malice**. This means that the
+speaker knew the claim was false or acted with reckless disregard for
+the truth. It does not mean spite or anger.
 
-A **Strategic Lawsuit Against Public Participation (SLAPP)** suit is a lawsuit filed not to win a legitimate legal claim but to intimidate, silence, or financially exhaust the person being sued. The typical pattern: a corporation or powerful individual files a defamation claim against a critic, even when the criticism is accurate or clearly opinion. The goal is not a courtroom victory but forcing the critic to spend tens of thousands of dollars defending themselves. Most people cannot afford that, so they delete their posts or stop speaking out entirely.
+Private figures may face a lower fault rule, such as negligence. The
+speaker's status, the topic, state law, and type of damages can change
+the test. The
+[Constitution Annotated defamation guide](https://constitution.congress.gov/browse/essay/amdt1-7-5-7/ALDE_00013808/)
+explains the First Amendment limits.
 
-Many states have enacted **anti-SLAPP laws** that allow defendants to file a motion to dismiss these suits early and recover their legal costs. However, anti-SLAPP protections vary widely by state, and there is no federal anti-SLAPP statute. For IT professionals, this matters because technology platforms frequently become the battleground for these disputes. Understanding the difference between a legitimate defamation claim and a SLAPP suit is part of responsible platform governance.
+### Keep an Eight-Line Claim Record
 
-### Anonymity and John Doe Lawsuits
+Use this record before a team removes a post or gives out user data:
 
-The internet enables a level of anonymity that was difficult before digital communication. Anonymous speech also has a long history in the United States. The Federalist Papers were published under pseudonyms. Courts have recognized that anonymity can protect whistleblowers and enable political dissent.
+1. **Exact words:** Save the full post and nearby context.
+2. **Fact or opinion:** Name the part that can be proved true or false.
+3. **Truth check:** List proof for and against the claim.
+4. **Audience:** Record who received it and how far it spread.
+5. **Speaker status:** Note whether the target is a private or public figure.
+6. **Fault:** Record what the speaker knew and which checks were skipped.
+7. **Harm:** Link the claim to proof of harm.
+8. **Law and process:** Name the place, rule, hold, notice, and appeal path.
 
-However, anonymity also creates challenges. A person harmed by an anonymous defamatory post may not know whom to sue. A **John Doe lawsuit** names an unknown defendant. The plaintiff can then seek legal discovery from an internet service provider or platform to identify the poster.
+The record is not a court ruling. It helps an IT or trust-and-safety team
+preserve facts for the right reviewer.
 
-Courts must balance two competing interests: the plaintiff's right to seek a legal remedy for defamation against the anonymous speaker's right to remain anonymous. Most courts apply a multi-factor test that requires a legitimate legal claim before ordering disclosure, specifically to prevent John Doe lawsuits from becoming another intimidation tool.
+### Review Anonymous Speech with Due Process
 
-### Case Study 10.1 - The Anonymous Review and the Dentist's Lawsuit 📋
+**Anonymous speech** can protect a whistleblower, critic, survivor, or
+political speaker. It can also shield fraud, threats, or false claims.
 
-**The Situation:** Dr. Sarah Chen operates a dental practice in a mid-sized city. Over a two-month period, three anonymous reviews appear on a major review platform. The first review claims Dr. Chen "botched a simple filling and refused to fix her mistake." The second says her office "reuses disposable equipment to save money." The third calls her "the worst dentist in the state" and says patients should "run the other way."
+A **John Doe lawsuit** names an unknown person. A claimant may ask a
+court to order a platform or service provider to reveal account data.
+Courts use tests that vary by place. A court may ask if the claimant
+gave notice, stated a valid claim, offered proof, and showed that the need
+for the identity outweighs the speaker's rights.
 
-Dr. Chen believes the reviews are fake, posted by a former worker she terminated for performance issues. Her patient records show no complaints matching the incidents described, and the claim about reusing disposable equipment is factually false. However, her practice has seen a 30% drop in new patient appointments since the reviews were posted. Dr. Chen files a John Doe lawsuit and subpoenas the review platform for the reviewers' IP addresses and account information.
+An IT team should not unmask a user from an informal demand. It should:
 
-The review platform pushes back, arguing that unmasking anonymous reviewers will chill free speech on its site. The former worker, if she is the author, has not been identified or served with the lawsuit yet.
+* Preserve the right records under a valid hold
+* Send the request to the named legal and privacy staff
+* Check the order, scope, account, dates, and place
+* Give notice when law and policy allow it
+* Send only the data the valid order covers
+* Record what it sent, when, and to whom
 
-**Stakeholders:**
+A **SLAPP suit** uses a legal claim to burden or silence public speech.
+Anti-SLAPP rules can allow an early challenge, but those rules differ by
+jurisdiction. A large demand is not proof that a claim is sound.
 
-* **Dr. Chen** has suffered measurable financial harm from statements she believes are false and defamatory
-* **The anonymous reviewer(s)** may have a legitimate right to express opinions, or may be posting fabricated claims
-* **The review platform** has an interest in protecting user trust and anonymous speech on its site
-* **Potential patients** rely on online reviews to make healthcare choices and need those reviews to be trustworthy
-* **Other reviewers** may be discouraged from posting honest criticism if anonymity protections are weakened
+**Worked claim record:** An account posts, "The clinic reuses each needle
+to save cash." The clinic says the claim is false and asks the platform
+for the user's name. The post reaches 8,000 local readers.
 
-**Questions to Consider:**
+The exact claim states a fact. The team should keep the post, replies,
+time, reach, and account log. It should not decide truth from the
+clinic's word alone. It should also keep any proof the user gave, such as
+a photo or first-hand note.
 
-1. Analyze whether the three reviews meet the legal elements of defamation. Which specific review(s) are most likely to be actionable, and why? *(Analyze)*
-2. Apply the veil of ignorance from social contract theory (Chapter 1). If you did not know whether you would be Dr. Chen or the anonymous reviewer, what rules about unmasking anonymous speakers would you design? *(Evaluate)*
-3. As the IT administrator for the review platform, you receive the subpoena for user data. What ethical considerations should guide your response, beyond simply complying with the legal requirement? *(Evaluate)*
+The platform may remove the post under its own rule while a review is
+open. Giving out the user's name is a separate act. That step needs valid
+legal process, a tight scope, and the checks that apply in that court.
 
+### Try It Yourself 10.2: Review an Unmasking Demand 🛠️
 
-### Try It Yourself 10.2: Test Your First Judgment 🛠️
+**Predict:** A city leader emails a platform and demands the name of an
+anonymous critic by noon. Must the platform comply?
 
-**Predict:** Have you ever left an anonymous review online, either positive or negative? Would you have written the same review if your full name were attached to it? What does your answer tell you about the relationship between anonymity and honesty?
+**Run:** Complete the eight-line claim record. Add the legal process,
+notice, data scope, retention, and public-figure facts.
 
-**Run:** Apply the main framework or choice test from Section 10.2. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Explain:** In 1-2 sentences, choose preserve, disclose, or seek review.
+Name the proof that controls your choice.
 
 ### Quick Check 10.2 ✅
 
-1. What are the four elements a plaintiff must prove to win a defamation lawsuit? *(Remember)*
-2. Explain the difference between a legitimate defamation lawsuit and a SLAPP suit. Why does this distinction matter for free expression online? *(Understand)*
-3. A blogger writes, "In my opinion, XYZ Corp is the most corrupt firm in America, and I believe their CEO is embezzling funds." Could this statement be defamatory? Analyze whether it would likely meet the legal standard for defamation. *(Analyze)*
+1. What does actual malice mean in defamation law? *(Understand)*
+
+2. Why can the phrase "in my opinion" fail to protect a false factual claim? *(Apply)*
+
+3. Why should a platform separate content removal from identity disclosure? *(Analyze)*
 
 ---
 
-## 10.3 Fake News, Disinformation, and AI-Generated Content
+## 10.3 Review False Content and Platform Action
 
-The term **fake news** entered mainstream vocabulary during the 2016 U.S. presidential election, but deliberately false or misleading information is far older. What has changed is the speed, scale, and sophistication with which it can now be created and spread, particularly with artificial intelligence.
+False content is not one type of harm. Start with how it was made, why
+it was shared, and what it does.
 
-Three related terms are worth distinguishing:
+* **Misinformation** is false or wrong content shared without an aim to deceive.
+* **Disinformation** is false content made or shared to deceive.
+* **Malinformation** is true content used out of context or shared to cause harm.
+* A **deepfake** is synthetic or changed media that makes a person appear to say or do something that did not occur.
 
-* **Misinformation** is false or inaccurate information shared without the intent to deceive. A person who shares an inaccurate health claim because they genuinely believe it is spreading misinformation.
-* **Disinformation** is false information created and spread deliberately to deceive. A state-sponsored campaign that fabricates news stories to influence an election is spreading disinformation.
-* **Malinformation** is true information shared with the intent to cause harm. Leaking someone's private medical records to embarrass them is malinformation.
+Intent can be hard to prove. A team should label the known facts first.
+It can say that a file is false or altered without claiming to know the
+speaker's motive.
 
-### Platform Responsibility and Section 230
+### Read Section 230, Not a Slogan
 
-When false or harmful content appears on a social media platform, who is responsible? In the United States, **Section 230** of the Communications Decency Act (1996) provides a key piece of the answer. Section 230 states that platforms are not treated as the publisher of content posted by their users. This means that if a user posts a defamatory statement on a social media site, the platform generally cannot be sued for hosting that content.
+**Section 230** of federal law states that a provider or user of an
+interactive computer service is not treated as the publisher or speaker
+of content supplied by another content provider. It also protects some
+good-faith steps to restrict access to listed forms of objectionable
+content.
 
-Section 230 also protects platforms when they choose to moderate content. A platform can remove posts it considers harmful without becoming legally liable for the posts it chooses to leave up. This dual protection, immunity for hosting and immunity for moderating, is what allowed the modern internet to develop. Without it, platforms would face lawsuits over every user post and would likely restrict speech far more aggressively to limit their legal exposure.
+The rule has limits. It does not erase federal criminal law,
+intellectual property law, electronic privacy law, or the listed sex-
+trafficking rules. It also does not protect a service from its own role
+in creating or developing unlawful content.
 
-Section 230 has become one of the most debated laws in technology policy. Critics argue that it gives platforms too much power or too little accountability, with some wanting more aggressive content removal and others wanting platforms to stop removing content at all. As an IT professional, you should understand that this debate is fundamentally about where to draw the line between platform freedom and platform responsibility.
+The exact text of
+[47 U.S.C. Section 230](https://uscode.house.gov/view.xhtml?req=%28title%3A47+section%3A230+edition%3Aprelim%29)
+should control the check. Do not reduce it to "platforms cannot be sued"
+or "platforms can remove anything with no risk."
 
-### AI Touchpoint: Deepfakes, Synthetic Media, and AI Content Moderation
+### Match a Deepfake to the Harm
 
-Artificial intelligence has transformed both the creation and the detection of harmful content online. Three developments are particularly significant for the topics in this chapter.
+A false video can raise more than one rule. A fake sales pitch may raise
+fraud or impersonation law. A fake crime claim may raise defamation. A
+false campaign clip may raise election rules. A sexual image may raise
+privacy, civil-rights, or criminal law.
 
-**AI-generated deepfakes and synthetic media.** **Deepfake** technology uses machine learning to create realistic but fabricated images, audio, and video. A deepfake can make it appear that a person said something they never said or did something they never did. The implications for defamation are significant: a convincing deepfake video of a business executive appearing to confess to fraud could destroy that person's reputation before anyone determines the video is fake. Deepfakes have also been used for nonconsensual intimate imagery, political manipulation, and financial fraud. The legal framework has not caught up. Traditional defamation law requires identifying who created the false content, but deepfakes can be generated anonymously and spread virally before the source is traced.
+The federal **TAKE IT DOWN Act** became law in 2025. It covers certain
+nonconsensual intimate images, including digital forgeries. It also
+requires covered platforms to provide a notice-and-removal process. That
+process had to be in place by May 19, 2026. It does not cover each kind
+of deepfake.
 
-**AI content moderation.** Major social media platforms process billions of posts per day. No human moderation team can review that volume of content, so platforms rely heavily on AI systems to identify and flag or remove content that violates their policies. These systems use natural language processing and image recognition to classify posts as hate speech, harassment, misinformation, or other policy violations.
+The FTC also enforces a rule on deceptive government and business
+impersonation in commerce. A team must match the act, victim, content,
+speaker, and platform to the right rule.
 
-The problem is accuracy and bias. AI content moderation systems have documented problems with:
+### Build a Five-Step Moderation Review
 
-* **False positives:** Removing legitimate speech, such as political commentary, satire, and discussions about hate speech that are mistakenly flagged as hate speech itself
-* **False negatives:** Missing content that does violate policies, particularly when it uses coded language, emerging slang, or non-English languages
-* **Linguistic bias:** Performing significantly worse on content in languages other than English, and struggling with regional dialects, African American Vernacular English, and code-switching
-* **Context blindness:** Failing to understand sarcasm, reclaimed language, or the difference between someone promoting hate and someone criticizing it
+AI can help rank or flag a large stream of posts. It can miss coded
+threats, satire, local slang, and context. It can also flag a group that
+quotes hate speech to condemn it.
 
-These limitations mean that AI content moderation disproportionately affects certain communities and languages, raising serious questions about fairness and equity in platform governance. As you learned in Chapter 3's discussion of algorithmic bias, the biases in training data carry through to the system's outputs.
+Use this review:
 
-**AI-generated disinformation at scale.** Large language models can produce convincing articles, posts, and comments in seconds. A small group can flood a platform faster than human and AI moderation systems can respond. If you build systems that host user content, consider how people may misuse them.
+1. **Rule:** Name the exact policy line or law.
+2. **Context:** Read the full post, thread, media, language, and audience.
+3. **Proof:** Record the tool score, source checks, and facts for and against action.
+4. **Human choice:** Give a trained reviewer time and power to reverse the tool.
+5. **Notice and appeal:** State the reason, keep a useful record, and offer a prompt appeal.
 
-### Deepfakes, Moderation, and Human Review
+Test results should be split by language, dialect, content type, and
+group when that test is lawful and safe. One total accuracy score can
+hide high error rates for a small group.
 
-Different harms fall under different laws. The FTC's [government and business impersonation rule](https://www.ftc.gov/business-guidance/blog/2024/02/new-impersonator-rule-gives-ftc-powerful-tool-protecting-consumers-businesses) addresses deceptive impersonation in commerce. Defamation, fraud, election, privacy, and intimate-image laws may apply in other cases. Do not assume one proposed federal bill or one state rule governs every deepfake.
+**Worked moderation review:** A tool flags a civil-rights post because
+it repeats a slur from a court record. The post uses the quote to report
+on bias. The tool score is high, but it did not read the source link.
 
-Content moderation also requires evidence. Test accuracy across languages, dialects, and the communities a system affects. Give people a usable appeal path. Record why a post was removed and who reviewed the choice. The EU Digital Services Act creates platform-risk and transparency duties for covered services. It does not make every moderation system a high-risk AI system.
+The reviewer should apply the rule to the full use, not the slur alone.
+The report context weighs against a hate-speech removal. The team can
+restore the post, send a clear notice, and add the error to a test set.
 
-Human review should be meaningful. A reviewer needs authority, context, and enough time to reverse an error. A person who only confirms the software's output does not provide an independent safeguard.
+The fix should reach the system, not just one post. The team should test
+similar quotes and review whether the rule or model caused the error.
 
+### Try It Yourself 10.3: Review a False CEO Video 🛠️
 
-### Try It Yourself 10.3: Test Your First Judgment 🛠️
+**Predict:** A false video shows a firm's CEO taking a bribe. Should the
+platform remove it as soon as the CEO asks?
 
-**Predict:** Imagine a deepfake video surfaces showing your firm's CEO making racist remarks at a private event. The video is completely fabricated, but it goes viral before your team can respond. What steps should your IT and communications teams take? How would you verify the video is fake, and how would you communicate that to the public?
+**Run:** Apply the five-step review. Add source, label, fraud, defamation,
+reach, preservation, and appeal facts.
 
-**Run:** Apply the main framework or choice test from Section 10.3. Identify the stakeholder whose interest carries the most weight.
-
-**Explain:** In 1-2 sentences, state whether the structured test confirmed or changed your first judgment.
+**Explain:** In 1-2 sentences, choose remove, label, reduce reach, or keep.
+Name the fact that would change your choice.
 
 ### Quick Check 10.3 ✅
 
-1. Distinguish between misinformation, disinformation, and malinformation. Give an original example of each. *(Understand)*
-2. Explain the basic protection that Section 230 provides to online platforms. Why do critics argue this protection is either too broad or too narrow? *(Understand)*
-3. A social media platform's AI moderation system flags and removes a post by a civil rights group that uses the word "hate" in the context of describing hate speech. The group's appeal takes 14 days to process. Evaluate the ethical implications of this false positive from both a utilitarian and a deontological perspective. *(Evaluate)*
+1. Distinguish misinformation, disinformation, and malinformation. *(Understand)*
+
+2. Name two limits on Section 230. *(Apply)*
+
+3. Why does the TAKE IT DOWN Act not resolve every deepfake case? *(Analyze)*
 
 ---
 
-## 10.4 Worker Monitoring and Workplace Surveillance
+## 10.4 Set Limits on Worker Monitoring
 
-The second major topic of this chapter shifts from public speech to the workplace. **Worker monitoring** refers to the practices employers use to observe, track, and record worker activities during work. This is not new. Employers have always supervised workers. What has changed is the scale, precision, and invisibility of modern monitoring technology.
+**Worker monitoring** uses tools to watch, record, or score worker acts.
+A firm may track messages, sites, keys, screens, files, location, video,
+or task speed. An AI tool may turn those facts into a risk or output
+score.
 
-### What Employers Monitor and Why
+Monitoring can support safety, system defense, legal duties, and client
+contracts. It can also expose health facts, private chats, passwords,
+union activity, faith, or disability. The right question is not, "Can
+the tool collect it?" Ask, "What is the least data that can meet the
+valid goal?"
 
-Today's workplace monitoring tools can track:
+### Build the Law Map Before the Tool Map
 
-* **Email and messaging:** Reading worker emails, Slack messages, and other communications sent on firm systems
-* **Web browsing:** Logging every website a worker visits during work hours
-* **Keystroke logging:** Recording every key a worker types, such as passwords and personal messages
-* **Screen capture:** Taking periodic screenshots or continuous recordings of worker screens
-* **Location tracking:** Using GPS in firm vehicles or phones to monitor worker movements
-* **Video surveillance:** Using cameras in offices, warehouses, and retail spaces
-* **Biometric monitoring:** Tracking physical indicators like eye movement, facial expressions, and even heart rate through wearable devices
-* **Productivity scoring:** Using software to calculate "productivity scores" based on mouse movements, keystrokes, application usage, and active versus idle time
+US worker monitoring is not controlled by one broad law. The facts may
+bring in several rules:
 
-Employers cite several legitimate reasons for monitoring: protecting trade secrets and intellectual property, ensuring compliance with regulations, preventing harassment, maintaining productivity, and securing IT systems. Many of these reasons are valid. The ethical question is not whether employers should ever monitor staff, but how much monitoring is justified, how transparent that monitoring should be, and what limits should exist.
+* Federal wiretap law limits interception of wire, oral, and electronic communications. Consent, device, timing, storage, and ordinary-course facts can change the result.
+* State law may add notice, consent, biometric, location, off-duty, or recording rules.
+* The National Labor Relations Act can protect group action about pay and work conditions. Monitoring or the fear of it can interfere with those rights.
+* Anti-discrimination law can apply when a score or tool creates an unlawful barrier or biased job choice.
+* A contract, union agreement, privacy notice, or firm policy may add more limits.
 
-### Legal Framework for Workplace Monitoring
+Do not write, "The firm owns the device, so all monitoring is legal."
+Ownership is one fact. The data, method, place, people, purpose, and use
+still matter.
 
-In the United States, current law often favors employers:
+The current text of
+[18 U.S.C. Section 2511](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A2511%29)
+lists federal interception rules. An NLRB General Counsel page also warns
+that [monitoring may interfere with worker rights](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/interference-with-employee-rights).
 
-* **The Electronic Communications Privacy Act (ECPA) of 1986** generally prohibits intercepting electronic communications, but it includes a "business use" exception that allows employers to monitor communications on firm systems for legitimate business purposes.
-* **Common law** recognizes that staff have limited privacy expectations when using employer-owned equipment and networks.
-* **State laws** vary. Some states, like Connecticut and Delaware, require employers to notify staff that their electronic communications are being monitored. Others have no such requirement.
-* **The European Union's General Data Protection Regulation (GDPR)** provides much stronger protections for staff, requiring legitimate purpose, proportionality, and transparency for any monitoring.
+### Apply an Eight-Part Need Test
 
-The legal right to monitor does not make every form of monitoring ethical. Law and ethics may point to different answers. An employer may have authority to read personal email sent from a work computer. Ethical judgment still depends on transparency, proportionality, and respect for human dignity.
+Use this test for each data field, not for the product as a whole:
 
-### The Ethics of Workplace Surveillance
+1. **Goal:** Name the safety, security, service, or legal need.
+2. **Fit:** Show how the data helps meet that need.
+3. **Less-intrusive choice:** Compare a narrower tool or sample.
+4. **Time and place:** Limit work hours, devices, apps, and sites.
+5. **Notice and worker voice:** Give clear notice and a way to raise concerns.
+6. **Access and retention:** Name who can see the data and when it is erased.
+7. **Decision use:** Bar a raw score from making a job choice by itself.
+8. **Review and remedy:** Test errors, allow appeal, and fix harm.
 
-Several ethical principles help frame the workplace monitoring debate:
+This is a proportionality test. A tool may fit one role and fail in
+another. GPS may help route a delivery van during a shift. The same GPS
+may have no fair use after the worker clocks out.
 
-* **Transparency:** Do staff know they are being monitored, and do they understand the extent of that monitoring? Secret monitoring is far more ethically problematic than disclosed monitoring, even when both are legal.
-* **Proportionality:** Is the level of monitoring proportional to the legitimate business interest? Monitoring a nuclear power plant's control room has a much stronger justification than tracking how many minutes an accountant spends on social media.
-* **Consent:** Did staff meaningfully consent to monitoring, or was consent buried in an employment agreement that no one reads? Consent under economic pressure (accept monitoring or lose your job) is ethically different from genuine informed consent.
-* **Purpose limitation:** Is the data collected through monitoring used only for its stated purpose? Data collected to ensure IT security should not be repurposed to evaluate worker performance.
-* **Human dignity:** Does the monitoring treat staff as professionals deserving of trust, or does it treat them as potential threats who must be constantly watched?
+### Treat AI Scores as Claims, Not Facts
 
-### AI Touchpoint: AI-Powered Worker Surveillance
+A **productivity score** often measures visible acts such as clicks,
+keys, calls, or task time. It may not measure useful thought, care,
+quality, teamwork, or hard cases.
 
-Artificial intelligence has taken workplace monitoring beyond what any previous technology could achieve. AI-powered surveillance systems analyze worker behavior in real time and make automated judgments about productivity, engagement, and even emotional states.
+An **emotion recognition system** claims to infer a feeling from a face,
+voice, or other signal. That claim can be weak and can harm people whose
+speech, face, or movement differs from the tool's training set.
 
-**Productivity scoring algorithms** combine data from multiple sources (keystrokes, mouse movements, application usage, email frequency, meeting attendance) to generate a single score for each worker. Managers may use these scores for performance reviews, promotions, and termination choices. The problem is that these algorithms measure activity, not actual productivity. A developer thinking through a complex architectural problem may show zero keystrokes for thirty minutes. The algorithm records that as unproductive time. A coworker who sends fifty low-value emails scores higher.
+The EU AI Act bars most emotion recognition in the workplace, with an
+exception for medical or safety reasons. US teams with EU operations
+must check scope before use. A US employer should still test job bias,
+notice, proof, and worker rights.
 
-**Emotion detection systems** claim to analyze facial expressions, voice tone, and typing patterns to infer worker emotional states, marketed for use in hiring interviews, customer service monitoring, and wellness programs. Research in affective computing has consistently shown that emotional states cannot be reliably inferred from facial expressions alone, and these systems are particularly inaccurate across different cultural backgrounds and for people with certain disabilities.
+The US Department of Labor has issued nonbinding
+[AI principles for worker well-being](https://www.dol.gov/newsroom/releases/osec/osec20240516?lang=en).
+They call for worker input, clear notice, rights, and human oversight.
 
-**Automated decision-making** is the most ethically significant development. When AI systems not only monitor but also flag someone for a performance review or trigger a disciplinary process, the stakes are much higher. Staff may not know the criteria being used, may not be able to challenge the algorithm's conclusions, and may not know that an algorithm, instead of a human manager, initiated the action.
+### Use a Release Gate
 
-For IT professionals, these systems present a direct professional responsibility. If you are asked to implement, configure, or maintain AI-powered surveillance tools, you must consider not only whether the system works technically but whether it works ethically. The principles you learned in Chapter 3 about AI accountability and transparency apply directly here.
+Before launch, require a signed record for each monitoring measure:
 
-### Try It Yourself 10.4: Test the Boundary 🛠️
+* Named goal and owner
+* Law and contract review
+* Data map and less-intrusive choice
+* Worker notice and feedback record
+* Bias, error, security, and access tests
+* Retention and deletion rule
+* Human review and appeal path
+* Stop rule and next review date
 
-**Predict:** Which option in this section creates the least ethical risk?
+**Worked need test:** A help desk wants to reduce the time to answer high-
+risk tickets. A vendor offers full screen video, key logs, webcam shots,
+and a worker score.
 
-**Run:** Apply one ethical framework and one stakeholder test from Section 10.4.
+The goal is sound, but most of the data does not fit it. Ticket time,
+queue size, severity, and staffing may show the delay with less harm.
+Full key logs could capture passwords. Webcam shots do not show ticket
+quality.
 
-**Explain:** Defend your result with one fact from the section.
+The team can test queue data first. It can keep worker names out of the
+first report, set a short retention time, and ask the help desk to review
+the measure. No single score should trigger discipline.
+
+### Try It Yourself 10.4: Test a Location Tool 🛠️
+
+**Predict:** A firm tracks a field worker's phone at all times so it can
+send the closest person to a job. Is full-time tracking needed?
+
+**Run:** Apply the eight-part need test. Compare shift-only GPS, check-in,
+and job-status options.
+
+**Explain:** In 1-2 sentences, choose a limit and state how the worker can
+challenge an error.
 
 ### Quick Check 10.4 ✅
 
-1. List three types of worker monitoring that are common in today's workplaces, and for each, explain one legitimate business justification an employer might offer. *(Remember)*
-2. Explain the concept of proportionality in workplace monitoring. Give an example of monitoring that would be proportional and an example that would not be. *(Understand)*
-3. An employer uses an AI-powered emotion detection system to evaluate worker "engagement levels" during video meetings and factors the results into annual performance reviews. Evaluate this practice using the ethical principles of transparency, proportionality, and human dignity. *(Evaluate)*
+1. Why does device ownership not settle whether monitoring is lawful? *(Understand)*
+
+2. Apply the less-intrusive choice test to full key logging. *(Apply)*
+
+3. Why should a productivity score never make a job choice by itself? *(Evaluate)*
 
 ---
 
@@ -274,21 +459,26 @@ For IT professionals, these systems present a direct professional responsibility
 
 ### Key Concepts
 
-* **Freedom of expression has legal limits.** The First Amendment protects people from government censorship, not from private platform policies or employer rules. Certain categories of speech, such as true threats, incitement, and defamation, are not constitutionally protected. Hate speech, while deeply offensive, is largely protected under U.S. law unless it falls into one of these unprotected categories.
+* **Start with the actor.** The First Amendment limits government action. Most private platforms use their own rules.
 
-* **Defamation has a specific legal framework.** A successful defamation claim requires proving publication, falsity, fault, and harm. Public figures face a higher burden of proof (actual malice). SLAPP suits exploit the legal system to silence critics, and anti-SLAPP laws attempt to prevent this abuse. Anonymous speech is protected but can be unmasked through John Doe lawsuits when courts find a legitimate defamation claim.
+* **Classify speech from facts.** Hate speech is not a broad US legal exception. A threat, incitement, or defamation claim needs its own test.
 
-* **Disinformation is amplified by AI.** Deepfake technology can create convincing fabricated media that enables new forms of defamation and manipulation. AI content moderation attempts to address harmful content at scale but suffers from accuracy problems, linguistic bias, and context blindness that disproportionately affect certain communities.
+* **Protect both sides of an identity request.** Preserve proof, check legal process, limit the data, and record the disclosure.
 
-* **Workplace monitoring is legal but raises serious ethical questions.** Employers have broad legal authority to monitor staff, especially on firm-owned systems. Ethical monitoring requires transparency, proportionality, meaningful consent, purpose limitation, and respect for human dignity. AI-powered surveillance tools, such as productivity scoring and emotion detection, amplify these concerns by making automated judgments about worker behavior.
+* **Read Section 230 with its limits.** The law covers certain third-party content and good-faith moderation. It does not erase every other law or a platform's own acts.
+
+* **Match a deepfake to its harm.** A false file may raise fraud, defamation, privacy, election, or intimate-image rules.
+
+* **Minimize worker data.** Tie each field to a goal, compare a less intrusive choice, limit use, and give people a fair appeal.
 
 ### Key Terms
 
 #### Section 10.1
 
 * First Amendment
-* Hate speech
+* True threat
 * Incitement
+* Hate speech
 
 #### Section 10.2
 
@@ -296,8 +486,9 @@ For IT professionals, these systems present a direct professional responsibility
 * Libel
 * Slander
 * Actual malice
-* SLAPP suit (Strategic Lawsuit Against Public Participation)
+* Anonymous speech
 * John Doe lawsuit
+* SLAPP suit (Strategic Lawsuit Against Public Participation)
 
 #### Section 10.3
 
@@ -306,79 +497,87 @@ For IT professionals, these systems present a direct professional responsibility
 * Malinformation
 * Section 230
 * Deepfake
+* TAKE IT DOWN Act
 
 #### Section 10.4
 
-* Employee monitoring
+* Worker monitoring
 * Electronic Communications Privacy Act (ECPA)
 * Proportionality
 * Productivity scoring
-* Emotion detection systems
+* Emotion recognition system
 
 ### Retrieval Practice
 
 Try to answer these from memory before looking back at the chapter.
 
-1. Name three categories of speech that are not protected by the First Amendment. For each, explain briefly why it is excluded from protection.
-2. What are the four elements of a defamation claim, and how does the standard differ for public figures versus private people?
-3. Explain three ethical principles that should guide workplace monitoring choices, and give an example of how each applies to a specific monitoring practice.
+1. Name the six lines in the speech map.
+2. Name five lines in the defamation claim record.
+3. Name four parts of the worker monitoring need test.
 
 ---
 
-## 10.6 Skills Lab 10A: Drafting an Worker Monitoring Policy
+## 10.6 Skills Lab 10A: The TechBridge Monitoring Release
 
-**Goal:** Design a worker monitoring policy that balances security, privacy, and dignity.
+**Goal:** Create a worker monitoring policy and release record that protect security, privacy, speech, and dignity.
 
-**Evidence packet:** `assets/code/chapter-10/worker-monitoring-case.md`, a fictional case and evidence packet created for this textbook.
+**Evidence packet:** `assets/code/chapter-10/employee-monitoring-case.md`, a fictional case and evidence packet created for this textbook.
 
 **Estimated time:** 90-120 minutes
 
-### Case: TechBridge Solutions
+### Case: A Security Goal and a Broad Tool
 
-TechBridge Solutions is a 200-worker software development firm. After transitioning to a hybrid work model (three days remote, two days in-office), the CEO has asked the IT department to implement a comprehensive worker monitoring system. The stated goals are:
+**Fictional case:** TechBridge is a 200-worker software firm. Staff work
+at home and in the office. One client requires proof that source code is
+protected. The firm also had two cases in which code was sent to a
+personal cloud drive.
 
-* Ensuring remote staff are productive during work hours
-* Protecting proprietary source code and client data
-* Complying with contractual obligations to government clients who require security monitoring
-* Identifying staff who may need additional support or training
+The CEO wants to buy WorkSight Pro. The tool can record each screen and
+key. It can take a webcam image every 10 minutes. It can track the GPS in
+a firm phone at all times. It also gives each worker a weekly output
+score.
 
-The CEO has proposed the following monitoring package from a vendor called WorkSight Pro:
+A low score for three weeks starts a job review. The vendor will not
+show how it weights keys, apps, meetings, breaks, or task types. Its test
+set covers office staff who use English. It has no results for screen
+reader users, field staff, or staff who use more than one language.
 
-* Continuous screen recording during work hours
-* Keystroke logging on all firm devices
-* AI-powered productivity scoring with weekly reports to managers
-* Webcam snapshots every 10 minutes to verify worker presence
-* GPS tracking on firm-issued phones
-* Automated flagging of staff whose productivity scores fall below a threshold for three consecutive weeks, triggering a mandatory performance review
+The tool keeps raw data for two years. Managers can export it. The draft
+notice says that TechBridge may monitor any act on a firm device for any
+business need. It gives no appeal path.
 
-The firm's legal counsel has confirmed that all of these measures are legal in the state where TechBridge operates. The CEO wants to move forward quickly. As the IT Director, you have been asked to implement the system, but several senior developers have already expressed concern, and two have said they will resign if webcam monitoring is implemented.
+Fifteen workers signed a group letter about webcam use and pay. A senior
+manager wants the tool used to find who wrote it. The legal team has not
+reviewed that request, state notice law, federal interception law, or
+protected group activity.
+
+Leaders may buy the full tool, run a narrow pilot, or pause the deal.
+
+<!-- markdownlint-disable MD029 -->
 
 ### Part 1: Foundation (Aligns with MLO-10.1)
 
-1. Identify at least five stakeholders affected by this monitoring policy. For each stakeholder, describe their interests and concerns.
-2. Classify each proposed monitoring measure as low, medium, or high ethical risk. Justify each classification using the ethical principles from Section 10.4 (transparency, proportionality, consent, purpose limitation, human dignity).
-3. Which of the proposed measures, if any, do you believe cross an ethical line even though they are legal? Explain your reasoning using at least one ethical framework from Chapter 1.
+1. Complete the speech map for the group letter and the manager's identity request.
+2. Apply the eight-part monitoring need test to screen video, key logs, webcam images, GPS, and the output score.
+3. Build a law map. Include federal interception, state notice, protected group activity, discrimination, contract, and EU scope facts that need review.
 
 ### Part 2: Application (Aligns with MLO-10.1, MLO-10.2)
 
-4. Draft a revised worker monitoring policy for TechBridge Solutions. Your policy should:
-   * Specify which monitoring measures you recommend implementing and which you recommend removing or modifying
-   * State the business justification for each measure you include
-   * Describe how staff will be informed about monitoring
-   * Explain what data will be collected, how long it will be retained, and who will have access to it
-   * Address the AI productivity scoring system specifically: will you implement it, modify it, or reject it? Justify your choice.
-
-5. Write a brief (100-150 word) worker notification statement that TechBridge could use to inform staff about the monitoring policy. The statement should be honest and clear without being so alarming that it undermines trust.
+4. Create a data table with each field, purpose, source, access role, retention time, job use, and less-intrusive choice.
+5. Audit the vendor proof. Name the missing accuracy, group, disability, language, security, and bias tests.
+6. Draft a 150-200 word worker notice. State what is collected, why, when, who can see it, when it is erased, and how to appeal.
 
 ### Part 3: Extension (Aligns with MLO-10.2, MLO-10.3)
 
-6. The CEO pushes back on your revised policy, saying: "Our competitors monitor everything. If we don't, we'll lose our edge." Write a 200-250 word response defending your policy recommendations. Reference at least two ethical frameworks and address the CEO's concern about competitive pressure directly.
-7. Reflect on the role of the IT professional in this case. As the person implementing the system, what ethical responsibilities do you have beyond following the CEO's instructions? Connect your answer to the professional ethics concepts from Chapter 2.
+7. Create an eight-control policy with a release gate, human review, appeal, stop rule, and next review date.
+8. Write a 200-300 word memo. Choose full launch, narrow pilot, or pause. Name the proof that would change your choice.
+
+<!-- markdownlint-enable MD029 -->
 
 ### Questions & Analysis 🤔
 
-1. Which proposed monitoring measure creates the greatest ethical risk?
-2. What safeguard would preserve the business purpose while reducing that risk?
+1. Which proposed data field creates the greatest risk, and why?
+2. How should TechBridge protect workers who raised a group concern?
 
 ### Rubric: Skills Lab 10A
 
@@ -388,26 +587,39 @@ This lab is graded with the standard
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
 Interpretation, and Response to QUESTION(s).
 
+For CIS111, **Technical Accuracy and Efficiency** means matching each
+speech, monitoring, data, and job-use claim to the case proof and rule.
+**Output Quality** means that the policy and release record are clear,
+narrow, consistent, and safe for workers and leaders to use.
+
 ### Submission Guidelines
 
-* **Length:** 1,000-1,500 words total across all parts
-* **Format:** Submit as a single document organized by part number with clear headings
+* **Length:** 900-1,300 words total across all parts
+* **Format:** Submit one PDF named `skills-lab-10a-lastname.pdf`. Use clear headings for each part and label both Questions & Analysis answers.
 
 ---
 
 ## 10.7 Review Questions 🔄️
 
-1. Explain why the First Amendment limits government action but not most private platform rules.
-2. Classify one online statement as protected expression, defamation, or another unprotected category.
-3. Analyze how anonymity can protect speech and enable harm.
-4. Under what conditions is AI-powered worker monitoring ethical? Defend your limits with proportionality and consent.
+1. **Understand:** Explain why the actor controls the First Amendment check.
+2. **Apply:** Classify a false online claim with the eight-line defamation record.
+3. **Analyze:** Analyze a platform demand to reveal an anonymous critic.
+4. **Create:** Draft a stop rule for an AI worker monitoring pilot.
 
 ## Further Reading 📖
 
-* [Congress.gov: First Amendment](https://constitution.congress.gov/constitution/amendment-1/) - Constitution Annotated provides the amendment text and legal essays.
-* [NLRB: Interference with Worker Rights](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/interference-with-worker-rights) - The NLRB identifies electronic monitoring that may interfere with protected activity.
-* [EEOC: AI and Disability Discrimination](https://www.eeoc.gov/newsroom/us-eeoc-and-us-department-justice-warn-against-disability-discrimination) - The EEOC explains how employment software can create unlawful barriers.
-* [FTC Impersonation Rule](https://www.ftc.gov/business-guidance/blog/2024/02/new-impersonator-rule-gives-ftc-powerful-tool-protecting-consumers-businesses) - The FTC explains protections against government and business impersonation.
+* [Constitution Annotated: First Amendment](https://constitution.congress.gov/browse/amendment-1/): Congress provides the amendment text and legal guides.
+* [Constitution Annotated: State Action](https://constitution.congress.gov/browse/essay/amdt1-7-2-4/ALDE_00013541/): Congress explains when the First Amendment reaches government action.
+* [Constitution Annotated: Defamation](https://constitution.congress.gov/browse/essay/amdt1-7-5-7/ALDE_00013808/): Congress explains fault and public-figure rules.
+* [U.S. Code: Section 230](https://uscode.house.gov/view.xhtml?req=%28title%3A47+section%3A230+edition%3Aprelim%29): The House provides the current statute and its limits.
+* [U.S. Code: Interception Rules](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A2511%29): The House provides the current federal wiretap statute.
+* [NLRB: Interference with Worker Rights](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/interference-with-employee-rights): The NLRB addresses monitoring and protected group activity.
+* [U.S. Department of Labor: AI and Worker Well-Being](https://www.dol.gov/newsroom/releases/osec/osec20240516?lang=en): DOL gives nonbinding principles for worker input, rights, and oversight.
+* [EU Artificial Intelligence Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj): The official act includes the workplace emotion-recognition rule.
+* [TAKE IT DOWN Act](https://www.congress.gov/bill/119th-congress/senate-bill/146): Congress provides the law and platform duties for covered intimate images.
+* [FTC Impersonation Rule](https://www.ftc.gov/business-guidance/blog/2024/02/new-impersonator-rule-gives-ftc-powerful-tool-protecting-consumers-businesses): The FTC explains its rule for government and business impersonation.
+
 ## Looking Ahead ⏩
 
-In Chapter 11, you will shift from speech and surveillance to security and crime. You will study the CIA Security Triad, common exploits, identity theft, and federal computer crime laws. You will also learn how groups assess risk, set security policy, respond to incidents, and investigate breaches. AI appears on both sides. Attackers use it to automate phishing and produce malware. Defenders use it to detect threats.
+Chapter 11 turns to security and cybercrime. You will classify attacks,
+set controls, plan a response, and preserve proof after an incident.

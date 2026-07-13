@@ -17,8 +17,8 @@ assign chapters to weeks, terms, exams, or due dates. An instructor can
 later map the same chapters into a 9-, 12-, 14-, or 16-week course.
 
 The imported content has received a first standards pass, but it is not
-yet the final publication edition. Chapters 1-9 have completed their
-full plain-language and instructional reviews. Chapters 10-12 remain.
+yet the final publication edition. Chapters 1-10 have completed their
+full plain-language and instructional reviews. Chapters 11-12 remain.
 
 ## What Was Built
 
@@ -38,7 +38,7 @@ full plain-language and instructional reviews. Chapters 10-12 remain.
   four review questions to each chapter.
 * Added 12 fictional evidence packets under `assets/code/chapter-NN/`.
 * Built `build/cis111-evidence-pack.zip` and verified the archive.
-* Created a 209-entry glossary. Every chapter Key Terms entry resolves to
+* Created a 212-entry glossary. Every chapter Key Terms entry resolves to
   one glossary definition.
 * Replaced old or weak source links with current primary sources from
   NIST, HHS, CISA, the FTC, the European Commission, the US Copyright
@@ -135,10 +135,22 @@ full plain-language and instructional reviews. Chapters 10-12 remain.
   claims were checked against current primary sources from the USPTO,
   the U.S. Copyright Office, and the Open Source Initiative on
   2026-07-12. All nine source links returned successful responses.
+* Chapter 10 measures Flesch 64.8 with a grade estimate of 7.1.
+* Chapter 10 reports zero Markdown lint errors and zero sentence-length
+  flags.
+* Chapter 10 adds a six-line speech map, an eight-line defamation record,
+  a five-step content review, an eight-part monitoring need test, and a
+  worker-monitoring release gate.
+* Chapter 10 speech, defamation, Section 230, deepfake, worker-rights,
+  interception, and AI monitoring claims were checked against current
+  primary sources from Congress, the House, the NLRB, DOL, the FTC, and
+  the EU on 2026-07-12. All ten links were tested. Five government pages
+  reject command-line checks, so their content was confirmed through
+  browser-rendered or indexed copies.
 
 ## Remaining Work
 
-1. Rewrite Chapters 10-12 in plain language until each reaches the
+1. Rewrite Chapters 11-12 in plain language until each reaches the
    approved Flesch Reading Ease band of 60-70.
 2. Run a chapter-by-chapter factual and legal review against primary
    sources. Recheck changeable laws and enforcement details near the
@@ -166,7 +178,7 @@ full plain-language and instructional reviews. Chapters 10-12 remain.
 
 ## Start Here Next Time
 
-Begin with Chapter 10. Run the sentence-length check, readability score,
+Begin with Chapter 11. Run the sentence-length check, readability score,
 Markdown lint, style sweep, glossary check, link check, and clean build
 after each chapter. Do not add weeks, due dates, exams, or term labels
 to chapter content.

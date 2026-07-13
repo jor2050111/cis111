@@ -16,7 +16,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **ACM Code of Ethics:** A comprehensive code published by the Association for Computing Machinery, organized into four sections covering general ethical principles, professional responsibilities, leadership principles, and compliance.
 
-**Actual malice:** The legal standard for defamation of public figures, requiring proof that the speaker knew the statement was false or acted with reckless disregard for the truth
+**Actual malice:** A defamation fault standard that asks whether the speaker knew a claim was false or acted with reckless disregard for the truth.
 
 **AI ethics:** The branch of applied ethics concerned with the moral implications of designing, building, deploying, and using artificial intelligence systems.
 
@@ -33,6 +33,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Algorithmic bias:** Systematically unfair outcomes produced by an AI system, often resulting from biased training data, biased design choices, or biased deployment contexts.
 
 **Algorithmic transparency:** The principle that AI systems should be explainable and that affected individuals should understand how automated decisions are made.
+
+**Anonymous speech:** Expression made without the speaker's public name or under a name that hides the speaker's identity.
 
 **Anticybersquatting Consumer Protection Act (ACPA):** A 1999 law providing legal remedies against cybersquatting.
 
@@ -142,9 +144,9 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Data minimization:** Collecting only the personal data needed for a stated purpose.
 
-**Deepfake:** AI-generated synthetic media (image, audio, or video) that realistically depicts a person saying or doing something they never said or did.
+**Deepfake:** Synthetic or changed media that makes a person appear to say or do something that did not occur.
 
-**Defamation:** A false statement of fact, presented as true, that damages someone's reputation
+**Defamation:** A false statement of fact that harms a person's reputation and meets the fault rules that apply.
 
 **Defend Trade Secrets Act (DTSA):** A 2016 federal law providing a cause of action for trade secret misappropriation.
 
@@ -170,15 +172,13 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 ## E
 
-**Electronic Communications Privacy Act (ECPA):** Federal law that generally prohibits intercepting electronic communications but includes a business use exception for employers
+**Electronic Communications Privacy Act (ECPA):** Federal law that addresses the interception of communications and access to stored communications, subject to stated rules and exceptions.
 
 **Electronic Health Record (EHR):** Digital medical chart shareable across providers and organizations.
 
 **Electronic PHI (ePHI):** PHI in electronic form.
 
-**Emotion detection systems:** AI tools that claim to infer emotional states from facial expressions, voice, or behavior patterns
-
-**Employee monitoring:** Practices employers use to observe, track, and record employee activities during work
+**Emotion recognition system:** An AI tool that claims to infer a person's emotion from a face, voice, movement, or other signal.
 
 **End User License Agreement (EULA):** A contract defining software terms of use that typically limits the provider's liability.
 
@@ -212,7 +212,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Filter bubble:** A personalized information environment created by algorithms that shows users content reinforcing their existing beliefs while hiding opposing perspectives.
 
-**First Amendment:** The constitutional amendment prohibiting government restriction of speech, religion, press, assembly, and petition
+**First Amendment:** The constitutional amendment that limits government action affecting religion, speech, press, assembly, and petition.
 
 **Forensic image:** Exact bit-for-bit copy of a storage device, preserving evidence without altering the original.
 
@@ -244,7 +244,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Incident response:** Organized approach to managing the aftermath of a breach or cyberattack.
 
-**Incitement:** Speech intended to produce imminent lawless action, which is not protected by the First Amendment
+**Incitement:** Speech aimed at causing lawless action soon and likely to cause that action.
 
 **Informed consent:** A person's agreement to something based on a clear understanding of what they are agreeing to, given freely and without coercion.
 
@@ -332,7 +332,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Product liability:** Legal framework holding manufacturers responsible for harm caused by defective products.
 
-**Productivity scoring:** AI-generated metrics that measure employee activity (keystrokes, mouse movement, etc.) and express it as a numerical score
+**Productivity scoring:** A measure that turns visible worker acts, such as keys, clicks, calls, or task time, into a score.
 
 **Professional certification:** A credential earned by meeting standards set by a professional organization, demonstrating competence and commitment to ethical practice.
 
@@ -378,7 +378,7 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Sarbanes-Oxley Act (SOX):** 2002 federal law with whistleblower protections for employees of publicly traded companies who report fraud.
 
-**Section 230:** Provision of the Communications Decency Act that protects online platforms from liability for user-generated content
+**Section 230:** Federal law that bars treating an interactive computer service as the publisher or speaker of certain third-party content and protects some good-faith content controls.
 
 **Secure by design:** Building product security into early design and keeping the software maker responsible for reducing customer risk.
 
@@ -428,6 +428,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 
 **Targeted advertising:** Using collected user data to show ads based on a person's interests, behaviors, demographics, and online activity.
 
+**TAKE IT DOWN Act:** A federal law that covers certain nonconsensual intimate images, including digital forgeries, and requires a notice-and-removal process for covered platforms.
+
 **Technical debt:** Accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
 
 **Telemedicine:** Remote healthcare delivery via telecommunications technology.
@@ -441,6 +443,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Training data:** Data used to train AI models. Its source, license, acquisition, copies, and use can affect the legal and ethical review.
 
 **Transparency (AI):** The principle that organizations should be open about how their AI systems work and how decisions are made.
+
+**True threat:** A serious statement that can place a person in fear of harm and meets the speaker-state-of-mind rule that applies.
 
 ## U
 
@@ -459,6 +463,8 @@ This glossary is the single source of truth for terms used in the CIS111 textboo
 **Vulnerability:** A weakness in software, hardware, a setting, or a process that a threat can use.
 
 ## W
+
+**Worker monitoring:** Tools and practices used to watch, record, or score worker acts.
 
 **Whistleblower:** An insider who reports organizational wrongdoing.
 
