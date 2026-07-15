@@ -16,9 +16,9 @@ This chapter looks at four areas: data, content rules, hiring and abuse, and the
 
 By the end of this chapter, you will be able to:
 
-* **MLO-4.1 (Understand):** Explain the economic, legal, ethical, and privacy issues in social media data use
-* **MLO-4.2 (Apply):** Apply ethics tools to social media cases about hiring, cyberabuse, and privacy
-* **MLO-4.3 (Analyze):** Analyze how content rules and feed ranking affect bias, autonomy, and trust
+* **4.1 (Understand):** Explain the economic, legal, ethical, and privacy issues in social media data use
+* **4.2 (Apply):** Apply ethics tools to social media cases about hiring, cyberabuse, and privacy
+* **4.3 (Analyze):** Analyze how content rules and feed ranking affect bias, autonomy, and trust
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -312,19 +312,19 @@ A news report finds four risks:
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-4.1)
+### Part 1: Foundation (Aligns with Objective 4.1)
 
 1. List at least five groups affected by the case. State what each may gain or lose.
 2. List the main conflicts, such as speech against safety or profit against care.
 3. Apply informed consent. What did users need to know when they joined?
 
-### Part 2: Application (Aligns with MLO-4.1, MLO-4.2)
+### Part 2: Application (Aligns with Objectives 4.1 and 4.2)
 
 4. Apply **utilitarianism**. Who gains, who faces harm, and what should the firm do?
 5. Apply **deontology**. What duties does the firm owe users once it knows of the risk?
 6. Use the **veil of ignorance** to set one feed rule and one ad rule.
 
-### Part 3: Extension (Aligns with MLO-4.2, MLO-4.3)
+### Part 3: Extension (Aligns with Objectives 4.2 and 4.3)
 
 7. Write five clear steps for the firm's leaders (300-400 words total). Address the feed, ads, content rules, users at risk, and clear notice. Link each step to an ethics tool.
 8. Does user choice remove the firm's duty for harm caused by its feed? Take a side, use two ethics tools, and answer the best claim from the other side.
@@ -342,7 +342,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means using ethics
 frameworks and case facts correctly. **Output Quality** means that your

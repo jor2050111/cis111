@@ -16,9 +16,9 @@ This chapter connects those ideas to AI governance. Chapter 3 is the AI ethics a
 
 By the end of this chapter, you will be able to:
 
-* **MLO-3.1 (Understand):** Explain shareholder and stakeholder theories and how corporate governance shapes tech choices
-* **MLO-3.2 (Apply):** Apply corporate social responsibility to a conflict between profit and stakeholder duties
-* **MLO-3.3 (Analyze):** Analyze the five AI ethics principles and compare ways to govern AI
+* **3.1 (Understand):** Explain shareholder and stakeholder theories and how corporate governance shapes tech choices
+* **3.2 (Apply):** Apply corporate social responsibility to a conflict between profit and stakeholder duties
+* **3.3 (Analyze):** Analyze the five AI ethics principles and compare ways to govern AI
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -389,18 +389,18 @@ Dr. Osei gave the findings to the CEO and board. The CEO agreed that the bias wa
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-3.1)
+### Part 1: Foundation (Aligns with Objective 3.1)
 
 1. List all groups affected by the case. State what each group may gain or lose.
 2. Apply shareholder theory and stakeholder theory. How does each one change the choice?
 3. Identify the corporate governance failure that allowed this case to develop. What control was missing?
 
-### Part 2: Application (Aligns with MLO-3.1, MLO-3.2)
+### Part 2: Application (Aligns with Objectives 3.1 and 3.2)
 
 4. Use CSR to test the firm's options. Should it end the contract, pause the tool, keep it while seeking a new tool, or take another path? Support your choice with case facts.
 5. Apply at least one ethical framework from Chapter 1 (utilitarianism, deontology, virtue ethics, or social contract theory). What does it recommend, and why?
 
-### Part 3: Extension (Aligns with MLO-3.2, MLO-3.3)
+### Part 3: Extension (Aligns with Objectives 3.2 and 3.3)
 
 6. Use the five AI ethics tests from Section 3.4. Which tests does RecruitIQ fail, and how?
 7. Write a 200-300 word note to the board. State what to do now, what controls to add, and which AI ethics tests apply.
@@ -418,7 +418,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means using ethics
 frameworks and case facts correctly. **Output Quality** means that your

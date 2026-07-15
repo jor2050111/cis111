@@ -14,9 +14,9 @@ This chapter centers on a hard question: what should you do when your firm asks 
 
 By the end of this chapter, you will be able to:
 
-* **MLO-2.1 (Understand):** Explain the difference between personal ethics and professional ethics in IT work environments
-* **MLO-2.2 (Apply):** Apply ethical reasoning to scenarios involving the six key professional relationships IT workers must manage
-* **MLO-2.3 (Analyze):** Analyze the competing obligations IT professionals face when employer expectations conflict with broader ethical responsibilities
+* **2.1 (Understand):** Explain the difference between personal ethics and professional ethics in IT work environments
+* **2.2 (Apply):** Apply ethical reasoning to scenarios involving the six key professional relationships IT workers must manage
+* **2.3 (Analyze):** Analyze the competing obligations IT professionals face when employer expectations conflict with broader ethical responsibilities
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -356,19 +356,19 @@ You have the tech access to generate this report. However, several things concer
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-2.1)
+### Part 1: Foundation (Aligns with Objective 2.1)
 
 1. List all the stakeholders in this case. For each stakeholder, describe what they stand to gain or lose depending on your choice.
 2. List the work relationships from Section 2.2 that are in play. For each one, state the duty that applies.
 3. List the key facts that create ethical tension. Which facts would you need to verify before making a choice?
 
-### Part 2: Application (Aligns with MLO-2.1, MLO-2.2)
+### Part 2: Application (Aligns with Objectives 2.1 and 2.2)
 
 4. Apply **utilitarianism** to this case. Who benefits if you generate the report? Who is harmed? What action does the framework support?
 5. Apply **deontology** to this case. What duties and rules are at stake? What would the categorical imperative say about complying with a request that bypasses established data governance steps?
 6. Using the professional vs. personal ethics distinction from Section 2.1, explain where your work duties and personal interests conflict in this case.
 
-### Part 3: Extension (Aligns with MLO-2.2, MLO-2.3)
+### Part 3: Extension (Aligns with Objectives 2.2 and 2.3)
 
 7. Write a response to Marcus (200-300 words). State what you will and will not do, and explain why. Keep the response professional, respectful, and grounded in ethical principles.
 8. Reflect on workplace factors. What systems or policies could Greenfield Money put in place to prevent cases like this from arising? Reference at least one concept from Section 2.4.
@@ -386,7 +386,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means using ethics
 frameworks and case facts correctly. **Output Quality** means that your

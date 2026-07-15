@@ -1,491 +1,712 @@
 # CIS111 Glossary
 
-This glossary is the single source of truth for terms used in the CIS111 textbook. Each chapter defines a term when it first appears, then points here for review.
+This glossary defines every technical term used in the CIS111 textbook. Each chapter bolds a term at first use, and the Key Terms list at the end of each chapter points you here for review. Every chapter uses these exact definitions.
 
 ## Symbols and Numbers
 
-**ISC2 Code of Ethics:** A priority-ranked set of four canons for ISC2 members and credential holders, backed by an ethics complaint process.
+ISC2 Code of Ethics
+:   A priority-ranked set of four canons for ISC2 members and credential holders, backed by an ethics complaint process.
 
 ## A
 
-**Acceptable use policy (AUP):** A formal document defining how employees may use an organization's technology resources.
+Acceptable use policy (AUP)
+:   A formal document defining how employees may use an organization's technology resources.
 
-**Accountability (AI):** The principle that clear lines of responsibility must exist for AI systems, so specific people or organizations are answerable when harm occurs.
+Accountability (AI)
+:   The principle that clear lines of responsibility must exist for AI systems, so specific people or organizations are answerable when harm occurs.
 
-**Accountability gap:** A case in which many parties share an AI system but no one clearly owns the outcome or the response to harm.
+Accountability gap
+:   A case in which many parties share an AI system but no one clearly owns the outcome or the response to harm.
 
-**Accountability record:** A record of a system claim, qualified owners, tests, duties, approval, logs, remedy, and next review.
+Accountability record
+:   A record of a system claim, qualified owners, tests, duties, approval, logs, remedy, and next review.
 
-**ACM Code of Ethics:** A comprehensive code published by the Association for Computing Machinery, organized into four sections covering general ethical principles, professional responsibilities, leadership principles, and compliance.
+ACM Code of Ethics
+:   A comprehensive code published by the Association for Computing Machinery, organized into four sections covering general ethical principles, professional responsibilities, leadership principles, and compliance.
 
-**Actual malice:** A defamation fault standard that asks whether the speaker knew a claim was false or acted with reckless disregard for the truth.
+Actual malice
+:   A defamation fault standard that asks whether the speaker knew a claim was false or acted with reckless disregard for the truth.
 
-**AI ethics:** The branch of applied ethics concerned with the moral implications of designing, building, deploying, and using artificial intelligence systems.
+AI ethics
+:   The branch of applied ethics concerned with the moral implications of designing, building, deploying, and using artificial intelligence systems.
 
-**AI liability:** The legal and ethical question of who is responsible when an AI system causes harm.
+AI liability
+:   The legal and ethical question of who is responsible when an AI system causes harm.
 
-**AI-assisted diagnostics:** AI used to analyze medical data and support diagnostic decisions.
+AI-assisted diagnostics
+:   AI used to analyze medical data and support diagnostic decisions.
 
-**AI-enabled retaliation monitoring:** Using AI-powered surveillance to monitor employee behavior and potentially suppress whistleblowing.
+AI-enabled retaliation monitoring
+:   Using AI-powered surveillance to monitor employee behavior and potentially suppress whistleblowing.
 
-**AI-generated works:** Work made with an AI tool. US copyright can protect qualifying human-made parts, but not material generated without human authorship.
+AI-generated works
+:   Work made with an AI tool. US copyright can protect qualifying human-made parts, but not material generated without human authorship.
 
-**Alert fatigue:** Clinicians ignoring system-generated alerts due to their high volume.
+Alert fatigue
+:   Clinicians ignoring system-generated alerts due to their high volume.
 
-**Algorithmic bias:** Systematically unfair outcomes produced by an AI system, often resulting from biased training data, biased design choices, or biased deployment contexts.
+Algorithmic bias
+:   Systematically unfair outcomes produced by an AI system, often resulting from biased training data, biased design choices, or biased deployment contexts.
 
-**Algorithmic transparency:** The principle that AI systems should be explainable and that affected individuals should understand how automated decisions are made.
+Algorithmic transparency
+:   The principle that AI systems should be explainable and that affected individuals should understand how automated decisions are made.
 
-**Anonymous speech:** Expression made without the speaker's public name or under a name that hides the speaker's identity.
+Anonymous speech
+:   Expression made without the speaker's public name or under a name that hides the speaker's identity.
 
-**Anticybersquatting Consumer Protection Act (ACPA):** A 1999 law providing legal remedies against cybersquatting.
+Anticybersquatting Consumer Protection Act (ACPA)
+:   A 1999 law providing legal remedies against cybersquatting.
 
-**Aspirational code:** A code of ethics that describes ideal behavior but carries limited formal enforcement.
+Aspirational code
+:   A code of ethics that describes ideal behavior but carries limited formal enforcement.
 
-**Attention economy:** An economic model in which platforms compete for user attention as the primary resource, generating revenue through advertising that increases with greater user engagement.
+Attention economy
+:   An economic model in which platforms compete for user attention as the primary resource, generating revenue through advertising that increases with greater user engagement.
 
-**Automation complacency:** Reduced independent judgment when humans rely on automated systems.
+Automation complacency
+:   Reduced independent judgment when humans rely on automated systems.
 
-**Autonomy:** The capacity to make informed, independent decisions, which can be undermined when AI systems shape a person's information environment without their knowledge.
+Autonomy
+:   The capacity to make informed, independent decisions, which can be undermined when AI systems shape a person's information environment without their knowledge.
 
-**Availability:** Systems and information accessible to authorized users when needed.
+Availability
+:   Systems and information accessible to authorized users when needed.
 
 ## B
 
-**Behavioral analytics:** Machine learning to establish normal-behavior baselines and detect anomalies.
+Behavioral analytics
+:   Machine learning to establish normal-behavior baselines and detect anomalies.
 
-**Breach notification laws:** State/federal laws requiring notification when personal data is compromised.
+Breach notification laws
+:   State/federal laws requiring notification when personal data is compromised.
 
-**Breach Notification Rule:** HIPAA rule requiring notice after a reportable breach of unsecured PHI. The required recipients and timing depend on the facts and number affected.
+Breach Notification Rule
+:   HIPAA rule requiring notice after a reportable breach of unsecured PHI. The required recipients and timing depend on the facts and number affected.
 
-**Breach of warranty:** Liability when a product fails to perform as expressly or implicitly promised.
+Breach of warranty
+:   Liability when a product fails to perform as expressly or implicitly promised.
 
-**Business associate:** A person or group that performs certain work for a covered entity or another business associate and handles PHI. Some HIPAA duties apply directly.
+Business associate
+:   A person or group that performs certain work for a covered entity or another business associate and handles PHI. Some HIPAA duties apply directly.
 
-**BYOD:** Policy allowing employees to use personal devices for work, creating security and privacy challenges.
+BYOD
+:   Policy allowing employees to use personal devices for work, creating security and privacy challenges.
 
 ## C
 
-**Canon:** A principle or rule within a professional code of ethics, especially as used by ISC2.
+Canon
+:   A principle or rule within a professional code of ethics, especially as used by ISC2.
 
-**Child identity theft:** Use of a child's data without permission to open accounts, seek benefits, or commit other fraud.
+Child identity theft
+:   Use of a child's data without permission to open accounts, seek benefits, or commit other fraud.
 
-**Capability Maturity Model Integration (CMMI):** A framework measuring software development process maturity across five levels.
+Capability Maturity Model Integration (CMMI)
+:   A framework measuring software development process maturity across five levels.
 
-**Categorical imperative:** Kant's test for ethical actions: act only according to rules that could be applied universally without contradiction.
+Categorical imperative
+:   Kant's test for ethical actions: act only according to rules that could be applied universally without contradiction.
 
-**CCPA / CPRA:** California state laws giving consumers rights over their personal data, including the right to know, delete, and opt out of data sales
+CCPA / CPRA
+:   California state laws giving consumers rights over their personal data, including the right to know, delete, and opt out of data sales
 
-**Chain of custody:** Documented record of who handled evidence, when, and how it was stored.
+Chain of custody
+:   Documented record of who handled evidence, when, and how it was stored.
 
-**Chief Ethics Officer:** An executive-level role responsible for overseeing a company's ethical conduct.
+Chief Ethics Officer
+:   An executive-level role responsible for overseeing a company's ethical conduct.
 
-**CIA Security Triad:** Foundational information-security framework: confidentiality, integrity, availability.
+CIA Security Triad
+:   Foundational information-security framework: confidentiality, integrity, availability.
 
-**CISSP:** A cybersecurity credential from ISC2 that requires its holder to follow the ISC2 Code of Ethics.
+CISSP
+:   A cybersecurity credential from ISC2 that requires its holder to follow the ISC2 Code of Ethics.
 
-**Clinical Decision Support System (CDSS):** Software analyzing patient data and surfacing evidence-based recommendations.
+Clinical Decision Support System (CDSS)
+:   Software analyzing patient data and surfacing evidence-based recommendations.
 
-**Code of conduct:** A formal organizational document outlining specific behavioral and ethical expectations for all members.
+Code of conduct
+:   A formal organizational document outlining specific behavioral and ethical expectations for all members.
 
-**Code of ethics:** A written set of duties for members of a group, role, or profession.
+Code of ethics
+:   A written set of duties for members of a group, role, or profession.
 
-**Colorado AI Act:** A 2024 state law requiring companies to use reasonable care to protect consumers from algorithmic discrimination in consequential decisions, part of a growing wave of US state AI accountability legislation.
+Colorado AI Act
+:   A 2024 state law requiring companies to use reasonable care to protect consumers from algorithmic discrimination in consequential decisions, part of a growing wave of US state AI accountability legislation.
 
-**Competitive intelligence:** The practice of using lawful and ethical sources to study a market or competitor.
+Competitive intelligence
+:   The practice of using lawful and ethical sources to study a market or competitor.
 
-**Computer Fraud and Abuse Act (CFAA):** A federal law that covers named acts involving protected computers, such as some access, fraud, damage, and password offenses.
+Computer Fraud and Abuse Act (CFAA)
+:   A federal law that covers named acts involving protected computers, such as some access, fraud, damage, and password offenses.
 
-**Computerized Provider Order Entry (CPOE):** Electronic order entry for prescriptions, labs, imaging, and treatments.
+Computerized Provider Order Entry (CPOE)
+:   Electronic order entry for prescriptions, labs, imaging, and treatments.
 
-**Coordinated Vulnerability Disclosure (CVD):** A process in which a finder, vendor, and sometimes a third-party coordinator work to fix a flaw and plan notice while reducing user harm.
+Coordinated Vulnerability Disclosure (CVD)
+:   A process in which a finder, vendor, and sometimes a third-party coordinator work to fix a flaw and plan notice while reducing user harm.
 
-**Confidentiality:** The obligation to protect information shared by clients, employers, or users in the course of professional work.
+Confidentiality
+:   The obligation to protect information shared by clients, employers, or users in the course of professional work.
 
-**Conflict of interest:** A situation where personal interests interfere with professional judgment or obligations.
+Conflict of interest
+:   A situation where personal interests interfere with professional judgment or obligations.
 
-**Consumer health app:** A health-related app used by a person. Its function, parties, and data relationships help determine which FDA, HIPAA, FTC, or state rules apply.
+Consumer health app
+:   A health-related app used by a person. Its function, parties, and data relationships help determine which FDA, HIPAA, FTC, or state rules apply.
 
-**Content moderation:** The process by which platforms review, remove, or restrict user-generated content that violates their rules or policies.
+Content moderation
+:   The process by which platforms review, remove, or restrict user-generated content that violates their rules or policies.
 
-**Context collapse:** The flattening of multiple distinct audiences into a single audience, such as when a social media post intended for friends is viewed by employers, strangers, or other unintended audiences.
+Context collapse
+:   The flattening of multiple distinct audiences into a single audience, such as when a social media post intended for friends is viewed by employers, strangers, or other unintended audiences.
 
-**Contingent workers:** Workers who are not permanent employees, including gig workers, freelancers, and outsourced contractors.
+Contingent workers
+:   Workers who are not permanent employees, including gig workers, freelancers, and outsourced contractors.
 
-**COPPA:** A US federal law and rule for certain online services aimed at children under 13 or operators with actual knowledge that they collect a child's personal data.
+COPPA
+:   A US federal law and rule for certain online services aimed at children under 13 or operators with actual knowledge that they collect a child's personal data.
 
-**Copyleft license:** An open source license that may require distributed modified or combined works to use the same license and provide source under its terms.
+Copyleft license
+:   An open source license that may require distributed modified or combined works to use the same license and provide source under its terms.
 
-**Copyright:** Protection for original expression fixed in a tangible form. The term depends on the work, author, date, and other facts.
+Copyright
+:   Protection for original expression fixed in a tangible form. The term depends on the work, author, date, and other facts.
 
-**Corporate governance:** The system of rules, practices, and processes by which a company is directed and controlled.
+Corporate governance
+:   The system of rules, practices, and processes by which a company is directed and controlled.
 
-**Corporate social responsibility (CSR):** The idea that businesses have obligations to society that go beyond making money.
+Corporate social responsibility (CSR)
+:   The idea that businesses have obligations to society that go beyond making money.
 
-**Cost/benefit analysis:** Evaluating decisions by comparing financial and non-financial costs against expected benefits.
+Cost/benefit analysis
+:   Evaluating decisions by comparing financial and non-financial costs against expected benefits.
 
-**Covered entity:** A health plan, healthcare clearinghouse, or healthcare provider that conducts certain standard transactions electronically and is subject to HIPAA.
+Covered entity
+:   A health plan, healthcare clearinghouse, or healthcare provider that conducts certain standard transactions electronically and is subject to HIPAA.
 
-**Creative Commons (CC):** A set of standard public copyright licenses that creators can use to grant stated permissions for many non-software works.
+Creative Commons (CC)
+:   A set of standard public copyright licenses that creators can use to grant stated permissions for many non-software works.
 
-**Cross-site scripting (XSS):** A vulnerability allowing attackers to inject malicious scripts into web pages viewed by other users.
+Cross-site scripting (XSS)
+:   A vulnerability allowing attackers to inject malicious scripts into web pages viewed by other users.
 
-**Cyberabuse:** The use of technology to harass, threaten, intimidate, or harm a person, including doxxing, cyberstalking, and coordinated online attacks.
+Cyberabuse
+:   The use of technology to harass, threaten, intimidate, or harm a person, including doxxing, cyberstalking, and coordinated online attacks.
 
-**Cybersquatting:** Registering, trafficking in, or using a domain name with a bad-faith aim to profit from another party's mark.
+Cybersquatting
+:   Registering, trafficking in, or using a domain name with a bad-faith aim to profit from another party's mark.
 
-**Cyberstalking:** Using technology to track or contact a person in a pattern that causes fear or distress. Federal, state, Tribal, or local law may apply.
+Cyberstalking
+:   Using technology to track or contact a person in a pattern that causes fear or distress. Federal, state, Tribal, or local law may apply.
 
-**Custodian:** A person or group that holds and protects data for others.
+Custodian
+:   A person or group that holds and protects data for others.
 
 ## D
 
-**Dark pattern:** A user interface design choice that manipulates users into actions they did not intend, exploiting trust for business benefit.
+Dark pattern
+:   A user interface design choice that manipulates users into actions they did not intend, exploiting trust for business benefit.
 
-**Data classification:** Categorizing data by sensitivity to determine handling and protection.
+Data classification
+:   Categorizing data by sensitivity to determine handling and protection.
 
-**Data minimization:** Collecting only the personal data needed for a stated purpose.
+Data minimization
+:   Collecting only the personal data needed for a stated purpose.
 
-**Deepfake:** Synthetic or changed media that makes a person appear to say or do something that did not occur.
+Deepfake
+:   Synthetic or changed media that makes a person appear to say or do something that did not occur.
 
-**Defamation:** A false statement of fact that harms a person's reputation and meets the fault rules that apply.
+Defamation
+:   A false statement of fact that harms a person's reputation and meets the fault rules that apply.
 
-**Defend Trade Secrets Act (DTSA):** A 2016 federal law providing a cause of action for trade secret misappropriation.
+Defend Trade Secrets Act (DTSA)
+:   A 2016 federal law providing a cause of action for trade secret misappropriation.
 
-**Deontology:** An ethical theory based on duties and rules, holding that some actions are right or wrong regardless of their outcomes.
+Deontology
+:   An ethical theory based on duties and rules, holding that some actions are right or wrong regardless of their outcomes.
 
-**Digital divide:** The gap between people with and without access to digital technology, which can widen health disparities.
+Digital divide
+:   The gap between people with and without access to digital technology, which can widen health disparities.
 
-**Digital forensics:** The use of tested methods to find, collect, preserve, examine, and report digital facts.
+Digital forensics
+:   The use of tested methods to find, collect, preserve, examine, and report digital facts.
 
-**Digital Millennium Copyright Act (DMCA):** A 1998 US law with anti-circumvention rules and safe-harbor processes for qualifying online service providers.
+Digital Millennium Copyright Act (DMCA)
+:   A 1998 US law with anti-circumvention rules and safe-harbor processes for qualifying online service providers.
 
-**Digital piracy:** Unauthorized copying, distribution, or use of copyrighted digital content.
+Digital piracy
+:   Unauthorized copying, distribution, or use of copyrighted digital content.
 
-**Digital rights management (DRM):** Technologies designed to control access to and use of copyrighted digital content.
+Digital rights management (DRM)
+:   Technologies designed to control access to and use of copyrighted digital content.
 
-**Digital Services Act (DSA):** European Union regulation requiring large platforms to assess and reduce systemic risks from their algorithms, including requirements for auditable recommendation systems.
+Digital Services Act (DSA)
+:   European Union regulation requiring large platforms to assess and reduce systemic risks from their algorithms, including requirements for auditable recommendation systems.
 
-**Direct-verify-intervene practice:** This book's name for the duty to direct an AI system toward a clear goal, verify its output with facts, and intervene when a result cannot be explained or defended.
+Direct-verify-intervene practice
+:   This book's name for the duty to direct an AI system toward a clear goal, verify its output with facts, and intervene when a result cannot be explained or defended.
 
-**Discriminatory advertising:** The practice of using ad targeting tools to exclude or include audiences based on protected characteristics such as race, religion, or national origin.
+Discriminatory advertising
+:   The practice of using ad targeting tools to exclude or include audiences based on protected characteristics such as race, religion, or national origin.
 
-**Disinformation:** False information created and spread deliberately to deceive
+Disinformation
+:   False information created and spread deliberately to deceive
 
-**Dodd-Frank Act:** 2010 federal law that expanded whistleblower protections, added financial incentives for SEC reports, and strengthened anti-retaliation provisions.
+Dodd-Frank Act
+:   2010 federal law that expanded whistleblower protections, added financial incentives for SEC reports, and strengthened anti-retaliation provisions.
 
-**Due process:** A fair path that gives notice of a claim and a meaningful chance to respond before a result is imposed.
+Due process
+:   A fair path that gives notice of a claim and a meaningful chance to respond before a result is imposed.
 
 ## E
 
-**Electronic Communications Privacy Act (ECPA):** Federal law that addresses the interception of communications and access to stored communications, subject to stated rules and exceptions.
+Electronic Communications Privacy Act (ECPA)
+:   Federal law that addresses the interception of communications and access to stored communications, subject to stated rules and exceptions.
 
-**Electronic Health Record (EHR):** Digital medical chart shareable across providers and organizations.
+Electronic Health Record (EHR)
+:   Digital medical chart shareable across providers and organizations.
 
-**Electronic PHI (ePHI):** PHI in electronic form.
+Electronic PHI (ePHI)
+:   PHI in electronic form.
 
-**Emotion recognition system:** An AI tool that claims to infer a person's emotion from a face, voice, movement, or other signal.
+Emotion recognition system
+:   An AI tool that claims to infer a person's emotion from a face, voice, movement, or other signal.
 
-**End User License Agreement (EULA):** A contract defining software terms of use that typically limits the provider's liability.
+End User License Agreement (EULA)
+:   A contract defining software terms of use that typically limits the provider's liability.
 
-**Enforceable code:** A code with a process that can impose a result on a person or group within its scope.
+Enforceable code
+:   A code with a process that can impose a result on a person or group within its scope.
 
-**Evidence log:** A record of a digital item's source, collection, integrity check, storage, access, transfer, and known limits.
+Evidence log
+:   A record of a digital item's source, collection, integrity check, storage, access, transfer, and known limits.
 
-**Ethics:** A formal set of tools for figuring out right and wrong across groups of people, especially within a profession.
+Ethics
+:   A formal set of tools for figuring out right and wrong across groups of people, especially within a profession.
 
-**Ethics training:** Organizational programs designed to help employees recognize and respond to ethical issues.
+Ethics training
+:   Organizational programs designed to help employees recognize and respond to ethical issues.
 
-**EU AI Act:** A European Union law that sets AI duties by risk level and phases its rules in over several years.
+EU AI Act
+:   A European Union law that sets AI duties by risk level and phases its rules in over several years.
 
-**Eudaimonia:** Aristotle's concept of human flourishing, meaning living well and doing well.
+Eudaimonia
+:   Aristotle's concept of human flourishing, meaning living well and doing well.
 
-**Explainability (AI):** The principle that AI systems should be able to explain their decisions in terms humans can understand.
+Explainability (AI)
+:   The principle that AI systems should be able to explain their decisions in terms humans can understand.
 
-**Exploit:** A tool or technique that takes advantage of a vulnerability to compromise a system.
+Exploit
+:   A tool or technique that takes advantage of a vulnerability to compromise a system.
 
-**External whistleblowing:** Reporting to outside parties (regulators, law enforcement, media).
+External whistleblowing
+:   Reporting to outside parties (regulators, law enforcement, media).
 
 ## F
 
-**Fair use:** A US copyright doctrine that permits some uses without the owner's consent, based on a four-factor test.
+Fair use
+:   A US copyright doctrine that permits some uses without the owner's consent, based on a four-factor test.
 
-**Fairness (AI):** The principle that AI systems should treat all people equitably and not systematically disadvantage any group.
+Fairness (AI)
+:   The principle that AI systems should treat all people equitably and not systematically disadvantage any group.
 
-**False Claims Act (FCA):** Federal law allowing private citizens to sue on behalf of the government against entities defrauding government programs.
+False Claims Act (FCA)
+:   Federal law allowing private citizens to sue on behalf of the government against entities defrauding government programs.
 
-**False negative:** A missed positive (a diseased patient flagged normal).
+False negative
+:   A missed positive (a diseased patient flagged normal).
 
-**False positive:** A spurious positive (a healthy patient flagged abnormal).
+False positive
+:   A spurious positive (a healthy patient flagged abnormal).
 
-**Fiduciary duty:** A legal and ethical obligation to act in another party's best interest when entrusted with something valuable.
+Fiduciary duty
+:   A legal and ethical obligation to act in another party's best interest when entrusted with something valuable.
 
-**Filter bubble:** A personalized information environment created by algorithms that shows users content reinforcing their existing beliefs while hiding opposing perspectives.
+Filter bubble
+:   A personalized information environment created by algorithms that shows users content reinforcing their existing beliefs while hiding opposing perspectives.
 
-**First Amendment:** The constitutional amendment that limits government action affecting religion, speech, press, assembly, and petition.
+First Amendment
+:   The constitutional amendment that limits government action affecting religion, speech, press, assembly, and petition.
 
-**Forensic image:** Exact bit-for-bit copy of a storage device, preserving evidence without altering the original.
+Forensic image
+:   Exact bit-for-bit copy of a storage device, preserving evidence without altering the original.
 
 ## G
 
-**GDPR:** The EU's data protection law. Its reach outside the EU depends on facts such as offering goods or services to people in the EU or monitoring their behavior there.
+GDPR
+:   The EU's data protection law. Its reach outside the EU depends on facts such as offering goods or services to people in the EU or monitoring their behavior there.
 
-**Golden Mean:** The idea that virtues are a balanced midpoint between two extremes (e.g., courage between cowardice and recklessness).
+Golden Mean
+:   The idea that virtues are a balanced midpoint between two extremes (e.g., courage between cowardice and recklessness).
 
-**Green computing:** The practice of designing, manufacturing, using, and disposing of computing resources in environmentally responsible ways.
+Green computing
+:   The practice of designing, manufacturing, using, and disposing of computing resources in environmentally responsible ways.
 
 ## H
 
-**H-1B visa:** A US status through which an eligible employer may sponsor a worker for a specialty occupation for a limited period.
+H-1B visa
+:   A US status through which an eligible employer may sponsor a worker for a specialty occupation for a limited period.
 
-**Hate speech:** Expression that attacks or demeans a person or group based on characteristics such as race, ethnicity, religion, gender, sexual orientation, or disability
+Hate speech
+:   Expression that attacks or demeans a person or group based on characteristics such as race, ethnicity, religion, gender, sexual orientation, or disability
 
-**Health Breach Notification Rule (FTC):** FTC rule requiring certain health app, personal health record, and related firms outside HIPAA to give notice after a breach of unsecured identifying health data.
+Health Breach Notification Rule (FTC)
+:   FTC rule requiring certain health app, personal health record, and related firms outside HIPAA to give notice after a breach of unsecured identifying health data.
 
-**HIPAA:** Federal law setting national standards for health information protection.
+HIPAA
+:   Federal law setting national standards for health information protection.
 
-**Human oversight (AI):** The principle that AI systems should operate under meaningful human supervision, especially for critical decisions.
+Human oversight (AI)
+:   The principle that AI systems should operate under meaningful human supervision, especially for critical decisions.
 
 ## I
 
-**Identity theft:** Use of another person's data without permission to commit fraud or gain a benefit.
+Identity theft
+:   Use of another person's data without permission to commit fraud or gain a benefit.
 
-**IEEE Code of Ethics:** An IEEE code that groups ten professional commitments under integrity, fair treatment, and support for the code.
+IEEE Code of Ethics
+:   An IEEE code that groups ten professional commitments under integrity, fair treatment, and support for the code.
 
-**Incident:** An event that puts security at risk or breaks a security rule.
+Incident
+:   An event that puts security at risk or breaks a security rule.
 
-**Incident response:** Planned work to prepare for, find, contain, remove, report, and recover from a security event.
+Incident response
+:   Planned work to prepare for, find, contain, remove, report, and recover from a security event.
 
-**Incitement:** Speech aimed at causing lawless action soon and likely to cause that action.
+Incitement
+:   Speech aimed at causing lawless action soon and likely to cause that action.
 
-**Informed consent:** A person's agreement to something based on a clear understanding of what they are agreeing to, given freely and without coercion.
+Informed consent
+:   A person's agreement to something based on a clear understanding of what they are agreeing to, given freely and without coercion.
 
-**Integrity:** Information accurate, complete, and unaltered by unauthorized parties.
+Integrity
+:   Information accurate, complete, and unaltered by unauthorized parties.
 
-**Intellectual property (IP):** Legal protections for intangible creative works, inventions, brand identities, and confidential business information.
+Intellectual property (IP)
+:   Legal protections for intangible creative works, inventions, brand identities, and confidential business information.
 
-**Internal whistleblowing:** Reporting through internal channels (supervisor, compliance, ethics hotline).
+Internal whistleblowing
+:   Reporting through internal channels (supervisor, compliance, ethics hotline).
 
-**Interoperability:** The ability of different IT systems to exchange and use data.
+Interoperability
+:   The ability of different IT systems to exchange and use data.
 
-**Intrusion detection system (IDS):** Monitors network traffic for suspicious activity and alerts administrators.
+Intrusion detection system (IDS)
+:   Monitors network traffic for suspicious activity and alerts administrators.
 
-**IT user:** Any person who uses an organization's technology resources, including employees, contractors, and students.
+IT user
+:   Any person who uses an organization's technology resources, including employees, contractors, and students.
 
 ## J
 
-**John Doe lawsuit:** A lawsuit filed against an unknown defendant, often used to unmask anonymous online speakers
+John Doe lawsuit
+:   A lawsuit filed against an unknown defendant, often used to unmask anonymous online speakers
 
 ## L
 
-**Laws:** Rules made by and enforced by the government, representing the bare minimum of societal expectations.
+Laws
+:   Rules made by and enforced by the government, representing the bare minimum of societal expectations.
 
-**Libel:** Written or published defamation
+Libel
+:   Written or published defamation
 
-**Liar's dividend:** The chance for a person to deny real evidence by claiming that it is an AI-made fake.
+Liar's dividend
+:   The chance for a person to deny real evidence by claiming that it is an AI-made fake.
 
 ## M
 
-**Malinformation:** True information shared with the intent to cause harm
+Malinformation
+:   True information shared with the intent to cause harm
 
-**mHealth:** Use of mobile devices and wireless tech for healthcare delivery and data collection.
+mHealth
+:   Use of mobile devices and wireless tech for healthcare delivery and data collection.
 
-**Minimum necessary standard:** Access or disclose only the minimum PHI needed for a specific purpose.
+Minimum necessary standard
+:   Access or disclose only the minimum PHI needed for a specific purpose.
 
-**Misinformation:** False information shared without the intent to deceive
+Misinformation
+:   False information shared without the intent to deceive
 
-**Model card:** A short report that states an AI model's intended use, key tests, known limits, and risks.
+Model card
+:   A short report that states an AI model's intended use, key tests, known limits, and risks.
 
-**Morals:** Personal beliefs about right and wrong, shaped by family, culture, religion, and lived experience.
+Morals
+:   Personal beliefs about right and wrong, shaped by family, culture, religion, and lived experience.
 
-**Multi-factor authentication (MFA):** Requires two or more independent verification methods to confirm identity.
+Multi-factor authentication (MFA)
+:   Requires two or more independent verification methods to confirm identity.
 
 ## N
 
-**Negligence:** Liability based on failure to exercise reasonable care in developing or maintaining software.
+Negligence
+:   Liability based on failure to exercise reasonable care in developing or maintaining software.
 
-**NIST AI Risk Management Framework:** A voluntary US framework, also called the AI RMF, that uses Govern, Map, Measure, and Manage to address AI risk across a system's life.
+NIST AI Risk Management Framework
+:   A voluntary US framework, also called the AI RMF, that uses Govern, Map, Measure, and Manage to address AI risk across a system's life.
 
-**NIST Cybersecurity Framework:** Framework organizing security into Identify, Protect, Detect, Respond, Recover.
+NIST Cybersecurity Framework
+:   Framework organizing security into Identify, Protect, Detect, Respond, Recover.
 
 ## O
 
-**Offshore outsourcing (offshoring):** Contracting IT work to companies or workers in other countries, typically to reduce labor costs
+Offshore outsourcing (offshoring)
+:   Contracting IT work to companies or workers in other countries, typically to reduce labor costs
 
-**Open source:** A licensing philosophy that allows software to be freely used, modified, and distributed under specified conditions.
+Open source
+:   A licensing philosophy that allows software to be freely used, modified, and distributed under specified conditions.
 
-**OWASP Top 10:** A regularly updated list of the most critical web application security risks.
+OWASP Top 10
+:   A regularly updated list of the most critical web application security risks.
 
 ## P
 
-**Patch management:** Developing, testing, and distributing software updates that fix known vulnerabilities.
+Patch management
+:   Developing, testing, and distributing software updates that fix known vulnerabilities.
 
-**Patent:** A right to exclude others from listed acts involving a claimed invention for a limited term.
+Patent
+:   A right to exclude others from listed acts involving a claimed invention for a limited term.
 
-**PCI DSS:** A private payment-card security standard that contracts and card-brand rules may require for groups that store, process, or send cardholder data.
+PCI DSS
+:   A private payment-card security standard that contracts and card-brand rules may require for groups that store, process, or send cardholder data.
 
-**Permissive approach:** A policy approach that allows broad testing or use while rules respond to known risks and harms.
+Permissive approach
+:   A policy approach that allows broad testing or use while rules respond to known risks and harms.
 
-**Permissive license:** An open source license (such as MIT or Apache) that allows broad reuse with minimal restrictions.
+Permissive license
+:   An open source license (such as MIT or Apache) that allows broad reuse with minimal restrictions.
 
-**Personal ethics:** Individual moral principles shaped by family, culture, religion, and life experience that guide personal decisions.
+Personal ethics
+:   Individual moral principles shaped by family, culture, religion, and life experience that guide personal decisions.
 
-**Personally identifiable information (PII):** Data that can identify a specific individual (names, addresses, Social Security numbers, biometric data).
+Personally identifiable information (PII)
+:   Data that can identify a specific individual (names, addresses, Social Security numbers, biometric data).
 
-**Plagiarism:** Presenting someone else's work or ideas as your own without proper attribution.
+Plagiarism
+:   Presenting someone else's work or ideas as your own without proper attribution.
 
-**Precautionary approach:** A policy approach that places stronger proof and controls before or early in a high-risk technology's use.
+Precautionary approach
+:   A policy approach that places stronger proof and controls before or early in a high-risk technology's use.
 
-**Prevailing wage:** A local wage measure for an occupation. An H-1B employer must pay at least the higher of this amount or its actual wage for similar workers.
+Prevailing wage
+:   A local wage measure for an occupation. An H-1B employer must pay at least the higher of this amount or its actual wage for similar workers.
 
-**Principle of least privilege:** Users get access only to data and systems necessary for their job.
+Principle of least privilege
+:   Users get access only to data and systems necessary for their job.
 
-**Privacy Rule:** HIPAA provision governing PHI access, use, and disclosure.
+Privacy Rule
+:   HIPAA provision governing PHI access, use, and disclosure.
 
-**Product liability:** Legal framework holding manufacturers responsible for harm caused by defective products.
+Product liability
+:   Legal framework holding manufacturers responsible for harm caused by defective products.
 
-**Productivity scoring:** A measure that turns visible worker acts, such as keys, clicks, calls, or task time, into a score.
+Productivity scoring
+:   A measure that turns visible worker acts, such as keys, clicks, calls, or task time, into a score.
 
-**Professional certification:** A credential earned by meeting standards set by a professional organization, demonstrating competence and commitment to ethical practice.
+Professional certification
+:   A credential earned by meeting standards set by a professional organization, demonstrating competence and commitment to ethical practice.
 
-**Professional ethics:** Shared standards of conduct expected within a specific profession, tied to the role instead of the individual.
+Professional ethics
+:   Shared standards of conduct expected within a specific profession, tied to the role instead of the individual.
 
-**Professional licensing:** A government-issued authorization required to practice a profession, typically involving examinations, education requirements, and continuing education.
+Professional licensing
+:   A government-issued authorization required to practice a profession, typically involving examinations, education requirements, and continuing education.
 
-**Proportionality:** The principle that the level of monitoring should be proportional to the legitimate business interest being served
+Proportionality
+:   The principle that the level of monitoring should be proportional to the legitimate business interest being served
 
-**Protected Health Information (PHI):** Individually identifiable health information held or transmitted by a covered entity or business associate.
+Protected Health Information (PHI)
+:   Individually identifiable health information held or transmitted by a covered entity or business associate.
 
-**Purpose limitation:** Using personal data only for the purposes for which it was originally collected.
+Purpose limitation
+:   Using personal data only for the purposes for which it was originally collected.
 
 ## Q
 
-**Qui tam:** FCA provision letting private citizens sue on behalf of the government and receive a portion of any recovery.
+Qui tam
+:   FCA provision letting private citizens sue on behalf of the government and receive a portion of any recovery.
 
 ## R
 
-**Ransomware:** Malware that blocks access to data or systems, often through encryption, and demands payment.
+Ransomware
+:   Malware that blocks access to data or systems, often through encryption, and demands payment.
 
-**Ransomware as a Service (RaaS):** Criminal business model where ransomware developers sell or lease their tools.
+Ransomware as a Service (RaaS)
+:   Criminal business model where ransomware developers sell or lease their tools.
 
-**Recommendation algorithm:** An AI system that selects and prioritizes what content a user sees, typically optimized to maximize engagement with the platform.
+Recommendation algorithm
+:   An AI system that selects and prioritizes what content a user sees, typically optimized to maximize engagement with the platform.
 
-**Regulatory code:** A code of ethics backed by real consequences for violations, such as loss of certification or professional standing.
+Regulatory code
+:   A code of ethics backed by real consequences for violations, such as loss of certification or professional standing.
 
-**Reporting systems:** Formal channels, such as ethics hotlines and grievance procedures, that allow employees to raise ethical concerns safely.
+Reporting systems
+:   Formal channels, such as ethics hotlines and grievance procedures, that allow employees to raise ethical concerns safely.
 
-**Residual risk:** Risk that remains after a team applies its selected controls.
+Residual risk
+:   Risk that remains after a team applies its selected controls.
 
-**Responsible AI:** An approach to AI development that prioritizes fairness, transparency, accountability, and the well-being of affected communities.
+Responsible AI
+:   An approach to AI development that prioritizes fairness, transparency, accountability, and the well-being of affected communities.
 
-**Responsible disclosure:** An older name often used for coordinated vulnerability disclosure.
+Responsible disclosure
+:   An older name often used for coordinated vulnerability disclosure.
 
-**Resume fraud:** The practice of exaggerating or fabricating qualifications on a resume, considered a professional ethics violation in IT.
+Resume fraud
+:   The practice of exaggerating or fabricating qualifications on a resume, considered a professional ethics violation in IT.
 
-**Reverse engineering:** Analyzing a product to understand how it works, often for interoperability or competitive purposes.
+Reverse engineering
+:   Analyzing a product to understand how it works, often for interoperability or competitive purposes.
 
-**Risk assessment:** Identifying, evaluating, and prioritizing threats based on likelihood and impact.
+Risk assessment
+:   Identifying, evaluating, and prioritizing threats based on likelihood and impact.
 
 ## S
 
-**Safety case:** A structured claim, supported by evidence and reasons, that a system is safe enough for a stated use and setting.
+Safety case
+:   A structured claim, supported by evidence and reasons, that a system is safe enough for a stated use and setting.
 
-**Safety-critical system:** A system whose failure could result in death, serious injury, or significant environmental damage.
+Safety-critical system
+:   A system whose failure could result in death, serious injury, or significant environmental damage.
 
-**Sarbanes-Oxley Act (SOX):** 2002 federal law with whistleblower protections for employees of publicly traded companies who report fraud.
+Sarbanes-Oxley Act (SOX)
+:   2002 federal law with whistleblower protections for employees of publicly traded companies who report fraud.
 
-**Section 230:** Federal law that bars treating an interactive computer service as the publisher or speaker of certain third-party content and protects some good-faith content controls.
+Section 230
+:   Federal law that bars treating an interactive computer service as the publisher or speaker of certain third-party content and protects some good-faith content controls.
 
-**Secure by design:** Building product security into early design and keeping the software maker responsible for reducing customer risk.
+Secure by design
+:   Building product security into early design and keeping the software maker responsible for reducing customer risk.
 
-**Secure coding:** Writing software resistant to vulnerabilities by design, treating all inputs and connections as potentially hostile.
+Secure coding
+:   Writing software resistant to vulnerabilities by design, treating all inputs and connections as potentially hostile.
 
-**Secure Software Development Framework (SSDF):** NIST practices for preparing a group, protecting software, producing sound releases, and responding to vulnerabilities.
+Secure Software Development Framework (SSDF)
+:   NIST practices for preparing a group, protecting software, producing sound releases, and responding to vulnerabilities.
 
-**Security Operations Center (SOC):** Centralized facility for monitoring, detecting, and responding to threats.
+Security Operations Center (SOC)
+:   Centralized facility for monitoring, detecting, and responding to threats.
 
-**Security policy:** Formal document defining rules and procedures for protecting information assets.
+Security policy
+:   Formal document defining rules and procedures for protecting information assets.
 
-**Security Rule:** HIPAA provision requiring administrative, physical, and technical safeguards for ePHI.
+Security Rule
+:   HIPAA provision requiring administrative, physical, and technical safeguards for ePHI.
 
-**Self-regulation:** An industry or profession establishing and enforcing its own ethical standards without government mandate
+Self-regulation
+:   An industry or profession establishing and enforcing its own ethical standards without government mandate
 
-**Shareholder theory:** The view that a corporation's primary obligation is to maximize profits for its owners.
+Shareholder theory
+:   The view that a corporation's primary obligation is to maximize profits for its owners.
 
-**Slander:** Spoken defamation
+Slander
+:   Spoken defamation
 
-**SLAPP suit (Strategic Lawsuit Against Public Participation):** A lawsuit filed to intimidate or silence a critic instead of to win a legitimate legal claim
+SLAPP suit (Strategic Lawsuit Against Public Participation)
+:   A lawsuit filed to intimidate or silence a critic instead of to win a legitimate legal claim
 
-**Social audit:** A formal review of a company's impact on its stakeholders and communities.
+Social audit
+:   A formal review of a company's impact on its stakeholders and communities.
 
-**Social contract theory:** An ethical theory based on the idea that moral rules come from agreements people would make to create a fair society.
+Social contract theory
+:   An ethical theory based on the idea that moral rules come from agreements people would make to create a fair society.
 
-**Software as a Service (SaaS):** Software hosted by a provider and reached through a network. Its legal classification depends on the claim and jurisdiction.
+Software as a Service (SaaS)
+:   Software hosted by a provider and reached through a network. Its legal classification depends on the claim and jurisdiction.
 
-**Software defect (bug):** An error or unintended behavior that causes incorrect or unexpected results.
+Software defect (bug)
+:   An error or unintended behavior that causes incorrect or unexpected results.
 
-**Software patent:** A patent with claims that cover an invention implemented through software. Eligibility and scope depend on the claims and law.
+Software patent
+:   A patent with claims that cover an invention implemented through software. Eligibility and scope depend on the claims and law.
 
-**Software piracy:** The unauthorized copying, distribution, or use of copyrighted software.
+Software piracy
+:   The unauthorized copying, distribution, or use of copyrighted software.
 
-**Software quality:** The degree to which software meets specified requirements and user needs, including reliability, security, and usability.
+Software quality
+:   The degree to which software meets specified requirements and user needs, including reliability, security, and usability.
 
-**SQL injection:** A vulnerability where malicious database commands are inserted through unvalidated input fields.
+SQL injection
+:   A vulnerability where malicious database commands are inserted through unvalidated input fields.
 
-**Stakeholder:** Any person or group that can affect, or is affected by, a company's actions.
+Stakeholder
+:   Any person or group that can affect, or is affected by, a company's actions.
 
-**Stakeholder theory:** The view that a corporation has obligations to everyone affected by its operations, including employees, customers, communities, and others.
+Stakeholder theory
+:   The view that a corporation has obligations to everyone affected by its operations, including employees, customers, communities, and others.
 
-**Strict liability:** Liability for a defective product regardless of how much care the manufacturer exercised.
+Strict liability
+:   Liability for a defective product regardless of how much care the manufacturer exercised.
 
-**Synthetic identity theft:** Combining real and fabricated information into a new identity.
+Synthetic identity theft
+:   Combining real and fabricated information into a new identity.
 
 ## T
 
-**Targeted advertising:** Using collected user data to show ads based on a person's interests, behaviors, demographics, and online activity.
+Targeted advertising
+:   Using collected user data to show ads based on a person's interests, behaviors, demographics, and online activity.
 
-**TAKE IT DOWN Act:** A federal law that covers certain nonconsensual intimate images, including digital forgeries, and requires a notice-and-removal process for covered platforms.
+TAKE IT DOWN Act
+:   A federal law that covers certain nonconsensual intimate images, including digital forgeries, and requires a notice-and-removal process for covered platforms.
 
-**Technical debt:** Accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
+Technical debt
+:   Accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
 
-**Threat:** A person, process, fault, or event that may cause harm to an asset.
+Threat
+:   A person, process, fault, or event that may cause harm to an asset.
 
-**Telemedicine:** Remote healthcare delivery via telecommunications technology.
+Telemedicine
+:   Remote healthcare delivery via telecommunications technology.
 
-**Tone at the top:** The ethical standards demonstrated by an organization's leadership, which strongly influence employee behavior.
+Tone at the top
+:   The ethical standards demonstrated by an organization's leadership, which strongly influence employee behavior.
 
-**Trade secret:** Information that gains value from not being widely known and is subject to reasonable steps to keep it secret.
+Trade secret
+:   Information that gains value from not being widely known and is subject to reasonable steps to keep it secret.
 
-**Trademark:** A word, phrase, symbol, or design that identifies the source of goods or services.
+Trademark
+:   A word, phrase, symbol, or design that identifies the source of goods or services.
 
-**Training data:** Data used to train AI models. Its source, license, acquisition, copies, and use can affect the legal and ethical review.
+Training data
+:   Data used to train AI models. Its source, license, acquisition, copies, and use can affect the legal and ethical review.
 
-**Transparency (AI):** The principle that organizations should be open about how their AI systems work and how decisions are made.
+Transparency (AI)
+:   The principle that organizations should be open about how their AI systems work and how decisions are made.
 
-**True threat:** A serious statement that can place a person in fear of harm and meets the speaker-state-of-mind rule that applies.
+True threat
+:   A serious statement that can place a person in fear of harm and meets the speaker-state-of-mind rule that applies.
 
 ## U
 
-**Uniform Domain-Name Dispute-Resolution Policy (UDRP):** An ICANN-administered process for resolving domain name disputes involving trademarks.
+Uniform Domain-Name Dispute-Resolution Policy (UDRP)
+:   An ICANN-administered process for resolving domain name disputes involving trademarks.
 
-**Utilitarianism:** An ethical theory that judges actions by their outcomes, seeking the greatest good for the greatest number.
+Utilitarianism
+:   An ethical theory that judges actions by their outcomes, seeking the greatest good for the greatest number.
 
 ## V
 
-**Veil of ignorance:** Rawls's thought experiment: design rules for society without knowing your own position in it, which pushes decisions toward fairness.
+Veil of ignorance
+:   Rawls's thought experiment: design rules for society without knowing your own position in it, which pushes decisions toward fairness.
 
-**Verifiable parental consent:** COPPA's requirement for provable parental or guardian permission before collecting a child's data
+Verifiable parental consent
+:   COPPA's requirement for provable parental or guardian permission before collecting a child's data
 
-**Virtue ethics:** An ethical theory focused on developing good character traits as the foundation for ethical behavior.
+Virtue ethics
+:   An ethical theory focused on developing good character traits as the foundation for ethical behavior.
 
-**Vulnerability:** A weakness in software, hardware, a setting, or a process that a threat can use.
+Vulnerability
+:   A weakness in software, hardware, a setting, or a process that a threat can use.
 
 ## W
 
-**Worker monitoring:** Tools and practices used to watch, record, or score worker acts.
+Worker monitoring
+:   Tools and practices used to watch, record, or score worker acts.
 
-**Whistleblower:** An insider who reports organizational wrongdoing.
+Whistleblower
+:   An insider who reports organizational wrongdoing.
 
-**Whistleblowing:** Reporting illegal, unethical, or harmful organizational activities to someone with corrective authority.
+Whistleblowing
+:   Reporting illegal, unethical, or harmful organizational activities to someone with corrective authority.
 
-**Work for hire:** A copyright rule for work made within the scope of employment and certain commissioned works that meet category and writing requirements.
+Work for hire
+:   A copyright rule for work made within the scope of employment and certain commissioned works that meet category and writing requirements.

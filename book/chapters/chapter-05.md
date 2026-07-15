@@ -16,9 +16,9 @@ This chapter separates the ethics test from the legal test. You will study repor
 
 By the end of this chapter, you will be able to:
 
-* **MLO-5.1 (Understand):** Explain internal and external whistleblowing and the tests for a sound report
-* **MLO-5.2 (Apply):** Apply legal and ethical rules to choose a report path
-* **MLO-5.3 (Analyze):** Analyze a conflict between firm loyalty and the duty to protect private data
+* **5.1 (Understand):** Explain internal and external whistleblowing and the tests for a sound report
+* **5.2 (Apply):** Apply legal and ethical rules to choose a report path
+* **5.3 (Analyze):** Analyze a conflict between firm loyalty and the duty to protect private data
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -377,18 +377,18 @@ Kenji must choose his next step. A new worker-monitoring tool flags unusual file
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-5.1)
+### Part 1: Foundation (Aligns with Objective 5.1)
 
 1. List each affected group and what it may gain or lose.
 2. Apply all five ethics tests to Kenji's report choice.
 3. Apply the five data duties to the ShopPoints data.
 
-### Part 2: Application (Aligns with MLO-5.1, MLO-5.2)
+### Part 2: Application (Aligns with Objectives 5.1 and 5.2)
 
 4. List the facts needed to know whether SOX, Dodd-Frank, or the FCA applies. Do not assume facts the case omits.
 5. Apply one Chapter 1 framework and choose a report path.
 
-### Part 3: Extension (Aligns with MLO-5.2, MLO-5.3)
+### Part 3: Extension (Aligns with Objectives 5.2 and 5.3)
 
 6. Apply the five AI ethics tests from Chapter 3. Name the case fact tied to each failed test.
 7. Write a 200-300 word note to Kenji. State what to do, what not to copy, whom to ask for advice, and which ethics test supports the path.
@@ -406,7 +406,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means using ethics
 tests, legal source limits, and case facts correctly. **Output Quality**

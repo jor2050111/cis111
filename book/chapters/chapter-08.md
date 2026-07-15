@@ -22,9 +22,9 @@ AI rules without treating compliance as the full ethics test.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-8.1 (Apply):** Apply a scope map to decide which privacy and AI rules may govern an IT case
-* **MLO-8.2 (Analyze):** Analyze whether law, self-regulation, audits, and sanctions create enough accountability
-* **MLO-8.3 (Evaluate):** Evaluate an H-1B or offshore work choice for pay, power, voice, and transition harm
+* **8.1 (Apply):** Apply a scope map to decide which privacy and AI rules may govern an IT case
+* **8.2 (Analyze):** Analyze whether law, self-regulation, audits, and sanctions create enough accountability
+* **8.3 (Evaluate):** Evaluate an H-1B or offshore work choice for pay, power, voice, and transition harm
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -521,19 +521,19 @@ Leaders may launch, run a limited pilot with added controls, or delay.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-8.1)
+### Part 1: Foundation (Aligns with Objective 8.1)
 
 1. Apply the six-question scope map to GDPR, CCPA / CPRA, COPPA, and HIPAA. Mark each rule in, out, or uncertain and cite a case fact.
 2. Test whether the resume and video uses may face a ban, high-risk rule, transparency duty, or another EU AI Act duty. State each missing fact and date.
 3. Build a source log with the official title, URL, review date, and rule version for each possible binding duty.
 
-### Part 2: Application (Aligns with MLO-8.1, MLO-8.2)
+### Part 2: Application (Aligns with Objectives 8.1 and 8.2)
 
 4. Apply the five audit facts and five sanction tests to the outside bias report and TalentBridge's proposed review.
 5. Use Govern, Map, Measure, and Manage to list one control and one proof item for each NIST AI RMF function.
 6. Design a report path for all engineers. Explain how it protects H-1B workers and other staff from retaliation or manager control.
 
-### Part 3: Extension (Aligns with MLO-8.2, MLO-8.3)
+### Part 3: Extension (Aligns with Objectives 8.2 and 8.3)
 
 7. Apply the seven-part fair-work transition test to the labeling-team move. Propose three contract or support changes.
 8. Write a 200-300 word launch memo. Choose launch, conditional pilot, or delay. Name a stop rule and the evidence that would change your choice.
@@ -551,7 +551,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means matching each
 rule and control to current scope facts, dates, and source evidence.

@@ -14,9 +14,9 @@ This chapter gives you four ethical frameworks: utilitarianism, deontology, virt
 
 By the end of this chapter, you will be able to:
 
-* **MLO-1.1 (Understand):** Explain the core principles of utilitarianism, deontology, virtue ethics, and social contract theory
-* **MLO-1.2 (Apply):** Apply an ethical framework to an industry-relevant IT decision-making scenario
-* **MLO-1.3 (Analyze):** Compare the strengths and limitations of each ethical theory when applied to technology scenarios
+* **1.1 (Understand):** Explain the core principles of utilitarianism, deontology, virtue ethics, and social contract theory
+* **1.2 (Apply):** Apply an ethical framework to an industry-relevant IT decision-making scenario
+* **1.3 (Analyze):** Compare the strengths and limitations of each ethical theory when applied to technology scenarios
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -326,19 +326,19 @@ Metro City Council must decide whether to continue, modify, or cancel the CrimeM
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-1.1)
+### Part 1: Foundation (Aligns with Objective 1.1)
 
 1. Identify all stakeholders in this case. For each stakeholder, describe their interest and what they stand to gain or lose.
 2. List the key ethical issues at play. Be specific: name the values or rights in tension (e.g., public safety vs. privacy, transparency vs. proprietary interests).
 3. Identify at least two facts in the case that are most important for ethical review. Explain why they matter.
 
-### Part 2: Application (Aligns with MLO-1.1, MLO-1.2)
+### Part 2: Application (Aligns with Objectives 1.1 and 1.2)
 
 4. Apply **utilitarianism** to this case. Who gains? Who is harmed? What recommendation does a utilitarian review produce?
 5. Apply **deontology** to this case. What duties or rights are at stake? What would Kant's categorical imperative say about using biased past data to predict future crime?
 6. Apply **virtue ethics** or **social contract theory** (your choice) to this case. Explain which framework you chose and what recommendation it makes.
 
-### Part 3: Extension (Aligns with MLO-1.2, MLO-1.3)
+### Part 3: Extension (Aligns with Objectives 1.2 and 1.3)
 
 7. Write a recommendation to Metro City Council (200-300 words). State whether they should continue, modify, or cancel the contract. Support your recommendation by referencing at least two ethical frameworks.
 8. Reflect on professional duty. If you were an IT professional working for the tech firm that built CrimeMap Pro, what ethical obligation (if any) would you have to raise concerns about bias in the tool? Which framework supports your answer?

@@ -19,9 +19,9 @@ into controls, and raise a concern with proof.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-12.1 (Analyze):** Analyze an ACM, IEEE, or ISC2 code duty through source, scope, priority, enforcement, and proof
-* **MLO-12.2 (Evaluate):** Evaluate a code, license, certification, or escalation path for its strengths, limits, and effects
-* **MLO-12.3 (Create):** Create a capstone recommendation that joins ethical frameworks, professional duties, law, technical proof, controls, and review
+* **12.1 (Analyze):** Analyze an ACM, IEEE, or ISC2 code duty through source, scope, priority, enforcement, and proof
+* **12.2 (Evaluate):** Evaluate a code, license, certification, or escalation path for its strengths, limits, and effects
+* **12.3 (Create):** Create a capstone recommendation that joins ethical frameworks, professional duties, law, technical proof, controls, and review
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -561,19 +561,19 @@ controls, or pause until the gaps close.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-12.1)
+### Part 1: Foundation (Aligns with Objective 12.1)
 
 1. Build a fact, inference, and open-question table for the case. Name the proof needed for each open question.
 2. Complete the six-line code record for ACM, IEEE, and ISC2. State which people and acts each code can reach.
 3. Map at least five case issues to tools from earlier chapters. Include privacy, AI risk, worker voice, security, and accessibility or fairness.
 
-### Part 2: Application (Aligns with MLO-12.1, MLO-12.2)
+### Part 2: Application (Aligns with Objectives 12.1 and 12.2)
 
 4. Apply two ethical frameworks. State where their recommendations agree and conflict.
 5. Apply all five code critique tests. Select the code that gives the strongest guidance and state its largest gap.
 6. Build a duty-to-control record for false flags, data use, human review, worker retaliation, and the admin-account event.
 
-### Part 3: Extension (Aligns with MLO-12.2, MLO-12.3)
+### Part 3: Extension (Aligns with Objectives 12.2 and 12.3)
 
 7. Create an eight-control release plan. Include tests, notice, consent or legal basis, access, retention, human review, appeal, security, and a stop rule.
 8. Write a 400-500 word memo. Choose full launch, narrow pilot, or pause. Address the strongest counterclaim and name the proof that would change your choice.
@@ -591,7 +591,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means matching each
 ethical, code, legal, and technical claim to the case proof and book
@@ -621,7 +623,7 @@ consistent, fair, evidence-based, and ready for county review.
 * [ISC2 Code of Ethics](https://www.isc2.org/Ethics): ISC2 states four canons and its complaint scope.
 * [NIST AI Risk Management Framework](https://airc.nist.gov/airmf-resources/airmf/): NIST explains Govern, Map, Measure, and Manage.
 
-## Looking Ahead ⏩
+## Course Conclusion: Where You Go from Here
 
 The book ends here. The duty does not.
 
@@ -629,3 +631,9 @@ New tools will change the facts, risks, and rules. The method remains:
 name the people and harm, check the source, test the claim, record the
 choice, and build a remedy. That is how ethical judgment becomes
 professional action.
+
+Carry the method into every course and job that follows. Read one
+security or ethics story each week and run it through the five moves.
+When a workplace policy crosses your desk, you know how to question
+it. When an incident lands, you know how to act. The field needs
+professionals who can do both.

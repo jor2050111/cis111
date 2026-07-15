@@ -24,9 +24,9 @@ and assess when cost cannot excuse risk.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-7.1 (Apply):** Apply negligence, product liability, warranty, and contract questions to a software harm case
-* **MLO-7.2 (Analyze):** Analyze a software life cycle for secure design, safe release, disclosure, and patch duties
-* **MLO-7.3 (Evaluate):** Evaluate a safety-critical software choice with cost, risk, stakeholder, and stop-rule tests
+* **7.1 (Apply):** Apply negligence, product liability, warranty, and contract questions to a software harm case
+* **7.2 (Analyze):** Analyze a software life cycle for secure design, safe release, disclosure, and patch duties
+* **7.3 (Evaluate):** Evaluate a safety-critical software choice with cost, risk, stakeholder, and stop-rule tests
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -547,19 +547,19 @@ right to review safety tests.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-7.1)
+### Part 1: Foundation (Aligns with Objective 7.1)
 
 1. Complete the six-line claim map for an injured rider. Do not decide which claim wins.
 2. Compare negligence, product liability, and warranty paths. Name one missing legal or contract fact for each path.
 3. Classify the bus tool as safety-critical or not. Support the choice with three case facts.
 
-### Part 2: Application (Aligns with MLO-7.1, MLO-7.2)
+### Part 2: Application (Aligns with Objectives 7.1 and 7.2)
 
 4. Apply the NIST SSDF areas to TransitTech. Name one control or proof missing from each area.
 5. Test the rain-limit plan against the six release-gate questions. State which checks pass, fail, or lack proof.
 6. Write a coordinated report and notice plan for TransitTech, the transit agency, drivers, and riders.
 
-### Part 3: Extension (Aligns with MLO-7.2, MLO-7.3)
+### Part 3: Extension (Aligns with Objectives 7.2 and 7.3)
 
 7. Build a cost/benefit table with money, safety, trust, access, uncertainty, and risk distribution. Do not assign a dollar value to injury.
 8. Write a 200-300 word board memo. Choose one option, set a stop rule, and name the evidence that would change your choice.
@@ -577,7 +577,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means using claim
 elements, secure design controls, and risk facts without filling gaps

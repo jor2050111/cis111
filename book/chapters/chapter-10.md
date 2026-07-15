@@ -20,9 +20,9 @@ limits on worker monitoring.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-10.1 (Analyze):** Classify online speech through actor, rule, harm, and proof tests
-* **MLO-10.2 (Evaluate):** Evaluate a content or identity request for lawful scope, due process, and human review
-* **MLO-10.3 (Create):** Create a worker monitoring policy with narrow data use, access, retention, and appeal controls
+* **10.1 (Analyze):** Classify online speech through actor, rule, harm, and proof tests
+* **10.2 (Evaluate):** Evaluate a content or identity request for lawful scope, due process, and human review
+* **10.3 (Create):** Create a worker monitoring policy with narrow data use, access, retention, and appeal controls
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -555,19 +555,19 @@ Leaders may buy the full tool, run a narrow pilot, or pause the deal.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-10.1)
+### Part 1: Foundation (Aligns with Objective 10.1)
 
 1. Complete the speech map for the group letter and the manager's identity request.
 2. Apply the eight-part monitoring need test to screen video, key logs, webcam images, GPS, and the output score.
 3. Build a law map. Include federal interception, state notice, protected group activity, discrimination, contract, and EU scope facts that need review.
 
-### Part 2: Application (Aligns with MLO-10.1, MLO-10.2)
+### Part 2: Application (Aligns with Objectives 10.1 and 10.2)
 
 4. Create a data table with each field, purpose, source, access role, retention time, job use, and less-intrusive choice.
 5. Audit the vendor proof. Name the missing accuracy, group, disability, language, security, and bias tests.
 6. Draft a 150-200 word worker notice. State what is collected, why, when, who can see it, when it is erased, and how to appeal.
 
-### Part 3: Extension (Aligns with MLO-10.2, MLO-10.3)
+### Part 3: Extension (Aligns with Objectives 10.2 and 10.3)
 
 7. Create an eight-control policy with a release gate, human review, appeal, stop rule, and next review date.
 8. Write a 200-300 word memo. Choose full launch, narrow pilot, or pause. Name the proof that would change your choice.
@@ -585,7 +585,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means matching each
 speech, monitoring, data, and job-use claim to the case proof and rule.

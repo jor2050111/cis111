@@ -22,9 +22,9 @@ output and training data.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-9.1 (Apply):** Apply copyright, patent, trademark, and trade-secret tests to an IT asset
-* **MLO-9.2 (Analyze):** Analyze a digital use through fair use, license, attribution, and source records
-* **MLO-9.3 (Evaluate):** Evaluate an AI content policy for human authorship, training data, outputs, and market harm
+* **9.1 (Apply):** Apply copyright, patent, trademark, and trade-secret tests to an IT asset
+* **9.2 (Analyze):** Analyze a digital use through fair use, license, attribution, and source records
+* **9.3 (Evaluate):** Evaluate an AI content policy for human authorship, training data, outputs, and market harm
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -620,19 +620,19 @@ live, or pause affected uses until the evidence gaps close.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-9.1)
+### Part 1: Foundation (Aligns with Objective 9.1)
 
 1. Complete the six-line IP card for the artist's works, the client logo, and both code libraries.
 2. Separate possible copyright, trademark, contract, and license issues. Name one missing fact for each.
 3. Build a source and license log for the MIT and GPL parts. State what the current release folder fails to prove.
 
-### Part 2: Application (Aligns with MLO-9.1, MLO-9.2)
+### Part 2: Application (Aligns with Objectives 9.1 and 9.2)
 
 4. Apply all four fair use factors to the web-crawled training group. Give one fact for and against fair use under each factor.
 5. Apply the human-work record to the client logo. Separate human choices, model choices, and trademark-use facts.
 6. Compare the three close outputs with Elena's named works. State what evidence supports or weakens a copying claim.
 
-### Part 3: Extension (Aligns with MLO-9.2, MLO-9.3)
+### Part 3: Extension (Aligns with Objectives 9.2 and 9.3)
 
 7. Draft a seven-control AI content policy covering sources, licenses, authorship, close outputs, client terms, creator reports, and release review.
 8. Write a 200-300 word memo. Choose keep live, add controls, or pause affected uses. Name the proof that would change your choice.
@@ -650,7 +650,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means matching each
 asset, right, permission, and fair use factor to the case evidence.

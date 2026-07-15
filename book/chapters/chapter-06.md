@@ -25,9 +25,9 @@ You will also assess mobile tools, care systems, telehealth, and AI.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-6.1 (Understand):** Explain how HIPAA scope, privacy rules, security safeguards, and breach duties shape health data work
-* **MLO-6.2 (Apply):** Apply ethical tests to mobile, wireless, care, and telehealth choices
-* **MLO-6.3 (Analyze):** Analyze an AI health tool for patient risk, bias, privacy, and human oversight
+* **6.1 (Understand):** Explain how HIPAA scope, privacy rules, security safeguards, and breach duties shape health data work
+* **6.2 (Apply):** Apply ethical tests to mobile, wireless, care, and telehealth choices
+* **6.3 (Analyze):** Analyze an AI health tool for patient risk, bias, privacy, and human oversight
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -627,19 +627,19 @@ Leaders may sign the contract, negotiate safeguards, or decline it.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-6.1)
+### Part 1: Foundation (Aligns with Objective 6.1)
 
 1. List each stakeholder, the stakeholder's main interest, and one possible harm.
 2. Test whether MedPredict is a business associate. Name four contract or Security Rule controls that VRMC should verify.
 3. Explain what the reported sensitivity and specificity do and do not prove about local patient safety.
 
-### Part 2: Application (Aligns with MLO-6.1, MLO-6.2)
+### Part 2: Application (Aligns with Objectives 6.1 and 6.2)
 
 4. Apply utilitarianism and deontology to the three choices: sign, negotiate, or decline.
 5. Apply fairness, transparency, accountability, explainability, and human oversight from Chapter 3. Cite one case fact for each test.
 6. Create a pre-deployment gate with one check for privacy, security, subgroup performance, alert burden, accessibility, and human review.
 
-### Part 3: Extension (Aligns with MLO-6.2, MLO-6.3)
+### Part 3: Extension (Aligns with Objectives 6.2 and 6.3)
 
 7. Write a 200-300 word recommendation to VRMC leaders. Choose one option and state the evidence that would change your choice.
 8. Propose three contract changes. For each change, name the patient or worker risk it reduces and the proof VRMC should require.
@@ -657,7 +657,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means applying HIPAA
 scope, safeguards, ethics tests, and performance facts correctly.

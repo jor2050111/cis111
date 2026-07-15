@@ -18,9 +18,9 @@ controls failed. This chapter gives you records and tests for that work.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-11.1 (Analyze):** Analyze identity theft and security incidents through asset, threat, weakness, harm, and proof records
-* **MLO-11.2 (Evaluate):** Evaluate cyber risk and response choices with the CIA Security Triad and NIST CSF 2.0
-* **MLO-11.3 (Create):** Create a security policy and incident plan with roles, controls, evidence, notice, and recovery tests
+* **11.1 (Analyze):** Analyze identity theft and security incidents through asset, threat, weakness, harm, and proof records
+* **11.2 (Evaluate):** Evaluate cyber risk and response choices with the CIA Security Triad and NIST CSF 2.0
+* **11.3 (Create):** Create a security policy and incident plan with roles, controls, evidence, notice, and recovery tests
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -594,19 +594,19 @@ choose the first containment steps and the scope of the student notice.
 
 <!-- markdownlint-disable MD029 -->
 
-### Part 1: Foundation (Aligns with MLO-11.1)
+### Part 1: Foundation (Aligns with Objective 11.1)
 
 1. Complete the seven-line incident map for the false message, stolen passwords, student-system access, file exports, and scholarship form.
 2. Complete the six-line identity harm map. Link each known or possible data field to a form of harm and support step.
 3. Separate known facts, sound inferences, and open questions. Name the log or person that could answer each open question.
 
-### Part 2: Application (Aligns with MLO-11.1, MLO-11.2)
+### Part 2: Application (Aligns with Objectives 11.1 and 11.2)
 
 4. Build a nine-column risk register for MFA, access scope, mail controls, log retention, evidence handling, and backup separation.
 5. Draft two policy records. One must cover MFA and one must cover least privilege or evidence preservation.
 6. Create an evidence log for the false message, sign-in logs, student access logs, file exports, and affected account records.
 
-### Part 3: Extension (Aligns with MLO-11.2, MLO-11.3)
+### Part 3: Extension (Aligns with Objectives 11.2 and 11.3)
 
 7. Build a response board with actions under all six CSF 2.0 functions. Include owner, approval, time, result, and recovery test.
 8. Draft a 200-300 word student notice. Separate known access from possible exposure and give steps tied to the data.
@@ -624,7 +624,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 For CIS111, **Technical Accuracy and Efficiency** means matching each
 asset, identity risk, control, response step, and notice claim to the
